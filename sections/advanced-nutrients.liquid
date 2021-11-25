@@ -1,0 +1,267 @@
+{% layout 'theme.advanced-nutrients' %}
+
+
+
+
+  <div class="container container--flush">
+
+{%- comment -%} Breadcrumbs at top of House and Garden page {%- endcomment -%}
+    <div class="page__sub-header" style="color: white;">
+      <nav aria-label="{{ 'general.breadcrumb.title' | t }}" class="breadcrumb">
+        <ol class="breadcrumb__list">
+          <li class="breadcrumb__item">
+            <a class="breadcrumb__link link" href="{{ routes.root_url }}">{{ 'general.breadcrumb.home' | t }}</a> {%- render 'icon', icon: 'arrow-right' -%}
+          </li>
+          <li class="breadcrumb__item">
+            {%- if current_tags -%}
+              <a class="breadcrumb__link link" href="{{ collection.url }}" {% unless current_tags %}aria-current="page"{% endunless %}>
+                {%- if collection.handle == 'all' -%}
+                  {{- 'collection.general.all_products' | t -}}
+                {%- else -%}
+                  {{- collection.title -}}
+                {%- endif -%}
+              </a>
+
+              {%- render 'icon', icon: 'arrow-right' -%}
+            {%- else -%}
+              <span class="breadcrumb__link" aria-current="page">
+                {%- if collection.handle == 'all' -%}
+                  {{- 'collection.general.all_products' | t -}}
+                {%- else -%}
+                  {{- collection.title -}}
+                {%- endif -%}
+              </span>
+            {%- endif -%}
+          </li>
+
+          {%- if current_tags -%}
+            <li class="breadcrumb__item">
+              {%- if section.settings.filter_type == 'tag' -%}
+                {%- assign tag = current_tags.first -%}
+              {%- elsif section.settings.filter_type == 'group' -%}
+                {%- assign tag = current_tags.first | split: '_' | last -%}
+              {%- endif -%}
+
+              <span class="breadcrumb__link" aria-current="page">{{ tag | capitalize }}</span>
+            </li>
+          {%- endif -%}
+        </ol>
+      </nav>
+    </div>
+    
+
+      {%- paginate collection.products by items_per_page -%}
+        <div {% if has_filters %}class="layout__section"{% endif %}>
+          <div class="collection">
+            
+
+            
+            {%- comment -%}
+            --------------------------------------------------------------------------------------
+            TOP PART (COLLECTION INFO + TOOLBAR)
+            --------------------------------------------------------------------------------------
+            {%- endcomment -%}
+
+
+            {%- if collection.all_products_count == 0 -%}
+              <div class="empty-state">
+                <p class="empty-state__heading heading h1">{{ collection.title }}</p>
+                <p class="empty-state__description">{{ 'collection.general.empty' | t }}</p>
+
+                <div class="empty-state__button-container">
+                  <a href="{{ routes.root_url }}" class="empty-state__button button button--primary">{{ 'collection.general.empty_button' | t }}</a>
+                </div>
+              </div>
+            {%- else -%}
+            
+              	<div class="nutes-header">
+                      <img 
+                           src='https://cdn.shopify.com/s/files/1/0229/2311/6580/files/ph-perfect-technology-with-ph-tech_f6278699-0f59-4e60-b0fd-54b77a718617.png?v=1636422355' 
+                           alt='advanced nutrients logo' 
+                           >
+				</div>
+            
+            
+            <div class='adFlex'>
+              <div>
+              	<img src='https://cdn.shopify.com/s/files/1/0229/2311/6580/files/bud-candy-title-words.png?v=1636935667' alt='bud candy title'>
+              	<h2>
+                  20% OFF <br>
+                  Already Discounted Prices
+                </h2>
+                <a href='https://dig.supply/collections/advanced-nutrients/products/advanced-nutrients-bud-candy'>
+                	<img src='https://cdn.shopify.com/s/files/1/0229/2311/6580/files/buy-button_b3cfe03b-2a00-4e15-9da8-a4df549225fc.png?v=1637079422' alt='buy button' id='buyButton'>
+                </a>
+              <img src='https://cdn.shopify.com/s/files/1/0229/2311/6580/files/bud-candy-only.png?v=1636406459' alt='Bud Candy' id='primaryImage'>
+              </div>
+              <div>
+                <h2>All Plants Need - <br>
+                	Sugars | Amino Acids | Vitamins <br>
+                </h2>
+                <p id='adPar'>
+                  	<hr>
+                  	Bud Candy feeds the roots so your roots can feed your plants. This leads to bigger yields and plants that are more resistant to diesase and pests. 
+                	<hr>
+                	Bud Candy can be used during any stage of a plants growth - <br>
+                	Seedlings | Vegetative | Flowering
+                	<hr>
+                	Help photosynthesis out - <br>
+                 	Give your plants plenty of energy with Bud Candy - <br>
+                	<hr>
+                	Great for both beginner and experienced growers -
+                	<hr>
+              	</p>
+              </div>
+            </div>
+           
+                
+            <p id='header-title'>Advanced Nutrients base nutrients contain pH Perfect Technology, automatically stabilizing your pH within the optimal range of 5.5 to 6.3.</p>
+                  
+            {% assign bases = 'base' %}
+            {% assign bigBud = 'bigger bud' %}
+            {% assign taste = 'taste' %}
+            {% assign stalk = 'stalk' %}
+            {% assign root = 'root' %}
+           
+           
+            
+
+            
+            
+            <div class='sectionFlex'>
+              <div>
+              	<h1 class='advancedNutrientH1'>Base Nutrients</h1>
+               	<img 
+                     src='https://cdn.shopify.com/s/files/1/0229/2311/6580/files/header-image-gorilla-sized.png?v=1636394285' 
+                     alt='pH Perfect Gorilla' 
+                     style='height: 180px; width: 250px;'
+                     >
+              </div>
+              <section id='productClasses'>
+              	{% for product in collection.products %}
+                
+                	{%for tag in product.tags %}
+                		{% if bases contains tag %}
+                			<div class='advancedNutrientsProducts'>
+                              <p class='titleCenter'>{{ product.title }}</p>
+                              <p>
+                                <a href='{{ product.url | within: collection }}'>
+                                  {{ product.featured_image | img_url: '200x200' | img_tag: product.title, 'imgcenter' }}
+                                </a>
+                              </p>
+                            </div>
+                		{% endif %}
+                	{% endfor %}
+                {% endfor %}
+                  </section>
+              
+            </div>
+            
+            <div class='sectionFlex'>  
+            <div>
+            	<h1 class='advancedNutrientH1'>Bigger Buds</h1>
+              	<img src='https://cdn.shopify.com/s/files/1/0229/2311/6580/files/big-bud-alone.png?v=1636398856' alt='big bud' style='height: 200px; width: 200px;'>
+            </div>
+              <section id='productClasses'>
+              {% for product in collection.products %}
+				{% for tag in product.tags %}
+  					{% if bigBud contains tag %}
+                		<div class='advancedNutrientsProducts'>
+                          <h1 class='titleCenter'>{{ product.title }}</h1>
+                          <p>
+                              <a href='{{ product.url | within: collection }}'>
+                                  {{ product.featured_image | img_url: '200x200' | img_tag: product.title, 'imgcenter' }}
+                              </a>
+                          </p>
+                		</div>
+                  	{% endif %}
+				{% endfor %}
+              {% endfor %}  
+              </section>
+              
+            </div>
+            
+            <div class='sectionFlex'>  
+            <div>
+            	<h1 class='advancedNutrientH1'>Improve Taste</h1>
+              	<img src='https://cdn.shopify.com/s/files/1/0229/2311/6580/files/bud-candy-only.png?v=1636406459' alt='bud candy' style='height: 150px; width: 230px;'>
+            </div>
+            <section id='productClasses'>    
+              {% for product in collection.products %}
+				{% for tag in product.tags %}
+  					{% if taste contains tag %}
+                		<div class='advancedNutrientsProducts'>
+                          <h1 class='titleCenter'>{{ product.title }}</h1>
+                          <p>
+                              <a href='{{ product.url | within: collection }}'>
+                                  {{ product.featured_image | img_url: '200x200' | img_tag: product.title, 'imgcenter' }}
+                              </a>
+                          </p>
+                		</div>
+                  	{% endif %}
+				{% endfor %}
+              {% endfor %}  
+              </section>
+              
+              </div>
+            
+            
+            
+            <div class='sectionFlex'>
+              <div>
+            	<h1 class='advancedNutrientH1'>Potency and Stalk Strengthener</h1>
+                <img src='https://cdn.shopify.com/s/files/1/0229/2311/6580/files/B-52-2_8b059866-e7cd-43cc-95f4-8a52f82ac06c.png?v=1636417168' alt='b-52' style='height: 150px; width: 150px;'>
+              </div>
+              
+            <section id='productClasses'>    
+              {% for product in collection.products %}
+				{% for tag in product.tags %}
+  					{% if stalk contains tag %}
+                		<div class='advancedNutrientsProducts'>
+                          <h1 class='titleCenter'>{{ product.title }}</h1>
+                          <p>
+                              <a href='{{ product.url | within: collection }}'>
+                                  {{ product.featured_image | img_url: '200x200' | img_tag: product.title, 'imgcenter' }}
+                              </a>
+                          </p>
+                		</div>
+                  	{% endif %}
+				{% endfor %}
+              {% endfor %}  
+              </section>
+              
+            </div>
+            
+            <div class='sectionFlex'>
+              <div>
+            	<h1 class='advancedNutrientH1'>Root Mass Expanders</h1>
+                <img src='https://cdn.shopify.com/s/files/1/0229/2311/6580/files/voodoo-juice-1.png?v=1636420915' alt='Voodoo Juice' style='height: 150px; width: 200px;'>
+              </div>
+              
+            <section id='productClasses'>    
+              {% for product in collection.products %}
+				{% for tag in product.tags %}
+  					{% if root contains tag %}
+                		<div class='advancedNutrientsProducts'>
+                          <h1 class='titleCenter'>{{ product.title }}</h1>
+                          <p>
+                              <a href='{{ product.url | within: collection }}'>
+                                  {{ product.featured_image | img_url: '200x200' | img_tag: product.title, 'imgcenter' }}
+                              </a>
+                          </p>
+                		</div>
+                  	{% endif %}
+				{% endfor %}
+              {% endfor %}  
+              </section>
+              
+              </div>
+              
+              </div>
+            {%- endif -%}
+          </div>
+        </div>
+      {%- endpaginate -%}
+    </div>
+
+

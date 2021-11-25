@@ -1,0 +1,203 @@
+body {
+  background-color: black;
+}
+
+#header-title {
+  font-size: 2.4em;
+  text-align: center;
+  color: #F5F5F5;
+}
+
+.advancedNutrientH1 {
+  font-size: 1.4;
+  color: #F5F5F5;
+}
+
+.sectionClass {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionFlex {
+  display: flex;
+  flex-direction: row;
+  background-color: #202020;
+  margin: 15px;
+  border-radius: 10px;
+  padding: 20px;
+  padding-left: 40px;
+  box-shadow: 1px 1px 5px white;
+}
+
+
+/* Sale section at top of advanced-nutrients.liquid */
+.adFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url('https://cdn.shopify.com/s/files/1/0229/2311/6580/files/bud-candy-background.png?v=1636936489');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 75%;
+  background-color: #202020;
+  margin: 15px auto 0 auto;
+  border-radius: 10px;
+  padding: 20px;
+  padding-left: 40px;
+  box-shadow: 1px 1px 5px white;
+  border: 10px solid #ec528d;
+  
+}
+
+#buyButton {
+  width: 210px;
+  background-color: #202020;
+  padding: 7px 13px;
+  border-radius: 10px;
+  border: 5px solid #5EB545;
+  margin: 20px 0 20px 0;
+}
+
+.adFlex div {
+  margin: 3vw;
+}
+
+.adFlex p {
+  font-size: 1.3em;
+  color: black;
+  font-weight: bold;
+}
+  
+.adFlex h1 {
+  font-size: 1.8em;
+  text-align: center;
+  color: white;
+  background-color: #202020;
+  margin: 0px;
+}
+
+.adFlex h2 {
+  font-size: 1.6em;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 2px white;
+  margin: 0px;
+}
+
+.adFlex img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#primaryImage {
+  width: 400px;
+}
+  
+
+/* end of sale section */
+
+
+
+#baseNutesH1 {
+  text-align: center;
+}
+
+#productClasses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 10px;
+}
+
+#bigBud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#hgabovefooter {
+  background: white;
+}
+
+.advancedNutrientsProducts {
+  /* margin: 1px 6% 6px 1px; */
+  background-image: linear-gradient(to bottom, rgb(77, 0, 0) 1%, black 90%);
+  padding: 1% 0 1% 0;
+  border-radius: 15px;
+  box-shadow: 0px 1px 10px 	#303030;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.nutes-header {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2px;
+  margin-bottom: 2%;
+  height: 200px;
+  padding: 0 10px 10px 0;
+}
+
+#top-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 0;
+}
+
+.titleCenter {
+  text-align: center;
+  font-size: 2em;
+  color: #BEBEBE;
+}
+
+.imgcenter {
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+footer {
+  background: white;
+}
+  
+  /* mobile */
+@media only screen and (max-width: 600px) {
+  .sectionFlex {
+    flex-direction: column;
+  }
+  
+  .nutes-header img {
+    justify-content: center;
+    width: 90%;
+    height: 150px;
+  }
+  
+  #header-title {
+    font-size: 1.8em;
+  }
+  
+  .adFlex {
+    flex-direction: column;
+  }
+}
+  
+@media only screen and (max-width: 1150px){
+  .advancedNutrientsProducts {
+    width: 200px;
+    font-size: .7em;
+  }
+  
+  .adFlex {
+    flex-direction: column;
+  }
+  
+  #adPar {
+    font-size: 4em;
+  }
+}
+
+
+

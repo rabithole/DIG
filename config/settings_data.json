@@ -1,0 +1,1709 @@
+{
+  "current": {
+    "heading_color": "#000000",
+    "text_color": "#677279",
+    "accent_color": "#7eb38e",
+    "link_color": "#7eb38e",
+    "border_color": "#e1e3e4",
+    "background": "#f3f5f6",
+    "secondary_background": "#ffffff",
+    "error_color": "#ff0000",
+    "success_color": "#00aa00",
+    "primary_button_background": "#23453d",
+    "primary_button_text_color": "#ffffff",
+    "secondary_button_background": "#7eb38e",
+    "secondary_button_text_color": "#ffffff",
+    "header_background": "#23453d",
+    "header_text_color": "#ffffff",
+    "header_light_text_color": "#b6bec3",
+    "product_on_sale_accent": "#ee0000",
+    "product_in_stock_color": "#008a00",
+    "product_low_stock_color": "#ee0000",
+    "product_sold_out_color": "#8a9297",
+    "product_label_1_background": "#008a00",
+    "product_label_2_background": "#00a500",
+    "product_star_color": "#ffbd00",
+    "base_text_font_size": 16,
+    "heading_font": "din_next_n5",
+    "text_font": "din_next_n4",
+    "underline_links": true,
+    "animation_image_zoom": true,
+    "currency_conversion_enabled": false,
+    "currency_conversion_round_amounts": false,
+    "currency_conversion_supported_currencies": "USD CAD EUR GBP",
+    "currency_conversion_money_format": "money_format",
+    "search_mode": "product,article",
+    "show_vendor": true,
+    "show_secondary_image": true,
+    "show_discount": true,
+    "discount_mode": "saving",
+    "product_price_position": "after_title",
+    "product_image_size": "short",
+    "show_color_swatch": false,
+    "show_inventory_quantity": false,
+    "low_inventory_threshold": 0,
+    "show_reviews_badge": false,
+    "cart_type": "drawer",
+    "cart_empty_button_link": "shopify:\/\/collections\/all",
+    "cart_show_free_shipping_threshold": false,
+    "cart_free_shipping_threshold": "50",
+    "share_image": "shopify:\/\/shop_images\/DIG-logo.png",
+    "social_facebook": "https:\/\/www.facebook.com\/DiscountIndoorGardening",
+    "social_twitter": "https:\/\/twitter.com\/DigSupply",
+    "social_pinterest": "",
+    "social_instagram": "https:\/\/www.instagram.com\/dig.supply",
+    "social_vimeo": "",
+    "social_tumblr": "",
+    "social_youtube": "",
+    "social_linkedin": "",
+    "social_snapchat": "",
+    "social_fancy": "",
+    "favicon": "shopify:\/\/shop_images\/DIG-favicon_79ddee20-ea85-4cf3-9658-6d65a83ee84a.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#00badb",
+    "checkout_button_color": "#00badb",
+    "checkout_error_color": "#ff0000",
+    "social_google_plus": "",
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "1573425580122": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Products",
+              "image_1_heading": "Your image",
+              "image_1_text": "Tell your story",
+              "image_1_link": "",
+              "image_2_heading": "Your image",
+              "image_2_text": "Tell your story",
+              "image_2_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1573425580122"
+        ],
+        "settings": {
+          "enable_sticky_header": true,
+          "logo": "shopify:\/\/shop_images\/white-logo-letters-website.png",
+          "logo_max_width": 50,
+          "mobile_logo_max_width": 50,
+          "navigation_menu": "main-menu",
+          "desktop_navigation_layout": "inline",
+          "desktop_navigation_open_trigger": "hover",
+          "show_navigation_social_media": true,
+          "navigation_phone_number": "Call us 314-755-1020",
+          "navigation_email": "info@dig.supply",
+          "show_condensed_search": false,
+          "show_search_filter": false,
+          "search_menu": "",
+          "show_search_menu_title": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "0049d062-2574-4021-834f-5b96acb8e14d": {
+            "type": "links",
+            "settings": {
+              "menu": "directions-to-dig"
+            }
+          },
+          "1584430379443": {
+            "type": "links",
+            "settings": {
+              "menu": "contact"
+            }
+          },
+          "b0853ac9-1ecd-40bf-8c92-802bd7531d93": {
+            "type": "links",
+            "settings": {
+              "menu": "refund-policy"
+            }
+          },
+          "footer-1": {
+            "type": "links",
+            "settings": {
+              "menu": "footer"
+            }
+          },
+          "2749502b-7425-4d22-8338-745e33d88cd1": {
+            "type": "links",
+            "settings": {
+              "menu": "webmaster"
+            }
+          }
+        },
+        "block_order": [
+          "0049d062-2574-4021-834f-5b96acb8e14d",
+          "1584430379443",
+          "b0853ac9-1ecd-40bf-8c92-802bd7531d93",
+          "footer-1",
+          "2749502b-7425-4d22-8338-745e33d88cd1"
+        ],
+        "settings": {
+          "show_social_media": true,
+          "show_payment_icons": true,
+          "show_cookie_bar": false,
+          "text": "<p>Use this bar to show information about your cookie policy.<\/p>",
+          "accept_button": "Accept"
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "8b09c0b5-327e-4194-a65a-8a902de6eecf": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/site-slider-bud-candy.png",
+              "mobile_image": "shopify:\/\/shop_images\/bud-candy-mobile-web_1b3b3e31-6383-402d-8a0d-aca49ac0202d.png",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#000000",
+              "title": "20% OFF",
+              "content": "",
+              "content_position": "bottom_center",
+              "button_background": "#ff5092",
+              "button_text_color": "#000000",
+              "button_text": "BUY NOW",
+              "link": "https:\/\/dig.supply\/collections\/advanced-nutrients"
+            }
+          },
+          "d269502f-c059-4e64-b990-dd9cca8dc303": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Grow-Pros-Lighting.png",
+              "mobile_image": "shopify:\/\/shop_images\/Grow-Pros-mobile_295a5c88-6533-438f-bcfd-79e74de272c7.png",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "",
+              "content": "",
+              "content_position": "bottom_right",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "Buy Now",
+              "link": "https:\/\/dig.supply\/collections\/grow-lighting\/brand_grow-pros-solutions"
+            }
+          },
+          "5067f146-ee52-4c1c-9088-9e64c4c77b3d": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/malibu-compost-slider.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/Malbu-Compost-Mobile.jpg",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "",
+              "content": "",
+              "content_position": "middle_center",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "Malibu Compost Here",
+              "link": "https:\/\/dig.supply\/products\/malibu-compost-tea?_pos=1&_sid=b465d75ac&_ss=r"
+            }
+          },
+          "272d4801-47a5-43c9-aec5-40194bdaf9fe": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/House-and-Garden-Slider-no-sale.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/Gold_Shield_Home_Badge_2020-1_50c4694f-b650-4b7b-9b7b-db475813b066.jpg",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "",
+              "content": "",
+              "content_position": "middle_center",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "House and Garden Products",
+              "link": "https:\/\/dig.supply\/collections\/all\/brand_house-garden"
+            }
+          },
+          "slide-1": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Slider1.png",
+              "mobile_image": "shopify:\/\/shop_images\/slider1-cropped.png",
+              "show_overlay": true,
+              "overlay_opacity": 15,
+              "text_color": "#ffffff",
+              "title": "Your Trusted Partner For Indoor Grows & Hydroponics",
+              "content": "",
+              "content_position": "middle_center",
+              "button_background": "#fd8023",
+              "button_text_color": "#ffffff",
+              "button_text": "LEARN MORE",
+              "link": "shopify:\/\/pages\/about-us"
+            }
+          }
+        },
+        "block_order": [
+          "8b09c0b5-327e-4194-a65a-8a902de6eecf",
+          "d269502f-c059-4e64-b990-dd9cca8dc303",
+          "5067f146-ee52-4c1c-9088-9e64c4c77b3d",
+          "272d4801-47a5-43c9-aec5-40194bdaf9fe",
+          "slide-1"
+        ],
+        "settings": {
+          "edge_to_edge": true,
+          "section_size": "preserve_ratio",
+          "carousel_effect": "slide",
+          "autoplay": true,
+          "cycle_speed": 5
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "d2615963-8b68-457d-bf24-813bf2faa701": {
+            "type": "collection",
+            "settings": {
+              "collection": "grow-lighting"
+            }
+          },
+          "209701e4-5321-4f09-840e-4480e985d89c": {
+            "type": "collection",
+            "settings": {
+              "collection": "fertilizer"
+            }
+          },
+          "a342ca25-eebb-48b0-afce-23859d0cb76f": {
+            "type": "collection",
+            "settings": {
+              "collection": "irrigation"
+            }
+          },
+          "571d6a7c-1740-4b04-ab7b-cbf921b34a05": {
+            "type": "collection",
+            "settings": {
+              "collection": "nutrients-amendments"
+            }
+          }
+        },
+        "block_order": [
+          "d2615963-8b68-457d-bf24-813bf2faa701",
+          "209701e4-5321-4f09-840e-4480e985d89c",
+          "a342ca25-eebb-48b0-afce-23859d0cb76f",
+          "571d6a7c-1740-4b04-ab7b-cbf921b34a05"
+        ],
+        "settings": {
+          "title": "Fertilizer, Amendments, Grow Lights...",
+          "link_title": "View All",
+          "link": "https:\/\/dig.supply\/collections",
+          "round_images": false,
+          "show_collection_title": true
+        }
+      },
+      "featured-product": {
+        "type": "featured-product",
+        "disabled": true,
+        "settings": {
+          "product": "",
+          "title": "Featured product",
+          "link_title": "View details",
+          "link_url": "",
+          "show_vendor": true,
+          "show_sku": false,
+          "show_share_buttons": true,
+          "show_description": true,
+          "description_below_add_to_cart": false,
+          "selector_mode": "block",
+          "color_mode": "color",
+          "show_quantity_selector": true,
+          "show_reviews_badge": false,
+          "show_payment_button": true,
+          "show_inventory_quantity": false,
+          "low_inventory_threshold": 0,
+          "enable_image_zoom": false,
+          "zoom_effect": "outside",
+          "carousel_effect": "fade"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "show_collection_image": true,
+          "collapse_collection_description": false,
+          "collection_image_size": "small",
+          "products_per_row": "4",
+          "default_products_per_page": 24,
+          "default_view_layout": "grid",
+          "show_quick_buy": "list",
+          "show_quick_view": "list",
+          "quick_links": "",
+          "quick_links_show_products_count": true,
+          "show_filters": true,
+          "show_filter_color_swatch": true,
+          "filter_type": "group",
+          "open_group_filters_mode": "all_closed",
+          "filter_group_order": "Tool,Component,Type"
+        }
+      },
+      "recently-viewed-products": {
+        "type": "recently-viewed-products",
+        "settings": {
+          "title": "Recently viewed",
+          "show_quick_buy": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_vendor": true,
+          "show_sku": false,
+          "show_share_buttons": true,
+          "show_taxes_included": false,
+          "selector_mode": "block",
+          "color_mode": "color",
+          "show_quantity_selector": true,
+          "show_payment_button": true,
+          "collapse_content": false,
+          "show_inventory_quantity": false,
+          "low_inventory_threshold": 0,
+          "image_size": "small",
+          "enable_image_zoom": true,
+          "zoom_effect": "outside",
+          "carousel_effect": "fade",
+          "tab_page_1_handle": "",
+          "tab_page_2_handle": "",
+          "tab_page_3_handle": "",
+          "enable_reviews": true,
+          "show_reviews_badge": true,
+          "trust_title": "Payment & Security",
+          "show_payment_icons": true,
+          "show_shipping_estimator": true,
+          "shipping_estimator_default_country": "United States",
+          "show_refunds_policy": true
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_quick_buy": false
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "show_announcement": false,
+          "background": "#e9df4c",
+          "text_color": "#113d33",
+          "text": "This page is underconstruction.",
+          "text_position": "left",
+          "link": "",
+          "show_newsletter": false,
+          "newsletter_button": "Subscribe & Save",
+          "newsletter_title": "Newsletter",
+          "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+        }
+      },
+      "1542984811767": {
+        "type": "featured-collection",
+        "disabled": true,
+        "settings": {
+          "collection": "frontpage",
+          "title": "New in stock!",
+          "products_count": 12,
+          "layout": "vertical",
+          "stack_desktop": false,
+          "show_quick_buy": true,
+          "link_title": "",
+          "link_url": ""
+        }
+      },
+      "1542984842027": {
+        "type": "newsletter",
+        "disabled": true,
+        "settings": {
+          "title": "Newsletter",
+          "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+        }
+      },
+      "1542984882560": {
+        "type": "blog-posts",
+        "disabled": true,
+        "settings": {
+          "blog": "news",
+          "title": "Blog posts",
+          "link_title": "View all",
+          "show_category": true,
+          "show_author": true,
+          "show_date": true,
+          "show_excerpt": false,
+          "stack_mobile": false
+        }
+      },
+      "popups": {
+        "type": "popups",
+        "settings": {
+        }
+      },
+      "text-with-icons": {
+        "type": "text-with-icons",
+        "blocks": {
+          "text-with-icons-0": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-delivery",
+              "title": "Delivery & Pickup Options",
+              "content": "<p>Order online for delivery or pickup in our Olivette location.<\/p>"
+            }
+          },
+          "text-with-icons-3": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-secure-payment",
+              "title": "Secure payments",
+              "content": "<p>We support Shopify Payments to ensure checkout is easy &amp; secure.<\/p>"
+            }
+          },
+          "f337edc9-7c12-40db-abec-062c869587c4": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-shop",
+              "title": "Store Hours",
+              "content": "<p>Monday - Saturday<br\/>10am to 5pm<\/p>"
+            }
+          },
+          "a80437d4-a5fd-4e7c-a157-14f54e8e4763": {
+            "type": "item",
+            "disabled": true,
+            "settings": {
+              "icon": "bi-returns",
+              "title": "Return Policy",
+              "content": "<p><br\/>Absolutely no returns on soil, liquids, powders, nutrients, amendments, or potting materials. All equipment returnable up to 14days of purchase if returned in exact condition as purchased with a 15% restocking fee, unless defective. If item is defective a RMA must be done before refund is issued. Lead time may vary.<br\/><br\/><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "text-with-icons-0",
+          "text-with-icons-3",
+          "f337edc9-7c12-40db-abec-062c869587c4",
+          "a80437d4-a5fd-4e7c-a157-14f54e8e4763"
+        ],
+        "settings": {
+          "show_section": true,
+          "stack_mobile": true
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "collections_to_show": "all",
+          "show_collection_title": true,
+          "show_collection_overlay": true,
+          "collection_overlay_opacity": 56
+        }
+      },
+      "static-promotion-list": {
+        "type": "static-promotion-list",
+        "settings": {
+          "expand_items": false,
+          "section_size": "medium",
+          "stack_mobile": false
+        }
+      },
+      "static-recently-viewed-products": {
+        "type": "static-recently-viewed-products",
+        "settings": {
+          "show_section": true,
+          "title": "Recently viewed",
+          "show_quick_buy": false
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "articles_per_page": 12,
+          "highlight_first_article": true,
+          "show_tags": true,
+          "show_category": true,
+          "show_author": true,
+          "show_date": true,
+          "show_excerpt": false
+        }
+      },
+      "static-newsletter": {
+        "type": "static-newsletter",
+        "settings": {
+          "show_section": true,
+          "title": "Subscribe to our newsletter",
+          "content": "<p>If you find this blog entertaining or educational, subscribe to it with your email. <\/p>",
+          "subtext": "100% free, Unsubscribe any time!",
+          "background": "#23453d",
+          "text": "#ffffff"
+        }
+      },
+      "page-contact-template": {
+        "type": "page-contact-template",
+        "settings": {
+          "form_heading": "Leave your message",
+          "show_store_info": false,
+          "store_heading": "Visit us",
+          "store_info": "<p><a href=\"https:\/\/g.page\/discount-indoor-gardening?share\" title=\"https:\/\/g.page\/discount-indoor-gardening?share\">9707 Dielman Rock Island Industrl Dr<\/a><\/p><p><a href=\"https:\/\/g.page\/discount-indoor-gardening?share\" title=\"https:\/\/g.page\/discount-indoor-gardening?share\">Olivette, MO 63132<\/a><\/p>"
+        }
+      },
+      "1585474451402": {
+        "type": "custom-html",
+        "settings": {
+          "title": "",
+          "html": "<h3 style=\"text-align: center;\">Check out what our customers have to say about us! <br>\n5 Star Reviews from\n<\/h3>\n<h3 style=\"text-align: center; text-decoration: none; color: #000000;\"> \n<a href=\"https:\/\/www.facebook.com\/DiscountIndoorGardening\/reviews\">Facebook<\/a>\nand\n\n\n<a href=\"https:\/\/www.google.com\/maps\/place\/Discount+Indoor+Gardening\/@38.6843873,-90.3874945,17z\/data=!4m7!3m6!1s0x87df33d0d0f899cf:0x678a493ffbadde95!8m2!3d38.6843793!4d-90.3853068!9m1!1b1?hl=en&amp;authuser=0\">Google\n<\/a>\n<\/h3>\n\n<hr style=\"border-top:1px solid #677279\">\n<p style=\"font-size:1.25em;color:#555;text-align:center;\">\n<strong>\n\"\n<\/strong>The name says it all. Very helpful and dedicated staff. Had everything I needed and knew everything about all of it. Very impressed honestly won’t shop anywhere else.\n<strong>\n\"\n<\/strong>\n<\/p>\n<p style=\"text-align:center;margin: 1em 0 2em 0;\">\n\t-Sam Bman\n<\/p>\n\n<hr style=\"border-top:5px dotted #677279; letter-spacing: 5px\">\n\n<p style=\"font-size:1.25em;color:#555;text-align:center;\">\n<strong>\n\"\n<\/strong>\nThe people at DIG are pretty informative on their products and how to use them…\nI started going there around the 1st of the year and they’re prices are as competitive as online sellers like Amazon…\n<\/p>\n<p style=\"text-align:center;margin: 1em 0 2em 0;\">\nTry them and you’ll like what they have to offer… <br>\n-George Eaklor\n<\/p>\n<strong>\n\"\n<\/strong>\n<hr style=\"border-top:1px solid #677279\">"
+        }
+      },
+      "1585474804574": {
+        "type": "rich-text",
+        "settings": {
+          "text_width": "regular",
+          "title": "We're not just a hydroponics store, we are a complete Garden Center.",
+          "content": "<p>We stand behind all of our products 100%. We will help your business cultivate a better bottom line!<\/p><p>If you have questions, please give us a call or come on in!<\/p>",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "16166284262b08e6ef": {
+        "type": "logo-list",
+        "blocks": {
+          "1616628426cb29a55e-0": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/AC_Infinity_logo.jpg",
+              "link": "https:\/\/dig.supply\/collections\/all\/brand_ac-infinity"
+            }
+          },
+          "0fc41465-7708-4b5f-a694-2dfea21fb757": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/down-to-earth-logo.png",
+              "link": "https:\/\/dig.supply\/collections\/all\/brand_down-to-earth"
+            }
+          },
+          "1a4e7607-d128-4c51-b8db-d1566e97ca41": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/advanced-nutrients-logo-retina.png",
+              "link": "https:\/\/dig.supply\/collections\/all\/brand_advanced-nutrients"
+            }
+          },
+          "6a1451ed-f8d1-4a63-af8c-be86bcf011ef": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Hortilux_2d80c4e3-4bd7-4ebf-86ed-4161aa2ff5d2.jpg",
+              "link": "https:\/\/dig.supply\/collections\/all\/brand_eye-hortilux"
+            }
+          },
+          "5b5fb920-2a94-470e-b566-25da2bf786eb": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/power-si_313ada00-0985-4a63-a6c4-d96c98f4373c.jpg",
+              "link": "https:\/\/dig.supply\/collections\/all\/brand_power-si"
+            }
+          },
+          "7b1398d3-6228-4491-85cf-e9ef754418c6": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/fox-farm-logo.png",
+              "link": "https:\/\/dig.supply\/collections\/all\/brand_fox-farm"
+            }
+          },
+          "d8dad74d-17f2-458c-9883-8724ff80b094": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/botanicare.png",
+              "link": "https:\/\/dig.supply\/collections\/all\/brand_botanicare"
+            }
+          },
+          "aa160bf0-53f6-4894-8789-cce2dcd2d59f": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/HG-Shield-2020.png",
+              "link": "https:\/\/dig.supply\/collections\/house-and-garden"
+            }
+          }
+        },
+        "block_order": [
+          "1616628426cb29a55e-0",
+          "0fc41465-7708-4b5f-a694-2dfea21fb757",
+          "1a4e7607-d128-4c51-b8db-d1566e97ca41",
+          "6a1451ed-f8d1-4a63-af8c-be86bcf011ef",
+          "5b5fb920-2a94-470e-b566-25da2bf786eb",
+          "7b1398d3-6228-4491-85cf-e9ef754418c6",
+          "d8dad74d-17f2-458c-9883-8724ff80b094",
+          "aa160bf0-53f6-4894-8789-cce2dcd2d59f"
+        ],
+        "settings": {
+          "title": "Brands",
+          "link_title": "",
+          "link": ""
+        }
+      },
+      "1616698403fae2a52c": {
+        "type": "collection-list",
+        "blocks": {
+          "a6ca1bbb-9c01-4e68-b39c-7e99fbc048fc": {
+            "type": "collection",
+            "settings": {
+              "collection": "amendments"
+            }
+          },
+          "96ba4bdd-0068-4d47-a41c-7a13f03ce081": {
+            "type": "collection",
+            "settings": {
+              "collection": "soil"
+            }
+          },
+          "30b9d04a-3232-40cb-bd70-48fbae271826": {
+            "type": "collection",
+            "settings": {
+              "collection": "plant-containers"
+            }
+          },
+          "e2d9125f-1054-401d-af96-6ec42fbe2ef1": {
+            "type": "collection",
+            "settings": {
+              "collection": "grow-media"
+            }
+          },
+          "f7de9f84-9865-47f6-a023-9698d9aa3b6b": {
+            "type": "collection",
+            "settings": {
+              "collection": "plant-support"
+            }
+          }
+        },
+        "block_order": [
+          "a6ca1bbb-9c01-4e68-b39c-7e99fbc048fc",
+          "96ba4bdd-0068-4d47-a41c-7a13f03ce081",
+          "30b9d04a-3232-40cb-bd70-48fbae271826",
+          "e2d9125f-1054-401d-af96-6ec42fbe2ef1",
+          "f7de9f84-9865-47f6-a023-9698d9aa3b6b"
+        ],
+        "settings": {
+          "title": "Coco Coir, Soil, Plant Containers, Media and more...",
+          "link_title": "View all",
+          "link": "shopify:\/\/collections",
+          "round_images": false,
+          "show_collection_title": true
+        }
+      },
+      "161671444703d65258": {
+        "type": "collection-list",
+        "blocks": {
+          "161671444703d65258-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "microbes-mycorrhizae",
+              "image": "shopify:\/\/shop_images\/microbes.jpg"
+            }
+          },
+          "161671444703d65258-1": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "collection": "water-quality"
+            }
+          },
+          "161671444703d65258-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "nutrients-amendments"
+            }
+          },
+          "161671444703d65258-4": {
+            "type": "collection",
+            "settings": {
+              "collection": "pest"
+            }
+          },
+          "cb6b821a-a2f6-43d1-a27c-907298cec6aa": {
+            "type": "collection",
+            "settings": {
+              "collection": "grow-tent"
+            }
+          }
+        },
+        "block_order": [
+          "161671444703d65258-0",
+          "161671444703d65258-1",
+          "161671444703d65258-2",
+          "161671444703d65258-4",
+          "cb6b821a-a2f6-43d1-a27c-907298cec6aa"
+        ],
+        "settings": {
+          "title": "Grow Tent, Microbes and Pest Control...",
+          "link_title": "View all",
+          "link": "shopify:\/\/collections",
+          "round_images": false,
+          "show_collection_title": true
+        }
+      },
+      "16167149269b351df8": {
+        "type": "collection-list",
+        "blocks": {
+          "16167149269b351df8-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "harvesting"
+            }
+          },
+          "16167149269b351df8-4": {
+            "type": "collection",
+            "settings": {
+              "collection": "propagation"
+            }
+          },
+          "e8513338-b1a8-44ad-9965-6b362893607b": {
+            "type": "collection",
+            "settings": {
+              "collection": "drying-curing"
+            }
+          },
+          "adbe374b-9787-4c06-9106-2c64faf440c0": {
+            "type": "collection",
+            "settings": {
+              "collection": "environmental-controls"
+            }
+          }
+        },
+        "block_order": [
+          "16167149269b351df8-2",
+          "16167149269b351df8-4",
+          "e8513338-b1a8-44ad-9965-6b362893607b",
+          "adbe374b-9787-4c06-9106-2c64faf440c0"
+        ],
+        "settings": {
+          "title": "Harvest, Propagation, Drying & Curing...",
+          "link_title": "View all",
+          "link": "shopify:\/\/collections",
+          "round_images": false,
+          "show_collection_title": true
+        }
+      },
+      "1617309651fc925184": {
+        "type": "collection-list",
+        "disabled": true,
+        "blocks": {
+          "1617309651fc925184-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "air-pumps"
+            }
+          },
+          "1617309651fc925184-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "water-pump"
+            }
+          }
+        },
+        "block_order": [
+          "1617309651fc925184-0",
+          "1617309651fc925184-1"
+        ],
+        "settings": {
+          "title": "IRRIGATION",
+          "link_title": "View all",
+          "link": "shopify:\/\/collections",
+          "round_images": true,
+          "show_collection_title": true
+        }
+      },
+      "16173097035353b244": {
+        "type": "collection-list",
+        "blocks": {
+          "16173097035353b244-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "garden-supplies"
+            }
+          },
+          "ef54f7a6-69b8-439c-8a7f-1abb671e5b53": {
+            "type": "collection",
+            "settings": {
+              "collection": "sanitation"
+            }
+          },
+          "28cfc444-f3f7-4929-af69-2a64925270c8": {
+            "type": "collection",
+            "settings": {
+              "collection": "garden-tools"
+            }
+          },
+          "99c2241a-060c-40cd-9768-1d579804975b": {
+            "type": "collection",
+            "settings": {
+              "collection": "plant-support"
+            }
+          }
+        },
+        "block_order": [
+          "16173097035353b244-1",
+          "ef54f7a6-69b8-439c-8a7f-1abb671e5b53",
+          "28cfc444-f3f7-4929-af69-2a64925270c8",
+          "99c2241a-060c-40cd-9768-1d579804975b"
+        ],
+        "settings": {
+          "title": "Garden Supplies and Gardening Tools...",
+          "link_title": "View all",
+          "link": "shopify:\/\/collections",
+          "round_images": false,
+          "show_collection_title": true
+        }
+      },
+      "1619453592851edd3f": {
+        "type": "collection-with-image",
+        "disabled": true,
+        "settings": {
+          "collection": "pest",
+          "products_count": 12,
+          "image": "shopify:\/\/shop_images\/pest-collection.jpg",
+          "background": "#3ca633",
+          "text_color": "#ffffff",
+          "title": "Pests",
+          "content": "Pest control products",
+          "button_background": "#71d169",
+          "button_text_color": "#ffffff",
+          "button_text": "Learn more",
+          "button_link": ""
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "enable_order_notes": true,
+          "show_payment_icons": true,
+          "gift_wrap_product": "",
+          "gift_wrap_text": "Do you want a gift wrap?",
+          "gift_wrap_button": "Add a gift wrap",
+          "show_shipping_estimator": true,
+          "shipping_estimator_default_country": "United States",
+          "trust_heading": "Our guarantees",
+          "upsell_heading": "Complete your cart",
+          "upsell_collection": "",
+          "upsell_products_count": 4
+        }
+      },
+      "search-template": {
+        "type": "search-template",
+        "settings": {
+          "products_per_row": "4",
+          "default_view_layout": "grid",
+          "show_quick_view": "list",
+          "show_quick_buy": "list",
+          "quick_links": ""
+        }
+      },
+      "16349378779d4cedd6": {
+        "type": "image-with-text",
+        "disabled": true,
+        "settings": {
+          "image_position": "left",
+          "image_width": 50,
+          "title": "Your title",
+          "content": "<p>Use this text to share information about your brand with your customers.<br>Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "button_text": "Our products",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "1634937950c6738234": {
+        "type": "promotion-list",
+        "disabled": true,
+        "blocks": {
+          "1634937950c6738234-0": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dazor-ad.jpg",
+              "show_overlay": false,
+              "overlay_opacity": 100,
+              "stretch_image": true,
+              "background": "#6f42ef",
+              "text_color": "#000000",
+              "title": "Dazor Lighting Technology",
+              "content": "",
+              "content_position": "top_center",
+              "button_background": "#ffffff",
+              "button_text_color": "#6f42ef",
+              "button_text": "Instagram Givaway",
+              "button_link": "https:\/\/www.instagram.com\/p\/CVQmt0oFjrj\/"
+            }
+          },
+          "1634937950c6738234-1": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1.jpg",
+              "show_overlay": false,
+              "overlay_opacity": 50,
+              "stretch_image": true,
+              "background": "#fc2a68",
+              "text_color": "#000000",
+              "title": "Order PARmax Lights...",
+              "content": "Call today to order PARMax Pro Lighting. \nLead Times May Vary\n314-755-1020",
+              "content_position": "top_left",
+              "button_background": "#9d4760",
+              "button_text_color": "#ffffff",
+              "button_text": "Learn more",
+              "button_link": "https:\/\/dig.supply\/collections\/grow-lighting\/products\/parmax-pro-grow-lighting"
+            }
+          },
+          "1634937950c6738234-2": {
+            "type": "item",
+            "disabled": true,
+            "settings": {
+              "show_overlay": false,
+              "overlay_opacity": 50,
+              "stretch_image": false,
+              "background": "#26c1ce",
+              "text_color": "#ffffff",
+              "title": "Your heading",
+              "content": "Tell more about your product, collection...",
+              "content_position": "top_left",
+              "button_background": "#ffffff",
+              "button_text_color": "#26c1ce",
+              "button_text": "Learn more",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1634937950c6738234-0",
+          "1634937950c6738234-1",
+          "1634937950c6738234-2"
+        ],
+        "settings": {
+          "expand_items": false,
+          "section_size": "medium",
+          "stack_mobile": false
+        }
+      },
+      "advanced-nutrients": {
+        "type": "advanced-nutrients",
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+      "slideshow",
+      "1634937950c6738234",
+      "1585474804574",
+      "collection-list",
+      "1585474451402",
+      "1617309651fc925184",
+      "1616698403fae2a52c",
+      "161671444703d65258",
+      "16167149269b351df8",
+      "16173097035353b244",
+      "16166284262b08e6ef",
+      "1542984811767",
+      "1542984842027",
+      "featured-product",
+      "1542984882560",
+      "1619453592851edd3f",
+      "16349378779d4cedd6"
+    ]
+  },
+  "presets": {
+    "Metal": {
+      "heading_color": "#1e2d7d",
+      "text_color": "#677279",
+      "accent_color": "#00badb",
+      "link_color": "#00badb",
+      "border_color": "#e1e3e4",
+      "background": "#f3f5f6",
+      "secondary_background": "#ffffff",
+      "error_color": "#ff0000",
+      "success_color": "#00aa00",
+      "primary_button_background": "#00badb",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#1e2d7d",
+      "secondary_button_text_color": "#ffffff",
+      "header_background": "#1e2d7d",
+      "header_text_color": "#ffffff",
+      "header_light_text_color": "#a3afef",
+      "product_on_sale_accent": "#ee0000",
+      "product_in_stock_color": "#008a00",
+      "product_low_stock_color": "#ee0000",
+      "product_sold_out_color": "#8a9297",
+      "product_label_1_background": "#008a00",
+      "product_label_2_background": "#00a500",
+      "product_star_color": "#ffbd00",
+      "base_text_font_size": 16,
+      "heading_font": "din_next_n5",
+      "text_font": "din_next_n4",
+      "underline_links": true,
+      "animation_image_zoom": true,
+      "currency_conversion_enabled": false,
+      "currency_conversion_round_amounts": false,
+      "currency_conversion_supported_currencies": "USD CAD EUR GBP",
+      "currency_conversion_money_format": "money_format",
+      "search_mode": "product,article",
+      "show_vendor": true,
+      "show_secondary_image": true,
+      "product_price_position": "after_title",
+      "product_image_size": "natural",
+      "show_discount": true,
+      "discount_mode": "saving",
+      "show_color_swatch": false,
+      "show_inventory_quantity": false,
+      "low_inventory_threshold": 0,
+      "show_reviews_badge": false,
+      "cart_type": "drawer",
+      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "share_image": "",
+      "social_facebook": "",
+      "social_twitter": "",
+      "social_google_plus": "",
+      "social_pinterest": "",
+      "social_instagram": "",
+      "social_vimeo": "",
+      "social_tumblr": "",
+      "social_youtube": "",
+      "social_linkedin": "",
+      "social_snapchat": "",
+      "social_fancy": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#00badb",
+      "checkout_button_color": "#00badb",
+      "checkout_error_color": "#ff0000",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": 140,
+            "mobile_logo_max_width": 100,
+            "navigation_menu": "main-menu",
+            "desktop_navigation_layout": "inline",
+            "desktop_navigation_open_trigger": "hover",
+            "navigation_phone_number": "Call us 000-000-0000",
+            "navigation_email": "info@yourwebsite.com",
+            "search_menu": ""
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "edge_to_edge": true,
+            "section_size": "preserve_ratio",
+            "cycle_speed": 5
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2",
+            "collection-3",
+            "collection-4",
+            "collection-5"
+          ],
+          "settings": {
+            "title": "Our collections",
+            "link_title": "View all",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "product": "",
+            "title": "Featured product",
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "carousel_effect": "fade"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_size": "small",
+            "default_view_layout": "grid",
+            "show_quick_view": "list",
+            "show_quick_buy": "list",
+            "quick_links": "",
+            "filter_type": "tag"
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "title": "Recently viewed"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "carousel_effect": "fade",
+            "tab_page_1_handle": "",
+            "tab_page_2_handle": "",
+            "tab_page_3_handle": "",
+            "custom_security_badge": ""
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+          }
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "background": "#1e2d7d",
+            "text_color": "#ffffff",
+            "text": "Announce something here",
+            "link": "",
+            "newsletter_button": "Subscribe & Save",
+            "newsletter_title": "Newsletter",
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984811767": {
+          "type": "featured-collection",
+          "settings": {
+            "collection": "",
+            "title": "Featured collection",
+            "products_count": 12,
+            "layout": "vertical",
+            "link_title": "View all"
+          }
+        },
+        "1542984842027": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984882560": {
+          "type": "blog-posts",
+          "settings": {
+            "blog": "news",
+            "title": "Blog posts"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "1542984811767",
+        "collection-list",
+        "1542984842027",
+        "featured-product",
+        "1542984882560"
+      ]
+    },
+    "Wood": {
+      "heading_color": "#3a2a2f",
+      "text_color": "#3a2a2f",
+      "accent_color": "#ff6128",
+      "link_color": "#ff6128",
+      "border_color": "#e7e2de",
+      "background": "#f7f4f2",
+      "secondary_background": "#ffffff",
+      "error_color": "#f71b1b",
+      "success_color": "#48b448",
+      "primary_button_background": "#ff6128",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#3a2a2f",
+      "secondary_button_text_color": "#ffffff",
+      "header_background": "#3a2a2f",
+      "header_text_color": "#ffffff",
+      "header_light_text_color": "#e9e2dd",
+      "product_on_sale_accent": "#ee0000",
+      "product_in_stock_color": "#008a00",
+      "product_low_stock_color": "#ee0000",
+      "product_sold_out_color": "#d1d1d4",
+      "product_label_1_background": "#ff6128",
+      "product_label_2_background": "#a95ebe",
+      "product_star_color": "#ffb647",
+      "base_text_font_size": 15,
+      "heading_font": "itc_avant_garde_gothic_n5",
+      "text_font": "basic_commercial_n4",
+      "underline_links": true,
+      "animation_image_zoom": true,
+      "currency_conversion_enabled": false,
+      "currency_conversion_round_amounts": false,
+      "currency_conversion_supported_currencies": "USD CAD EUR GBP",
+      "currency_conversion_money_format": "money_format",
+      "search_mode": "product,article,page",
+      "show_vendor": true,
+      "show_secondary_image": true,
+      "show_discount": true,
+      "discount_mode": "percentage",
+      "product_price_position": "after_title",
+      "product_image_size": "square",
+      "show_color_swatch": false,
+      "show_inventory_quantity": true,
+      "low_inventory_threshold": 1,
+      "show_reviews_badge": false,
+      "cart_type": "drawer",
+      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "cart_show_free_shipping_threshold": true,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#f7f4f2",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#ff6128",
+      "checkout_button_color": "#ff6128",
+      "checkout_error_color": "#f71b1b",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": 140,
+            "mobile_logo_max_width": 100,
+            "navigation_menu": "main-menu",
+            "desktop_navigation_layout": "inline",
+            "desktop_navigation_open_trigger": "hover",
+            "navigation_phone_number": "Call us 000-000-0000",
+            "navigation_email": "info@yourwebsite.com",
+            "search_menu": ""
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "edge_to_edge": true,
+            "section_size": "preserve_ratio",
+            "cycle_speed": 5
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2",
+            "collection-3",
+            "collection-4",
+            "collection-5"
+          ],
+          "settings": {
+            "title": "Our collections",
+            "link_title": "View all",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_size": "small",
+            "default_view_layout": "grid",
+            "show_quick_view": "list",
+            "show_quick_buy": "list",
+            "quick_links": "",
+            "filter_type": "tag"
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "title": "Recently viewed"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "carousel_effect": "fade",
+            "tab_page_1_handle": "",
+            "tab_page_2_handle": "",
+            "tab_page_3_handle": "",
+            "custom_security_badge": ""
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+          }
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "background": "#3a2a2f",
+            "text_color": "#ffffff",
+            "text": "Announce something here",
+            "link": "",
+            "newsletter_button": "Subscribe & Save",
+            "newsletter_title": "Newsletter",
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984811767": {
+          "type": "featured-collection",
+          "settings": {
+            "collection": "",
+            "title": "Featured collection",
+            "products_count": 12,
+            "layout": "vertical",
+            "link_title": "View all"
+          }
+        },
+        "1550833441117": {
+          "type": "collection-with-image",
+          "settings": {
+            "collection": "",
+            "products_count": 12,
+            "image": "",
+            "background": "#3a2a2f",
+            "text_color": "#ffffff",
+            "title": "Our best sellers",
+            "content": "Shop our most popular products for this season.",
+            "button_background": "#e95d2b",
+            "button_text_color": "#ffffff",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        },
+        "1555314133560": {
+          "type": "promotion-list",
+          "blocks": {
+            "1555314133560-0": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#6f42ef",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#6f42ef",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            },
+            "1555314133560-1": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#fc2a68",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#fc2a68",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            },
+            "1555314133560-2": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#26c1ce",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#26c1ce",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1555314133560-0",
+            "1555314133560-1",
+            "1555314133560-2"
+          ],
+          "settings": {
+            "expand_items": false,
+            "section_size": "medium",
+            "stack_mobile": false
+          }
+        },
+        "1542984882560": {
+          "type": "blog-posts",
+          "settings": {
+            "blog": "news",
+            "title": "Blog posts"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "1542984811767",
+        "1555314133560",
+        "collection-list",
+        "1550833441117",
+        "1542984882560"
+      ]
+    }
+  }
+}
