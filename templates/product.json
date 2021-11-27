@@ -10,7 +10,7 @@
 			"type": "static-promotion-list"
 		},
 		"recentyViewed": {
-			"type": "static-recently-viewed_products"
+			"type": "static-recently-viewed-products"
 		}
 	}, 
 	"order": [
