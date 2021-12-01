@@ -993,6 +993,11 @@
         "type": "advanced-nutrients",
         "settings": {
         }
+      },
+      "lighting": {
+        "type": "lighting",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
