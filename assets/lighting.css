@@ -4,11 +4,13 @@ body {
 
 .lighting-container {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 }
 
 .ledH1 {
 	font-size: 2.5vw;
+	margin:  auto;
 }
 
 #center {
@@ -18,4 +20,16 @@ body {
 
 img {
 	width: 200px;
+}
+
+section {
+	margin:  auto;
+}
+
+.container {
+	display: flex;
+}
+
+h2 {
+	margin: 10px;
 }
