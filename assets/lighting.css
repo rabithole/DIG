@@ -8,26 +8,31 @@ body {
 	justify-content: center;
 }
 
+.lightingAd {
+	display: flex;
+	flex-direction: row;
+}
+
 .ledH1 {
 	font-size: 2.5vw;
 	margin:  auto;
 }
 
-#center {
-	text-align: center;
-	font-size: 3vw;
+.marginLight {
+	margin-right: 20px;
 }
 
-img {
-	width: 200px;
+.centerH2 {
+	display: flex;
+	justify-content: center;
+}
+
+.imageSize {
+	width: 300px;
 }
 
 section {
 	margin:  auto;
-}
-
-.container {
-	display: flex;
 }
 
 h2 {
