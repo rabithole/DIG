@@ -25,6 +25,13 @@ body {
 .centerH2 {
 	display: flex;
 	justify-content: center;
+	font-size: 2vw;
+}
+
+.centerP {
+	display: flex;
+	justify-content: center;
+	font-size: 1.5vw;
 }
 
 .imageSize {
