@@ -30,8 +30,10 @@ body {
 
 .centerP {
 	display: flex;
-	justify-content: center;
+	margin: auto;
 	font-size: 1.5vw;
+	width: 70%;
+	text-align: center;
 }
 
 .imageSize {
@@ -42,6 +44,33 @@ section {
 	margin:  auto;
 }
 
+
+
 h2 {
 	margin: 10px;
+}
+
+
+/* Lighting type advantages list */
+
+dl {
+	text-align: center;
+}
+
+dt {
+	text-align: left;
+}
+
+#liAdjust {
+	margin-left:  40px;
+}
+
+li {
+	text-align: left;
+	margin-left:  20px;
+}
+
+#types {
+	width:  40%;
+	margin: auto;
 }
