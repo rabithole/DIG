@@ -16,6 +16,7 @@ body {
 .ledH1 {
 	font-size: 2.5vw;
 	margin:  auto;
+	color: white;
 }
 
 .marginLight {
@@ -25,7 +26,8 @@ body {
 .centerH2 {
 	display: flex;
 	justify-content: center;
-	font-size: 2vw;
+	font-size: 3vw;
+	color:  white;
 }
 
 .imageSize {
@@ -49,6 +51,7 @@ dl {
 
 dt {
 	text-align: left;
+	color:  white;
 }
 
 #liAdjust {
@@ -68,12 +71,6 @@ li {
 	text-align: center;
 }
 
-@media only screen and (max-width:  600px) {
-	.centerP {
-		font-size: 3vw;
-	}
-}
-
 #types {
 	display: flex;
 	justify-content: space-evenly;
@@ -86,8 +83,25 @@ li {
 }
 
 @media only screen and (max-width:  600px) {
+	.centerP {
+		font-size: 3vw;
+	}
+
+	.centerH2 {
+		font-size: 4.0vw;
+		text-align: center;
+	}
+
 	#types {
 		flex-direction: column;
+	}
+
+	dt {
+		font-size: 4vw;
+	}
+
+	.ledH1 {
+		font-size: 5vw;
 	}
 }
 
@@ -97,4 +111,13 @@ li {
 	border-radius: 10px;
 	width: 80%;
 	margin-top: 20px;
+}
+
+.container--flush {
+	background-color: white;
+	padding: 10px 0 10px 0;
+}
+
+footer {
+	background-color: white;
 }
