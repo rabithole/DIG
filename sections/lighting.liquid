@@ -1,134 +1,137 @@
 {% layout 'theme.lighting' %}
 
 <div class="page__sub-header" style="color: white;">
-      <nav aria-label="{{ 'general.breadcrumb.title' | t }}" class="breadcrumb">
-        <ol class="breadcrumb__list">
-          <li class="breadcrumb__item">
-            <a class="breadcrumb__link link" href="{{ routes.root_url }}">{{ 'general.breadcrumb.home' | t }}</a> {%- render 'icon', icon: 'arrow-right' -%}
-          </li>
-          <li class="breadcrumb__item">
-            {%- if current_tags -%}
-              <a class="breadcrumb__link link" href="{{ collection.url }}" {% unless current_tags %}aria-current="page"{% endunless %}>
-                {%- if collection.handle == 'all' -%}
-                  {{- 'collection.general.all_products' | t -}}
-                {%- else -%}
-                  {{- collection.title -}}
-                {%- endif -%}
-              </a>
-
-              {%- render 'icon', icon: 'arrow-right' -%}
+  <nav aria-label="{{ 'general.breadcrumb.title' | t }}" class="breadcrumb">
+    <ol class="breadcrumb__list">
+      <li class="breadcrumb__item">
+        <a class="breadcrumb__link link" href="{{ routes.root_url }}">{{ 'general.breadcrumb.home' | t }}</a> {%- render 'icon', icon: 'arrow-right' -%}
+      </li>
+      <li class="breadcrumb__item">
+        {%- if current_tags -%}
+          <a class="breadcrumb__link link" href="{{ collection.url }}" {% unless current_tags %}aria-current="page"{% endunless %}>
+            {%- if collection.handle == 'all' -%}
+              {{- 'collection.general.all_products' | t -}}
             {%- else -%}
-              <span class="breadcrumb__link" aria-current="page">
-                {%- if collection.handle == 'all' -%}
-                  {{- 'collection.general.all_products' | t -}}
-                {%- else -%}
-                  {{- collection.title -}}
-                {%- endif -%}
-              </span>
+              {{- collection.title -}}
             {%- endif -%}
-          </li>
+          </a>
 
-          {%- if current_tags -%}
-            <li class="breadcrumb__item">
-              {%- if section.settings.filter_type == 'tag' -%}
-                {%- assign tag = current_tags.first -%}
-              {%- elsif section.settings.filter_type == 'group' -%}
-                {%- assign tag = current_tags.first | split: '_' | last -%}
-              {%- endif -%}
+          {%- render 'icon', icon: 'arrow-right' -%}
+        {%- else -%}
+          <span class="breadcrumb__link" aria-current="page">
+            {%- if collection.handle == 'all' -%}
+              {{- 'collection.general.all_products' | t -}}
+            {%- else -%}
+              {{- collection.title -}}
+            {%- endif -%}
+          </span>
+        {%- endif -%}
+      </li>
 
-              <span class="breadcrumb__link" aria-current="page">{{ tag | capitalize }}</span>
-            </li>
+      {%- if current_tags -%}
+        <li class="breadcrumb__item">
+          {%- if section.settings.filter_type == 'tag' -%}
+            {%- assign tag = current_tags.first -%}
+          {%- elsif section.settings.filter_type == 'group' -%}
+            {%- assign tag = current_tags.first | split: '_' | last -%}
           {%- endif -%}
-        </ol>
-      </nav>
+
+          <span class="breadcrumb__link" aria-current="page">{{ tag | capitalize }}</span>
+        </li>
+      {%- endif -%}
+    </ol>
+  </nav>
+</div>
+
+
+<div class='lighting-container'>
+	<h1 class='lightH1'>LED Lighting Brands</h1>
+
+	<section class='lightingAd'>
+    <div class='marginLight'>
+      <h2 class='centerH2'>Gavita</h2>
+      <a href="https://dig.supply/collections/grow-lighting/brand_gavita+component_lighting-system">
+        <img src='https://cdn.shopify.com/s/files/1/0229/2311/6580/files/Gavita-Pro-1700e_copy.png?v=1638735290' alt="Grow Pros HM660" class='imageSize'>
+      </a>
     </div>
-
-
-    <div class='lighting-container'>
-    	<h1 class='ledH1'>LED Lighting Brands</h1>
-
-    	<section class='lightingAd'>
-        <div class='marginLight'>
-          <h2 class='centerH2'>Gavita</h2>
-          <a href="https://dig.supply/collections/grow-lighting/brand_gavita+component_lighting-system">
-            <img src='https://cdn.shopify.com/s/files/1/0229/2311/6580/files/Gavita-Pro-1700e_copy.png?v=1638735290' alt="Grow Pros HM660" class='imageSize'>
-          </a>
-        </div>
-        <div class='marginLight'>
-          <h2 class='centerH2'>Fluence</h2>
-          <a href="https://dig.supply/collections/grow-lighting/products/spydr-2i">
-            <img src='https://cdn.shopify.com/s/files/1/0229/2311/6580/files/SPYDR-2X40-PSE_ISO_TOP.png?v=1638736132' alt="Grow Pros HM660" class='imageSize'>
-          </a>
-        </div>
-        <div class='marginLight'>
-          <h2 class='centerH2'>Grow Pros</h2>
-          <a href="https://dig.supply/collections/grow-lighting/brand_grow-pros-solutions">
-            <img src='https://cdn.shopify.com/s/files/1/0229/2311/6580/files/hm660-01.png?v=1638736258' alt="Grow Pros HM660" class='imageSize'>
-          </a>
-        </div>
-    	</section>
-
-      <section id='storyAlign'>
-        <h2 class='centerH2'>We recommend LED grow lights above the rest!</h2>
-
-        <p class='centerP'>LED's are virtually superior to all other lighting technologies. The only downfall is their initial cost. Although, if you factor in longer life, lower operating costs, they end up cheaper. LED lighting continues to drop in price. Check out the products from Grow Pros!</p>
-      </section>
-
+    <div class='marginLight'>
+      <h2 class='centerH2'>Fluence</h2>
+      <a href="https://dig.supply/collections/grow-lighting/products/spydr-2i">
+        <img src='https://cdn.shopify.com/s/files/1/0229/2311/6580/files/SPYDR-2X40-PSE_ISO_TOP.png?v=1638736132' alt="Grow Pros HM660" class='imageSize'>
+      </a>
     </div>
-    <div id='types'>
-      <dl>
-        <dt>Advantages of LED lighting:</dt>
+    <div class='marginLight'>
+      <h2 class='centerH2'>Grow Pros</h2>
+      <a href="https://dig.supply/collections/grow-lighting/brand_grow-pros-solutions">
+        <img src='https://cdn.shopify.com/s/files/1/0229/2311/6580/files/hm660-01.png?v=1638736258' alt="Grow Pros HM660" class='imageSize'>
+      </a>
+    </div>
+    <div class='marginLight'>
+      <h2 class='centerH2'>Grower's Choice</h2>
+      <a href="https://dig.supply/collections/grow-lighting/brand_growers-choice+component_lighting-system">
+        <img src='https://cdn.shopify.com/s/files/1/0229/2311/6580/files/growers-choice-420.png?v=1638837429' alt="Grow Pros HM660" class='imageSize'>
+      </a>
+    </div>
+	</section>
+
+  <section id='storyAlign'>
+    <h2 class='centerH2'>We recommend LED grow lights above the rest!</h2>
+
+    <p class='centerP'>LED's are virtually superior to all other lighting technologies. The only downfall is their initial cost. Although, if you factor in longer life, lower operating costs, they end up cheaper. LED lighting continues to drop in price. Check out the products from Grow Pros!</p>
+  </section>
+</div>
+
+<div id='types'>
+  <dl>
+    <dt>Advantages of LED lighting:</dt>
+      <ul>
+        <li>Cheaper operating costs</li>
+        <li>Produces significanly less heat</li>
+        <li>Longer life spane</li>
+        <li>Possible energy rebate for commercial growers</li>
+        <li>Full Spectrum</li>
+        <ul>
+          <li id='liAdjust'>No need to change bulbs</li>
+        </ul>
+      </ul>
+  </dl>
+  <dl>
+    <dt>Advantages of CMH and LEC over standard HID</dt>
+      <ul>
+        <li>Closely mimic's sunlight</li>
+        <li>Produces less heat than standard HID</li>
+        <li>Full Spectrum</li>
+        <li>Less bulb swapping</li>
+        <li>Last twice as long as standard HID</li>
           <ul>
-            <li>Cheaper operating costs</li>
-            <li>Produces significanly less heat</li>
-            <li>Longer life spane</li>
-            <li>Possible energy rebate for commercial growers</li>
-            <li>Full Spectrum</li>
-            <ul>
-              <li id='liAdjust'>No need to change bulbs</li>
-            </ul>
+            <li id='liAdjust'>Does not last as long as LED</li>
           </ul>
-      </dl>
-      <dl>
-        <dt>Advantages of CMH and LEC over standard HID</dt>
+        <li>Produces UV</li>
           <ul>
-            <li>Closely mimic's sunlight</li>
-            <li>Produces less heat than standard HID</li>
-            <li>Full Spectrum</li>
-            <li>Less bulb swapping</li>
-            <li>Last twice as long as standard HID</li>
-              <ul>
-                <li id='liAdjust'>Does not last as long as LED</li>
-              </ul>
-            <li>Produces UV</li>
-              <ul>
-                <li id='liAdjust'>Good for trichome production</li>
-              </ul>
+            <li id='liAdjust'>Good for trichome production</li>
           </ul>
-      </dl>
-    </div>
+      </ul>
+  </dl>
+</div>
 
-<!-- 
-- Cheaper operating costs
-- Significantly less heat
-- Longer life span
-- Possible energy rebate for commercial growers
-- Full Spectrum
-    - No changing of bulbs for the Bloom phase
+<div class="lighting-container">
+  <h1 class='lightH1'>HID ( High Intensity Discharge )</h1>
+  <section class="lightingAd">
+    <div class='marginLight'>
+        <h2 class='centerH2'>Eye Hortilux</h2>
+        <h2 class="centerH2">CMH ( Ceramic Metal Halide )</h2>
+          <a href="https://dig.supply/collections/grow-lighting/products/eye-hcmhlight">
+            <img src='https://cdn.shopify.com/s/files/1/0229/2311/6580/files/HGC901997-01.png?v=1638840105' alt="Grow Pros HM660" class='imageSize'>
+          </a>
+      </div>
 
-Advantages of CMH and LEC over standard HID
+       <div class='marginLight'>
+        <h2 class='centerH2'>Sun System</h2>
+        <h2 class="centerH2">LEC ( Light Emitting Ceramic )</h2>
+          <a href="https://dig.supply/collections/grow-lighting/products/sun-system-flowpow-fixt">
+            <img src='https://cdn.shopify.com/s/files/1/0229/2311/6580/files/HGC906298-01.png?v=1638841816' alt="Grow Pros HM660" class='imageSize'>
+          </a>
+      </div>
+  </section>
+</div>
 
-- Closely mimic's sunlight
-- Produces less heat than HID
-- Full spectrum
-- Have to swap out bulbs less often
-- Last twice as long as HID
-    - Does not last as long as LED
-- Produces UV
-    - Good for trichome production
-    </div>
-
-    <div class='lighting-container'>
-    </div>
-
--->

@@ -10,10 +10,11 @@ body {
 
 .lightingAd {
 	display: flex;
-	flex-direction: row;
+	flex-wrap: wrap;
+	width:  95%;
 }
 
-.ledH1 {
+.lightH1 {
 	font-size: 2.5vw;
 	margin:  auto;
 	color: white;
@@ -21,6 +22,7 @@ body {
 
 .marginLight {
 	margin-right: 20px;
+	min-width: 300px;
 }
 
 .centerH2 {
@@ -75,7 +77,7 @@ li {
 	display: flex;
 	justify-content: space-evenly;
 	width:  70%;
-	margin: 1% auto 0 auto;
+	margin: 1% auto 3% auto;
 	background-color: #101010;
 	border:  2px #404040 solid;
 	border-radius: 10px;
@@ -103,6 +105,10 @@ li {
 	.ledH1 {
 		font-size: 5vw;
 	}
+
+	.lightingAd {
+		flex-direction: column;
+	}
 }
 
 #storyAlign {
@@ -115,7 +121,7 @@ li {
 
 .container--flush {
 	background-color: white;
-	padding: 10px 0 10px 0;
+	padding: 10px;
 }
 
 footer {
