@@ -633,6 +633,20 @@
               "image": "shopify:\/\/shop_images\/HG-Shield-2020.png",
               "link": "https:\/\/dig.supply\/collections\/house-and-garden"
             }
+          },
+          "50aab8bc-bd31-430e-bcae-fa453826d4ca": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bluelab-logo-trimmed.png",
+              "link": "https:\/\/dig.supply\/collections\/all\/brand_bluelab"
+            }
+          },
+          "e62aeb85-8576-48f2-ac11-a413fae11814": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/brand-logo-section.png",
+              "link": "https:\/\/dig.supply\/collections\/all\/brand_general-hydroponics"
+            }
           }
         },
         "block_order": [
@@ -643,7 +657,9 @@
           "5b5fb920-2a94-470e-b566-25da2bf786eb",
           "7b1398d3-6228-4491-85cf-e9ef754418c6",
           "d8dad74d-17f2-458c-9883-8724ff80b094",
-          "aa160bf0-53f6-4894-8789-cce2dcd2d59f"
+          "aa160bf0-53f6-4894-8789-cce2dcd2d59f",
+          "50aab8bc-bd31-430e-bcae-fa453826d4ca",
+          "e62aeb85-8576-48f2-ac11-a413fae11814"
         ],
         "settings": {
           "title": "Brands",
