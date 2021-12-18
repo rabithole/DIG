@@ -661,6 +661,13 @@
               "image": "shopify:\/\/shop_images\/Mother-Earth_logo-full-color-420px.png",
               "link": "https:\/\/dig.supply\/collections\/all\/brand_mother-earth"
             }
+          },
+          "52f7a7e0-b036-4cb2-bff5-c03ebdf3bc61": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/gps-new-logo-front-page.png",
+              "link": "https:\/\/dig.supply\/collections\/grow-lighting\/products\/grow-pros-solutions-led"
+            }
           }
         },
         "block_order": [
@@ -675,7 +682,8 @@
           "50aab8bc-bd31-430e-bcae-fa453826d4ca",
           "e62aeb85-8576-48f2-ac11-a413fae11814",
           "ac464cc6-258b-429f-8fd5-018b758e4b98",
-          "fbab0664-b8fd-478a-a45a-61b05d38bbc7"
+          "fbab0664-b8fd-478a-a45a-61b05d38bbc7",
+          "52f7a7e0-b036-4cb2-bff5-c03ebdf3bc61"
         ],
         "settings": {
           "title": "Brands",
