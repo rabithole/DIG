@@ -668,6 +668,13 @@
               "image": "shopify:\/\/shop_images\/gps-new-logo-front-page.png",
               "link": "https:\/\/dig.supply\/collections\/grow-lighting\/products\/grow-pros-solutions-led"
             }
+          },
+          "4eaa0513-9514-425a-9475-adc391fac714": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/KIND_Stacked_Logo_600x_b376840d-30e4-4ba0-b3c6-46a226115a7e.png",
+              "link": "https:\/\/dig.supply\/products\/kind-x-series-targeted-full-spectrum-led-grow-lights?_pos=9&_sid=04a61f402&_ss=r"
+            }
           }
         },
         "block_order": [
@@ -683,7 +690,8 @@
           "e62aeb85-8576-48f2-ac11-a413fae11814",
           "ac464cc6-258b-429f-8fd5-018b758e4b98",
           "fbab0664-b8fd-478a-a45a-61b05d38bbc7",
-          "52f7a7e0-b036-4cb2-bff5-c03ebdf3bc61"
+          "52f7a7e0-b036-4cb2-bff5-c03ebdf3bc61",
+          "4eaa0513-9514-425a-9475-adc391fac714"
         ],
         "settings": {
           "title": "Brands",
