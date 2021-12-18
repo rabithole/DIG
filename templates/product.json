@@ -1,22 +1,64 @@
 {
-	"sections":{
-		"main": {
-			"type": "product-template"
-		},
-		"recommendations": {
-			"type": "product-recommendations"
-		},
-		"promotion": {
-			"type": "static-promotion-list"
-		},
-		"recentyViewed": {
-			"type": "static-recently-viewed-products"
-		}
-	}, 
-	"order": [
-		"main",
-		"recommendations",
-		"promotion",
-		"recentyViewed"
-	]
+  "sections": {
+    "main": {
+      "type": "product-template",
+      "settings": {
+        "show_vendor": true,
+        "show_sku": false,
+        "show_share_buttons": true,
+        "show_taxes_included": true,
+        "selector_mode": "block",
+        "color_mode": "color",
+        "show_quantity_selector": true,
+        "show_payment_button": true,
+        "collapse_content": false,
+        "show_inventory_quantity": false,
+        "low_inventory_threshold": 0,
+        "image_size": "small",
+        "enable_image_zoom": true,
+        "zoom_effect": "outside",
+        "carousel_effect": "fade",
+        "tab_page_1_handle": "",
+        "tab_page_2_handle": "",
+        "tab_page_3_handle": "",
+        "enable_reviews": false,
+        "show_reviews_badge": false,
+        "trust_title": "Payment & Security",
+        "show_payment_icons": true,
+        "show_shipping_estimator": true,
+        "shipping_estimator_default_country": "United States",
+        "show_refunds_policy": true
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "heading": "You may also like",
+        "show_quick_buy": false
+      }
+    },
+    "promotion": {
+      "type": "static-promotion-list",
+      "settings": {
+        "expand_items": false,
+        "section_size": "medium",
+        "stack_mobile": false
+      }
+    },
+    "recentyViewed": {
+      "type": "static-recently-viewed-products",
+      "settings": {
+        "show_section": true,
+        "title": "Recently viewed",
+        "show_quick_buy": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "recommendations",
+    "promotion",
+    "recentyViewed"
+  ]
 }
