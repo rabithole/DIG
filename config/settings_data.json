@@ -647,6 +647,20 @@
               "image": "shopify:\/\/shop_images\/brand-logo-section.png",
               "link": "https:\/\/dig.supply\/collections\/all\/brand_general-hydroponics"
             }
+          },
+          "ac464cc6-258b-429f-8fd5-018b758e4b98": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/impello-logo.png",
+              "link": "https:\/\/dig.supply\/collections\/all\/brand_impello-biosciences"
+            }
+          },
+          "fbab0664-b8fd-478a-a45a-61b05d38bbc7": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Mother-Earth_logo-full-color-420px.png",
+              "link": "https:\/\/dig.supply\/collections\/all\/brand_mother-earth"
+            }
           }
         },
         "block_order": [
@@ -659,7 +673,9 @@
           "d8dad74d-17f2-458c-9883-8724ff80b094",
           "aa160bf0-53f6-4894-8789-cce2dcd2d59f",
           "50aab8bc-bd31-430e-bcae-fa453826d4ca",
-          "e62aeb85-8576-48f2-ac11-a413fae11814"
+          "e62aeb85-8576-48f2-ac11-a413fae11814",
+          "ac464cc6-258b-429f-8fd5-018b758e4b98",
+          "fbab0664-b8fd-478a-a45a-61b05d38bbc7"
         ],
         "settings": {
           "title": "Brands",
