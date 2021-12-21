@@ -34,6 +34,22 @@ body {
 	color:  white;
 }
 
+.centerA {
+	text-align: center;
+	background-color: red;
+	width:  250px;
+	color:  white;
+	padding:  5px;
+	font-size: 1.6vw;
+	border-radius: 5px;
+	border:  2px white solid;
+}
+
+.centerP {
+	display: flex;
+	justify-content: center;
+}
+
 .imageSize {
 	width: 300px;
 }
@@ -89,6 +105,10 @@ li {
 @media only screen and (max-width:  600px) {
 	.centerP {
 		font-size: 3vw;
+	}
+
+	.centerA {
+		font-size: 4vw;
 	}
 
 	.centerH2 {
