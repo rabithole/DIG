@@ -309,6 +309,7 @@
       },
       "featured-product": {
         "type": "featured-product",
+        "disabled": true,
         "settings": {
           "product": "piranha-pruner-shear",
           "title": "All your garden tool needs!",
@@ -413,15 +414,14 @@
       },
       "1542984811767": {
         "type": "featured-collection",
-        "disabled": true,
         "settings": {
-          "collection": "frontpage",
-          "title": "New in stock!",
+          "collection": "garden-tools",
+          "title": "All your garden tools needs!",
           "products_count": 12,
           "layout": "vertical",
           "stack_desktop": false,
           "show_quick_buy": true,
-          "link_title": "",
+          "link_title": "Garden Tools",
           "link_url": ""
         }
       },
@@ -915,7 +915,7 @@
         "type": "collection-with-image",
         "disabled": true,
         "settings": {
-          "collection": "pest",
+          "collection": "garden-tools",
           "products_count": 12,
           "image": "shopify:\/\/shop_images\/pest-collection.jpg",
           "background": "#3ca633",
@@ -1046,6 +1046,7 @@
       "slideshow",
       "1634937950c6738234",
       "1585474804574",
+      "1542984811767",
       "featured-product",
       "collection-list",
       "1585474451402",
@@ -1055,7 +1056,6 @@
       "16167149269b351df8",
       "16173097035353b244",
       "16166284262b08e6ef",
-      "1542984811767",
       "1542984842027",
       "1542984882560",
       "1619453592851edd3f",
