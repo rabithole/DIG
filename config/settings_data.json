@@ -309,12 +309,11 @@
       },
       "featured-product": {
         "type": "featured-product",
-        "disabled": true,
         "settings": {
-          "product": "",
-          "title": "Featured product",
-          "link_title": "View details",
-          "link_url": "",
+          "product": "piranha-pruner-shear",
+          "title": "All your garden tool needs!",
+          "link_title": "All hand trimmers!",
+          "link_url": "https:\/\/dig.supply\/collections\/garden-tools\/tool_cut",
           "show_vendor": true,
           "show_sku": false,
           "show_share_buttons": true,
@@ -1045,6 +1044,7 @@
     },
     "content_for_index": [
       "slideshow",
+      "featured-product",
       "1634937950c6738234",
       "1585474804574",
       "collection-list",
@@ -1057,7 +1057,6 @@
       "16166284262b08e6ef",
       "1542984811767",
       "1542984842027",
-      "featured-product",
       "1542984882560",
       "1619453592851edd3f",
       "16349378779d4cedd6"
