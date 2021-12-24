@@ -566,6 +566,7 @@
       },
       "1585474804574": {
         "type": "rich-text",
+        "disabled": true,
         "settings": {
           "text_width": "regular",
           "title": "We're not just a hydroponics store, we are a complete Garden Center.",
@@ -1041,10 +1042,23 @@
         "type": "advanced-nutrients",
         "settings": {
         }
+      },
+      "1640307588540f19f3": {
+        "type": "image-with-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/commercial-grow-room-setup-1080x675.jpg",
+          "image_position": "left",
+          "image_width": 50,
+          "title": "Have a large grow? Let us help!",
+          "content": "<p>We are here to help your business cultivate your bottom line! <\/p><p>Let us find and deliver what you need so you can focus on what you do best!<\/p><p>We have access to the best products in the industry! <\/p>",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
       }
     },
     "content_for_index": [
       "slideshow",
+      "1640307588540f19f3",
       "1619453592851edd3f",
       "1634937950c6738234",
       "1585474804574",
