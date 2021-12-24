@@ -957,14 +957,14 @@
       },
       "16349378779d4cedd6": {
         "type": "image-with-text",
-        "disabled": true,
         "settings": {
+          "image": "shopify:\/\/shop_images\/pH-Perfect-Logo.png",
           "image_position": "left",
-          "image_width": 50,
-          "title": "Your title",
-          "content": "<p>Use this text to share information about your brand with your customers.<br\/>Describe a product, share announcements, or welcome customers to your store.<\/p>",
-          "button_text": "Our products",
-          "button_link": "shopify:\/\/collections\/all"
+          "image_width": 40,
+          "title": "Advanced Nutrients",
+          "content": "<p>Advanced Nutrients pH Perfect technology automatically stabilizes and locks in your pH within the optimal range of 5.5 to 6.3. <\/p>",
+          "button_text": "Advanced Nutrients",
+          "button_link": "shopify:\/\/collections\/advanced-nutrients"
         }
       },
       "1634937950c6738234": {
@@ -1051,6 +1051,7 @@
       "1542984811767",
       "featured-product",
       "collection-list",
+      "16349378779d4cedd6",
       "1585474451402",
       "1617309651fc925184",
       "1616698403fae2a52c",
@@ -1059,8 +1060,7 @@
       "16173097035353b244",
       "16166284262b08e6ef",
       "1542984842027",
-      "1542984882560",
-      "16349378779d4cedd6"
+      "1542984882560"
     ]
   },
   "presets": {
