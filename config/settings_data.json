@@ -800,6 +800,7 @@
       },
       "16167149269b351df8": {
         "type": "collection-list",
+        "disabled": true,
         "blocks": {
           "16167149269b351df8-2": {
             "type": "collection",
@@ -871,6 +872,7 @@
       },
       "16173097035353b244": {
         "type": "collection-list",
+        "disabled": true,
         "blocks": {
           "16173097035353b244-1": {
             "type": "collection",
@@ -913,19 +915,18 @@
       },
       "1619453592851edd3f": {
         "type": "collection-with-image",
-        "disabled": true,
         "settings": {
-          "collection": "garden-tools",
+          "collection": "pest",
           "products_count": 12,
           "image": "shopify:\/\/shop_images\/pest-collection.jpg",
           "background": "#3ca633",
           "text_color": "#ffffff",
           "title": "Pests",
-          "content": "Pest control products",
+          "content": "Have pest problems. We have the product to help. Give us a call for more information. \n314-755-1020",
           "button_background": "#71d169",
           "button_text_color": "#ffffff",
           "button_text": "Learn more",
-          "button_link": ""
+          "button_link": "shopify:\/\/collections\/pest"
         }
       },
       "cart-template": {
@@ -956,7 +957,6 @@
       },
       "16349378779d4cedd6": {
         "type": "image-with-text",
-        "disabled": true,
         "settings": {
           "image_position": "left",
           "image_width": 50,
@@ -1044,6 +1044,7 @@
     },
     "content_for_index": [
       "slideshow",
+      "1619453592851edd3f",
       "1634937950c6738234",
       "1585474804574",
       "1542984811767",
@@ -1058,7 +1059,6 @@
       "16166284262b08e6ef",
       "1542984842027",
       "1542984882560",
-      "1619453592851edd3f",
       "16349378779d4cedd6"
     ]
   },
