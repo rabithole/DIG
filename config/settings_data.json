@@ -1054,16 +1054,85 @@
           "button_text": "",
           "button_link": "shopify:\/\/collections\/all"
         }
+      },
+      "164046488313831878": {
+        "type": "promotion-list",
+        "blocks": {
+          "164046488313831878-0": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Clear-Rez-group1-scaled.png",
+              "show_overlay": true,
+              "overlay_opacity": 55,
+              "stretch_image": false,
+              "background": "#346633",
+              "text_color": "#ffffff",
+              "title": "Clear Rez",
+              "content": "Clear Rez is a pH balanced, water treatment designed to keep all the internal workings of your cloning system crystal clear and operating at peak performance.",
+              "content_position": "top_left",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "Buy Now",
+              "button_link": "https:\/\/dig.supply\/products\/aeroponic-ez-clone?_pos=5&_sid=8f5802530&_ss=r"
+            }
+          },
+          "164046488313831878-1": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/black16_89f3b7de-ab6a-4051-a67c-8b6a6ddbd7e0.png",
+              "show_overlay": true,
+              "overlay_opacity": 50,
+              "stretch_image": false,
+              "background": "#64ab33",
+              "text_color": "#ffffff",
+              "title": "EZ-Clone",
+              "content": "Simple cloning solution to make your propagation needs more reliable.",
+              "content_position": "top_left",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "Buy Now",
+              "button_link": "https:\/\/dig.supply\/products\/ez-clone-cloning-system?_pos=1&_sid=8f5802530&_ss=r"
+            }
+          },
+          "164046488313831878-2": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mag1125.png",
+              "show_overlay": true,
+              "overlay_opacity": 50,
+              "stretch_image": false,
+              "background": "#7eb38e",
+              "text_color": "#ffffff",
+              "title": "Classic Mag Drive Water Pump",
+              "content": "EZ-Clone pumps are extremely energy efficient with plastic coated impellers and no motor seals to leak or wear out, these pumps do not create excessive heat for a greater life expectancy.",
+              "content_position": "top_left",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "Buy Now",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "164046488313831878-0",
+          "164046488313831878-1",
+          "164046488313831878-2"
+        ],
+        "settings": {
+          "expand_items": false,
+          "section_size": "medium",
+          "stack_mobile": false
+        }
       }
     },
     "content_for_index": [
       "slideshow",
       "1640307588540f19f3",
       "1619453592851edd3f",
+      "164046488313831878",
       "1634937950c6738234",
       "1585474804574",
       "1542984811767",
-      "featured-product",
       "collection-list",
       "16349378779d4cedd6",
       "1585474451402",
