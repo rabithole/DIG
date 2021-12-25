@@ -1133,6 +1133,22 @@
           "button_text": "",
           "button_link": "shopify:\/\/collections\/all"
         }
+      },
+      "1640470108a1ffc17f": {
+        "type": "collection-with-image",
+        "settings": {
+          "collection": "lighting",
+          "products_count": 48,
+          "image": "shopify:\/\/shop_images\/Hortilux-ceramic-600w_024b5aaa-cd70-446d-b973-a9560faaaac6.png",
+          "background": "#7eb38e",
+          "text_color": "#000000",
+          "title": "Grow Lighting",
+          "content": "We will find you the best price possible. Let us lighten your grow project today!",
+          "button_background": "#ffffff",
+          "button_text_color": "#000000",
+          "button_text": "Learn More",
+          "button_link": "https:\/\/dig.supply\/collections\/lighting"
+        }
       }
     },
     "content_for_index": [
@@ -1143,6 +1159,7 @@
       "164046488313831878",
       "1634937950c6738234",
       "1585474804574",
+      "1640470108a1ffc17f",
       "1542984811767",
       "collection-list",
       "16349378779d4cedd6",
