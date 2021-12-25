@@ -1,4 +1,10 @@
 {
-	"sections": {},
-	"order": []
+	"sections": {
+		"main": {
+			"type": "commercial-page"
+		}
+	},
+	"order": [
+		"main"
+	]
 }
