@@ -1123,12 +1123,23 @@
           "section_size": "medium",
           "stack_mobile": false
         }
+      },
+      "164046987649a502ea": {
+        "type": "rich-text",
+        "settings": {
+          "text_width": "narrow",
+          "title": "EZ-Clone Products",
+          "content": "",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
       }
     },
     "content_for_index": [
       "slideshow",
       "1640307588540f19f3",
       "1619453592851edd3f",
+      "164046987649a502ea",
       "164046488313831878",
       "1634937950c6738234",
       "1585474804574",
