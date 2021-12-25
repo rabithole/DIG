@@ -177,7 +177,7 @@
               "button_background": "#ffffff",
               "button_text_color": "#000000",
               "button_text": "Buy Now",
-              "link": "https:\/\/dig.supply\/collections\/grow-lighting\/brand_grow-pros-solutions"
+              "link": "https:\/\/dig.supply\/collections\/grow-lighting\/products\/grow-pros-solutions-led"
             }
           },
           "8b09c0b5-327e-4194-a65a-8a902de6eecf": {
@@ -1050,7 +1050,7 @@
           "image_position": "left",
           "image_width": 50,
           "title": "Have a large grow? Let us help!",
-          "content": "<p>We are here to help your business cultivate your bottom line! <\/p><p>Let us find and deliver what you need so you can focus on what you do best!<\/p><p>We have access to the best products in the industry! <\/p>",
+          "content": "<p>We are here to help your business cultivate your bottom line! <\/p><p>Let us find and deliver what you need so you can focus on what you do best!<\/p><p>We have access to the best products in the industry! <\/p><p><\/p><p>Contact Us Today: <\/p><p><a href=\"tel:3147551020\" target=\"_blank\">314-755-1020<\/a><\/p><p><a href=\"mailto:sales@dig.supply\" target=\"_blank\">sales@dig.supply<\/a><\/p>",
           "button_text": "",
           "button_link": "shopify:\/\/collections\/all"
         }
@@ -1133,6 +1133,22 @@
           "button_text": "",
           "button_link": "shopify:\/\/collections\/all"
         }
+      },
+      "1640470108a1ffc17f": {
+        "type": "collection-with-image",
+        "settings": {
+          "collection": "lighting",
+          "products_count": 48,
+          "image": "shopify:\/\/shop_images\/Hortilux-ceramic-600w_024b5aaa-cd70-446d-b973-a9560faaaac6.png",
+          "background": "#7eb38e",
+          "text_color": "#000000",
+          "title": "Grow Lighting",
+          "content": "We will find you the best price possible. Let us lighten your grow project today!",
+          "button_background": "#ffffff",
+          "button_text_color": "#000000",
+          "button_text": "Learn More",
+          "button_link": "https:\/\/dig.supply\/collections\/lighting"
+        }
       }
     },
     "content_for_index": [
@@ -1143,6 +1159,7 @@
       "164046488313831878",
       "1634937950c6738234",
       "1585474804574",
+      "1640470108a1ffc17f",
       "1542984811767",
       "collection-list",
       "16349378779d4cedd6",
