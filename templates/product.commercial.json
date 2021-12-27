@@ -1,10 +1,25 @@
 {
-	"sections": {
-		"main": {
-			"type": "commercial-page"
-		}
-	},
-	"order": [
-		"main"
-	]
+  "sections": {
+    "main": {
+      "type": "commercial-page",
+      "settings": {
+      }
+    },
+    "1640567382f0c74082": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/white-on-green_f35b409e-11d7-4d9c-8c6e-86108a37d6ad.png",
+        "image_position": "left",
+        "image_width": 50,
+        "title": "DIG Commercial Services",
+        "content": "<p>Do you have a lot to order to get your grow operation up and going. That's going to take a lot of time to find and order all you supplies. <br\/><br\/>Let us at DIG do it for you. <\/p><p><\/p><p>Do you have questions? We have answers! <\/p><p><\/p><p>DIG commercial support for grow operations!<\/p>",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/all"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1640567382f0c74082"
+  ]
 }
