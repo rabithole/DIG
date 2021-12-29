@@ -540,7 +540,7 @@
       "static-newsletter": {
         "type": "static-newsletter",
         "settings": {
-          "show_section": true,
+          "show_section": false,
           "title": "Subscribe to our newsletter",
           "content": "<p>If you find this blog entertaining or educational, subscribe to it with your email. <\/p>",
           "subtext": "100% free, Unsubscribe any time!",
