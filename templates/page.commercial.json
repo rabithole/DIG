@@ -3,7 +3,8 @@
     "main": {
       "type": "commercial-page",
       "settings": {
-        "title": "DIG Commercial Purchasing Services"
+        "title": "DIG Commercial Purchasing Services",
+        "page_image": "shopify:\/\/shop_images\/commercial-grow-room-setup-1080x675.jpg"
       }
     },
     "1640567382f0c74082": {
