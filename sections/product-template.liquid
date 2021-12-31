@@ -17,7 +17,6 @@
 {%- endcapture -%}
 
 <section data-section-id="{{ section.id }}" data-section-type="product" data-section-settings='{{ section_settings }}'>
-  <h2>{{ section.settings.ship_disclaimer }}</h2>
   {%- if template != 'product.quick-view' -%}
     <div class="container container--flush">
       <div class="page__sub-header">
@@ -118,6 +117,7 @@
 
             {%- unless global_tab_page.empty? -%}
               <div class="product-block-list__item product-block-list__item--content">
+                <h2>{{ section.settings.ship_disclaimer }}</h2>
                 <div class="card">
                   {%- if section.settings.collapse_content -%}
                     <button class="card__collapsible-button" data-action="toggle-collapsible" aria-expanded="false" aria-controls="global-tab-{{ i }}">
