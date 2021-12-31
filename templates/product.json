@@ -3,7 +3,7 @@
     "main": {
       "type": "product-template",
       "settings": {
-        "ship_disclaimer": "",
+        "ship_disclaimer": "Shipping Disclaimer",
         "show_vendor": true,
         "show_sku": false,
         "show_share_buttons": true,
