@@ -58,6 +58,7 @@
       </div>
 
       <div class="product-block-list product-block-list--{{ section.settings.image_size }}">
+        <h2>{{ section.settings.ship_disclaimer }}</h2>
         <div class="product-block-list__wrapper">
           {%- if product.images.size > 0 -%}
             <div class="product-block-list__item product-block-list__item--gallery">
@@ -71,7 +72,6 @@
 
           {%- if product.description != blank -%}
             <div class="product-block-list__item product-block-list__item--description">
-              <h2>{{ section.settings.ship_disclaimer }}</h2>
               <div class="card">
                 {%- if section.settings.collapse_content -%}
                   <button class="card__collapsible-button" data-action="toggle-collapsible" aria-expanded="false" aria-controls="product-description">
