@@ -260,7 +260,7 @@
                 </div>
 
                 <div class="card__section">
-                  <h2>{{ section.settings.ship_disclaimer }}</h2>
+
                   {%- if show_payment_icons -%}
                     {%- if section.settings.custom_security_badge -%}
                       <p class="card__subtitle heading h6">{{ 'product.general.payment' | t }}</p>
@@ -301,6 +301,7 @@
           {%- if section.settings.show_shipping_estimator and product.available -%}
             <div class="product-block-list__item product-block-list__item--shipping">
               <div class="card">
+                <h2>{{ section.settings.ship_disclaimer }}</h2>
                 <div class="card__header">
                   <h2 class="card__title heading h3">{{ 'product.general.estimate_shipping' | t }}</h2>
                 </div>
