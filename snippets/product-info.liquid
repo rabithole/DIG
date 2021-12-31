@@ -401,8 +401,11 @@
         {%- endif -%}
       </div>
     {%- endform -%}
-    <h1 id="shipDisclaimer">{{ section.settings.ship_disclaimer }}</h1>
-
+    
+    {%- if section.settings.ship_disclaimer -%}
+    	<h1 id="shipDisclaimer">{{ section.settings.ship_disclaimer }}</h1>
+	{%- endif -%}
+    
     {%- if request.page_type == 'index' and section.settings.show_description and product.description != blank and section.settings.description_below_add_to_cart -%}
       <div class="product-meta__description rte">
         {{ product.description }}
