@@ -36,6 +36,7 @@
 
             <li class="breadcrumb__item">
               <span class="breadcrumb__link" aria-current="page">{{ product.title | truncate: 40 }}</span>
+              <h2>{{ section.settings.ship_disclaimer }}</h2>
             </li>
           </ol>
         </nav>
@@ -117,7 +118,6 @@
 
             {%- unless global_tab_page.empty? -%}
               <div class="product-block-list__item product-block-list__item--content">
-                <h2>{{ section.settings.ship_disclaimer }}</h2>
                 <div class="card">
                   {%- if section.settings.collapse_content -%}
                     <button class="card__collapsible-button" data-action="toggle-collapsible" aria-expanded="false" aria-controls="global-tab-{{ i }}">
