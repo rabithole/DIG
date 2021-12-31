@@ -3,7 +3,7 @@
     "main": {
       "type": "product-template",
       "settings": {
-        "ship_disclaimer": "If shipping cost is different from your quote, we will contact you!",
+        "ship_disclaimer": "",
         "show_vendor": true,
         "show_sku": false,
         "show_share_buttons": true,
