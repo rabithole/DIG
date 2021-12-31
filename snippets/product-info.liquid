@@ -402,7 +402,7 @@
       </div>
     {%- endform -%}
     
-    {%- if section.settings.ship_disclaimer -%}
+    {%- if section.settings.ship_disclaimer != blank -%}
     	<h1 id="shipDisclaimer">{{ section.settings.ship_disclaimer }}</h1>
 	{%- endif -%}
     
