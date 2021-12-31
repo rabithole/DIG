@@ -6,7 +6,6 @@
   {%- endif -%}
 
   <div class="card__section">
-    <h2>{{ section.settings.ship_disclaimer }}</h2>
     {% comment %}
     ------------------------------------------------------------------------------
     PRODUCT META
@@ -402,6 +401,7 @@
         {%- endif -%}
       </div>
     {%- endform -%}
+    <h2>{{ section.settings.ship_disclaimer }}</h2>
 
     {%- if request.page_type == 'index' and section.settings.show_description and product.description != blank and section.settings.description_below_add_to_cart -%}
       <div class="product-meta__description rte">
