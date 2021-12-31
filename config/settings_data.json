@@ -1155,12 +1155,14 @@
         "blocks": {
           "page-team-template-0": {
             "type": "separator",
+            "disabled": true,
             "settings": {
               "title": "Our team"
             }
           },
           "page-team-template-1": {
             "type": "member",
+            "disabled": true,
             "settings": {
               "title": "Mike Merx",
               "subheading": "Grower, Store Man, Commercial Services",
@@ -1170,6 +1172,7 @@
           },
           "page-team-template-2": {
             "type": "member",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/IMG-1435.jpg",
               "title": "Ryan Davis",
@@ -1180,6 +1183,7 @@
           },
           "page-team-template-3": {
             "type": "promotion",
+            "disabled": true,
             "settings": {
               "title": "Join our team",
               "content": "<p>A short sentence describing your job offer<\/p>",
