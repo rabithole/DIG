@@ -1174,7 +1174,7 @@
             "type": "member",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/IMG-1435.jpg",
+              "image": "shopify:\/\/shop_images\/ryan-test.png",
               "title": "Ryan Davis",
               "subheading": "CEO",
               "link": "",
@@ -1192,13 +1192,25 @@
               "background": "#1e2d7d",
               "text": "#ffffff"
             }
+          },
+          "89049682-4ed0-4f3c-aa51-8c072a646e5f": {
+            "type": "member",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/robert.png",
+              "title": "Robert Kulp",
+              "subheading": "Web Developer",
+              "link": "",
+              "link_title": "Your link"
+            }
           }
         },
         "block_order": [
           "page-team-template-0",
           "page-team-template-1",
           "page-team-template-2",
-          "page-team-template-3"
+          "page-team-template-3",
+          "89049682-4ed0-4f3c-aa51-8c072a646e5f"
         ],
         "settings": {
           "image_edge_to_edge": false,
