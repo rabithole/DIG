@@ -1149,6 +1149,59 @@
           "button_text": "Learn More",
           "button_link": "https:\/\/dig.supply\/collections\/lighting"
         }
+      },
+      "page-team-template": {
+        "type": "page-team-template",
+        "blocks": {
+          "page-team-template-0": {
+            "type": "separator",
+            "settings": {
+              "title": "Our team"
+            }
+          },
+          "page-team-template-1": {
+            "type": "member",
+            "settings": {
+              "title": "Mike Merx",
+              "subheading": "Grower, Store Man, Commercial Services",
+              "link": "",
+              "link_title": "Your link"
+            }
+          },
+          "page-team-template-2": {
+            "type": "member",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG-1435.jpg",
+              "title": "Ryan Davis",
+              "subheading": "CEO",
+              "link": "",
+              "link_title": "Your link"
+            }
+          },
+          "page-team-template-3": {
+            "type": "promotion",
+            "settings": {
+              "title": "Join our team",
+              "content": "<p>A short sentence describing your job offer<\/p>",
+              "button_text": "",
+              "button_link": "",
+              "background": "#1e2d7d",
+              "text": "#ffffff"
+            }
+          }
+        },
+        "block_order": [
+          "page-team-template-0",
+          "page-team-template-1",
+          "page-team-template-2",
+          "page-team-template-3"
+        ],
+        "settings": {
+          "image_edge_to_edge": false,
+          "show_image_overlay": false,
+          "color": "#ffffff",
+          "round_image": true
+        }
       }
     },
     "content_for_index": [
