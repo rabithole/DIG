@@ -59,6 +59,7 @@
 
       <div class="product-block-list product-block-list--{{ section.settings.image_size }}">
         <div class="product-block-list__wrapper">
+          <h2>{{ section.settings.ship_disclaimer }}</h2>
           {%- if product.images.size > 0 -%}
             <div class="product-block-list__item product-block-list__item--gallery">
               {% render 'product-gallery' %}
@@ -301,7 +302,7 @@
           {%- if section.settings.show_shipping_estimator and product.available -%}
             <div class="product-block-list__item product-block-list__item--shipping">
               <div class="card">
-                <h2>{{ section.settings.ship_disclaimer }}</h2>
+
                 <div class="card__header">
                   <h2 class="card__title heading h3">{{ 'product.general.estimate_shipping' | t }}</h2>
                 </div>
