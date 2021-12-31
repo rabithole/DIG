@@ -1155,24 +1155,22 @@
         "blocks": {
           "page-team-template-0": {
             "type": "separator",
-            "disabled": true,
             "settings": {
               "title": "Our team"
             }
           },
           "page-team-template-1": {
             "type": "member",
-            "disabled": true,
             "settings": {
+              "image": "shopify:\/\/shop_images\/white-on-green_8062417c-5a5c-405c-9789-4b6bda5dc392.png",
               "title": "Mike Merx",
-              "subheading": "I have 19 years of horticultural experience, culminating skills across a variety of focuses. Starting in high school, I received a certificate in greenhouse management, working in climate-controlled greenhouses. I also served an internship with the Missouri Botanical Garden. More recently, I have acquired experience in plant production as well as the planting and maintenance of wide varieties of plants on a commercial level. During this period, I also received a commercial pesticide applicators license and gained experience withintegrated pest management practices.",
+              "subheading": "Operations",
               "link": "",
               "link_title": "Your link"
             }
           },
           "page-team-template-2": {
             "type": "member",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/ryan-test.png",
               "title": "Ryan Davis",
@@ -1195,7 +1193,6 @@
           },
           "89049682-4ed0-4f3c-aa51-8c072a646e5f": {
             "type": "member",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/robert.png",
               "title": "Robert Kulp",
