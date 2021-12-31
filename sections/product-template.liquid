@@ -260,7 +260,7 @@
                 </div>
 
                 <div class="card__section">
-                  <h2>Shipping Disclaimer</h2>
+                  <h2>{{ section.settings.ship_disclaimer }}</h2>
                   {%- if show_payment_icons -%}
                     {%- if section.settings.custom_security_badge -%}
                       <p class="card__subtitle heading h6">{{ 'product.general.payment' | t }}</p>
