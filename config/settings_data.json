@@ -78,21 +78,23 @@
       "header": {
         "type": "header",
         "blocks": {
-          "1573425580122": {
+          "54a103fb-1158-4bda-a08b-07d13017e47b": {
             "type": "mega_menu",
             "settings": {
-              "menu_item": "Products",
-              "image_1_heading": "Your image",
-              "image_1_text": "Tell your story",
-              "image_1_link": "",
-              "image_2_heading": "Your image",
-              "image_2_text": "Tell your story",
-              "image_2_link": ""
+              "menu_item": "Preferred Nutrient Brands",
+              "image_1": "shopify:\/\/shop_images\/advanced-nutrients-logo-retina.png",
+              "image_1_heading": "",
+              "image_1_text": "",
+              "image_1_link": "https:\/\/dig.supply\/collections\/advanced-nutrients",
+              "image_2": "shopify:\/\/shop_images\/Gold_Shield_Home_Badge_2020-1.png",
+              "image_2_heading": "",
+              "image_2_text": "",
+              "image_2_link": "https:\/\/dig.supply\/collections\/house-and-garden"
             }
           }
         },
         "block_order": [
-          "1573425580122"
+          "54a103fb-1158-4bda-a08b-07d13017e47b"
         ],
         "settings": {
           "enable_sticky_header": true,
