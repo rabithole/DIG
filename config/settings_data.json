@@ -82,12 +82,12 @@
             "type": "mega_menu",
             "settings": {
               "menu_item": "Preferred Nutrient Brands",
-              "image_1": "shopify:\/\/shop_images\/advanced-nutrients-logo-retina.png",
-              "image_1_heading": "",
+              "image_1": "shopify:\/\/shop_images\/advanced-nutrients-logo.png",
+              "image_1_heading": "Preferred Brand",
               "image_1_text": "",
               "image_1_link": "https:\/\/dig.supply\/collections\/advanced-nutrients",
-              "image_2": "shopify:\/\/shop_images\/Gold_Shield_Home_Badge_2020-1.png",
-              "image_2_heading": "",
+              "image_2": "shopify:\/\/shop_images\/trimmed-h-and-g-logo.png",
+              "image_2_heading": "Preferred Brand",
               "image_2_text": "",
               "image_2_link": "https:\/\/dig.supply\/collections\/house-and-garden"
             }
