@@ -1170,29 +1170,28 @@
         "blocks": {
           "page-team-template-0": {
             "type": "separator",
-            "disabled": true,
             "settings": {
               "title": "Our team"
             }
           },
           "page-team-template-1": {
             "type": "member",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/white-on-green_8062417c-5a5c-405c-9789-4b6bda5dc392.png",
               "title": "Mike Merx",
               "subheading": "Operations",
+              "description": "Mike has 19 years of horticultural experience culminating in skills across a variety of focuses. Beginning in high school, Mike received a certificate in greenhouse management while working in climate-controlled greenhouses. More recently he served an internship with the Missouri Botanical Garden. Mike has experience in plant production, planting and plant maintenance of a wide variety of plants on a commercial level. He is licensed as a commercial pesticide applicator and integrated pest management. ( IPM )",
               "link": "",
               "link_title": "Your link"
             }
           },
           "page-team-template-2": {
             "type": "member",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/ryan-test.png",
               "title": "Ryan Davis",
               "subheading": "CEO",
+              "description": "",
               "link": "",
               "link_title": "Your link"
             }
@@ -1211,22 +1210,22 @@
           },
           "89049682-4ed0-4f3c-aa51-8c072a646e5f": {
             "type": "member",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/robert.png",
               "title": "Robert Kulp",
               "subheading": "Web Developer",
+              "description": "",
               "link": "",
               "link_title": "Your link"
             }
           },
           "5dc3522c-fe48-475f-bd00-d9465f9459e2": {
             "type": "member",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/white-on-green_8062417c-5a5c-405c-9789-4b6bda5dc392.png",
               "title": "Dan Franz",
               "subheading": "Store Manager",
+              "description": "",
               "link": "",
               "link_title": "Your link"
             }
