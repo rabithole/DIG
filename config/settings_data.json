@@ -1170,14 +1170,12 @@
         "blocks": {
           "page-team-template-0": {
             "type": "separator",
-            "disabled": true,
             "settings": {
               "title": "Our team"
             }
           },
           "page-team-template-1": {
             "type": "member",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/white-on-green_8062417c-5a5c-405c-9789-4b6bda5dc392.png",
               "title": "Mike Merx",
@@ -1189,12 +1187,11 @@
           },
           "page-team-template-2": {
             "type": "member",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/ryan-test.png",
               "title": "Ryan Davis",
               "subheading": "CEO",
-              "description": "",
+              "description": "Ryan is a classic serial entrepreneur of no less than five companies. He began his journey in high school alongside Mike learning greenhouse management while working in climate-controlled greenhouses. With this knowledge in hand and a hot sauce company under his belt, he moved to Washington State where he gained over a decade of medicinal growing experience. His skills include business management, strategy and development, large scale grow facility operations and plant environment expertise.",
               "link": "",
               "link_title": "Your link"
             }
@@ -1213,7 +1210,6 @@
           },
           "89049682-4ed0-4f3c-aa51-8c072a646e5f": {
             "type": "member",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/robert.png",
               "title": "Robert Kulp",
@@ -1225,7 +1221,6 @@
           },
           "5dc3522c-fe48-475f-bd00-d9465f9459e2": {
             "type": "member",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/white-on-green_8062417c-5a5c-405c-9789-4b6bda5dc392.png",
               "title": "Dan Franz",
