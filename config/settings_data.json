@@ -1245,8 +1245,9 @@
           "5dc3522c-fe48-475f-bd00-d9465f9459e2"
         ],
         "settings": {
+          "image": "shopify:\/\/shop_images\/princess-with-overlay.png",
           "image_edge_to_edge": false,
-          "show_image_overlay": false,
+          "show_image_overlay": true,
           "color": "#ffffff",
           "round_image": true
         }
