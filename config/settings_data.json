@@ -1170,12 +1170,14 @@
         "blocks": {
           "page-team-template-0": {
             "type": "separator",
+            "disabled": true,
             "settings": {
               "title": "Our team"
             }
           },
           "page-team-template-1": {
             "type": "member",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/white-on-green_8062417c-5a5c-405c-9789-4b6bda5dc392.png",
               "title": "Mike Merx",
@@ -1187,6 +1189,7 @@
           },
           "page-team-template-2": {
             "type": "member",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/ryan-test.png",
               "title": "Ryan Davis",
@@ -1210,6 +1213,7 @@
           },
           "89049682-4ed0-4f3c-aa51-8c072a646e5f": {
             "type": "member",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/robert.png",
               "title": "Robert Kulp",
@@ -1221,6 +1225,7 @@
           },
           "5dc3522c-fe48-475f-bd00-d9465f9459e2": {
             "type": "member",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/white-on-green_8062417c-5a5c-405c-9789-4b6bda5dc392.png",
               "title": "Dan Franz",
