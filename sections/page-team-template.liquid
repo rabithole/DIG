@@ -58,6 +58,10 @@
             {%- if block.settings.subheading != blank -%}
               <p class="team__member-subheading">{{ block.settings.subheading | escape }}</p>
             {%- endif -%}
+            
+            {%- if block.settings.description != blank -%}
+            	<p>{{ block.settings.description | escape }}</p>
+            {%- endif -%}
 
             {%- if block.settings.link != blank and block.settings.link_title != blank -%}
               <a href="{{ block.settings.link }}" class="team__member-link link link--accented">{{ block.settings.link_title }}</a>
