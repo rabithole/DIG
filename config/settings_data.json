@@ -197,6 +197,7 @@
           },
           "8b09c0b5-327e-4194-a65a-8a902de6eecf": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/site-slider-bud-candy.png",
               "mobile_image": "shopify:\/\/shop_images\/bud-candy-mobile-web_1b3b3e31-6383-402d-8a0d-aca49ac0202d.png",
