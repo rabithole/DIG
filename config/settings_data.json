@@ -1076,37 +1076,37 @@
           "164046488313831878-0": {
             "type": "item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Clear-Rez-group1-scaled.png",
+              "image": "shopify:\/\/shop_images\/bud-candy-only.png",
               "show_overlay": true,
-              "overlay_opacity": 55,
+              "overlay_opacity": 100,
               "stretch_image": false,
-              "background": "#346633",
+              "background": "#df505f",
               "text_color": "#ffffff",
-              "title": "Clear Rez",
-              "content": "Clear Rez is a pH balanced, water treatment designed to keep all the internal workings of your cloning system crystal clear and operating at peak performance.",
+              "title": "23 Liters Bud Candy 47% OFF",
+              "content": "Overstock. Huge savings!\nDiscount Code: \n23budcandy",
               "content_position": "top_left",
-              "button_background": "#ffffff",
-              "button_text_color": "#000000",
+              "button_background": "#0091b5",
+              "button_text_color": "#ffffff",
               "button_text": "Buy Now",
-              "button_link": "https:\/\/dig.supply\/products\/aeroponic-ez-clone?_pos=5&_sid=8f5802530&_ss=r"
+              "button_link": "https:\/\/dig.supply\/products\/advanced-nutrients-bud-candy?variant=39268151558180"
             }
           },
           "164046488313831878-1": {
             "type": "item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/black16_89f3b7de-ab6a-4051-a67c-8b6a6ddbd7e0.png",
+              "image": "shopify:\/\/shop_images\/overdrive.png",
               "show_overlay": true,
-              "overlay_opacity": 50,
-              "stretch_image": false,
-              "background": "#64ab33",
+              "overlay_opacity": 100,
+              "stretch_image": true,
+              "background": "#90b4c8",
               "text_color": "#ffffff",
-              "title": "EZ-Clone",
-              "content": "Simple cloning solution to make your propagation needs more reliable.",
+              "title": "Overdrive 4 Liters Overdrive 46% OFF",
+              "content": "Huge Savings on Overstocked Items!\nDiscount Code: \n4literod",
               "content_position": "top_left",
               "button_background": "#ffffff",
               "button_text_color": "#000000",
               "button_text": "Buy Now",
-              "button_link": "https:\/\/dig.supply\/products\/ez-clone-cloning-system?_pos=1&_sid=8f5802530&_ss=r"
+              "button_link": "https:\/\/dig.supply\/products\/advanced-nutrients-overdrive?variant=31527352860708"
             }
           },
           "164046488313831878-2": {
@@ -1255,10 +1255,10 @@
     },
     "content_for_index": [
       "slideshow",
+      "164046488313831878",
       "1640307588540f19f3",
       "1619453592851edd3f",
       "164046987649a502ea",
-      "164046488313831878",
       "1634937950c6738234",
       "1585474804574",
       "1640470108a1ffc17f",
