@@ -178,6 +178,23 @@
       "slideshow": {
         "type": "slideshow",
         "blocks": {
+          "8b09c0b5-327e-4194-a65a-8a902de6eecf": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/site-slider-bud-candy.png",
+              "mobile_image": "shopify:\/\/shop_images\/bud-candy-mobile-web_1b3b3e31-6383-402d-8a0d-aca49ac0202d.png",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#000000",
+              "title": "47% OFF",
+              "content": "",
+              "content_position": "bottom_center",
+              "button_background": "#ff5092",
+              "button_text_color": "#000000",
+              "button_text": "BUY NOW",
+              "link": "https:\/\/dig.supply\/products\/advanced-nutrients-bud-candy?variant=39268151558180"
+            }
+          },
           "d269502f-c059-4e64-b990-dd9cca8dc303": {
             "type": "image",
             "settings": {
@@ -193,24 +210,6 @@
               "button_text_color": "#000000",
               "button_text": "Buy Now",
               "link": "https:\/\/dig.supply\/collections\/grow-lighting\/products\/grow-pros-solutions-led"
-            }
-          },
-          "8b09c0b5-327e-4194-a65a-8a902de6eecf": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image": "shopify:\/\/shop_images\/site-slider-bud-candy.png",
-              "mobile_image": "shopify:\/\/shop_images\/bud-candy-mobile-web_1b3b3e31-6383-402d-8a0d-aca49ac0202d.png",
-              "show_overlay": false,
-              "overlay_opacity": 30,
-              "text_color": "#000000",
-              "title": "20% OFF",
-              "content": "",
-              "content_position": "bottom_center",
-              "button_background": "#ff5092",
-              "button_text_color": "#000000",
-              "button_text": "BUY NOW",
-              "link": "https:\/\/dig.supply\/collections\/advanced-nutrients\/products\/advanced-nutrients-bud-candy"
             }
           },
           "5067f146-ee52-4c1c-9088-9e64c4c77b3d": {
@@ -267,8 +266,8 @@
           }
         },
         "block_order": [
-          "d269502f-c059-4e64-b990-dd9cca8dc303",
           "8b09c0b5-327e-4194-a65a-8a902de6eecf",
+          "d269502f-c059-4e64-b990-dd9cca8dc303",
           "5067f146-ee52-4c1c-9088-9e64c4c77b3d",
           "272d4801-47a5-43c9-aec5-40194bdaf9fe",
           "slide-1"
