@@ -85,11 +85,11 @@
               "image_1": "shopify:\/\/shop_images\/advanced-nutrients-logo.png",
               "image_1_heading": "Preferred Brand",
               "image_1_text": "",
-              "image_1_link": "https:\/\/dig.supply\/collections\/advanced-nutrients",
+              "image_1_link": "shopify:\/\/collections\/advanced-nutrients",
               "image_2": "shopify:\/\/shop_images\/trimmed-h-and-g-logo.png",
               "image_2_heading": "Preferred Brand",
               "image_2_text": "",
-              "image_2_link": "https:\/\/dig.supply\/collections\/house-and-garden"
+              "image_2_link": "shopify:\/\/collections\/house-and-garden"
             }
           },
           "21d452e8-1376-497e-bd26-bb5578d72492": {
