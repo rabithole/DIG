@@ -1141,10 +1141,9 @@
       },
       "164046987649a502ea": {
         "type": "rich-text",
-        "disabled": true,
         "settings": {
           "text_width": "narrow",
-          "title": "EZ-Clone Propagation System",
+          "title": "Big Savings on Overstocked Items!",
           "content": "",
           "button_text": "",
           "button_link": "shopify:\/\/collections\/all"
@@ -1256,10 +1255,10 @@
     },
     "content_for_index": [
       "slideshow",
+      "164046987649a502ea",
       "164046488313831878",
       "1640307588540f19f3",
       "1619453592851edd3f",
-      "164046987649a502ea",
       "1634937950c6738234",
       "1585474804574",
       "1640470108a1ffc17f",
