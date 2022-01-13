@@ -1141,6 +1141,7 @@
       },
       "164046987649a502ea": {
         "type": "rich-text",
+        "disabled": true,
         "settings": {
           "text_width": "narrow",
           "title": "EZ-Clone Propagation System",
