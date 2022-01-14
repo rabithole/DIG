@@ -4,10 +4,10 @@
       "type": "discount-page",
       "settings": {
         "title": "Discount Page"
+        }
       }
     },
     "order": [
       "main"
     ]
   }
-}
