@@ -3,11 +3,11 @@
     "main": {
       "type": "discount-page",
       "settings": {
-        "title": "Discount Page",
+        "title": "Discount Page"
       }
     },
-    "order": {
+    "order": [
       "main"
-    }
+    ]
   }
 }
