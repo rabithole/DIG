@@ -156,18 +156,18 @@
             </div>
               <section id='productClasses'>
               {% for product in collection.products %}
-				{% for tag in product.tags %}
-  					{% if bigBud contains tag %}
-                		<div class='advancedNutrientsProducts'>
+				        {% for tag in product.tags %}
+  					       {% if bigBud contains tag %}
+                		  <div class='advancedNutrientsProducts'>
                           <h1 class='titleCenter'>{{ product.title }}</h1>
                           <p>
                               <a href='{{ product.url | within: collection }}'>
                                   {{ product.featured_image | img_url: '200x200' | img_tag: product.title, 'imgcenter' }}
                               </a>
                           </p>
-                		</div>
+                		  </div>
                   	{% endif %}
-				{% endfor %}
+				        {% endfor %}
               {% endfor %}  
               </section>
               

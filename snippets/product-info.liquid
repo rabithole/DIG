@@ -237,12 +237,36 @@
                 {%- when 'block' -%}
                   <span class="product-form__option-name text--strong">{{ option.name }}: <span class="product-form__selected-value">{{ option.selected_value }}</span></span>
 
+
+
                   <div class="block-swatch-list">
                     {%- for value in option.values -%}
+
+
+
+                    {%- if value == "23 Liter" -%}  
+                      <h1>Test Value: {{ value }}</h1>  
+                      <h1>Test Name: {{ option.name }}</h1>
+                      <h1>Test Selected Value: {{ option.selected_value }}</h1>
+                    {%- endif -%}
+
+
+
+
                       {%- capture block_swatch_id -%}{{ option_name }}-{{ forloop.index }}{%- endcapture -%}
 
                       <div class="block-swatch">
-                        <input class="block-swatch__radio product-form__single-selector" type="radio" name="{{ option_name }}" id="{{ block_swatch_id }}" value="{{ value | escape }}" {% if option.selected_value == value %}checked{% endif %} data-option-position="{{ option.position }}" aria-hidden="true">
+                        <input 
+                          class="block-swatch__radio product-form__single-selector" 
+                          type="radio" 
+                          name="{{ option_name }}" 
+                          id="{{ block_swatch_id }}" 
+                          value="{{ value | escape }}" 
+                          {% if option.selected_value == value %}
+                          checked
+                          {% endif %} 
+                          data-option-position="{{ option.position }}" 
+                          aria-hidden="true">
                         <label class="block-swatch__item" for="{{ block_swatch_id }}" title="{{ value | escape }}">
                           <span class="block-swatch__item-text">{{ value }}</span>
                         </label>
