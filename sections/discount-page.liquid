@@ -1,11 +1,10 @@
 <h1>{{ section.settings.title }}</h1>
 
-<h1>Discount Page H1</h1>
-
 {% assign budCandy = all_products.advanced-nutrients-bud-candy %}
-<h1>Bud Candy 1: {{ budCandy.title }}</h1>
 
+<h1>{{ budCandy.title }}</h1>
 
+	{%- comment -%}Variant volume 23 liters{%- endcomment -%}
 {% for product_option in budCandy.options_with_values %}
       {% for value in product_option.values %}
         {% if value == "23 Liter" %}
@@ -14,24 +13,7 @@
       {% endfor %}
 {% endfor %}
 
-
-
-{% for option in budCandy.options %}
-	<h1>Bud Candy 3: {{ option }}</h1>
-{% endfor %}
-
-
 <img src={{ budCandy | img_url: '200x' }}>
-
-
-<div>
-	{% for product in all_products %}
-		<h1>Test Product: {{ product }}</h1>
-		        <h1>Test Value: {{ value }}</h1>  
-		        <h1>Test Name: {{ option.name }}</h1>
-		        <h1>Test Selected Value: {{ option.selected_value }}</h1>
-	{% endfor %}
-</div>
 
 {% schema %}
 	{
