@@ -9,10 +9,11 @@
     "1642287037b1a01f0e": {
       "type": "image-with-text",
       "settings": {
+        "image": "shopify:\/\/shop_images\/bud-candy-only.png",
         "image_position": "left",
         "image_width": 50,
-        "title": "Your title",
-        "content": "<p>Use this text to share information about your brand with your customers.<br\/>Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "title": "47% off 23 Liters of Bud Candy",
+        "content": "<p>Our overstock is your HUGE savings!<\/p><p>Take advantage today!<\/p><p>Bud Candy from Advanced Nutrients is the finest bud enhancer on the market!<\/p>",
         "button_text": "Our products",
         "button_link": "shopify:\/\/products\/advanced-nutrients-bud-candy"
       }
