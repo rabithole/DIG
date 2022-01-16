@@ -3,11 +3,24 @@
     "main": {
       "type": "discount-page",
       "settings": {
-        "title": "Discount Page"
-        }
+        "title": "PLEASE EXCUSE THE MESS. THIS PAGE IS UNDERCONSTRUCTION"
       }
     },
-    "order": [
-      "main"
-    ]
-  }
+    "1642287037b1a01f0e": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bud-candy-only.png",
+        "image_position": "left",
+        "image_width": 50,
+        "title": "47% off 23 Liters of Bud Candy",
+        "content": "<p>Our overstock is your HUGE savings!<\/p><p>Take advantage today!<\/p><p>Bud Candy from Advanced Nutrients is the finest bud enhancer on the market!<\/p>",
+        "button_text": "23 Liters Bud Candy",
+        "button_link": "https:\/\/dig.supply\/collections\/advanced-nutrients\/products\/advanced-nutrients-bud-candy?variant=39268151558180"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1642287037b1a01f0e"
+  ]
+}
