@@ -1,4 +1,9 @@
-discount-image-with-text<section class="section" data-section-id="{{ section.id }}" data-section-type="image-with-text">
+{% assign budCandy = all_products.advanced-nutrients-bud-candy %}
+{%- assign selected_variant = product.selected_or_first_available_variant -%}
+<h1>Variant Test: {{ selected_variant }}</h1>
+
+
+<section class="section" data-section-id="{{ section.id }}" data-section-type="image-with-text">
   <div class="container">
     {%- capture image -%}
       <div class="image-with-text__image-container" style="width: {{ section.settings.image_width }}%;">
@@ -45,7 +50,7 @@ discount-image-with-text<section class="section" data-section-id="{{ section.id 
             {% else %}
 
               <form method="post" action="/cart/add">
-                <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+                <input type="hidden" name="id" value="{{ budCandy.id }}" />
                 <input min="1" type="number" id="quantity" name="quantity" value="1"/>
                 <input type="submit" value="Add to cart" class="btn" />
               </form> 
@@ -60,7 +65,7 @@ discount-image-with-text<section class="section" data-section-id="{{ section.id 
           </div>
 
 
-
+          <h3>ID: {{ budCandy.id }}</h3>
 
 
 
@@ -81,6 +86,10 @@ discount-image-with-text<section class="section" data-section-id="{{ section.id 
     </div>
   </div>
 </section>
+
+{%- comment -%}
+  Code to save: product.variants.first.id
+{%- endcomment -%}
 
 {% schema %}
 {

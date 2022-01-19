@@ -241,18 +241,6 @@
 
                   <div class="block-swatch-list">
                     {%- for value in option.values -%}
-
-
-
-                    {%- if value == "23 Liter" -%}  
-                      <h1>Test Value: {{ value }}</h1>  
-                      <h1>Test Name: {{ option.name }}</h1>
-                      <h1>Test Selected Value: {{ option.selected_value }}</h1>
-                    {%- endif -%}
-
-
-
-
                       {%- capture block_swatch_id -%}{{ option_name }}-{{ forloop.index }}{%- endcapture -%}
 
                       <div class="block-swatch">
