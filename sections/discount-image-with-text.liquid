@@ -1,7 +1,4 @@
 {% assign budCandy = all_products.advanced-nutrients-bud-candy %}
-{%- assign selected_variant = product.selected_or_first_available_variant -%}
-<h1>Variant Test: {{ selected_variant }}</h1>
-
 
 <section class="section" data-section-id="{{ section.id }}" data-section-type="image-with-text">
   <div class="container">
@@ -31,31 +28,14 @@
             <h2 class="heading h3">{{ section.settings.title | escape }}</h2>
           {%- endif -%}
 
-
-
-
           <div class="rte">
             {{ section.settings.content }}
 
-            {% if product.variants.size > 1 %} 
-
-              <select id="product-select" name='id'> 
-                {% for variant in product.variants %}  
-                  {% if variant.available %} 
-                  <option value="{{ variant.id }}">{{ variant.title }} - {{ variant.price | money }}</option>
-                  {% endif %}  
-                {% endfor %}     
-              </select>
-
-            {% else %}
-
-              <form method="post" action="/cart/add">
-                <input type="hidden" name="id" value="{{ budCandy.id }}" />
-                <input min="1" type="number" id="quantity" name="quantity" value="1"/>
-                <input type="submit" value="Add to cart" class="btn" />
-              </form> 
-
-            {% endif %}
+            <form method="post" action="/cart/add">
+              <input type="hidden" name="id" value=39268151558180 />
+              <input min="1" type="number" id="quantity" name="quantity" value="1"/>
+              <input type="submit" value="Add to cart" class="btn" />
+            </form> 
 
             {%- comment -%}
             {%- if section.settings.button_link != blank and section.settings.button_text != blank -%}
@@ -63,12 +43,6 @@
             {%- endif -%}
             {%- endcomment -%}
           </div>
-
-
-          <h3>ID: {{ budCandy.id }}</h3>
-
-
-
         </div>
       </div>
     {%- endcapture -%}
