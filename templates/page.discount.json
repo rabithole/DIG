@@ -38,12 +38,24 @@
         "content": "<p>Discount Code: clearez<\/p><p><\/p><p>EZ-CLONE Clear Rez is a pH balanced, noninvasive water treatment designed to keep all of the internal workings of your cloning system crystal clear and operating at peak performance. It is designed to be used through out your entire cloning cycle as a possible preventive measure for a multitude of problems in your reservoir.<\/p>",
         "variantId": "39436848431140"
       }
+    },
+    "164270438731f1de66": {
+      "type": "discount-image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/5-liters-top-booster.png",
+        "image_position": "left",
+        "image_width": 50,
+        "title": "46% Off 5 Liters Top Booster",
+        "content": "<p>Discount Code: 5litertb<\/p><p>House & Garden Top Booster has been precisely designed to alter the nutritional ratio of your feed according to plant demands. This encourages a more enthusiastic reproductive cycle (floral growth) from the plant. The PK aids in fruit set development, fruit bulking, stem and root expansion and uptake of other minerals.<\/p><p><\/p>",
+        "variantId": "32234207674404"
+      }
     }
   },
   "order": [
     "main",
     "1642532676f99b5ec6",
     "1642666557a8549175",
-    "16427043712a2db349"
+    "16427043712a2db349",
+    "164270438731f1de66"
   ]
 }
