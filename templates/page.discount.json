@@ -27,11 +27,23 @@
         "content": "<p>Discount Code: 4literod<\/p><p>During the final weeks of bloom phase your plants need the ingredients in Overdrive to maintain flower maturation, flower growth, and overall vigor. Many growers neglect the last weeks of bloom phase, but now you can kick it into Overdrive for a strong finish and get bigger smiles at harvest time.<\/p>",
         "variantId": "31527352860708"
       }
+    },
+    "16427043712a2db349": {
+      "type": "discount-image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Clear-Rez-group1-scaled.png",
+        "image_position": "left",
+        "image_width": 50,
+        "title": "47% Off 5 Gallons Clear Rez",
+        "content": "<p>Discount Code: clearez<\/p><p><\/p><p>EZ-CLONE Clear Rez is a pH balanced, noninvasive water treatment designed to keep all of the internal workings of your cloning system crystal clear and operating at peak performance. It is designed to be used through out your entire cloning cycle as a possible preventive measure for a multitude of problems in your reservoir.<\/p>",
+        "variantId": "39436848431140"
+      }
     }
   },
   "order": [
     "main",
     "1642532676f99b5ec6",
-    "1642666557a8549175"
+    "1642666557a8549175",
+    "16427043712a2db349"
   ]
 }
