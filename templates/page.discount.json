@@ -13,18 +13,19 @@
         "image_position": "left",
         "image_width": 50,
         "title": "47% off 23 Liters of Bud Candy",
-        "content": "<p>Discount Code: 23budcandy<\/p><p>Our overstock is your HUGE savings!<\/p><p>Take advantage today!<\/p><p>Bud Candy from Advanced Nutrients is the finest bud enhancer on the market!<\/p>"
+        "content": "<p>Discount Code: 23budcandy<\/p><p>Our overstock is your HUGE savings!<\/p><p>Take advantage today!<\/p><p>Bud Candy from Advanced Nutrients is the finest bud enhancer on the market!<\/p>",
+        "variantId": "39268151558180"
       }
     },
     "1642666557a8549175": {
       "type": "discount-image-with-text",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/overdrive.png",
         "image_position": "left",
         "image_width": 50,
         "title": "46% Off 4 Liters of Overdrive!",
-        "content": "<p>Discount Code: 4literod<\/p><p>During the final weeks of bloom phase your plants need the ingredients in Overdrive to maintain flower maturation, flower growth, and overall vigor. Many growers neglect the last weeks of bloom phase, but now you can kick it into Overdrive for a strong finish and get bigger smiles at harvest time.<\/p>"
+        "content": "<p>Discount Code: 4literod<\/p><p>During the final weeks of bloom phase your plants need the ingredients in Overdrive to maintain flower maturation, flower growth, and overall vigor. Many growers neglect the last weeks of bloom phase, but now you can kick it into Overdrive for a strong finish and get bigger smiles at harvest time.<\/p>",
+        "variantId": "31527352860708"
       }
     }
   },
