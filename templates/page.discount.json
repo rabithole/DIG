@@ -49,6 +49,17 @@
         "content": "<p>Discount Code: 5litertb<\/p><p>House & Garden Top Booster has been precisely designed to alter the nutritional ratio of your feed according to plant demands. This encourages a more enthusiastic reproductive cycle (floral growth) from the plant. The PK aids in fruit set development, fruit bulking, stem and root expansion and uptake of other minerals.<\/p><p><\/p>",
         "variantId": "32234207674404"
       }
+    },
+    "164270895093fca8b7": {
+      "type": "discount-image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1-liter-amino-treatment.png",
+        "image_position": "left",
+        "image_width": 20,
+        "title": "47% Off 1 Liter Amino Treatment",
+        "content": "<p>Discount Code: 1Lamino<\/p><p>Containing essential amino acids and enzymes, this stimulating additive is used throughout the vegetative period and into the first stages of floral growth. This aids in the plants transitional period to provide you with bigger and healthier flowers! Amino Treatment also includes cold-pressed Norwegian Sea kelp to aid in plant development and provide organic fundamental macro and trace elements to your plant.<\/p>",
+        "variantId": "39275971346468"
+      }
     }
   },
   "order": [
@@ -56,6 +67,7 @@
     "1642532676f99b5ec6",
     "1642666557a8549175",
     "16427043712a2db349",
-    "164270438731f1de66"
+    "164270438731f1de66",
+    "164270895093fca8b7"
   ]
 }
