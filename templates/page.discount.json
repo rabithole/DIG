@@ -18,6 +18,7 @@
     },
     "1642666557a8549175": {
       "type": "discount-image-with-text",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/overdrive.png",
         "image_position": "left",
