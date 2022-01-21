@@ -1244,6 +1244,7 @@
       },
       "164279266253df0d9f": {
         "type": "mosaic",
+        "disabled": true,
         "blocks": {
           "164279266253df0d9f-1": {
             "type": "item",
