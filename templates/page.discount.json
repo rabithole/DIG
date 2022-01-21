@@ -6,6 +6,16 @@
         "title": "Overstock Items | Deep Discounts"
       }
     },
+    "164273414905679c88": {
+      "type": "rich-text",
+      "settings": {
+        "text_width": "narrow",
+        "title": "Order of sales below...",
+        "content": "<p>Bud Candy - Overdrive - Clear Rez - Top Booster - Amino Treatment<\/p>",
+        "button_text": "Our products",
+        "button_link": ""
+      }
+    },
     "1642532676f99b5ec6": {
       "type": "discount-image-with-text",
       "settings": {
@@ -64,6 +74,7 @@
   },
   "order": [
     "main",
+    "164273414905679c88",
     "1642532676f99b5ec6",
     "1642666557a8549175",
     "16427043712a2db349",
