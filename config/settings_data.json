@@ -1244,38 +1244,39 @@
       },
       "164279266253df0d9f": {
         "type": "mosaic",
-        "disabled": true,
         "blocks": {
           "164279266253df0d9f-1": {
             "type": "item",
             "settings": {
-              "show_overlay": false,
-              "overlay_opacity": 50,
-              "background": "#f3f4f4",
-              "text_color": "#4f5558",
-              "title": "Your heading",
-              "content": "Tell more about your product, collection...",
+              "image": "shopify:\/\/shop_images\/overdrive.png",
+              "show_overlay": true,
+              "overlay_opacity": 89,
+              "background": "#23453d",
+              "text_color": "#ffffff",
+              "title": "Overdrive",
+              "content": "Advanced Nutrients Overdrive!",
               "content_position": "top_left",
-              "button_background": "#4f5558",
-              "button_text_color": "#f3f4f4",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
               "button_text": "Learn more",
-              "link": ""
+              "link": "shopify:\/\/products\/advanced-nutrients-overdrive"
             }
           },
           "164279266253df0d9f-2": {
             "type": "item",
             "settings": {
-              "show_overlay": false,
-              "overlay_opacity": 50,
-              "background": "#f3f4f4",
-              "text_color": "#4f5558",
-              "title": "Your heading",
-              "content": "Tell more about your product, collection...",
+              "image": "shopify:\/\/shop_images\/trimmed-h-and-g-logo.png",
+              "show_overlay": true,
+              "overlay_opacity": 81,
+              "background": "#23453d",
+              "text_color": "#ffffff",
+              "title": "Top Booster",
+              "content": "House & Garden",
               "content_position": "top_left",
-              "button_background": "#4f5558",
-              "button_text_color": "#f3f4f4",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
               "button_text": "Learn more",
-              "link": ""
+              "link": "shopify:\/\/products\/house-garden-top-booster"
             }
           },
           "164279266253df0d9f-0": {
@@ -1298,31 +1299,33 @@
           "164279266253df0d9f-3": {
             "type": "item",
             "settings": {
-              "show_overlay": false,
+              "image": "shopify:\/\/shop_images\/bud-candy-only.png",
+              "show_overlay": true,
               "overlay_opacity": 50,
-              "background": "#f3f4f4",
-              "text_color": "#4f5558",
-              "title": "Your heading",
-              "content": "Tell more about your product, collection...",
+              "background": "#c44230",
+              "text_color": "#ffffff",
+              "title": "Bud Candy",
+              "content": "Feed your flowers what they need!",
               "content_position": "top_left",
-              "button_background": "#4f5558",
-              "button_text_color": "#f3f4f4",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
               "button_text": "Learn more",
-              "link": ""
+              "link": "shopify:\/\/products\/advanced-nutrients-bud-candy"
             }
           },
           "164279266253df0d9f-4": {
             "type": "item",
             "settings": {
-              "show_overlay": false,
-              "overlay_opacity": 50,
+              "image": "shopify:\/\/shop_images\/white-on-green_8062417c-5a5c-405c-9789-4b6bda5dc392.png",
+              "show_overlay": true,
+              "overlay_opacity": 100,
               "background": "#f3f4f4",
-              "text_color": "#4f5558",
-              "title": "Your heading",
-              "content": "Tell more about your product, collection...",
+              "text_color": "#ffffff",
+              "title": "Commercial Services",
+              "content": "Need to focus on your grow instead of your supply needs. Let DIG take the logistics challenge off your hands.",
               "content_position": "top_left",
-              "button_background": "#4f5558",
-              "button_text_color": "#f3f4f4",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
               "button_text": "Learn more",
               "link": ""
             }
