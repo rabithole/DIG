@@ -1062,6 +1062,7 @@
       },
       "164046488313831878": {
         "type": "promotion-list",
+        "disabled": true,
         "blocks": {
           "164046488313831878-0": {
             "type": "item",
@@ -1131,6 +1132,7 @@
       },
       "164046987649a502ea": {
         "type": "rich-text",
+        "disabled": true,
         "settings": {
           "text_width": "narrow",
           "title": "Big Savings on Overstocked Items!",
@@ -1244,7 +1246,6 @@
       },
       "164279266253df0d9f": {
         "type": "mosaic",
-        "disabled": true,
         "blocks": {
           "164279266253df0d9f-1": {
             "type": "item",
@@ -1347,6 +1348,7 @@
     "content_for_index": [
       "slideshow",
       "164046987649a502ea",
+      "164279266253df0d9f",
       "164046488313831878",
       "1640307588540f19f3",
       "1619453592851edd3f",
@@ -1363,8 +1365,7 @@
       "16173097035353b244",
       "16166284262b08e6ef",
       "1542984842027",
-      "1542984882560",
-      "164279266253df0d9f"
+      "1542984882560"
     ]
   },
   "presets": {
