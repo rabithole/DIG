@@ -876,35 +876,6 @@
           "show_collection_title": true
         }
       },
-      "1617309651fc925184": {
-        "type": "collection-list",
-        "disabled": true,
-        "blocks": {
-          "1617309651fc925184-0": {
-            "type": "collection",
-            "settings": {
-              "collection": "air-pumps"
-            }
-          },
-          "1617309651fc925184-1": {
-            "type": "collection",
-            "settings": {
-              "collection": "water-pump"
-            }
-          }
-        },
-        "block_order": [
-          "1617309651fc925184-0",
-          "1617309651fc925184-1"
-        ],
-        "settings": {
-          "title": "IRRIGATION",
-          "link_title": "View all",
-          "link": "shopify:\/\/collections",
-          "round_images": true,
-          "show_collection_title": true
-        }
-      },
       "16173097035353b244": {
         "type": "collection-list",
         "disabled": true,
@@ -1285,7 +1256,6 @@
       "collection-list",
       "16349378779d4cedd6",
       "1585474451402",
-      "1617309651fc925184",
       "1616698403fae2a52c",
       "161671444703d65258",
       "16167149269b351df8",
