@@ -1241,6 +1241,102 @@
           "color": "#ffffff",
           "round_image": true
         }
+      },
+      "164279266253df0d9f": {
+        "type": "mosaic",
+        "blocks": {
+          "164279266253df0d9f-1": {
+            "type": "item",
+            "settings": {
+              "show_overlay": false,
+              "overlay_opacity": 50,
+              "background": "#f3f4f4",
+              "text_color": "#4f5558",
+              "title": "Your heading",
+              "content": "Tell more about your product, collection...",
+              "content_position": "top_left",
+              "button_background": "#4f5558",
+              "button_text_color": "#f3f4f4",
+              "button_text": "Learn more",
+              "link": ""
+            }
+          },
+          "164279266253df0d9f-2": {
+            "type": "item",
+            "settings": {
+              "show_overlay": false,
+              "overlay_opacity": 50,
+              "background": "#f3f4f4",
+              "text_color": "#4f5558",
+              "title": "Your heading",
+              "content": "Tell more about your product, collection...",
+              "content_position": "top_left",
+              "button_background": "#4f5558",
+              "button_text_color": "#f3f4f4",
+              "button_text": "Learn more",
+              "link": ""
+            }
+          },
+          "164279266253df0d9f-0": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mobile-front-page.png",
+              "show_overlay": false,
+              "overlay_opacity": 50,
+              "background": "#23453d",
+              "text_color": "#ffffff",
+              "title": "Our Overstock is your savings!",
+              "content": "",
+              "content_position": "middle_center",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "Learn more",
+              "link": "shopify:\/\/pages\/discount"
+            }
+          },
+          "164279266253df0d9f-3": {
+            "type": "item",
+            "settings": {
+              "show_overlay": false,
+              "overlay_opacity": 50,
+              "background": "#f3f4f4",
+              "text_color": "#4f5558",
+              "title": "Your heading",
+              "content": "Tell more about your product, collection...",
+              "content_position": "top_left",
+              "button_background": "#4f5558",
+              "button_text_color": "#f3f4f4",
+              "button_text": "Learn more",
+              "link": ""
+            }
+          },
+          "164279266253df0d9f-4": {
+            "type": "item",
+            "settings": {
+              "show_overlay": false,
+              "overlay_opacity": 50,
+              "background": "#f3f4f4",
+              "text_color": "#4f5558",
+              "title": "Your heading",
+              "content": "Tell more about your product, collection...",
+              "content_position": "top_left",
+              "button_background": "#4f5558",
+              "button_text_color": "#f3f4f4",
+              "button_text": "Learn more",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "164279266253df0d9f-1",
+          "164279266253df0d9f-2",
+          "164279266253df0d9f-0",
+          "164279266253df0d9f-3",
+          "164279266253df0d9f-4"
+        ],
+        "settings": {
+          "section_size": "medium"
+        }
       }
     },
     "content_for_index": [
@@ -1262,7 +1358,8 @@
       "16173097035353b244",
       "16166284262b08e6ef",
       "1542984842027",
-      "1542984882560"
+      "1542984882560",
+      "164279266253df0d9f"
     ]
   },
   "presets": {
