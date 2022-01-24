@@ -1132,11 +1132,10 @@
       },
       "164046987649a502ea": {
         "type": "rich-text",
-        "disabled": true,
         "settings": {
           "text_width": "narrow",
-          "title": "Big Savings on Overstocked Items!",
-          "content": "",
+          "title": "DIG | Hydroponics Supply",
+          "content": "<p>Commercial and retail services available!<\/p>",
           "button_text": "",
           "button_link": "shopify:\/\/collections\/all"
         }
