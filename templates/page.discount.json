@@ -10,7 +10,7 @@
       "type": "custom-html",
       "settings": {
         "title": "Quick Links",
-        "html": "<p>\n<a href=\"#top%20booster\">Top Booster<\/a>\n\n<a href=\"#Overdrive\" style=\"padding-left: 10px;\">Overdrive<\/a>\n<\/p>"
+        "html": "<p>\n<a href=\"#top%20booster\">Top Booster<\/a>\n\n<a href=\"#Overdrive\" style=\"padding-left: 10px;\">Overdrive<\/a>\n\n<a href=\"#clearrez\" style=\"padding-left: 10px;\">Clear Rez<\/a>\n<\/p>"
       }
     },
     "164273414905679c88": {
