@@ -15,6 +15,7 @@
     },
     "164273414905679c88": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "text_width": "narrow",
         "title": "Order of sales below...",
