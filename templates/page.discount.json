@@ -9,8 +9,8 @@
     "1643487358a9180143": {
       "type": "custom-html",
       "settings": {
-        "title": "",
-        "html": "<p style=\"text-align: center;\">\n<a href=\"#top%20booster\">Top Booster<\/a>\n\n<a href=\"#Overdrive\" style=\"padding-left: 10px;\">Overdrive<\/a>\n<\/p>"
+        "title": "Quick Links",
+        "html": "<p>\n<a href=\"#top%20booster\">Top Booster<\/a>\n\n<a href=\"#Overdrive\" style=\"padding-left: 10px;\">Overdrive<\/a>\n<\/p>"
       }
     },
     "164273414905679c88": {
