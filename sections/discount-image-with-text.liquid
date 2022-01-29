@@ -1,6 +1,6 @@
 {% assign budCandy = all_products.advanced-nutrients-bud-candy %}
 
-<section class="section" data-section-id="{{ section.id }}" data-section-type="image-with-text">
+<section class="section" data-section-id="{{ section.id }}" data-section-type="image-with-text"  id="{{ section.settings.id }}">
   <div class="container discountLine">
     {%- capture image -%}
       <div class="image-with-text__image-container" style="width: {{ section.settings.image_width }}%;">
@@ -28,7 +28,7 @@
             <h2 class="heading h3">{{ section.settings.title | escape }}</h2>
           {%- endif -%}
 
-          <div class="rte" id="{{ section.settings.id }}">
+          <div class="rte">
             {{ section.settings.content }}
 
             <form method="post" action="/cart/add">
