@@ -28,7 +28,7 @@
             <h2 class="heading h3">{{ section.settings.title | escape }}</h2>
           {%- endif -%}
 
-          <div class="rte">
+          <div class="rte" id="{{ section.settings.id }}">
             {{ section.settings.content }}
 
             <form method="post" action="/cart/add">
@@ -129,6 +129,12 @@
       "id": "variantId",
       "label": "Variant ID",
       "default": "Grab from variant queury in url"
+    },
+    {
+      "type": "text",
+      "id": "id",
+      "label": "Anchor Id",
+      "default": "Enables linking within the page"
     }
   ],
   "presets": [
