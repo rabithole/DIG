@@ -37,7 +37,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "button_text": "Learn More",
-        "link": "shopify:\/\/products\/advanced-nutrients-bud-candy"
+        "button_link": "shopify:\/\/products\/advanced-nutrients-bud-candy"
       }
     },
     "1642666557a8549175": {
@@ -53,7 +53,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "button_text": "Button",
-        "link": ""
+        "button_link": ""
       }
     },
     "16427043712a2db349": {
@@ -69,7 +69,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "button_text": "Button",
-        "link": ""
+        "button_link": ""
       }
     },
     "164270438731f1de66": {
@@ -85,7 +85,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "button_text": "Button",
-        "link": ""
+        "button_link": ""
       }
     },
     "164270895093fca8b7": {
@@ -101,7 +101,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "button_text": "Button",
-        "link": ""
+        "button_link": ""
       }
     },
     "16434885532a0f6f09": {
@@ -117,7 +117,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "button_text": "Button",
-        "link": ""
+        "button_link": ""
       }
     }
   },
