@@ -116,8 +116,8 @@
         "id": "voodoo",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
-        "button_text": "Button",
-        "button_link": ""
+        "button_text": "Learn More",
+        "button_link": "shopify:\/\/products\/advanced-nutrients-voodoo-juice"
       }
     }
   },
