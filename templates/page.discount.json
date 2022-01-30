@@ -34,6 +34,9 @@
         "content": "<p>Discount Code: 23budcandy<\/p><p>Our overstock is your HUGE savings!<\/p><p>Take advantage today!<\/p><p>Bud Candy from Advanced Nutrients is the finest bud enhancer on the market!<\/p>",
         "variantId": "39268151558180",
         "id": "budCandy",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "button_text": "Learn More",
         "link": "shopify:\/\/products\/advanced-nutrients-bud-candy"
       }
     },
@@ -47,6 +50,9 @@
         "content": "<p>Discount Code: 4literod<\/p><p>During the final weeks of bloom phase your plants need the ingredients in Overdrive to maintain flower maturation, flower growth, and overall vigor. Many growers neglect the last weeks of bloom phase, but now you can kick it into Overdrive for a strong finish and get bigger smiles at harvest time.<\/p>",
         "variantId": "31527352860708",
         "id": "Overdrive",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "button_text": "Button",
         "link": ""
       }
     },
@@ -60,6 +66,9 @@
         "content": "<p>Discount Code: clearez<\/p><p><\/p><p>EZ-CLONE Clear Rez is a pH balanced, noninvasive water treatment designed to keep all of the internal workings of your cloning system crystal clear and operating at peak performance. It is designed to be used through out your entire cloning cycle as a possible preventive measure for a multitude of problems in your reservoir.<\/p>",
         "variantId": "39436848431140",
         "id": "clearrez",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "button_text": "Button",
         "link": ""
       }
     },
@@ -73,6 +82,9 @@
         "content": "<p>Discount Code: 5litertb<\/p><p>House & Garden Top Booster has been precisely designed to alter the nutritional ratio of your feed according to plant demands. This encourages a more enthusiastic reproductive cycle (floral growth) from the plant. The PK aids in fruit set development, fruit bulking, stem and root expansion and uptake of other minerals.<\/p><p><\/p>",
         "variantId": "32234207674404",
         "id": "top booster",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "button_text": "Button",
         "link": ""
       }
     },
@@ -86,6 +98,9 @@
         "content": "<p>Discount Code: 1Lamino<\/p><p>Containing essential amino acids and enzymes, this stimulating additive is used throughout the vegetative period and into the first stages of floral growth. This aids in the plants transitional period to provide you with bigger and healthier flowers! Amino Treatment also includes cold-pressed Norwegian Sea kelp to aid in plant development and provide organic fundamental macro and trace elements to your plant.<\/p>",
         "variantId": "39275971346468",
         "id": "amino treatment",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "button_text": "Button",
         "link": ""
       }
     },
@@ -99,6 +114,9 @@
         "content": "<p>Discount Code: voodoo<\/p><p>In so many gardens, the roots are forgotten, hidden away underground, neglected, uncared for workhorses. And yet, your plants' roots are responsible for intaking almost everything your plants need. Ask not what your roots can do for you, but what can you do for your roots. Because when you give respect to your roots, you see the results at harvest time. You take care of your roots by utilizing their ability to form symbiotic relationships with beneficial fungi and bacteria.<\/p>",
         "variantId": "31580405071908",
         "id": "voodoo",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "button_text": "Button",
         "link": ""
       }
     }
