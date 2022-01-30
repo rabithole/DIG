@@ -21,7 +21,7 @@
         {%- endif -%}
       </div>
     {%- endcapture -%}
-    <a href="{{ section.settings.button_link }}" class="button button--primary">{{ section.settings.button_text | escape }}</a>
+    
 
     {%- capture text -%}
       <div class="image-with-text__text-container discount">
@@ -60,7 +60,7 @@
       </div>
     {%- endcapture -%}
 
-   
+   <a href="{{ section.settings.button_link }}" class="button button--primary">{{ section.settings.button_text | escape }}</a>
 
     <div class="image-with-text">
       {%- if section.settings.image_position == 'left' -%}
