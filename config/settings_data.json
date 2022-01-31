@@ -1161,16 +1161,14 @@
         "blocks": {
           "page-team-template-0": {
             "type": "separator",
-            "disabled": true,
             "settings": {
               "title": "Our team"
             }
           },
           "page-team-template-1": {
             "type": "member",
-            "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/white-on-green_8062417c-5a5c-405c-9789-4b6bda5dc392.png",
+              "image": "shopify:\/\/shop_images\/mike-final.png",
               "title": "Mike Merx",
               "subheading": "Operations",
               "description": "Mike has 19 years of horticultural experience culminating in skills across a variety of focuses. Beginning in high school, Mike received a certificate in greenhouse management while working in climate-controlled greenhouses. More recently he served an internship with the Missouri Botanical Garden. Mike has experience in plant production, planting and plant maintenance of a wide variety of plants on a commercial level. He is licensed as a commercial pesticide applicator and integrated pest management. ( IPM )",
@@ -1180,9 +1178,8 @@
           },
           "page-team-template-2": {
             "type": "member",
-            "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/ryan-test.png",
+              "image": "shopify:\/\/shop_images\/ryan-final.png",
               "title": "Ryan Davis",
               "subheading": "CEO",
               "description": "Ryan is a classic serial entrepreneur of no less than five companies. He began his journey in high school alongside Mike learning greenhouse management while working in climate-controlled greenhouses. With this knowledge in hand and a hot sauce company under his belt, he moved to Washington State where he gained over a decade of medicinal growing experience. His skills include business management, strategy and development, large scale grow facility operations and plant environment expertise.",
@@ -1204,9 +1201,8 @@
           },
           "89049682-4ed0-4f3c-aa51-8c072a646e5f": {
             "type": "member",
-            "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/robert.png",
+              "image": "shopify:\/\/shop_images\/robert-final.png",
               "title": "Robert Kulp",
               "subheading": "Web Developer",
               "description": "",
@@ -1216,9 +1212,8 @@
           },
           "5dc3522c-fe48-475f-bd00-d9465f9459e2": {
             "type": "member",
-            "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/white-on-green_8062417c-5a5c-405c-9789-4b6bda5dc392.png",
+              "image": "shopify:\/\/shop_images\/dan-final.png",
               "title": "Dan Franz",
               "subheading": "Store Manager",
               "description": "",
