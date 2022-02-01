@@ -1161,14 +1161,12 @@
         "blocks": {
           "page-team-template-0": {
             "type": "separator",
-            "disabled": true,
             "settings": {
               "title": "Our team"
             }
           },
           "page-team-template-2": {
             "type": "member",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/ryan-final.png",
               "title": "Ryan Davis",
@@ -1180,19 +1178,17 @@
           },
           "5dc3522c-fe48-475f-bd00-d9465f9459e2": {
             "type": "member",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/dan-final_740a9af2-b50d-4d53-87cc-190adda89771.png",
               "title": "Dan Franz",
               "subheading": "Store Manager",
-              "description": "",
+              "description": "Dan has been in and around the cultivation space for more than 20 years. Whether growing tomatoes and peppers in the yard or small to medium size medical gardens, Dan has always had an interest in plant production. With a focus on quality first, Dan's industry knowledge comes from producing top shelf products first, with other attributes second. This strategy has shaped his growing style, relying on sugars\/carbs, teas, and microbial life to maximize a plants potential through superior soil health. Through countless hours of research and development, Dan has honed his skill producing top shelf connoisseur flower while maximizing yield and price points at all levels of gardening. It is his thought that by achieving the highest quality flowers he gains an edge over those who choose to cut corners.",
               "link": "",
               "link_title": "Your link"
             }
           },
           "page-team-template-1": {
             "type": "member",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/mike-final_758b5ce5-0a31-4582-b4d0-49918c120d7d.png",
               "title": "Mike Merx",
@@ -1216,12 +1212,11 @@
           },
           "89049682-4ed0-4f3c-aa51-8c072a646e5f": {
             "type": "member",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/robert-final.png",
               "title": "Robert Kulp",
               "subheading": "Web Developer",
-              "description": "",
+              "description": "Robert is a born problem solver. His motto is “A problem is a success waiting to happen.” After several decades honing his skills in automotive repair and diagnostics, he chose to change careers and jump into the world of software. Software is a creative tool capable of streamlining any business process and he relishes the opportunity to find a solution. He has taken the time to learn the grow industry from the top down and is still in process helping DIG define its needed SOP’s. He is always searching for better ways to streamline our work flows to facilitate our customers better.",
               "link": "",
               "link_title": "Your link"
             }
