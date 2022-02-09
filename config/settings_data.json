@@ -1132,6 +1132,7 @@
       },
       "164046987649a502ea": {
         "type": "rich-text",
+        "disabled": true,
         "settings": {
           "text_width": "narrow",
           "title": "DIG | Hydroponics Supply | Your Local Grow Shop",
@@ -1337,10 +1338,18 @@
         "settings": {
           "section_size": "medium"
         }
+      },
+      "1644425262118e4602": {
+        "type": "custom-html",
+        "settings": {
+          "title": "",
+          "html": "<div style=\"text-align: center;\"> \n<h1>The Best Hydroponics Store Near You!<\/h1>\n<h3>Commercial Supply and Consulting Available!<\/h3>\n<\/div>"
+        }
       }
     },
     "content_for_index": [
       "slideshow",
+      "1644425262118e4602",
       "164046987649a502ea",
       "164279266253df0d9f",
       "164046488313831878",
