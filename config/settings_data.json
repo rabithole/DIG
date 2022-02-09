@@ -1343,7 +1343,7 @@
         "type": "custom-html",
         "settings": {
           "title": "",
-          "html": "<div style=\"text-align: center;\"> \n<h1>The Best Hydroponics Store Near You!<\/h1>\n<h3>Commercial Supply and Consulting Available!<\/h3>\n<\/div>"
+          "html": "<div style=\"text-align: center;\"> \n<h1>\nThe Best Hydroponics Store Near You!\n<\/h1>\n<h3>\nCommercial Supply and Consulting Available!\n<\/h3>\n<\/div>"
         }
       }
     },
