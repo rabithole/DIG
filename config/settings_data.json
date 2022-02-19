@@ -95,7 +95,8 @@
           "21d452e8-1376-497e-bd26-bb5578d72492": {
             "type": "mega_menu",
             "settings": {
-              "menu_item": "Product Categories",
+              "menu_item": "Nutrients",
+              "image_1": "shopify:\/\/shop_images\/AthenaLogo.jpg",
               "image_1_heading": "Your image",
               "image_1_text": "Tell your story",
               "image_1_link": "",
