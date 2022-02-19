@@ -440,7 +440,7 @@
 <style>
   :root {
     --header-is-sticky: {% if section.settings.enable_sticky_header %}1{% else %}0{% endif %};
-    --header-inline-navigation: {% if section.settings.desktop_navigation_layout == 'inline' %}1{% else %}0{% endif %};
+    --header-inline-navigation: {% if section.settings.desktop_navigation_layout == 'block' %}1{% else %}0{% endif %};
   }
 
   #shopify-section-{{ section.id }} {
