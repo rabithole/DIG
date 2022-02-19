@@ -94,6 +94,7 @@
           },
           "21d452e8-1376-497e-bd26-bb5578d72492": {
             "type": "mega_menu",
+            "disabled": true,
             "settings": {
               "menu_item": "Nutrients",
               "image_1": "shopify:\/\/shop_images\/AthenaLogo.jpg",
