@@ -83,11 +83,11 @@
             "settings": {
               "menu_item": "Nutrients",
               "image_1": "shopify:\/\/shop_images\/advanced-nutrients-logo.png",
-              "image_1_heading": "Preferred Brand",
+              "image_1_heading": "",
               "image_1_text": "",
               "image_1_link": "shopify:\/\/collections\/advanced-nutrients",
               "image_2": "shopify:\/\/shop_images\/trimmed-h-and-g-logo.png",
-              "image_2_heading": "Preferred Brand",
+              "image_2_heading": "",
               "image_2_text": "",
               "image_2_link": "shopify:\/\/collections\/house-and-garden"
             }
