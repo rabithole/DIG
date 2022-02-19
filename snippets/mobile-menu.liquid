@@ -205,6 +205,23 @@
                     </a>
                   </div>
                 {%- endif -%}
+            
+            	{%- if mega_menu_block.settings.image_3 != blank -%}
+                  {% assign promo_count = promo_count | plus: 1 %}
+
+                  <div class="mobile-menu__promo-item">
+                    <a href="{{ mega_menu_block.settings.image_3_link | default: '#' }}" class="mobile-menu__promo">
+                      <div class="mobile-menu__image-wrapper">
+                        <div class="aspect-ratio" style="padding-bottom: {{ 100.0 | divided_by: mega_menu_block.settings.image_3.aspect_ratio }}%">
+                          <img class="lazyload image--blur-up" src="{{ mega_menu_block.settings.image_3 | img_url: '80x' }}" data-src="{{ mega_menu_block.settings.image_3 | img_url: '550x' }}" alt="{{ mega_menu_block.settings.image_3.alt | escape }}">
+                        </div>
+                      </div>
+
+                      <span class="mobile-menu__image-heading heading">{{ mega_menu_block.settings.image_3_heading | escape }}</span>
+                      <p class="mobile-menu__image-text">{{ mega_menu_block.settings.image_3_text | escape }}</p>
+                    </a>
+                  </div>
+                {%- endif -%}
               {%- endcapture -%}
 
               {%- if promo_blocks != blank -%}
