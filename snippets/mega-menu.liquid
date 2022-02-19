@@ -98,6 +98,19 @@
           <p class="mega-menu__image-text">{{ mega_menu_block.settings.image_2_text | escape }}</p>
         </a>
       {%- endif -%}
+      
+      {%- if mega_menu_block.settings.image_3 != blank -%}
+        <a href="{{ mega_menu_block.settings.image_3_link | default: '#' }}" class="mega-menu__promo">
+          <div class="mega-menu__image-wrapper">
+            <div class="aspect-ratio" style="padding-bottom: {{ 100.0 | divided_by: mega_menu_block.settings.image_3.aspect_ratio }}%">
+              <img class="lazyload image--blur-up" src="{{ mega_menu_block.settings.image_3 | img_url: '80x' }}" data-src="{{ mega_menu_block.settings.image_3 | img_url: '550x' }}" alt="{{ mega_menu_block.settings.image_3.alt | escape }}">
+            </div>
+          </div>
+
+          <span class="mega-menu__image-heading heading h4">{{ mega_menu_block.settings.image_3_heading | escape }}</span>
+          <p class="mega-menu__image-text">{{ mega_menu_block.settings.image_3_text | escape }}</p>
+        </a>
+      {%- endif -%}
     </div>
   {%- endcapture -%}
 
