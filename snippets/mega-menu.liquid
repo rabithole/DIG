@@ -24,16 +24,16 @@
       {%- assign should_center = true -%}
     {%- endunless -%}
 
-    {%- assign has_two_images = false -%}
+    {%- assign has_three_images = false -%}
 
-    {%- if mega_menu_block.settings.image_1 != blank and mega_menu_block.settings.image_2 != blank -%}
-      {%- assign has_two_images = true -%}
+    {%- if mega_menu_block.settings.image_1 != blank and mega_menu_block.settings.image_2 != blank and mega_menu_block.settings.image_3 != blank -%}
+      {%- assign has_three_images = true -%}
     {%- endif -%}
 
     {%- assign mega_menu_classes = '' -%}
 
     {%- if should_center -%}
-      {%- if has_two_images -%}
+      {%- if has_three_images -%}
         {%- assign mega_menu_classes = 'mega-menu__inner--center' -%}
       {%- else -%}
         {%- assign mega_menu_classes = 'mega-menu__inner--center mega-menu__inner--large' -%}
