@@ -293,6 +293,9 @@
         <input type="hidden" name="id" data-sku="{{ selected_variant.sku }}" value="{{ selected_variant.id }}">
       {%- endunless -%}
 
+
+
+
       <div class="product-form__info-list">
         <div class="product-form__info-item">
           <span class="product-form__info-title text--strong">{{ 'product.form.price' | t }}:</span>
@@ -300,8 +303,10 @@
           <div class="product-form__info-content">
             <div class="price-list">
               {%- if selected_variant.compare_at_price > selected_variant.price -%}
+
                 <span class="price price--highlight" data-money-convertible>{{ selected_variant.price | money_without_trailing_zeros }}</span>
                 <span class="price price--compare" data-money-convertible>{{ selected_variant.compare_at_price | money_without_trailing_zeros }}</span>
+              
               {%- else -%}
                 <span class="price" data-money-convertible>{{ selected_variant.price | money_without_trailing_zeros }}</span>
               {%- endif -%}
@@ -335,6 +340,10 @@
             {%- endif -%}
           </div>
         </div>
+
+
+
+
 
         {%- if section.settings.show_inventory_quantity and product.template_suffix != 'pre-order' -%}
           <div class="product-form__info-item">
