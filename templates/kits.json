@@ -3,7 +3,7 @@
     "main": {
       "type": "kit-page-template",
       "settings": {
-        
+        "title": "Multiple item kits"
       }
     },
     "recommendations": {
