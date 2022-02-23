@@ -1,1 +1,24 @@
 <h1>Beginning of Grow Tent Kit page</h1>
+
+<p>Placeholder for single sku when buidling a kit</p>
+<h2>{{ section.settings.random_shit }}</h2>
+
+
+{% schema %}
+	{
+		"name": "Document Title",
+		"tag": "aside",
+		"settings": [
+			{
+				"id": "title",
+				"type": "text",
+				"label": "title"
+			},
+			{
+				"type": "image_picker",
+				"id": "page_image",
+				"label": "Page Image"
+			}
+		]
+	}
+{% endschema %}

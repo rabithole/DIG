@@ -3,7 +3,9 @@
     "main": {
       "type": "kit-page-template",
       "settings": {
-        "title": "Multiple item kits"
+        "title": "Multiple item kits",
+        "show_sku": true,
+        "random_shit": "Gotta do this good for the good of the good! Random SHIT!"
       }
     },
     "recommendations": {
