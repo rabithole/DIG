@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "product-template",
+      "type": "kit-page",
       "settings": {
         "ship_disclaimer": "Shipping costs may vary. We will contact you before shipping your products if shipping costs are different.",
         "show_vendor": true,
