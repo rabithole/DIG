@@ -3,7 +3,8 @@
     "main": {
       "type": "kit-page-template",
       "settings": {
-        "title": "Multiple item kits"
+        "title": "Grow Tent Kit",
+        "product": ""
       }
     },
     "recommendations": {
