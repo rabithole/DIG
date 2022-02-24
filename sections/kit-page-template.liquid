@@ -5,10 +5,6 @@
 	{% for option in allProduct.variants %}
 		{% if option.sku == "720322" %}
 			<h3 style="text-align: center;">Option: {{ option.sku }} {{ option.price | money }}</h3>
-  			{%- comment -%}
-  				<img src="{{ section.settings.product }}">
-  			{%- endcomment -%}
-  			{{ 'logo.jpg' | asset_url | img_tag }}
 		{% endif %}
 	{% endfor %}
 </div>
