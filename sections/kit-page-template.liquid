@@ -1,7 +1,7 @@
 {% assign allProduct = all_products['cloudlab-advance-grow-tents'] %}
 
 <div class="center" style="display: flex; flex-direction: column;">
-	<h1 style="font-size: 3vw; font-weight: bold; color: black;">{{ section.settings.title }}</h1>
+	<h1 style="font-size: 3vw; font-weight: bold; color: black; text-align: center;">{{ section.settings.title }}</h1>
 	{% for option in allProduct.variants %}
 		{% if option.sku == "720322" %}
 		<h3>Option: {{ option.sku }} {{ option.price | money }}</h3>
