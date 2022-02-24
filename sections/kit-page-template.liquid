@@ -7,7 +7,7 @@
 		{% if option.sku == "720322" %}
 			<h3 style="text-align: center;">Option: {{ option.sku }} {{ option.price | money }}</h3>
   			
-  			<img src='{{ option | img_url: '200x200' }}' sytle='width: 200px;'>
+  			<img src='{{ option | img_url: '200x200' }}' style='width: 200px;'>
 		{% endif %}
 	{% endfor %}
 </div>
