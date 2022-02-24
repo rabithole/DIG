@@ -4,7 +4,6 @@
       "type": "product-template",
       "settings": {
         "ship_disclaimer": "Shipping costs may vary. We will contact you before shipping your products if shipping costs are different.",
-        "show_vendor": true,
         "show_sku": false,
         "show_share_buttons": true,
         "show_taxes_included": true,
