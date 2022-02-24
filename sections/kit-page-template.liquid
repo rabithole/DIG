@@ -1,9 +1,16 @@
-<h1>{{ all_products['cloudlab-advance-grow-tents'].title }}</h1>
-<h1>Beginning of Grow Tent Kit page</h1>
+{% assign allProduct = all_products['cloudlab-advance-grow-tents'] %}
 
-<p>Placeholder for single sku when buidling a kit</p>
-<h2>{{ section.settings.title }}</h2>
-<h1>{{ product.title }}</h1>
+<h1>Product title from variable--- {{ allProduct.title }}</h1>
+<div class="center">
+	<h2>Title From Section Settings: {{ section.settings.title }}</h2>
+	<p>
+	{% for option in allProduct.variants %}
+		{% if option.sku == "720322" %}
+		<p>Option: {{ option.sku }} {{ option.price | money }}</p>
+		{% endif %}
+	{% endfor %}
+	</p>
+</div>
 
 {% schema %}
 	{
