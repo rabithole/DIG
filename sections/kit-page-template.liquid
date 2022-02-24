@@ -4,7 +4,7 @@
 	<h1 style="font-size: 3vw; font-weight: bold; color: black; text-align: center;">{{ section.settings.title }}</h1>
   
 	{% for option in allProduct.variants %}
-		{% if option.sku == "720322" %}
+		{% if option.sku == section.settings.product_sku %}
 			<h3 style="text-align: center;">Price: {{ option.price | money }}</h3>
   			<p style='text-align: center;'>{{ option.id }}</p>
   			
