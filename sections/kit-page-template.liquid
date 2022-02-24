@@ -4,7 +4,7 @@
 	<h1 style="font-size: 3vw; font-weight: bold; color: black; text-align: center;">{{ section.settings.title }}</h1>
   
 	{% for option in allProduct.variants %}
-  		<img src='{{ option | img_url: '200x200' }}'>
+  		<img src='{{ option | img_url: '200x200' }}' sytle='width: 200px;'>
 		{% if option.sku == "720322" %}
 			<h3 style="text-align: center;">Option: {{ option.sku }} {{ option.price | money }}</h3>
 		{% endif %}
