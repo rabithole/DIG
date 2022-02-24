@@ -2,13 +2,11 @@
 
 <div class="center" style="display: flex; justify-content: center;" >
 	<h1 style="font-size: 3vw; font-weight: bold; color: black;">{{ section.settings.title }}</h1>
-	<p>
 	{% for option in allProduct.variants %}
 		{% if option.sku == "720322" %}
-		<h3>Option: {{ option.sku }} {{ option.price | money }}</h3>
+		<h3 style="text-align: center;">Option: {{ option.sku }} {{ option.price | money }}</h3>
 		{% endif %}
 	{% endfor %}
-	</p>
 </div>
 
 {% schema %}
