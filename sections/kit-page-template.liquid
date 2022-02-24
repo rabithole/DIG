@@ -5,7 +5,7 @@
 	<p>
 	{% for option in allProduct.variants %}
 		{% if option.sku == "720322" %}
-		<p>Option: {{ option.sku }} {{ option.price | money }}</p>
+		<h3>Option: {{ option.sku }} {{ option.price | money }}</h3>
 		{% endif %}
 	{% endfor %}
 	</p>
