@@ -5,7 +5,7 @@
   
   	{% assign sku = section.settings.product_sku %}
 	{% for option in allProduct.variants %}
-		{% if option.sku == sku %}
+		{% if option.sku == 'sku' %}
 			<h3 style="text-align: center;">Price: {{ option.price | money }}</h3>
   			<p style='text-align: center;'>{{ option.id }}</p>
   			
