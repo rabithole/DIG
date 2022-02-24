@@ -8,7 +8,7 @@
   			{%- comment -%}
   				<img src="{{ section.settings.product }}">
   			{%- endcomment -%}
-  			{{ 'logo.jpg' | asset_url | img_tag: shop.name }}
+  			{{ 'logo.jpg' | asset_url | img_tag }}
 		{% endif %}
 	{% endfor %}
 </div>
