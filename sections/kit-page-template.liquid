@@ -4,7 +4,7 @@
 	<h1 style="font-size: 3vw; font-weight: bold; color: black; text-align: center;">{{ section.settings.title }}</h1>
   
   	{% assign sku = section.settings.product_sku %}
-  	{% assign secSku = sections.settings.product_sku %}
+  	{% assign secSku = section.settings.product_sku %}
   	<h1>Sku: --- {{ secSku }}</h1>
   
 	{% for option in allProduct.variants %}
