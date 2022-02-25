@@ -1,19 +1,19 @@
 {
   "sections": {
-    "164573293532238487": {
-      "type": "kit-page-template",
-      "settings": {
-        "title": "Timer",
-        "product_sku": "700027",
-        "product": "light-timer-auto-pilot"
-      }
-    },
     "main": {
       "type": "kit-page-template",
       "settings": {
         "title": "Grow Tent Kit",
         "product_sku": "720322",
         "product": "cloudlab-advance-grow-tents"
+      }
+    },
+    "164573293532238487": {
+      "type": "kit-page-template",
+      "settings": {
+        "title": "Timer",
+        "product_sku": "700027",
+        "product": "light-timer-auto-pilot"
       }
     },
     "recommendations": {
@@ -42,8 +42,8 @@
     }
   },
   "order": [
-    "164573293532238487",
     "main",
+    "164573293532238487",
     "recommendations",
     "promotion",
     "recentyViewed"
