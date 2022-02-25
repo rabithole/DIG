@@ -8,7 +8,7 @@
   	<h1>Sku: --- {{ secSku }}</h1>
   
 	{% for option in allProduct.variants %}
-		{% if option.sku == sku %}
+		{% if option.sku == secSku %}
 			<h3 style="text-align: center;">Price: {{ option.price | money }}</h3>
   			<p style='text-align: center;'>{{ option.id }}</p>
   			
