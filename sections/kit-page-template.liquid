@@ -5,7 +5,7 @@
   
   	{% assign sku = section.settings.product_sku %}
   	{% assign prod = section.settings.product %}
-  	<h1>Sku: --- {{ sku }}</h1>
+  	<h1 style='text-align: center'>Sku: --- {{ sku }}</h1>
   	<img src='{{ section.settings.product | img_url }}' style='width: 200px; margin: auto;'>
   	<h3 style="text-align: center;">Price: {{ prod.price | money }}</h3>
   	<p style='text-align: center;'>{{ prod.id }}</p>
