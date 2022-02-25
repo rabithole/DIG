@@ -4,13 +4,12 @@
 	<h1 style="font-size: 3vw; font-weight: bold; color: black; text-align: center;">{{ section.settings.title }}</h1>
   
   	{% assign sku = section.settings.product_sku %}
-  	{% assign secSku = section.settings.product_sku %}
-  	<h1>Sku: --- {{ secSku }}</h1>
+  	<h1>Sku: --- {{ sku }}</h1>
 
 	
 
   	{% for option in section.settings.product %}
-		{% if option.sku == secSku %}
+		{% if option.sku == sku %}
 			<h3 style="text-align: center;">Price: {{ option.price | money }}</h3>
   			<p style='text-align: center;'>{{ option.id }}</p>
   			
