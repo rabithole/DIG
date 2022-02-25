@@ -10,16 +10,6 @@
   	<h3 style="text-align: center;">Price: {{ prod.price | money }}</h3>
   	<p style='text-align: center;'>{{ prod.id }}</p>
 
-	
-
-  	{% for option in section.settings.product %}
-		{% if option.sku == sku %}
-			<h3 style="text-align: center;">Price: {{ option.price | money }}</h3>
-  			<p style='text-align: center;'>{{ option.id }}</p>
-  			
-  			<img src='{{ option | img_url }}' style='width: 200px; margin: auto;'>
-		{% endif %}
-	{% endfor %}
 </div>
 
 {% schema %}
