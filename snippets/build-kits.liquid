@@ -1,0 +1,12 @@
+<div class="center" style="display: flex; flex-direction: column;">
+	<h1 style="font-size: 3vw; font-weight: bold; color: black; text-align: center;">{{ section.settings.title }}</h1>
+  
+  	{% assign sku = section.settings.product_sku %}
+  	{% assign prod = section.settings.product %}
+  	<h1 style='text-align: center'>Sku: --- {{ sku }}</h1>
+  	<img src='{{ section.settings.product | img_url }}' style='width: 200px; margin: auto;'>
+  	<h3 style="text-align: center;">Price: {{ prod.price | money }}</h3>
+  	<p style='text-align: center;'>{{ prod.id }}</p>
+
+  	
+</div>
