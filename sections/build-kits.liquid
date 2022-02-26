@@ -3,6 +3,8 @@
   
   	{% assign sku = section.settings.product_sku %}
   	{% assign prod = section.settings.product %}
+  	{% assign total = 0 %}
+  	<h1>Total: {{ total | plus: prod.price }}</h1>
   
   	{% for option in prod.variants %}
   		{% if option.sku == sku %}
