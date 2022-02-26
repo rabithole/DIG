@@ -9,7 +9,7 @@
   		{% if option.sku == sku %}
   			<img src='{{ option.image | img_url }}' style='width: 200px; margin: auto;'>
   			<h3 style="text-align: center;" id='{{ option.id }}'>Price: {{ option.price | money }}</h3>
-  				{% assign total = total | plus: option.price | money %}
+  				{{ total | plus: option.price | money }}
   
   			<p style='text-align: center;'>Variant ID: --- {{ option.id }}</p>
 			<h1 style='text-align: center'>Sku: --- {{ sku }}</h1>
