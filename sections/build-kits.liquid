@@ -6,7 +6,7 @@
   
   	{% for option in prod.variants %}
   		{% if option.sku == sku %}
-  			<img src='{{ section.settings.product | img_url }}' style='width: 200px; margin: auto;'>
+  			<img src='{{ option.image | img_url }}' style='width: 200px; margin: auto;'>
   			<h3 style="text-align: center;">Price: {{ option.price | money }}</h3>
   
   			<p style='text-align: center;'>{{ option.id }}</p>
