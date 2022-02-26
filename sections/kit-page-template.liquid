@@ -5,6 +5,14 @@
   	<h1>Total: {{ total }}</h1>
 </div>
 
+{% assign acc = 0 %}
+
+{% for i in (1..10) %}
+	{% assign acc = acc | plus: 1 %}
+{% endfor %}
+
+<p>Accumulator: --- {{ acc }}</p>
+
 {% schema %}
 	{
 		"name": "Kit Title",
