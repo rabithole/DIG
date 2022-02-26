@@ -6,6 +6,14 @@
         "title": "Grow Tent Kit"
       }
     },
+    "164583908176900075": {
+      "type": "build-kits",
+      "settings": {
+        "title": "Timer",
+        "product_sku": "700027",
+        "product": "light-timer-auto-pilot"
+      }
+    },
     "164583889105c32ed0": {
       "type": "build-kits",
       "settings": {
@@ -41,6 +49,7 @@
   },
   "order": [
     "main",
+    "164583908176900075",
     "164583889105c32ed0",
     "recommendations",
     "promotion",
