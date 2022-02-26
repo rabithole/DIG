@@ -4,8 +4,9 @@
   	{% assign sku = section.settings.product_sku %}
   	{% assign prod = section.settings.product %}
   
+  	{% assign total = 110 %}
   	{% for option in prod.variants %}
-  		{% assign total = 110 %}
+  		
   		{% if option.sku == sku %}
   			<img src='{{ option.image | img_url }}' style='width: 200px; margin: auto;'>
   			<h3 style="text-align: center;">Price: {{ option.price | money }}</h3>
