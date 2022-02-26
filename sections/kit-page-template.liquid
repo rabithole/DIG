@@ -9,6 +9,9 @@
 
 {% for i in (1..10) %}
 	{% assign acc = acc | plus: 1 %}
+	{% if acc == 5 %}
+		{% break %}
+	{% endif %}
 <p>Accumulator: --- {{ acc }}</p>
 {% endfor %}
 
