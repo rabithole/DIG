@@ -12,14 +12,32 @@
 </div>
 
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+	{
+		"name": "Build A Kit",
+		"tag": "aside",
+		"settings": [
+			{	
+				"id": "title",
+				"type": "text",
+				"label": "title"
+			},
+			{
+				"type": "text",
+				"id": "product_sku",
+				"label": "Product Sku"
+			},
+			{
+				"type": "product",
+				"id": "product",
+				"label": "Product"
+			}
+		],
+		"presets": [
+			{
+				"category": "Product",
+				"name": "Build A Kit",
+				"settings": {}
+			}
+		]
+	}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
