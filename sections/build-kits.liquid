@@ -10,7 +10,7 @@
   			<img src='{{ option.image | img_url }}' style='width: 200px; margin: auto;'>
   			<h3 style="text-align: center;">Price: {{ option.price | money }}</h3>
   
-  			<p>This here: --- {{ total | money }}</p>
+  			<p>This here: --- {{ total | plus: 14 | money }}</p>
   
   			<p style='text-align: center;'>{{ option.id }}</p>
 			<h1 style='text-align: center'>Sku: --- {{ sku }}</h1>
