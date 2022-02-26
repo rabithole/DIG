@@ -4,8 +4,8 @@
   	{% assign sku = section.settings.product_sku %}
   	{% assign prod = section.settings.product %}
   
+  
   	{% for option in prod.variants %}
-  		
   		{% if option.sku == sku %}
   			<img src='{{ option.image | img_url }}' style='width: 200px; margin: auto;'>
   			<h3 style="text-align: center;" id='{{ option.id }}'>Price: {{ option.price | money }}</h3>
@@ -15,6 +15,8 @@
 			<h1 style='text-align: center'>Sku: --- {{ sku }}</h1>
   		{% endif %}
   	{% endfor %}
+  
+  
   
   <p>The Total: ----- {{ total }}</p>
   	
