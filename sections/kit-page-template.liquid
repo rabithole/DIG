@@ -9,9 +9,8 @@
 
 {% for i in (1..10) %}
 	{% assign acc = acc | plus: 1 %}
-{% endfor %}
-
 <p>Accumulator: --- {{ acc }}</p>
+{% endfor %}
 
 {% schema %}
 	{
