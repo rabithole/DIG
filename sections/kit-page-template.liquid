@@ -22,9 +22,8 @@
     var collection  = document.getElementsByTagName("h3");
     console.log(collection);
     
-    Array.from(collection).forEach(function(element){
-		console.log("Variant Id", element);
-    });
+    let collection1 = Array.from(document.getElementsByTagName("h3"))
+    console.log(collection1);
   }
   window.onload = loadFunction();
   
