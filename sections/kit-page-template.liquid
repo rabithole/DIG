@@ -19,9 +19,11 @@
 
 <script>
   function loadFunction() {
-    var variantId  = document.getElementsByTagName("h3");
-	
-	console.log("Variant Id", variantId);
+    var collection  = document.getElementsByTagName("h3");
+    
+    Array.from(collection).forEach(function(element){
+		console.log("Variant Id", variantId);
+    }
   }
   window.onload = loadFunction();
   
