@@ -1,21 +1,9 @@
-{% assign prod = section.settings.product %}
+
 <div class="center" style="display: flex; flex-direction: column;">
 	<h1 style="font-size: 3vw; font-weight: bold; color: black; text-align: center;">{{ section.settings.title }}</h1>
 
-  	<h1>Total TOp: {{ total }}</h1>
+  	<h1>Total: {{ total }}</h1>
 </div>
-
-<h1>Testing Title: --- {{ prod.title }}</h1>
-
-{% assign acc = 0 %}
-
-{% for i in (1..10) %}
-	{% assign acc = acc | plus: 1 %}
-	{% if acc == 5 %}
-		{% break %}
-	{% endif %}
-<p>Accumulator: --- {{ acc }}</p>
-{% endfor %}
 
 {% schema %}
 	{
