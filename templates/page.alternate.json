@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "adding-prices-testing",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
