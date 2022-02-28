@@ -174,8 +174,9 @@
 		template-{{ template.name | handle | replace: '_', '-' }}
 	"
 	>
-    
+    <div>
     <h1>This is a testing file layout</h1>
+    </div>
 {% capture the_snippet_content %}{% render 'socialshopwave-helper' %}{% endcapture %}
             {% unless the_snippet_content contains 'Liquid error' %}
               {{ the_snippet_content }}
