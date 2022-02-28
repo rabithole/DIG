@@ -20,9 +20,8 @@
 <script>
   function loadFunction() {
     let collection  = document.getElementsByTagName("h3");
-    console.log( collection.item(0) );
-    let arr = Array.from(collection);
-    console.log( 'Output: ---', arr, collection )
+    console.log( collection );
+    document.write(colllection.length)
   }
   window.onload = loadFunction();
   
