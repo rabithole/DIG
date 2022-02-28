@@ -19,8 +19,9 @@
 
 <script>
   function loadFunction() {
-    var collection  = document.getElementsByTagName("h3")[0];
-    console.log(collection);
+    let collection  = document.getElementsByTagName("h3");
+    var arr = [...collection];
+    console.log(collection, arr);
     
     let collection1 = Array.from(document.getElementsByTagName("h3"))
     console.log("collection1", collection1);
