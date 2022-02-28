@@ -20,7 +20,7 @@
 <script>
   function loadFunction() {
     let collection  = document.getElementsByTagName("h3");
-    var arr = [...collection];
+    var arr = Array.prototype.slice.call( collection );
     console.log(collection, arr);
     
     let collection1 = Array.from(document.getElementsByTagName("h3"))
