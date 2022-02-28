@@ -17,15 +17,7 @@
 <p>Accumulator: --- {{ acc }}</p>
 {% endfor %}
 
-<script>
-  function loadFunction() {
-    let collection  = document.getElementsByTagName("h3");
-    console.log( collection[0] );
-    console.log(collection.length);
-  }
-  window.onload = loadFunction();
-  
-</script>
+
 
 {% schema %}
 	{
@@ -47,3 +39,12 @@
 		]
 	}
 {% endschema %}
+{% javascript %}
+ function loadFunction() {
+    let collection  = document.getElementsByTagName("h3");
+    console.log( collection[0] );
+    console.log(collection.length);
+  }
+  window.onload = loadFunction();
+{% endjavascript %}
+
