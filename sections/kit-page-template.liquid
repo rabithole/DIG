@@ -18,9 +18,13 @@
 {% endfor %}
 
 <script>
-  var variantId  = document.getElementsByTagName("h3")[1].innerHTML;
+  function loadFunction() {
+    var variantId  = document.getElementsByTagName("h3")[1].innerHTML;
 	
 	console.log("Variant Id", variantId);
+  }
+  window.onload = loadFunction();
+  
 </script>
 
 {% schema %}
