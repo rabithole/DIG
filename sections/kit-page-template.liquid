@@ -2,19 +2,10 @@
 <div class="center" style="display: flex; flex-direction: column;">
 	<h1 style="font-size: 3vw; font-weight: bold; color: black; text-align: center;">{{ section.settings.title }}</h1>
 
-
+	{% assign sku = 'total sku' %}
   	<h1 id='total'></h1>
   	<h1>Javascript: --- {{ collection }}</h1>
 </div>
-
-<script>
-  function load() {
-    let javaSku = '{{sku}}';
-    console.log('sku', javaSku );
-    document.getElementById('total').innerHTML = javaSku;
-  }
-  window.onload = load();
-</script>
 
 {% schema %}
 	{
@@ -42,7 +33,9 @@
     console.log(collection.length);
 	console.log('hi hit hit');
 
-	
+	let javSku = 'wowo';
+	console.log('sku', javSku);
+	document.getElementById("total").innerHTML = javSku;
    	
 {% endjavascript %}
 
