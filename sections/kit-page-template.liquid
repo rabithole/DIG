@@ -1,11 +1,26 @@
+{% capture total %}
+	{% for product in prod %}
+		{{ product.price }}
+	{% endfor %}
+{% endcapture %}
+<h1>Total from build kits section file: {{ total }}</h1>
 
 <div class="center" style="display: flex; flex-direction: column;">
 	<h1 style="font-size: 3vw; font-weight: bold; color: black; text-align: center;">{{ section.settings.title }}</h1>
 
-	{% assign sku = 'total sku' %}
+	
   	<h1 id='total'>total</h1>
   	<h1>Javascript: --- {{ collection }}</h1>
 </div>
+
+<script type="text/javascript">
+	function load() {
+		var javSku = '{{sku}}';
+		console.log('sku', javSku);
+		document.getElementById('total').innerHTML = javSku;
+	}
+	window.onload = load();
+</script>
 
 {% schema %}
 	{
@@ -27,15 +42,17 @@
 		]
 	}
 {% endschema %}
+{% comment %}
 {% javascript %}
     let collection  = document.getElementsByTagName("h3");
     console.log( collection[0].innerHTML );
     console.log(collection.length);
 	console.log('hi hit hit');
 
-	var javSku = '{{sku}}';
+	var javSku = 'wowow';
 	console.log('sku', javSku);
 	document.getElementById("total").innerHTML = javSku;
    	
 {% endjavascript %}
 
+{% endcomment %}
