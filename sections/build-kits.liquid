@@ -1,7 +1,7 @@
 {% assign sku = section.settings.product_sku %}
 {% assign prod = section.settings.product %}
 
-<div style="">
+<div class='build-kit'>
   	<h1 style="font-size: 3vw; font-weight: bold; color: black;">{{ section.settings.title }}</h1>
   	{% for option in prod.variants %}
   		{% if option.sku == sku %}
