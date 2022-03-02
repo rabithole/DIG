@@ -2,7 +2,7 @@
 {% assign prod = section.settings.product %}
 
 <div style="display: flex; flex-direction: column;">
-  	<h1 style="text-align: center; font-size: 3vw; font-weight: bold; color: black;">{{ prod.title }}</h1>
+  	<h1 style="text-align: center; font-size: 3vw; font-weight: bold; color: black;">{{ section.settings.title }}</h1>
 
   	{% for option in prod.variants %}
   		{% if option.sku == sku %}
