@@ -1,7 +1,7 @@
 <div class="center" style="display: flex; flex-direction: column;">
 	<h1 style="font-size: 3vw; font-weight: bold; color: black; text-align: center;">{{ section.settings.title }}</h1>
 
-  	<h1 id='total'></h1>
+  	<h1 id='total' style="text-align: center; font-size: 2vw; font-weight: bold; color: black;"></h1>
 </div>
 
 {% assign prod_id = section.settings.product %}
@@ -33,14 +33,19 @@
     let collection  = document.getElementsByTagName('h3');
     let price = 0;
 
+    console.log('Collection:', collection);
+
     for(let i = 0; i < collection.length; i++) {
-    	console.log(collection[i].innerHTML);
+    	price = price + Number(collection[i].id);
     	console.log(Number(collection[i].id));
-    	price = '$' + (Number(collection[i].id) / 100).toFixed(2);
+    	/*
+    	console.log('InnerHTML: ', collection[i].innerHTML);
+    	price = 'Total: ' + '$' + (Number(collection[i].id) / 100).toFixed(2);
+    	*/
     }
-    console.log( 'collection', collection );
+    console.log( 'collection', collection, price );
 
 	
-	document.getElementById("total").innerHTML = price;
+	document.getElementById("total").innerHTML = 'Total: ' + '$' + (Number(price) / 100).toFixed(2);
    	
 {% endjavascript %}
