@@ -22,6 +22,14 @@
         "product": "cloudlab-advance-grow-tents"
       }
     },
+    "16462531677b34741a": {
+      "type": "build-kits",
+      "settings": {
+        "title": "",
+        "product_sku": "720231",
+        "product": "grow-pros-solutions-led"
+      }
+    },
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -51,6 +59,7 @@
     "main",
     "164583908176900075",
     "164583889105c32ed0",
+    "16462531677b34741a",
     "recommendations",
     "promotion",
     "recentyViewed"
