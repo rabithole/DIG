@@ -7,10 +7,10 @@
   	{% for option in prod.variants %}
   		{% if option.sku == sku %}
   			<img src='{{ option.image | img_url }}' style='width: 200px; margin: auto;'>
-  			<h3 style="text-align: center;" id='{{ option.price }}'>Price: {{ option.price | money }}</h3>
+  			<h3 style="" id='{{ option.price }}'>Price: {{ option.price | money }}</h3>
   
-  			<p style='text-align: center;'>Variant ID: --- {{ option.id }}</p>
-			<h1 style='text-align: center'>Sku: --- {{ sku }}</h1>
+  			<p style=''>Variant ID: --- {{ option.id }}</p>
+			<h1 style=''>Sku: --- {{ sku }}</h1>
   		{% endif %}
   	{% endfor %}
   	
