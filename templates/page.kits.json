@@ -6,14 +6,6 @@
         "title": "Grow Tent Kit"
       }
     },
-    "164583908176900075": {
-      "type": "build-kits",
-      "settings": {
-        "title": "Timer",
-        "product_sku": "700027",
-        "product": "light-timer-auto-pilot"
-      }
-    },
     "164583889105c32ed0": {
       "type": "build-kits",
       "settings": {
@@ -28,6 +20,14 @@
         "title": "Gro Pros Solutions LED",
         "product_sku": "720231",
         "product": "grow-pros-solutions-led"
+      }
+    },
+    "164583908176900075": {
+      "type": "build-kits",
+      "settings": {
+        "title": "Timer",
+        "product_sku": "700027",
+        "product": "light-timer-auto-pilot"
       }
     },
     "recommendations": {
@@ -57,9 +57,9 @@
   },
   "order": [
     "main",
-    "164583908176900075",
     "164583889105c32ed0",
     "16462531677b34741a",
+    "164583908176900075",
     "recommendations",
     "promotion",
     "recentyViewed"
