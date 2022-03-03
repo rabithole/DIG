@@ -7,6 +7,7 @@
           {% if option.sku == sku %}
               <img src='{{ option.image | img_url }}' style='width: 200px;'>
               <h3 style="" id='{{ option.price }}'>Price: {{ option.price | money }}</h3>
+              <h1>{{ option.title }}</h1>
           {% endif %}
       {% endfor %}
   </div>
