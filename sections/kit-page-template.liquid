@@ -20,13 +20,36 @@
 				"label": "Page Title"
 			}
 		],
-		"presets": [
+		"blocks": [
 			{
-				"category": "Product",
-				"name": "Build A Kit",
-				"settings": {}
-			}
-		]
+				"name": "Product-Info",
+				"type": "product",
+				"settings": [
+					{	
+                        "id": "title",
+                        "type": "text",
+                        "label": "title"
+                    },
+                    {
+                    	"type": "text",
+                    	"id": "product_sku",
+                    	"label": "Product Sku"
+                    },
+                    {
+                    	"type": "product",
+                    	"id": "product",
+                    	"label": "Product"
+                    }
+                  ]
+                }
+              ],
+              "presets": [
+                  {
+                      "category": "Product",
+                      "name": "Build A Kit",
+                      "settings": {}
+                  }
+              ]
 	}
 {% endschema %}
 
