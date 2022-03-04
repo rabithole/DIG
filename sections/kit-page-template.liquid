@@ -5,7 +5,10 @@
 
 {% assign sku = section.blocks.settings.product_sku %}
 
-<h1>Title: --- {{ block.settings.title }}</h1>
+{% for product in block.settings.title %}
+	
+	<h1>Title: --- {{ block.settings.title }}</h1>
+{% endfor %}
 
 
 {% schema %}
