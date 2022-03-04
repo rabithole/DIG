@@ -3,10 +3,10 @@
   	<h1 id='total' style="text-align: center; font-size: 2vw; font-weight: bold; color: black;"></h1>
 </div>
 
-{% assign sku = settings.blocks.product_sku %}
+{% assign sku = blocks.settings.product_sku %}
 {% assign prod = blocks.settings.product %}
 
-<h1>Title: --- {{ prod.title }}</h1>
+<h1>Title: --- {{ sku }}</h1>
 
 
 {% schema %}
