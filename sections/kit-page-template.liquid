@@ -6,8 +6,18 @@
 <div>
   {% for block in section.blocks %}
   	{% assign sku = block.settings.product_sku %}
+  	{% assign prod = block.settings.product %}
   	<h1>{{ block.settings.title }}</h1>
   	<h3>SKU: -- {{ block.settings.product_sku }}</h3>
+  
+  
+  	{% for option in prod.variants %}
+          {% if option.sku == sku %}
+              <img src='{{ option.image | img_url }}' style='width: 200px;'>
+              <h3 style="" id='{{ option.price }}'>Price: {{ option.price | money }}</h3>
+              <h1>{{ option.title }}</h1>
+          {% endif %}
+      {% endfor %} 
   {% endfor %}
 </div>
 
