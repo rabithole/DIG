@@ -3,6 +3,10 @@
   	<h1 id='total' style="text-align: center; font-size: 2vw; font-weight: bold; color: black;"></h1>
 </div>
 
+{%- for block in section.blocks -%}
+	{%- render block -%}
+{%- endfor -%}
+
 {% schema %}
 	{
 		"name": "Kit Title",
