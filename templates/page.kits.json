@@ -6,7 +6,9 @@
         "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132": {
           "type": "text",
           "settings": {
-            "title": "It worked"
+            "title": "LED",
+            "product_sku": "",
+            "product": ""
           }
         }
       },
