@@ -10,10 +10,19 @@
             "product_sku": "",
             "product": ""
           }
+        },
+        "8fac9e67-341f-4981-803a-a2115c9404de": {
+          "type": "text",
+          "settings": {
+            "title": "What",
+            "product_sku": "",
+            "product": ""
+          }
         }
       },
       "block_order": [
-        "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132"
+        "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132",
+        "8fac9e67-341f-4981-803a-a2115c9404de"
       ],
       "settings": {
         "title": "LED"
