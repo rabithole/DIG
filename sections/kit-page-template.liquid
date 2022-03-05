@@ -3,9 +3,7 @@
   	<h1 id='total' style="text-align: center; font-size: 2vw; font-weight: bold; color: black;"></h1>
 </div>
 
-{%- for block in section.blocks -%}
-	{%- render block -%}
-{%- endfor -%}
+<h1>{{ block.settings.title }}</h1>
 
 {% schema %}
 	{
@@ -20,7 +18,15 @@
 		],
 		"blocks": [
 			{
-			"type": "@app"
+			"type": "text",
+			"name": "title",
+  			"settings": [
+				{
+  				"type": "text",
+  				"id": "title",
+  				"label": "Heading"
+				}
+  				]
 			}
 		],
 		"presets": [
@@ -28,9 +34,6 @@
 				"category": "Product",
 				"name": "Build A Kit",
 				"settings": {}
-			},
-			{
-				"name": "Kit Title"
 			}
 		]
 	}
