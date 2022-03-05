@@ -8,7 +8,8 @@
           "settings": {
             "title": "Grow Tent",
             "product_sku": "720261",
-            "product": "cloudlab-advance-grow-tents"
+            "product": "cloudlab-advance-grow-tents",
+            "description": "AC Infinity makes the finest grow tents on the market!"
           }
         },
         "8fac9e67-341f-4981-803a-a2115c9404de": {
@@ -16,7 +17,8 @@
           "settings": {
             "title": "Gro Pros LED",
             "product_sku": "720231",
-            "product": "grow-pros-solutions-led"
+            "product": "grow-pros-solutions-led",
+            "description": ""
           }
         },
         "3bbce69c-997d-4a80-9695-d326dad052f3": {
@@ -24,7 +26,8 @@
           "settings": {
             "title": "Autopilot Timer",
             "product_sku": "700027",
-            "product": "light-timer-auto-pilot"
+            "product": "light-timer-auto-pilot",
+            "description": ""
           }
         }
       },
