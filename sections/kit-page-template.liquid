@@ -3,30 +3,25 @@
   	<h1 id='total' style="text-align: center; font-size: 2vw; font-weight: bold; color: black;"></h1>
 </div>
 
-<div>
+<div class="kit">
   {% for block in section.blocks %}
   	{% assign sku = block.settings.product_sku %}
   	{% assign prod = block.settings.product %}
   
   	<h1>{{ block.settings.title }}</h1>
-  	<h3>SKU: -- {{ block.settings.product_sku }}</h3>
-  
-  
-  	{% for option in prod.variants %}
-          {% if option.sku == sku %}
-              <img src='{{ option.image | img_url }}' style='width: 200px;'>
-              <h3 style="" id='{{ option.price }}'>Price: {{ option.price | money }}</h3>
-              <h1>{{ option.title }}</h1>
-          {% endif %}
-      {% endfor %} 
+  	
+  	<section class="eachProduct">
+	  	{% for option in prod.variants %}
+	          {% if option.sku == sku %}
+	              <img src='{{ option.image | img_url }}' style='width: 200px;'>
+	              <h3 style="" id='{{ option.price }}'>Price: {{ option.price | money }}</h3>
+	              <h1>{{ option.title }}</h1>
+	          {% endif %}
+	  	{% endfor %}
+	</section> 
+
   {% endfor %}
 </div>
-
-<section>
-  <div class='kit-page'>
-    
-  </div>
-</section>
 
 {% schema %}
 	{
@@ -93,3 +88,20 @@
 	document.getElementById("total").innerHTML = 'Total: ' + '$' + (Number(price) / 100).toFixed(2);
    	
 {% endjavascript %}
+
+{% stylesheet %}
+	.kit {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		border: 2px solid black;
+		padding: 20px;
+		width: 70%;
+		margin: auto;
+	}
+
+	.eachProduct {
+		border: 2px solid black;
+		padding: 20px;
+	}
+{% endstylesheet %}
