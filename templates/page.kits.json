@@ -28,8 +28,15 @@
         "title": "Grow Tent Kit"
       }
     },
+    "164650904979060b63": {
+      "type": "kit-page-template",
+      "settings": {
+        "title": "Air and Humidity"
+      }
+    },
     "164583889105c32ed0": {
       "type": "build-kits",
+      "disabled": true,
       "settings": {
         "title": "Grow Tent",
         "product_sku": "720261",
@@ -38,6 +45,7 @@
     },
     "16462531677b34741a": {
       "type": "build-kits",
+      "disabled": true,
       "settings": {
         "title": "Gro Pros Solutions LED",
         "product_sku": "720231",
@@ -46,6 +54,7 @@
     },
     "164583908176900075": {
       "type": "build-kits",
+      "disabled": true,
       "settings": {
         "title": "Timer",
         "product_sku": "700027",
@@ -79,6 +88,7 @@
   },
   "order": [
     "main",
+    "164650904979060b63",
     "164583889105c32ed0",
     "16462531677b34741a",
     "164583908176900075",
