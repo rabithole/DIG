@@ -3,17 +3,15 @@
     "main": {
       "type": "kit-page-template",
       "blocks": {
-        "867093c9-5ff9-48be-a446-67ff273ed3b4": {
-          "type": "product",
+        "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132": {
+          "type": "text",
           "settings": {
-            "title": "Gro Pros LED",
-            "product_sku": "720231",
-            "product": "grow-pros-solutions-led"
+            "title": "It worked"
           }
         }
       },
       "block_order": [
-        "867093c9-5ff9-48be-a446-67ff273ed3b4"
+        "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132"
       ],
       "settings": {
         "title": "Grow Tent Kit"
