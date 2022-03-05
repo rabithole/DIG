@@ -8,8 +8,9 @@
 
 <div>
   {% for block in section.blocks %}
+  	{% assign sku = block.settings.prouduct_sku %}
   	<h1>{{ block.settings.title }}</h1>
-  	<h3>SKU: -- {{ block.settings.product_sku }}</h3>
+  	<h3>SKU: -- {{ sku }}</h3>
   {% endfor %}
 </div>
 
