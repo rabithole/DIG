@@ -6,7 +6,7 @@
 <div>
   {% for block in section.blocks %}
   	<h1>{{ block.settings.title }}</h1>
-  	<img src="{{ block.settings.product_sku }}">
+  <h3>SKU: -- {{ block.settings.product_sku }}</h3>
   {% endfor %}
 
 </div>
