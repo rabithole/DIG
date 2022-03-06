@@ -19,7 +19,7 @@
 		          {% if option.sku == sku %}
 		              <img src='{{ option.image | img_url }}' style='width: 200px;'>
 		              <h3 style="" id='{{ option.price }}'>Price: {{ option.price | money }}</h3>
-		              <h1>{{ option.title }}</h1>
+		              <h1 id='product-title'>{{ option.title }}</h1>
 		          {% endif %}
 		  	{% endfor %}
 		</section> 
@@ -101,11 +101,12 @@
 	.kit {
 		display: flex;
 		justify-content: space-around;
+		flex-wrap: wrap;
 		border: 2px solid black;
-		padding-top: 50px;
-		padding-bottom: 10px;
+		padding: 10px;
 		width: 90%;
 		margin: auto;
+		background-color: #23453D;
 	}
 
 	.product-container {
@@ -113,6 +114,9 @@
 		justify-content: space-around;
 		border: 2px solid black;
 		margin: 10px;
+		background-color: white;
+		width: 500px;
+		height: 350px;
 	}
 
 	.title-description {
@@ -124,6 +128,12 @@
 	.eachProduct {
 		border-left: 2px solid black;
 		padding: 15px;
-		width: 80%;
+		
+	}
+
+	#product-title {
+		position: relative;
+		top: 300px;
+		color: red;
 	}
 {% endstylesheet %}
