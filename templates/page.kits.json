@@ -42,6 +42,20 @@
     },
     "164650904979060b63": {
       "type": "kit-page-template",
+      "blocks": {
+        "7e91cf85-a4f9-4c3d-8587-1ccc99ebcca6": {
+          "type": "text",
+          "settings": {
+            "title": "Hurricane Clip Fan",
+            "product_sku": "HGC736520",
+            "product": "hurricane-6-in-clip-fan",
+            "description": "6 inch clip fan. Attach it just about anywhere!"
+          }
+        }
+      },
+      "block_order": [
+        "7e91cf85-a4f9-4c3d-8587-1ccc99ebcca6"
+      ],
       "settings": {
         "title": "Air and Humidity"
       }
