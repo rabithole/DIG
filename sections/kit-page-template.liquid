@@ -17,6 +17,9 @@
 	  	<section class="eachProduct">
 		  	{% for option in prod.variants %}
 		          {% if option.sku == sku %}
+          			{% if prod.variants == false %}
+          				<h1>False Variants</h1>
+          			{% endif %}
 		              <img src='{{ option.image | img_url }}' style='width: 200px;'>
 		              <h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
 		              <h1 class='product-model'>{{ option.title }}</h1>
