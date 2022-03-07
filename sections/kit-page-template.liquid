@@ -97,4 +97,56 @@
    	
 {% endjavascript %}
 
+{% stylesheet %}
+	#total {
+		background-color: #23453D;
+		color: #F0F0F0;
+		width: 90%;
+		margin: auto;
+	}
 
+	.kit {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		
+		padding: 10px;
+		width: 90%;
+		margin: auto;
+		background-color: #23453D;
+	}
+
+	.product-container {
+		display: flex;
+		justify-content: space-around;
+		border: 2px solid black;
+		margin: 10px;
+		background-color: white;
+		width: 500px;
+		height: 350px;
+	}
+
+	.title-description {
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+	}
+
+	.eachProduct {
+
+		position: relative;
+		border-left: 2px solid black;
+		padding: 15px;
+		
+	}
+
+	.product-title {
+		position: absolute;
+		bottom: 20px;
+		
+	}
+                                         
+	.product-price {
+		position: absolute;
+		bottom: 30px;
+{% endstylesheet %}
