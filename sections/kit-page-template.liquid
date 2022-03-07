@@ -1,6 +1,6 @@
 <div class="center" style="display: flex; flex-direction: column;">
 	<h1 style="font-size: 3vw; font-weight: bold; color: black; text-align: center;">{{ section.settings.title }}</h1>
-  	<h1 id='total' style="text-align: center; font-size: 2vw; font-weight: bold; color: black;"></h1>
+  	<h1 id='total' style="text-align: center; font-size: 2vw; font-weight: bold;"></h1>
 </div>
 
 <div class="kit">
@@ -18,7 +18,7 @@
 		  	{% for option in prod.variants %}
 		          {% if option.sku == sku %}
 		              <img src='{{ option.image | img_url }}' style='width: 200px;'>
-		              <h3 style="" id='{{ option.price }}' class='product-details'>Price: {{ option.price | money }}</h3>
+		              <h3 style="" id='{{ option.price }}' class='product-details'>{{ option.price | money }}</h3>
 		              <h1 class='product-details'>{{ option.title }}</h1>
 		          {% endif %}
 		  	{% endfor %}
@@ -98,11 +98,18 @@
 {% endjavascript %}
 
 {% stylesheet %}
+	#total {
+		background-color: #23453D;
+		color: #E8E8E8;
+		width: 90%;
+		margin: auto;
+	}
+
 	.kit {
 		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
-		border: 2px solid black;
+		
 		padding: 10px;
 		width: 90%;
 		margin: auto;
@@ -126,6 +133,7 @@
 	}
 
 	.eachProduct {
+
 		position: relative;
 		border-left: 2px solid black;
 		padding: 15px;
