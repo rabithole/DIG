@@ -1,6 +1,6 @@
-<div class="center" style="display: flex; flex-direction: column;">
-	<h1 style="font-size: 3vw; font-weight: bold; color: black; text-align: center;">{{ section.settings.title }}</h1>
-  	<h1 id='total' style="text-align: center; font-size: 2vw; font-weight: bold;"></h1>
+<div class="main-title">
+	<h1>{{ section.settings.title }}</h1>
+  	<h1 id='total'></h1>
 </div>
 
 <div class="kit">
@@ -10,7 +10,7 @@
   
   	<div class="product-container">
 	  	<section class="title-description">
-	  		<h1>{{ block.settings.title }}</h1>
+	  		<h1 class="prod-title">{{ block.settings.title }}</h1>
 	  		<p>{{ block.settings.description }}</p>
 	  	</section>
 
@@ -19,7 +19,7 @@
 		          {% if option.sku == sku %}
 		              <img src='{{ option.image | img_url }}' style='width: 200px;'>
 		              <h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
-		              <h1 class='product-title'>{{ option.title }}</h1>
+		              <h1 class='product-model'>{{ option.title }}</h1>
 		          {% endif %}
 		  	{% endfor %}
 		</section> 

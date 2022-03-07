@@ -13735,6 +13735,9 @@ to turn off this for now...
       display: none;
     }
   }
+
+
+  /* Beginning of custom code for DIG */
   	
   .flex-soil {
     display: flex;
@@ -13837,6 +13840,24 @@ to turn off this for now...
 
 /* Build kit page */
 
+.main-title {
+  /* display: flex;
+  flex-direction: column; */ 
+}
+
+.main-title h1 {
+  font-size: 3vw; 
+  font-weight: bold; 
+  color: black; 
+  text-align: center;
+}
+
+@media only screen and ( max-width: 950px ) {
+  .main-title h1 {
+    font-size: 6vw;
+  }
+}
+
 .build-kit {
   display: flex;
   flex-direction: column;
@@ -13848,10 +13869,20 @@ to turn off this for now...
 }
 
 #total {
-  background-color: #23453D;
+  background-color: #7FB38E;
   color: #F0F0F0;
   width: 90%;
   margin: auto;
+  border-radius: 5px 5px 0px 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2vw;
+}
+
+@media only screen and ( max-width: 850px ) {
+  #total {
+    font-size: 4vw;
+  }
 }
 
 .kit {
@@ -13861,17 +13892,20 @@ to turn off this for now...
   padding: 10px;
   width: 90%;
   margin: auto;
-  background-color: #23453D;
+  border: 1px solid grey;
+  /* background-color: #23453D; */
 }
 
 .product-container {
   display: flex;
   justify-content: space-around;
-  border: 2px solid black;
   margin: 10px;
-  background-color: white;
+  /* background-color: white; */
   width: 500px;
-  height: 350px;
+  height: 300px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black; 
 }
 
 .title-description {
@@ -13887,7 +13921,13 @@ to turn off this for now...
   width: 100%;
 }
 
-.product-title {
+@media only screen and ( max-width: 400px ) {
+  .eachProduct {
+    width: 250%;
+  }
+}
+
+.product-model {
   position: absolute;
   bottom: 20px;		
 }
@@ -13895,5 +13935,10 @@ to turn off this for now...
 .product-price {
   position: absolute;
   bottom: 30px;
+}
+
+.prod-title {
+  color: black;
+  font-weight: bold;
 }
 
