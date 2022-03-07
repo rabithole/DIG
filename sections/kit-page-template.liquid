@@ -18,8 +18,8 @@
 		  	{% for option in prod.variants %}
 		          {% if option.sku == sku %}
 		              <img src='{{ option.image | img_url }}' style='width: 200px;'>
-		              <h3 style="" id='{{ option.price }}' class='product-details'>{{ option.price | money }}</h3>
-		              <h1 class='product-details'>{{ option.title }}</h1>
+		              <h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
+		              <h1 class='product-title'>{{ option.title }}</h1>
 		          {% endif %}
 		  	{% endfor %}
 		</section> 
@@ -140,9 +140,13 @@
 		
 	}
 
-	.product-details {
+	.product-title {
 		position: absolute;
 		bottom: 20px;
 		
 	}
+                                         
+	.product-price {
+		position: absolute;
+		bottom: 30px;
 {% endstylesheet %}
