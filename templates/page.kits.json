@@ -61,11 +61,21 @@
             "product": "inline-fan",
             "description": "AC Infinity exhaust fan. Built in controller for temperature, humidity, fan speed, timer and alarm. The T4 fan is unmatched in quality, price and features."
           }
+        },
+        "f50c7543-b542-4641-81e1-e7a53b53dfd4": {
+          "type": "text",
+          "settings": {
+            "title": "Exhaust Filter \/ Scrubber",
+            "product_sku": "600704",
+            "product": "grow-room-garden-filter",
+            "description": ""
+          }
         }
       },
       "block_order": [
         "7e91cf85-a4f9-4c3d-8587-1ccc99ebcca6",
-        "d04621c1-cec5-4c6c-a3f5-e4ee264bda66"
+        "d04621c1-cec5-4c6c-a3f5-e4ee264bda66",
+        "f50c7543-b542-4641-81e1-e7a53b53dfd4"
       ],
       "settings": {
         "title": "Air and Humidity"
