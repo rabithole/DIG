@@ -11,7 +11,7 @@
   	<div class="product-container">
 	  	<section class="title-description">
 	  		<h1 class="prod-title">{{ block.settings.title }}</h1>
-	  		<p>{{ block.settings.description }}</p>
+	  		<p>{{ block.settings.description | truncate: 352 }}</p>
 	  	</section>
 
 	  	<section class="eachProduct">
