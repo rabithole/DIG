@@ -22,6 +22,7 @@
 					{% else %}
            				<img src='{{ option.image | img_url }}' style='width: 200px;'>                                                                                   
           			{% endif %}
+          				<p>{{ option.id }}</p>
 		              
 		              <h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
           				{% if option.title != 'Default Title' %}
