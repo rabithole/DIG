@@ -70,12 +70,22 @@
             "product": "grow-room-garden-filter",
             "description": "Filter out the dank smell your buds make so your neighbors won't complain. This carbon filter is designed for grow room, kitchens, smoking areas and any area requiring filtered ventilation from chemicals or smell."
           }
+        },
+        "e3285696-ce10-40d2-b1d1-d4925bf0766f": {
+          "type": "text",
+          "settings": {
+            "title": "Ducting",
+            "product_sku": "600708",
+            "product": "ac-infinity-flexible-ducting",
+            "description": ""
+          }
         }
       },
       "block_order": [
         "7e91cf85-a4f9-4c3d-8587-1ccc99ebcca6",
         "d04621c1-cec5-4c6c-a3f5-e4ee264bda66",
-        "f50c7543-b542-4641-81e1-e7a53b53dfd4"
+        "f50c7543-b542-4641-81e1-e7a53b53dfd4",
+        "e3285696-ce10-40d2-b1d1-d4925bf0766f"
       ],
       "settings": {
         "title": "Air and Humidity"
