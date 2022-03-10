@@ -10,7 +10,7 @@
   
   	<div class="product-container">
 	  	<section class="title-description">
-	  		<h1 class="prod-title">{{ block.settings.title }}</h1>
+	  		<h2 class="prod-title">{{ block.settings.title }}</h2>
 	  		<p>{{ block.settings.description | truncate: 352 }}</p>
 	  	</section>
 
@@ -22,11 +22,15 @@
 					{% else %}
            				<img src='{{ option.image | img_url }}' style='width: 200px;'>                                                                                   
           			{% endif %}
-          				<p>{{ option.id }}</p>
-		              
+
+          			{% capture id %}
+          				{{ option.id }}
+          			{% endcapture %}
+		              <h6>{{ id }}</h6>
+
 		              <h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
           				{% if option.title != 'Default Title' %}
-		              		<h1 class='product-model'>{{ option.title }}</h1>
+		              		<h1 class='product-model' id='{{ option.id }}'>{{ option.title }}</h1>
           				{% endif %}
 		          {% endif %}
 		  	{% endfor %}
@@ -36,7 +40,7 @@
 
   <div class='cart-button'>
     <form method="post" action="/cart/add">
-      <input type="hidden" name="id" value={{ section.settings.variantId }} />
+      <input type="hidden" name="id" value='39744722370596' />
       {% comment %}
       <input min="1" type="number" id="quantity" name="quantity" value="1"/>
       {% endcomment %}
@@ -129,6 +133,9 @@
 
 	
 	document.getElementById("total").innerHTML = 'Total: ' + '$' + (Number(price) / 100).toFixed(2);
+
+	let id = document.getElementsByTagName('h6');
+	console.log( 'id', id[0].innerHTML );
    	
 {% endjavascript %}
 
