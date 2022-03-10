@@ -12,6 +12,26 @@
 	  	<section class="title-description">
 	  		<h1 class="prod-title">{{ block.settings.title }}</h1>
 	  		<p>{{ block.settings.description | truncate: 352 }}</p>
+
+	  		<div class="rte">
+            <form method="post" action="/cart/add">
+              <input type="hidden" name="id" value={{ section.settings.variantId }} />
+              {% comment %}
+              <input min="1" type="number" id="quantity" name="quantity" value="1"/>
+              {% endcomment %}
+              <label id='discount-label'>Quantity: </label>
+              <select name='quantity' type='number' id='quantity' class="discount-select-page">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+              </select>
+              <button type="submit" class="discount-page-button" data-action="add-to-cart">Add To Cart</button>
+            </form> 
+          </div>
+
 	  	</section>
 
 	  	<section class="eachProduct">
