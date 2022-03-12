@@ -53,7 +53,7 @@
         <option>5</option>
         <option>6</option>
       </select>
-      <button type="submit" onclick="idSubmit()" class="discount-page-button" data-action="add-to-cart">Add To Cart</button>
+      <section type="submit" onclick="idSubmit()" class="discount-page-button" data-action="add-to-cart">Add To Cart</section>
     </form> 
   </div>
 </div>
@@ -67,15 +67,17 @@ let formBuildKit = document.getElementById('kit-form');
 
 		// Add each product id to the id array. ( idArr )
 	for(let i = 0; i < id.length; i++) {
-		idArr.push(id[i] );
+		idArr.push(id[i].id );
 	}
+
+	// console.log('ID Array:--', idArr)
 
 	function idSubmit() {
 			console.log('idSubmit function')
 			for(let i = 0; i < idArr.length; i++) {
-				formValue.value = idArr[i].id;
+				formValue.value = idArr[i];
 				formBuildKit.submit();
-				console.log('form submitted', idArr[i].id)
+				console.log('form submitted', idArr[i])
 				e.preventDefault();
 			}
 	}
