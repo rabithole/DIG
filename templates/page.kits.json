@@ -42,6 +42,7 @@
     },
     "164650904979060b63": {
       "type": "kit-page-template",
+      "disabled": true,
       "blocks": {
         "7e91cf85-a4f9-4c3d-8587-1ccc99ebcca6": {
           "type": "text",
