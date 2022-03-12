@@ -1,45 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "kit-page-template",
-      "blocks": {
-        "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132": {
-          "type": "text",
-          "settings": {
-            "title": "Grow Tent",
-            "product_sku": "720261",
-            "product": "cloudlab-advance-grow-tents",
-            "description": "AC Infinity makes the finest grow tents on the market! With a grow tent you can control every detail of a plants needs. There is no better way to get those dank nugs."
-          }
-        },
-        "8fac9e67-341f-4981-803a-a2115c9404de": {
-          "type": "text",
-          "settings": {
-            "title": "Gro Pros LED",
-            "product_sku": "720231",
-            "product": "grow-pros-solutions-led",
-            "description": "LED lighting with a 7 year warranty and the best price point on the market. Full-spectrum LED solution for commercial indoor grow at home."
-          }
-        },
-        "3bbce69c-997d-4a80-9695-d326dad052f3": {
-          "type": "text",
-          "settings": {
-            "title": "Autopilot Timer",
-            "product_sku": "700027",
-            "product": "light-timer-auto-pilot",
-            "description": "Dual outlet digital timer for controlling watering, lighting and air control. Up to 8 on\/off cycles per day."
-          }
-        }
-      },
-      "block_order": [
-        "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132",
-        "8fac9e67-341f-4981-803a-a2115c9404de",
-        "3bbce69c-997d-4a80-9695-d326dad052f3"
-      ],
-      "settings": {
-        "title": "Grow Tent Kit"
-      }
-    },
     "164650904979060b63": {
       "type": "kit-page-template",
       "blocks": {
@@ -91,31 +51,44 @@
         "title": "Air and Humidity"
       }
     },
-    "164583889105c32ed0": {
-      "type": "build-kits",
-      "disabled": true,
+    "main": {
+      "type": "kit-page-template",
+      "blocks": {
+        "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132": {
+          "type": "text",
+          "settings": {
+            "title": "Grow Tent",
+            "product_sku": "720261",
+            "product": "cloudlab-advance-grow-tents",
+            "description": "AC Infinity makes the finest grow tents on the market! With a grow tent you can control every detail of a plants needs. There is no better way to get those dank nugs."
+          }
+        },
+        "8fac9e67-341f-4981-803a-a2115c9404de": {
+          "type": "text",
+          "settings": {
+            "title": "Gro Pros LED",
+            "product_sku": "720231",
+            "product": "grow-pros-solutions-led",
+            "description": "LED lighting with a 7 year warranty and the best price point on the market. Full-spectrum LED solution for commercial indoor grow at home."
+          }
+        },
+        "3bbce69c-997d-4a80-9695-d326dad052f3": {
+          "type": "text",
+          "settings": {
+            "title": "Autopilot Timer",
+            "product_sku": "700027",
+            "product": "light-timer-auto-pilot",
+            "description": "Dual outlet digital timer for controlling watering, lighting and air control. Up to 8 on\/off cycles per day."
+          }
+        }
+      },
+      "block_order": [
+        "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132",
+        "8fac9e67-341f-4981-803a-a2115c9404de",
+        "3bbce69c-997d-4a80-9695-d326dad052f3"
+      ],
       "settings": {
-        "title": "Grow Tent",
-        "product_sku": "720261",
-        "product": "cloudlab-advance-grow-tents"
-      }
-    },
-    "16462531677b34741a": {
-      "type": "build-kits",
-      "disabled": true,
-      "settings": {
-        "title": "Gro Pros Solutions LED",
-        "product_sku": "720231",
-        "product": "grow-pros-solutions-led"
-      }
-    },
-    "164583908176900075": {
-      "type": "build-kits",
-      "disabled": true,
-      "settings": {
-        "title": "Timer",
-        "product_sku": "700027",
-        "product": "light-timer-auto-pilot"
+        "title": "Grow Tent Kit"
       }
     },
     "recommendations": {
@@ -144,11 +117,8 @@
     }
   },
   "order": [
-    "main",
     "164650904979060b63",
-    "164583889105c32ed0",
-    "16462531677b34741a",
-    "164583908176900075",
+    "main",
     "recommendations",
     "promotion",
     "recentyViewed"
