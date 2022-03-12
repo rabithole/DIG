@@ -39,21 +39,9 @@
   {% endfor %}
 
   <div class='cart-button'>
-    <form method="post" action="/cart/add" id='kit-form'>
+    <form id='kit-form'>
       <input type="hidden" name="id" value='1' id='value'/>
-      {% comment %}
-      <input min="1" type="number" id="quantity" name="quantity" value="1"/>
-      {% endcomment %}
-      <label id='discount-label'>Quantity: </label>
-      <select name='quantity' type='number' id='quantity' class="discount-select-page">
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-        <option>6</option>
-      </select>
-      <section type="submit" onclick="idSubmit()" class="discount-page-button" data-action="add-to-cart">Add To Cart</section>
+      <button onclick="idSubmit()" class="discount-page-button">Add To Cart</button>
     </form> 
   </div>
 </div>
@@ -113,6 +101,10 @@ function idSubmit() {
 	}).catch((err) => {
 		console.error(err)
 	});
+
+	
+
+	e.preventDefault();
 }
 	
 </script>
