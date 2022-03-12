@@ -70,8 +70,21 @@ let formBuildKit = document.getElementById('kit-form');
 		idArr.push(id[i].id );
 	}
 
-	// console.log('ID Array:--', idArr)
+	console.log('ID Array:--', idArr)
+	let prodData = idArr.map(id => {
+		return {
+			quantity: 1,
+			id: id
+		}
+	})
 
+	let data = {
+		items: prodData
+	}
+
+	console.log('data: -- ', data)
+
+/*
 	function idSubmit() {
 			console.log('idSubmit function')
 			for(let i = 0; i < idArr.length; i++) {
@@ -81,6 +94,26 @@ let formBuildKit = document.getElementById('kit-form');
 				e.preventDefault();
 			}
 	}
+*/
+
+function idSubmit() {
+	console.log('submit')
+	fetch('/cart/add.js', {
+		body: JSON.stringify(data),
+		credentials: 'same-origin',
+		headers: {
+			'Content-Type': 'application/json',
+			'X-Requested-With': 'XMLHttpRequest'
+		},
+		method: 'POST'
+	}).then((response) => {
+		return response.json();
+	}).then((json) => {
+		console.log('products', json)
+	}).catch((err) => {
+		console.error(err)
+	});
+}
 	
 </script>
 
