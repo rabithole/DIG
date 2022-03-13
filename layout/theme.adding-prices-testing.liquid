@@ -17,7 +17,6 @@
     <div>
     <h1>This is a testing file layout</h1>
     </div>
-    {% section 'kit-page-template' %}
 
     {% section 'announcement-bar' %}
 
@@ -25,6 +24,8 @@
 	
     <main id="main" role="main">
       {{ content_for_layout }}
+      
+      {% section 'kit-page-template' %}
     </main>
 
     {% section 'text-with-icons' %}

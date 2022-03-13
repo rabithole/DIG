@@ -4,9 +4,16 @@
       "type": "adding-prices-testing",
       "settings": {
       }
+    },
+    "16472119015188ebdb": {
+      "type": "kit-page-template",
+      "settings": {
+        "title": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16472119015188ebdb"
   ]
 }
