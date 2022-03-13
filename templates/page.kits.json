@@ -43,13 +43,9 @@
     },
     "164650904979060b63": {
       "type": "kit-page-template",
-<<<<<<< HEAD
       "settings": {
         "title": "Air and Humidity"
       },
-=======
-      "disabled": true,
->>>>>>> 9fd1512b26f9b1f8251270349cf82d02cb53564e
       "blocks": {
         "7e91cf85-a4f9-4c3d-8587-1ccc99ebcca6": {
           "type": "text",
