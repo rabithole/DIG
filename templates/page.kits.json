@@ -2,6 +2,9 @@
   "sections": {
     "main": {
       "type": "kit-page-template",
+      "settings": {
+        "title": "Grow Tent Kit"
+      },
       "blocks": {
         "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132": {
           "type": "text",
@@ -35,13 +38,14 @@
         "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132",
         "8fac9e67-341f-4981-803a-a2115c9404de",
         "3bbce69c-997d-4a80-9695-d326dad052f3"
-      ],
-      "settings": {
-        "title": "Grow Tent Kit"
-      }
+      ]
+      
     },
     "164650904979060b63": {
       "type": "kit-page-template",
+      "settings": {
+        "title": "Air and Humidity"
+      },
       "blocks": {
         "7e91cf85-a4f9-4c3d-8587-1ccc99ebcca6": {
           "type": "text",
@@ -86,10 +90,7 @@
         "d04621c1-cec5-4c6c-a3f5-e4ee264bda66",
         "f50c7543-b542-4641-81e1-e7a53b53dfd4",
         "e3285696-ce10-40d2-b1d1-d4925bf0766f"
-      ],
-      "settings": {
-        "title": "Air and Humidity"
-      }
+      ]
     },
     "recommendations": {
       "type": "product-recommendations",

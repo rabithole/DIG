@@ -1,14 +1,14 @@
 <div class="main-title">
 	<h1>{{ section.settings.title }}</h1>
-  	<h4 id='total'></h4>
 </div>
 
 <div class="kit">
+	<h4 id='total'></h4>
   {% for block in section.blocks %}
-  	{% assign sku = block.settings.product_sku %}
-  	{% assign prod = block.settings.product %}
+  		{% assign sku = block.settings.product_sku %}
+  		{% assign prod = block.settings.product %}
   
-  	<div class="product-container">
+		<div class="product-container">
 	  	<section class="title-description">
 	  		<h2 class="prod-title">{{ block.settings.title }}</h2>
 	  		<p>{{ block.settings.description | truncate: 352 }}</p>
@@ -16,26 +16,20 @@
 
 	  	<section class="eachProduct">
 		  	{% for option in prod.variants %}
-		          {% if option.sku == sku %}
-          			{% if prod.has_only_default_variant %}
-          				<img src='{{ block.settings.image | img_url }}' style='width: 200px;'>
+          {% if option.sku == sku %}
+      			{% if prod.has_only_default_variant %}
+      				<img src='{{ block.settings.image | img_url }}' style='width: 200px;'>
 					{% else %}
-           				<img src='{{ option.image | img_url }}' style='width: 200px;'>                                                                                   
-          			{% endif %}
-
-          			{% capture id %}
-          				{{ option.id }}
-          			{% endcapture %}
-		              <h6>{{ id }}</h6>
-
-		              <h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
-          				{% if option.title != 'Default Title' %}
-		              		<h2 class='product-model' id='{{ option.id }}'>{{ option.title }}</h2>
-          				{% endif %}
-		          {% endif %}
+						<img src='{{ option.image | img_url }}' style='width: 200px;'>                                                                                   
+    			{% endif %}
+              <h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
+      				{% if option.title != 'Default Title' %}
+              		<h2 class='product-model' id='{{ option.id }}'>{{ option.title }}</h2>
+      				{% endif %}
+          {% endif %}
 		  	{% endfor %}
-		</section> 
-	</div>
+			</section> 
+		</div>
   {% endfor %}
 
   <div class='cart-button'>
@@ -44,9 +38,29 @@
       <button onclick="idSubmit()" class="discount-page-button" >Add To Cart</button>
     </form> 
   </div>
+
 </div>
 
 <script>
+
+	// Gathering prices of each product and totalling in the kit headline.
+
+  let collection  = document.getElementsByTagName('h3');
+  let price = 0;
+
+  console.log('Collection:', collection);
+
+  for(let i = 0; i < collection.length; i++) {
+  	price = price + Number(collection[i].id);
+  	/*
+  	console.log('InnerHTML: ', collection[i].innerHTML);
+  	price = 'Total: ' + '$' + (Number(collection[i].id) / 100).toFixed(2);
+  	*/
+  }
+  		// console.log( 'collection', collection, price );
+	document.getElementById("total").innerHTML = 'Total: ' + '$' + (Number(price) / 100).toFixed(2);
+
+	// Adding products to the cart and refreshing the page.
 	
 let formBuildKit = document.getElementById('kit-form');
 	let formValue = document.getElementById('value');
@@ -178,22 +192,7 @@ function idSubmit() {
 {% endschema %}
 
 {% javascript %}
-		// Gathering prices of each product and totalling in the kit headline.
-
-  let collection  = document.getElementsByTagName('h3');
-  let price = 0;
-
-  console.log('Collection:', collection);
-
-  for(let i = 0; i < collection.length; i++) {
-  	price = price + Number(collection[i].id);
-  	/*
-  	console.log('InnerHTML: ', collection[i].innerHTML);
-  	price = 'Total: ' + '$' + (Number(collection[i].id) / 100).toFixed(2);
-  	*/
-  }
-  		// console.log( 'collection', collection, price );
-	document.getElementById("total").innerHTML = 'Total: ' + '$' + (Number(price) / 100).toFixed(2);
+		
 
 
 
