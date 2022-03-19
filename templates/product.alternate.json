@@ -2,7 +2,33 @@
   "sections": {
     "main": {
       "type": "kit-page-template",
+      "blocks": {
+        "5b79ace1-185a-4a85-a9f7-b00a38427e63": {
+          "type": "text",
+          "settings": {
+            "title": "AC Infinity CloudLab Grow Tent",
+            "product_sku": "720261",
+            "product": "cloudlab-advance-grow-tents",
+            "description": "The finest grow tent money can buy. Get it here at DIG. Treat your plants to the perfect environment!"
+          }
+        },
+        "5954888a-b846-45c5-bb29-13584ac83715": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "product_sku": "",
+            "product": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "5b79ace1-185a-4a85-a9f7-b00a38427e63",
+        "5954888a-b846-45c5-bb29-13584ac83715"
+      ],
       "settings": {
+        "title": "Grow Tent Kit"
       }
     }
   },
