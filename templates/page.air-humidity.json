@@ -2,7 +2,22 @@
   "sections": {
     "main": {
       "type": "kit-page-template",
+      "blocks": {
+        "969be4bd-9393-42b9-8511-4a287b159424": {
+          "type": "text",
+          "settings": {
+            "title": "Hurricane 6 inch clip fan",
+            "product_sku": "HGC736520",
+            "product": "hurricane-6-in-clip-fan",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "969be4bd-9393-42b9-8511-4a287b159424"
+      ],
       "settings": {
+        "title": ""
       }
     }
   },
