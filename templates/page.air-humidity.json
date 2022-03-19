@@ -30,12 +30,22 @@
             "product": "grow-room-garden-filter",
             "description": ""
           }
+        },
+        "3e1fce70-32a6-4c82-a13c-c5b9f1b214fc": {
+          "type": "text",
+          "settings": {
+            "title": "4 inch, 8 foot flexible ducting",
+            "product_sku": "600708",
+            "product": "ac-infinity-flexible-ducting",
+            "description": ""
+          }
         }
       },
       "block_order": [
         "969be4bd-9393-42b9-8511-4a287b159424",
         "d6e8e889-99b9-4535-af30-a87ce241ea8f",
-        "b42a14db-14aa-4c33-9c30-f8aa5656cc6a"
+        "b42a14db-14aa-4c33-9c30-f8aa5656cc6a",
+        "3e1fce70-32a6-4c82-a13c-c5b9f1b214fc"
       ],
       "settings": {
         "title": ""
