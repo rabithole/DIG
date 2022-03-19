@@ -12,10 +12,30 @@
             "description": "",
             "image": "shopify:\/\/shop_images\/6-inch-clip-fan.png"
           }
+        },
+        "d6e8e889-99b9-4535-af30-a87ce241ea8f": {
+          "type": "text",
+          "settings": {
+            "title": "Cloudline T4 Exahaust Fan",
+            "product_sku": "600703",
+            "product": "inline-fan",
+            "description": ""
+          }
+        },
+        "b42a14db-14aa-4c33-9c30-f8aa5656cc6a": {
+          "type": "text",
+          "settings": {
+            "title": "AC Infinity Carbon Filter",
+            "product_sku": "600704",
+            "product": "grow-room-garden-filter",
+            "description": ""
+          }
         }
       },
       "block_order": [
-        "969be4bd-9393-42b9-8511-4a287b159424"
+        "969be4bd-9393-42b9-8511-4a287b159424",
+        "d6e8e889-99b9-4535-af30-a87ce241ea8f",
+        "b42a14db-14aa-4c33-9c30-f8aa5656cc6a"
       ],
       "settings": {
         "title": ""
