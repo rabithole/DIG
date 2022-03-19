@@ -20,7 +20,7 @@
       			{% if prod.has_only_default_variant %}
       				<img src='{{ block.settings.image | img_url }}' style='width: 300px;'>
 					{% else %}
-						<img src='{{ option.image | img_url }}' style='width: 30%;'>                                                                                   
+						<img src='{{ option.image | img_url }}' style='width: 100%;'>                                                                                   
     			{% endif %}
               <h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
       				{% if option.title != 'Default Title' %}
