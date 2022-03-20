@@ -2,7 +2,23 @@
   "sections": {
     "main": {
       "type": "kit-page-template",
+      "blocks": {
+        "dfbfdba5-9792-40b4-a8d2-49a321ec3b9e": {
+          "type": "text",
+          "settings": {
+            "title": "Nirvana",
+            "product_sku": "100380",
+            "product": "advanced-nutrients-nirvana",
+            "description": "Nothing but Nirvana when you smoke what this will grow.",
+            "image": "shopify:\/\/shop_images\/nirvana.png"
+          }
+        }
+      },
+      "block_order": [
+        "dfbfdba5-9792-40b4-a8d2-49a321ec3b9e"
+      ],
       "settings": {
+        "title": ""
       }
     }
   },
