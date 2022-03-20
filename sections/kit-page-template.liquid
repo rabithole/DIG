@@ -24,7 +24,7 @@
     			{% endif %}
               <h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
       				{% if option.title != 'Default Title' %}
-              		<h2 class='product-model' id='{{ option.id }}'>{{ option.title }}</h2>
+              		<h2 class='product-model' id='{{ option.id }}'>{{ option.title }} {{ option.id }}</h2>
       				{% endif %}
           {% endif %}
 		  	{% endfor %}
@@ -52,12 +52,8 @@
 
   for(let i = 0; i < collection.length; i++) {
   	price = price + Number(collection[i].id);
-  	/*
-  	console.log('InnerHTML: ', collection[i].innerHTML);
-  	price = 'Total: ' + '$' + (Number(collection[i].id) / 100).toFixed(2);
-  	*/
   }
-  		// console.log( 'collection', collection, price );
+
 	document.getElementById("total").innerHTML = 'Total: ' + '$' + (Number(price) / 100).toFixed(2);
 
 	// Adding products to the cart and refreshing the page.
@@ -86,18 +82,6 @@ let formBuildKit = document.getElementById('kit-form');
 
 	console.log('data: -- ', data)
 
-/*
-	function idSubmit() {
-			console.log('idSubmit function')
-			for(let i = 0; i < idArr.length; i++) {
-				formValue.value = idArr[i];
-				formBuildKit.submit();
-				console.log('form submitted', idArr[i])
-				e.preventDefault();
-			}
-	}
-*/
-
 function idSubmit() {
 	console.log('submit')
 	fetch('/cart/add.js', {
@@ -109,28 +93,17 @@ function idSubmit() {
 		},
 		method: 'POST'
 	}).then((response) => {
+		console.log('response');
 		return response.json();
 	}).then((json) => {
+		console.log('json');
 		window.location.reload();
 		console.log('products', json)
+		debugger;
 	}).catch((err) => {
+		console.log('error');
 		console.error(err)
 	});
-
-	/* fetch('/cart.js')
-	.then(response => {
-  	console.log('response', response);
-  	response.json();
-  })
-  .then(data => { 
-  	return data 
-  })
-  .catch((err) => {
-  	console.log(err);
-  });
-
-	e.preventDefault();
-	*/
 }
 	
 </script>
