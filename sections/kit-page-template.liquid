@@ -24,7 +24,7 @@
     			{% endif %}
               <h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
       				{% if option.title != 'Default Title' %}
-              		<h2 class='product-model' id='{{ option.id }}'>{{ option.title }} {{ option.id }}</h2>
+              		<h2 class='product-model' id='{{ option.id }}'>{{ option.title }}</h2>
       				{% endif %}
           {% endif %}
 		  	{% endfor %}
