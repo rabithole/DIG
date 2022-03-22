@@ -3,19 +3,28 @@
     "main": {
       "type": "kit-page-template",
       "blocks": {
-        "dfbfdba5-9792-40b4-a8d2-49a321ec3b9e": {
+        "7d5a7524-fbde-46dc-89fa-6dee0e18cb5f": {
           "type": "text",
           "settings": {
-            "title": "Nirvana",
-            "product_sku": "100380",
-            "product": "advanced-nutrients-nirvana",
-            "description": "Nothing but Nirvana when you smoke what this will grow.",
-            "image": "shopify:\/\/shop_images\/nirvana.png"
+            "title": "Ancient Earth",
+            "product_sku": "100440",
+            "product": "advanced-nutrients-ancient-earth",
+            "description": "Ancient Earth Organic meets USDA-NOP and the world’s most stringent organic input standards for organic production. Ancient Earth Organic, naturally derived from a rare source of ancient organic matter called leonardite, is a breakthrough long and short chain humic acid supplement that gives you the best of nature’s benefits in a bottle!"
+          }
+        },
+        "49f967cd-8f4d-48a7-9ac4-3d5c13cb3dd1": {
+          "type": "text",
+          "settings": {
+            "title": "Bud Candy",
+            "product_sku": "100390",
+            "product": "advanced-nutrients-bud-candy",
+            "description": "Bud Candy provides your plants with an essential secondary plant nutrient which serves to activate many plant enzymes required in the growth process. It is designed to increase the aroma and flavor of your favorite bud strain. After years of research and development, our team identified the optimal blend of carbohydrates fertilizer for growers seeking their most flavorful yields yet."
           }
         }
       },
       "block_order": [
-        "dfbfdba5-9792-40b4-a8d2-49a321ec3b9e"
+        "7d5a7524-fbde-46dc-89fa-6dee0e18cb5f",
+        "49f967cd-8f4d-48a7-9ac4-3d5c13cb3dd1"
       ],
       "settings": {
         "title": ""

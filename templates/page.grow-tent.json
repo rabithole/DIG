@@ -29,22 +29,12 @@
             "product": "light-timer-auto-pilot",
             "description": "Dual outlet digital timer for controlling watering, lighting and air control. Up to 8 on\/off cycles per day."
           }
-        },
-        "402f533c-0fbc-467b-ba11-787423afbbf2": {
-          "type": "text",
-          "settings": {
-            "title": "Ancient Earth",
-            "product_sku": "100440",
-            "product": "advanced-nutrients-ancient-earth",
-            "description": "Ancient Earth Organic meets USDA-NOP and the world’s most stringent organic input standards for organic production. Ancient Earth Organic, naturally derived from a rare source of ancient organic matter called leonardite, is a breakthrough long and short chain humic acid supplement that gives you the best of nature’s benefits in a bottle!"
-          }
         }
       },
       "block_order": [
         "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132",
         "8fac9e67-341f-4981-803a-a2115c9404de",
-        "3bbce69c-997d-4a80-9695-d326dad052f3",
-        "402f533c-0fbc-467b-ba11-787423afbbf2"
+        "3bbce69c-997d-4a80-9695-d326dad052f3"
       ],
       "settings": {
         "title": "Grow Tent Kit"

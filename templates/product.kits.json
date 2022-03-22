@@ -1,0 +1,27 @@
+{
+  "sections": {
+    "main": {
+      "type": "kit-page-template",
+      "blocks": {
+        "b3b6dde0-efdf-4441-9faa-93f594502f52": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "product_sku": "100390",
+            "product": "advanced-nutrients-bud-candy",
+            "description": "Bud Candy provides your plants with an essential secondary plant nutrient which serves to activate many plant enzymes required in the growth process. It is designed to increase the aroma and flavor of your favorite bud strain. After years of research and development, our team identified the optimal blend of carbohydrates fertilizer for growers seeking their most flavorful yields yet."
+          }
+        }
+      },
+      "block_order": [
+        "b3b6dde0-efdf-4441-9faa-93f594502f52"
+      ],
+      "settings": {
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
