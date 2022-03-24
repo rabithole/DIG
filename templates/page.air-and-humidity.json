@@ -29,12 +29,22 @@
             "product": "advanced-nutrients-bloom",
             "description": "Using a high-quality micronutrient formula is your ticket to a rewarding garden. Ph Perfect Bloom is one part of a three part system. By combining Advanced Nutrients pH Perfect® Micro with pH Perfect Grow and pH Perfect Bloom, you're providing your plants what they need to give you a happier harvest day. It's guaranteed! pH Perfect Bloom, pH Perfect Micro and pH Perfect Grow sold separately. This three part system is designed to support your plants during every phase of their life cycles."
           }
+        },
+        "5b8386e8-a1b3-44f6-95c4-54d280595094": {
+          "type": "text",
+          "settings": {
+            "title": "Voodoo Juice",
+            "product_sku": "100340",
+            "product": "advanced-nutrients-voodoo-juice",
+            "description": ""
+          }
         }
       },
       "block_order": [
         "7d5a7524-fbde-46dc-89fa-6dee0e18cb5f",
         "49f967cd-8f4d-48a7-9ac4-3d5c13cb3dd1",
-        "b37d55d6-442e-4280-8ad2-9cad7e063f42"
+        "b37d55d6-442e-4280-8ad2-9cad7e063f42",
+        "5b8386e8-a1b3-44f6-95c4-54d280595094"
       ],
       "settings": {
         "title": ""
