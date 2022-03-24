@@ -38,13 +38,23 @@
             "product": "advanced-nutrients-voodoo-juice",
             "description": "In so many gardens, the roots are forgotten, hidden away underground, neglected, uncared for workhorses. And yet, your plants' roots are responsible for intaking almost everything your plants need. Ask not what your roots can do for you, but what can you do for your roots. Because when you give respect to your roots, you see the results at harvest time. You take care of your roots by utilizing their ability to form symbiotic relationships with beneficial fungi and bacteria."
           }
+        },
+        "cb654028-ca1b-4e78-8b2b-c883e472544d": {
+          "type": "text",
+          "settings": {
+            "title": "Grow Pros LED HM480",
+            "product_sku": "720231",
+            "product": "grow-pros-solutions-led",
+            "description": "A full-spectrum LED rack lighting solution designed for commercial indoor and greenhouse applications, enabling control over the plant cycle from the vegetative stage to the flowering stage. Indoor plants grow best under full-spectrum lights, which replicate the natural spectrum of the sun. The HM480 Series, with an increased lifespan over traditional grow light sources, cultivates healthier, happier plants. 7 year warranty. "
+          }
         }
       },
       "block_order": [
         "7d5a7524-fbde-46dc-89fa-6dee0e18cb5f",
         "49f967cd-8f4d-48a7-9ac4-3d5c13cb3dd1",
         "b37d55d6-442e-4280-8ad2-9cad7e063f42",
-        "5b8386e8-a1b3-44f6-95c4-54d280595094"
+        "5b8386e8-a1b3-44f6-95c4-54d280595094",
+        "cb654028-ca1b-4e78-8b2b-c883e472544d"
       ],
       "settings": {
         "title": ""
