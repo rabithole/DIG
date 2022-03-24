@@ -29,22 +29,12 @@
             "product": "grow-room-garden-filter",
             "description": "The high-airflow duct filter is designed to use activated carbon to eliminate odors and chemicals, popularly used for hydroponics, grow rooms, kitchens, smoking areas, and other ventilation projects. Features premium-grade Australian Virgin charcoal bed. The filter can be used in conjunction with an inline duct fan to act as both intake and exhaust configuration. Heavy-duty construction contains aluminum flanges and dual-sided galvanized steel mesh. The flanges can also be reversed to prolong the life of the filter. Includes a machine washable pre-filter cloth to prevent carbon residue."
           }
-        },
-        "cb654028-ca1b-4e78-8b2b-c883e472544d": {
-          "type": "text",
-          "settings": {
-            "title": "Flexible 4-layer Ducting",
-            "product_sku": "600708",
-            "product": "ac-infinity-flexible-ducting",
-            "description": "This ducting is designed for various ventilation, circulation, and heating\/cooling transfer applications. It features four-layer protection, making it more durable and resistant to leaks than single-layer designs. The internal layer is made of heavy-duty dual aluminum foil that is fire\/flame resistant. Its outer layer utilizes dual PVC thermoplastic that protects the aluminum from cuts and tears while stopping leakage. Each duct tube is held together by an internal steel-wire spiral that is flexible and easy to install in hard to reach places. The ducting can be shortened by cutting the tube to fit various applications. Includes two stainless steel duct clamps."
-          }
         }
       },
       "block_order": [
         "7d5a7524-fbde-46dc-89fa-6dee0e18cb5f",
         "49f967cd-8f4d-48a7-9ac4-3d5c13cb3dd1",
-        "b37d55d6-442e-4280-8ad2-9cad7e063f42",
-        "cb654028-ca1b-4e78-8b2b-c883e472544d"
+        "b37d55d6-442e-4280-8ad2-9cad7e063f42"
       ],
       "settings": {
         "title": ""
