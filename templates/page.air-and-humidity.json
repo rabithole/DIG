@@ -12,15 +12,6 @@
             "description": "Six inch clip fan that can be attached most anywhere. Convenient for tents and other small rooms. This is a good entry level option for those on a budget. ( Two are often needed! )"
           }
         },
-        "49f967cd-8f4d-48a7-9ac4-3d5c13cb3dd1": {
-          "type": "text",
-          "settings": {
-            "title": "AC Infinity T4 4 inch exhaust fan",
-            "product_sku": "600703",
-            "product": "inline-fan",
-            "description": "Designed to ventilate hydroponic grow rooms, transfer heating\/cooling, cool AV closets, and exhaust odors. Intelligent controller with temperature and humidity programming, fan speed control, timer, and alarm system. Mixed flow design combined with a PWM-controlled EC-motor for a truly quiet and energy efficient performance. Kit also includes corded sensor probe, AC power plug, two duct clamps, and required mounting hardware."
-          }
-        },
         "cb654028-ca1b-4e78-8b2b-c883e472544d": {
           "type": "text",
           "settings": {
@@ -33,7 +24,6 @@
       },
       "block_order": [
         "7d5a7524-fbde-46dc-89fa-6dee0e18cb5f",
-        "49f967cd-8f4d-48a7-9ac4-3d5c13cb3dd1",
         "cb654028-ca1b-4e78-8b2b-c883e472544d"
       ],
       "settings": {
