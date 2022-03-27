@@ -45,7 +45,9 @@
 
 </div>
 
-{% render 'grow-tent-problems' %}
+<div>
+	{{ section.settings.bottom-of-page }}
+</div>
 
 <script>
 
@@ -127,6 +129,11 @@ function idSubmit() {
 				"type": "html",
 				"label": "Kit details",
 				"id": "top-of-page"
+			},
+			{
+				"type": "html",
+				"label": "More info",
+				"id": "bottom-of-page"
 			}
 		],
 		"blocks": [
