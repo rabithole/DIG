@@ -53,7 +53,18 @@
 
 	// Gathering prices of each product and totalling in the kit headline.
 
-  let collection  = document.getElementsByTagName('h3');
+  // let collection  = document.getElementsByTagName('h3');
+
+  if(typeof collection !== 'undefined'){
+  	console.log('collection here')
+  	let collection = document.getElementsByTagName('h3')
+
+  }else {
+  	console.log('else collection')
+  	let collection1 = document.getElementsByTagName('h3')
+  	console.log(collection1)
+  }
+
   let price = 0;
 
   console.log('Collection:', collection);
