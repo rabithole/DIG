@@ -6,8 +6,12 @@
 	{{ section.settings.top-of-page }}
 </div>
 
+
+<!-- Top of kit page -->
 <div class="kit">
 	<h4 id='total'></h4>
+
+	<!-- outside for loop -->
   {% for block in section.blocks %}
   		{% assign sku = block.settings.product_sku %}
   		{% assign prod = block.settings.product %}
@@ -23,18 +27,19 @@
           {% if option.sku == sku %}
       			{% if prod.has_only_default_variant %}
       				<img src='{{ block.settings.image | img_url }}' style='width: 200px;'>
-					{% else %}
-						<img src='{{ option.image | img_url }}' style='width: 200px;'>                                                                                   
+						{% else %}
+							<img src='{{ option.image | img_url }}' style='width: 200px;'>                                                                          
     			{% endif %}
-              <h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
-      				{% if option.title != 'Default Title' %}
-              		<h2 class='product-model' id='{{ option.id }}'>{{ option.title }}</h2>
-      				{% endif %}
+            	<h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
+    				{% if option.title != 'Default Title' %}
+            		<h2 class='product-model' id='{{ option.id }}'>{{ option.title }}</h2>
+    				{% endif %}
           {% endif %}
 		  	{% endfor %}
 			</section> 
 		</div>
   {% endfor %}
+  <!-- end of outside for loop -->
 
   <div class='cart-button'>
     <form id='kit-form'>
@@ -42,25 +47,90 @@
       <button onclick="idSubmit()" class="discount-page-button" >Add To Cart</button>
     </form> 
   </div>
-
 </div>
+<!-- bottom of kit section -->
+
+
 
 <div class='top-bottom'>
 	{{ section.settings.bottom-of-page }}
 </div>
 
 <script>
-	var productJS = {{ prod.variants | json }}
-	let prodSku = {{ sku }}
-	console.log('Product from JS: ', productJS[0].sku, prodSku)
 
-	for(let i = 0; i < productJS.length; i++ ){
-		if(productJS[i].sku == sku ){
-			console.log('sku', productJS[i].sku)
-		}
+		let productJS = {{ prod.variants | json }};
+    let prodSku = {{ sku }};
+    console.log('Product from JS: ', productJS, prodSku)
+
+    for(let i = 0; i < productJS.length; i++ ){
+        if(productJS[i].sku == prodSku ){
+            // document.getElementById("total").innerHTML = 'Total: ' + '$' + (Number(productJS[i].price) / 100).toFixed(2);
+        }
+    }
+
+	// let productJS = {{ prod.variants | json }};
+	// let prodSku = {{ sku }};
+	let collection = document.getElementsByTagName('h3');;
+	console.log('Collection: ', collection)
+	let price = 0;
+
+	// Gathering prices of each product and totalling in the kit headline.
+  for(let i = 0; i < collection.length; i++) {
+  	price = price + Number(collection[i].id);
+  }
+
+	document.getElementById("total").innerHTML = 'Total: ' + '$' + (Number(price) / 100).toFixed(2);
+
+	// Adding products to the cart and refreshing the page.
+	
+let formBuildKit = document.getElementById('kit-form');
+	let formValue = document.getElementById('value');
+	let id = document.getElementsByClassName('product-model'); // id of each product placed in the product title h2 element.
+	let idArr = [];
+
+		// Add each product id to the id array. ( idArr )
+	for(let i = 0; i < id.length; i++) {
+		idArr.push(id[i].id );
 	}
-</script>
 
+	// console.log('ID Array:--', idArr)
+	let prodData = idArr.map(id => {
+		return {
+			quantity: 1,
+			id: id
+		}
+	})
+
+	let data = {
+		items: prodData
+	}
+
+	// console.log('data: -- ', data)
+
+function idSubmit() {
+	console.log('submit')
+	fetch('/cart/add.js', {
+		body: JSON.stringify(data),
+		credentials: 'same-origin',
+		headers: {
+			'Content-Type': 'application/json',
+			'X-Requested-With': 'XMLHttpRequest'
+		},
+		method: 'POST'
+	}).then((response) => {
+		console.log('response', response.json());
+		window.location.reload();
+		response.json();
+	}).then(data => {
+		console.log("Success", data)
+		console.log("One more")
+	}).catch((err) => {
+		console.log('error');
+		console.error(err)
+	});
+}
+	
+</script>
 
 {% schema %}
 	{
