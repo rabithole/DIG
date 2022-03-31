@@ -8,7 +8,7 @@
 
 
 <!-- Top of kit page -->
-<div class="kit">
+<div class="kit" id=0>
 	<h4 id='total'></h4>
 
 	<!-- outside for loop -->
@@ -57,66 +57,61 @@
 </div>
 
 <script>
-		try {
-			productJS;
-			console.log('productJS')
-		} catch(e){
-			e;
-			console.log('not productJS')
+		var kitID = document.getElementsByClassName('kit');
+
+		// Sets a unique id for each kit on the page.
+		for(var i = 0; i < kitID.length; i++){
+			kitID[i].id = i;
+			console.log('Children',  kitID[i].childNodes[5].children[1].children[1].id)
 		}
 
-		var productJS = {{ prod.price | json }};
-    var prodSku = {{ sku }};
-    console.log('Product from JS: ', productJS, prodSku)
-    console.log('Make new variable: ', productJS = 'productJS' + 1)
+		// var productJS = {{ prod.price | json }};
+  //   var prodSku = {{ sku }};
+  //   // console.log('Product from JS --- line 70: ', productJS, prodSku)
 
-    for(let i = 0; i < productJS.length; i++ ){
-        if(productJS[i].sku == prodSku ){
-            // document.getElementById("total").innerHTML = 'Total: ' + '$' + (Number(productJS[i].price) / 100).toFixed(2);
-        }
-    }
+  //   for(var i = 0; i < productJS.length; i++ ){
+  //       if(productJS[i].sku == prodSku ){
+  //           // document.getElementById("total").innerHTML = 'Total: ' + '$' + (Number(productJS[i].price) / 100).toFixed(2);
+  //       }
+  //   }
 
-	// let productJS = {{ prod.variants | json }};
-	// let prodSku = {{ sku }};
 	var collection = document.getElementsByTagName('h3');;
-	// console.log('Collection: ', collection)
-	let price = 0;
+	var price = 0;
 
 	// Gathering prices of each product and totalling in the kit headline.
-  for(let i = 0; i < collection.length; i++) {
+  for(var i = 0; i < collection.length; i++) {
   	price = price + Number(collection[i].id);
   }
 
 	document.getElementById("total").innerHTML = 'Total: ' + '$' + (Number(price) / 100).toFixed(2);
 
 	// Adding products to the cart and refreshing the page.
-	
-let formBuildKit = document.getElementById('kit-form');
-	let formValue = document.getElementById('value');
-	let id = document.getElementsByClassName('product-model'); // id of each product placed in the product title h2 element.
-	let idArr = [];
+	var formBuildKit = document.getElementById('kit-form');
+	var formValue = document.getElementById('value');
+	var id = document.getElementsByClassName('product-model'); // id of each product placed in the product title h2 element.
+	var idArr = [];
 
 		// Add each product id to the id array. ( idArr )
-	for(let i = 0; i < id.length; i++) {
+	for(var i = 0; i < id.length; i++) {
 		idArr.push(id[i].id );
 	}
 
 	// console.log('ID Array:--', idArr)
-	let prodData = idArr.map(id => {
+	var prodData = idArr.map(id => {
 		return {
 			quantity: 1,
 			id: id
 		}
 	})
 
-	let data = {
+	var data = {
 		items: prodData
 	}
 
 	// console.log('data: -- ', data)
 
 function idSubmit() {
-	console.log('submit')
+	console.log('submit --- line 119')
 	fetch('/cart/add.js', {
 		body: JSON.stringify(data),
 		credentials: 'same-origin',
