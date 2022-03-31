@@ -30,7 +30,7 @@
 						{% else %}
 							<img src='{{ option.image | img_url }}' style='width: 200px;'>                                                                          
     			{% endif %}
-            	<h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
+            	<h3 style="" id='{{ option.price }}' data-price='option.price' class='product-price'>{{ option.price | money }}</h3>
     				{% if option.title != 'Default Title' %}
             		<h2 class='product-model' id='{{ option.id }}'>{{ option.title }}</h2>
     				{% endif %}
@@ -57,10 +57,18 @@
 </div>
 
 <script>
+		try {
+			productJS;
+			console.log('productJS')
+		} catch(e){
+			e;
+			console.log('not productJS')
+		}
 
-		let productJS = {{ prod.variants | json }};
-    let prodSku = {{ sku }};
+		var productJS = {{ prod.price | json }};
+    var prodSku = {{ sku }};
     console.log('Product from JS: ', productJS, prodSku)
+    console.log('Make new variable: ', productJS = 'productJS' + 1)
 
     for(let i = 0; i < productJS.length; i++ ){
         if(productJS[i].sku == prodSku ){
@@ -70,8 +78,8 @@
 
 	// let productJS = {{ prod.variants | json }};
 	// let prodSku = {{ sku }};
-	let collection = document.getElementsByTagName('h3');;
-	console.log('Collection: ', collection)
+	var collection = document.getElementsByTagName('h3');;
+	// console.log('Collection: ', collection)
 	let price = 0;
 
 	// Gathering prices of each product and totalling in the kit headline.
