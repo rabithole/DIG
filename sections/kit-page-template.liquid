@@ -58,11 +58,17 @@
 
 <script>
 		var kitID = document.getElementsByClassName('kit');
+		
 
 		// Sets a unique id for each kit on the page.
 		for(var i = 0; i < kitID.length; i++){
 			kitID[i].id = i;
-			console.log('Children',  kitID[i].childNodes[5].children[1].children[1].id)
+			console.log(kitID[i])
+			if(kitID[i].id == i){
+				console.log('SO CLOSE: --- ', kitID[i].children)
+			}
+			// console.log('All Children',  kitID[i].childNodes[5].children[1].children[1].id)
+			// console.log('What Child: --- ', kitID[i].children[i].childNodes)
 		}
 
 		// var productJS = {{ prod.price | json }};
