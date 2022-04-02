@@ -58,17 +58,13 @@
 
 <script>
 		var kitID = document.getElementsByClassName('kit');
-		
+		var productContainer = document.getElementsByClassName('eachProduct');
+		var collection = document.getElementsByTagName('h3');;
+		var price = 0;	
 
 		// Sets a unique id for each kit on the page.
 		for(var i = 0; i < kitID.length; i++){
 			kitID[i].id = i;
-			console.log(kitID[i])
-			if(kitID[i].id == i){
-				console.log('SO CLOSE: --- ', kitID[i].children)
-			}
-			// console.log('All Children',  kitID[i].childNodes[5].children[1].children[1].id)
-			// console.log('What Child: --- ', kitID[i].children[i].childNodes)
 		}
 
 		// var productJS = {{ prod.price | json }};
@@ -81,12 +77,22 @@
   //       }
   //   }
 
-	var collection = document.getElementsByTagName('h3');;
-	var price = 0;
-
 	// Gathering prices of each product and totalling in the kit headline.
   for(var i = 0; i < collection.length; i++) {
   	price = price + Number(collection[i].id);
+
+  	// if(collection[i].parentNode.parentNode.parentNode.id == i){
+  	// 	console.log("found it", i )
+  	// }
+
+  	var collectionID = Number(collection[i].parentNode.parentNode.parentNode.id);
+  	var productPrice = collection[i].id;
+  	// console.log('Kit ID: ---', collectionID);
+  	// console.log('kit id: ---', productPrice);
+  	
+  	if(collectionID == 0){
+  		console.log("price", productPrice, collectionID)
+  	}
   }
 
 	document.getElementById("total").innerHTML = 'Total: ' + '$' + (Number(price) / 100).toFixed(2);
