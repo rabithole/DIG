@@ -58,6 +58,7 @@
 
 <script>
 		var kitID = document.getElementsByClassName('kit');
+		console.log(kitID)
 		var productContainer = document.getElementsByClassName('eachProduct');
 		var collection = document.getElementsByTagName('h3');;
 		var price = 0;	
@@ -67,31 +68,21 @@
 			kitID[i].id = i;
 		}
 
-		// var productJS = {{ prod.price | json }};
-  //   var prodSku = {{ sku }};
-  //   // console.log('Product from JS --- line 70: ', productJS, prodSku)
-
-  //   for(var i = 0; i < productJS.length; i++ ){
-  //       if(productJS[i].sku == prodSku ){
-  //           // document.getElementById("total").innerHTML = 'Total: ' + '$' + (Number(productJS[i].price) / 100).toFixed(2);
-  //       }
-  //   }
-
 	// Gathering prices of each product and totalling in the kit headline.
+	  	var colID = 0;
   for(var i = 0; i < collection.length; i++) {
   	price = price + Number(collection[i].id);
-
-  	// if(collection[i].parentNode.parentNode.parentNode.id == i){
-  	// 	console.log("found it", i )
-  	// }
 
   	var collectionID = Number(collection[i].parentNode.parentNode.parentNode.id);
   	var productPrice = collection[i].id;
   	// console.log('Kit ID: ---', collectionID);
   	// console.log('kit id: ---', productPrice);
-  	
-  	if(collectionID == 0){
-  		console.log("price", productPrice, collectionID)
+
+  	if(collectionID == colID){
+  		// console.log('col id: --- ', colID)
+  		console.log("Price: ---", productPrice, collectionID)
+  		// colID++;
+  		// console.log(colID)
   	}
   }
 

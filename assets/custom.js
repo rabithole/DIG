@@ -35,7 +35,15 @@
 //  */
 //    
 
+// var productJS = {{ prod.price | json }};
+  //   var prodSku = {{ sku }};
+  //   // console.log('Product from JS --- line 70: ', productJS, prodSku)
 
+  //   for(var i = 0; i < productJS.length; i++ ){
+  //       if(productJS[i].sku == prodSku ){
+  //           // document.getElementById("total").innerHTML = 'Total: ' + '$' + (Number(productJS[i].price) / 100).toFixed(2);
+  //       }
+  //   }
 
 
 
