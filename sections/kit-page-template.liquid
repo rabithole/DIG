@@ -58,32 +58,36 @@
 
 <script>
 		var kitID = document.getElementsByClassName('kit');
-		console.log(kitID)
 		var productContainer = document.getElementsByClassName('eachProduct');
-		var collection = document.getElementsByTagName('h3');;
+		var collection = document.getElementsByTagName('h3');
+		// console.log('Collection of h3: --- ', collection)
 		var price = 0;	
 
 		// Sets a unique id for each kit on the page.
 		for(var i = 0; i < kitID.length; i++){
 			kitID[i].id = i;
 		}
+		// console.log('kit id: ---', kitID)
 
 	// Gathering prices of each product and totalling in the kit headline.
-	  	var colID = 0;
-  for(var i = 0; i < collection.length; i++) {
-  	price = price + Number(collection[i].id);
+	  var colID = 0;
 
+  for(var i = 0; i < collection.length; i++) {
+  	// price = price + Number(collection[i].id); // Add total price to totalling section
   	var collectionID = Number(collection[i].parentNode.parentNode.parentNode.id);
-  	var productPrice = collection[i].id;
-  	// console.log('Kit ID: ---', collectionID);
-  	// console.log('kit id: ---', productPrice);
+  	var productPrice = Number(collection[i].id);
+  	// console.log('Product price: ---', productPrice, '   Kit ID: ---', collectionID);
+
+  	if(collectionID !== colID){
+  		colID++
+  		console.log('kit id change?', colID)
+  	}
 
   	if(collectionID == colID){
-  		// console.log('col id: --- ', colID)
-  		console.log("Price: ---", productPrice, collectionID)
-  		// colID++;
-  		// console.log(colID)
+  		
+  		console.log('price in if', productPrice)
   	}
+  	
   }
 
 	document.getElementById("total").innerHTML = 'Total: ' + '$' + (Number(price) / 100).toFixed(2);
