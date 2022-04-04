@@ -9,7 +9,7 @@
 
 <!-- Top of kit page -->
 <div class="kit" id=0>
-	<h4 id='total'></h4>
+	<h4 id=50 class="kitTotal"></h4>
 
 	<!-- outside for loop -->
   {% for block in section.blocks %}
@@ -58,6 +58,8 @@
 
 <script>
 		var kitID = document.getElementsByClassName('kit');
+		var kitTotal = document.getElementsByTagName('h4');
+		// console.log('Kit Totals:---', kitTotal)
 		var productContainer = document.getElementsByClassName('eachProduct');
 		var collection = document.getElementsByTagName('h3');
 		// console.log('Collection of h3: --- ', collection)
@@ -66,8 +68,12 @@
 		// Sets a unique id for each kit on the page.
 		for(var i = 0; i < kitID.length; i++){
 			kitID[i].id = i;
+			console.log(Number(kitTotal[i].id) + i)
 		}
-		// console.log('kit id: ---', kitID)
+
+		// for(var i = 0; i < kitTotal.length; i++){
+		// 	console.log('Kit Total in for loop', kitTotal)
+		// }
 
 	// Gathering prices of each product and totalling in the kit headline.
 	  var colID = 0;
@@ -75,22 +81,25 @@
   for(var i = 0; i < collection.length; i++) {
   	// price = price + Number(collection[i].id); // Add total price to totalling section
   	var collectionID = Number(collection[i].parentNode.parentNode.parentNode.id);
+  	// var kitTotalID = 
+  	console.log('Kit total ID:---', kitTotal[i])
   	var productPrice = Number(collection[i].id);
   	// console.log('Product price: ---', productPrice, '   Kit ID: ---', collectionID);
 
   	if(collectionID !== colID){
+  		price = 0;
   		colID++
-  		console.log('kit id change?', colID)
+  		// console.log('kit id change?', colID)
   	}
 
   	if(collectionID == colID){
-  		
-  		console.log('price in if', productPrice)
+  		// console.log('Price list per kit id:---', productPrice, 'ID:---', colID, collectionID);
+  		price = price + productPrice
+			document.getElementById(50).innerHTML = 'Total: ' + '$' + (Number(price) / 100).toFixed(2);
+
   	}
   	
   }
-
-	document.getElementById("total").innerHTML = 'Total: ' + '$' + (Number(price) / 100).toFixed(2);
 
 	// Adding products to the cart and refreshing the page.
 	var formBuildKit = document.getElementById('kit-form');
