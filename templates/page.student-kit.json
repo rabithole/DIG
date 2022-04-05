@@ -11,10 +11,20 @@
             "product": "propagation-dome-hydrofarm",
             "description": "Adjustable VentsThis is the only dome on the market with adjustable top and side vents to better control humidity and temperature.These domes fit directly onto the standard 10 x 20\" cut kit trays to create a humid and warm environment ideal for cuttings and seed germination. Tall 7.5\" dome gives extra height for your taller cuttings. Adjustable vents allow for perfect humidity and temperature control."
           }
+        },
+        "c259d28a-14c3-4af8-b3a3-202c2fa8a256": {
+          "type": "text",
+          "settings": {
+            "title": "50 cell seedling tray",
+            "product_sku": "720207",
+            "product": "50-cell-seedling-tray",
+            "description": "50 Cell Seedling Tray insert, fits into 10\"X20\" tray."
+          }
         }
       },
       "block_order": [
-        "71ffd17e-0960-430d-b11a-7fcd89071e06"
+        "71ffd17e-0960-430d-b11a-7fcd89071e06",
+        "c259d28a-14c3-4af8-b3a3-202c2fa8a256"
       ],
       "settings": {
         "title": "Student Kits",
