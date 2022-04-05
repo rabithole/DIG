@@ -9,39 +9,6 @@
         "other-kits": ""
       }
     },
-    "1648430691b1069629": {
-      "type": "kit-page-template",
-      "blocks": {
-        "d3cf19f0-edf8-49d3-9a77-4c87cf014923": {
-          "type": "text",
-          "settings": {
-            "title": "Ancient Earth",
-            "product_sku": "100440",
-            "product": "advanced-nutrients-ancient-earth",
-            "description": "p>Here is a list of some problems you may run into:\\n\\n\\nHumidity is problematic especially during the flowering stage. Your dense buds will hold moisture creating a ripe place for mold to grow. Not a good thing for your lungs or health of your buds. An exhaust fan can take care of this problem easily. \\nSmell is often a complaint, nuisance or possibly even a legal issue in some situations. This can be taken care of by combining an exhaust fan and a carbon filter. The filter will remove any smell that might be exhausted into your room, garage or outdoor environment that could unsettle your neighbors.\\n \\nA simple fan to move the air inside your tent will help you plants breath. Stagnant air will become humid in spots if the air in the tent isn’t moved around. A circulation fan and an exhaust fan work together to keep the environment in your grow tent at the optimum humidity level. \\n\\n\\n\\nOur air and humidity kits are equipped to manage any growing situation inside a grow tent.\""
-          }
-        },
-        "a4ba3e3c-e2f0-4f1a-99ca-6d579de1a5c4": {
-          "type": "text",
-          "settings": {
-            "title": "Bud Blood",
-            "product_sku": "600584",
-            "product": "advanced-nutrients-bud-blood",
-            "description": "Your plants need Phosphorus and Potassium (P & K) from the earliest days of bloom phase so they can maintain nutrient healthy roots, vigorous growth, sturdy stems and stalks, and maximized production of flowers. Feed Bud Blood to your plants as soon as you switch to 12 hour lighting so your plants get the P and K they need for a successful bloom phase."
-          }
-        }
-      },
-      "block_order": [
-        "d3cf19f0-edf8-49d3-9a77-4c87cf014923",
-        "a4ba3e3c-e2f0-4f1a-99ca-6d579de1a5c4"
-      ],
-      "settings": {
-        "title": "",
-        "top-of-page": "",
-        "bottom-of-page": "",
-        "other-kits": ""
-      }
-    },
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -69,7 +36,6 @@
   },
   "order": [
     "main",
-    "1648430691b1069629",
     "recommendations",
     "promotion",
     "recentyViewed"
