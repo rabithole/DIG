@@ -3,41 +3,24 @@
     "main": {
       "type": "kit-page-template",
       "blocks": {
-        "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132": {
+        "b5c6217f-1fb6-4811-a8e0-a455b39154e3": {
           "type": "text",
           "settings": {
-            "title": "Grow Tent",
-            "product_sku": "720261",
-            "product": "cloudlab-advance-grow-tents",
-            "description": "AC Infinity makes the finest grow tents on the market! With a grow tent you can control every detail of a plants needs. There is no better way to get those dank nugs."
-          }
-        },
-        "8fac9e67-341f-4981-803a-a2115c9404de": {
-          "type": "text",
-          "settings": {
-            "title": "Gro Pros LED",
-            "product_sku": "720231",
-            "product": "grow-pros-solutions-led",
-            "description": "LED lighting with a 7 year warranty and the best price point on the market. Full-spectrum LED solution for commercial indoor grow at home."
-          }
-        },
-        "3bbce69c-997d-4a80-9695-d326dad052f3": {
-          "type": "text",
-          "settings": {
-            "title": "Autopilot Timer",
-            "product_sku": "700027",
-            "product": "light-timer-auto-pilot",
-            "description": "Dual outlet digital timer for controlling watering, lighting and air control. Up to 8 on\/off cycles per day."
+            "title": "Seed Starter",
+            "product_sku": "720191",
+            "product": "cha-ching",
+            "description": ""
           }
         }
       },
       "block_order": [
-        "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132",
-        "8fac9e67-341f-4981-803a-a2115c9404de",
-        "3bbce69c-997d-4a80-9695-d326dad052f3"
+        "b5c6217f-1fb6-4811-a8e0-a455b39154e3"
       ],
       "settings": {
-        "title": "Soil and Nutrients"
+        "title": "Soil and Nutrients",
+        "top-of-page": "",
+        "bottom-of-page": "",
+        "other-kits": ""
       }
     },
     "recommendations": {
