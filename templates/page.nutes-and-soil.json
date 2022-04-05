@@ -3,41 +3,24 @@
     "main": {
       "type": "kit-page-template",
       "blocks": {
-        "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132": {
+        "b5c6217f-1fb6-4811-a8e0-a455b39154e3": {
           "type": "text",
           "settings": {
-            "title": "Grow Tent",
-            "product_sku": "720261",
-            "product": "cloudlab-advance-grow-tents",
-            "description": "AC Infinity makes the finest grow tents on the market! With a grow tent you can control every detail of a plants needs. There is no better way to get those dank nugs."
-          }
-        },
-        "8fac9e67-341f-4981-803a-a2115c9404de": {
-          "type": "text",
-          "settings": {
-            "title": "Gro Pros LED",
-            "product_sku": "720231",
-            "product": "grow-pros-solutions-led",
-            "description": "LED lighting with a 7 year warranty and the best price point on the market. Full-spectrum LED solution for commercial indoor grow at home."
-          }
-        },
-        "3bbce69c-997d-4a80-9695-d326dad052f3": {
-          "type": "text",
-          "settings": {
-            "title": "Autopilot Timer",
-            "product_sku": "700027",
-            "product": "light-timer-auto-pilot",
-            "description": "Dual outlet digital timer for controlling watering, lighting and air control. Up to 8 on\/off cycles per day."
+            "title": "Seed Starter",
+            "product_sku": "720191",
+            "product": "cha-ching",
+            "description": "Every stage of the growing cycle demands optimal nutrition. Cha Ching® is a high-phosphorus fertilizer that is designed to help support late stage fruiting processes. Even better, we’ve included the micronutrient package that FoxFarm is known for.Garden tip: Start with Open Sesame® in the fifth or sixth week of a plant’s life. Once bud set begins feed with Beastie Bloomz® for a two week period. After flowers are fully formed, switch to Cha Ching® and continue through harvest. Feed with every other watering.For best results, start seeds in our Light Warrior® Agro-Ponic® Seed Starter, and use our Ocean Forest® Potting Soil for container plants.How To Use:STAND ALONE USE:In Hydroponic Systems use 1 tsp (6 g) per gallon (4 L) of water in reservoir. Flush every two weeks.In Soil use 1\/2 to 1 tsp (3 – 6 g) per gallon (4 L) of water. Feed once per week.COMBINED WITH OTHER NUTRIENTS:In Hydroponic Systems use 1\/4 to 1\/2 tsp (1.5 – 3 g) per gallon (4 L) of water in reservoir.In Soil use 1\/4 to 1\/2 tsp (1.5 – 3 g) per gallon (4 L) of water. Feed once per week.Always fill your reservoir with fresh water. Add Cha Ching® to the final volume of water and mix thoroughly. Do not mix solubles together in dry form. Do not use as a foliar spray. Always adjust fertilizer dosage to plant response."
           }
         }
       },
       "block_order": [
-        "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132",
-        "8fac9e67-341f-4981-803a-a2115c9404de",
-        "3bbce69c-997d-4a80-9695-d326dad052f3"
+        "b5c6217f-1fb6-4811-a8e0-a455b39154e3"
       ],
       "settings": {
-        "title": "Soil and Nutrients"
+        "title": "Soil and Nutrients",
+        "top-of-page": "",
+        "bottom-of-page": "",
+        "other-kits": ""
       }
     },
     "recommendations": {
