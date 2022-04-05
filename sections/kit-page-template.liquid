@@ -68,32 +68,34 @@
 		// Sets a unique id for each kit on the page.
 		for(var i = 0; i < kitID.length; i++){
 			kitID[i].id = i;
-			console.log(Number(kitTotal[i].id) + i)
+			// console.log(Number(kitTotal[i].id) + i)
 		}
 
-		// for(var i = 0; i < kitTotal.length; i++){
-		// 	console.log('Kit Total in for loop', kitTotal)
-		// }
+		// Sets unique id for each kit total title.
+		for(var i = 0; i < kitTotal.length; i++){
+			kitTotal[i].id = 50 + i;
+			// console.log('Kit Total in for loop', kitTotal)
+		}
 
 	// Gathering prices of each product and totalling in the kit headline.
-	  var colID = 0;
+	  var titlePrice = 0;
 
   for(var i = 0; i < collection.length; i++) {
   	// price = price + Number(collection[i].id); // Add total price to totalling section
   	var collectionID = Number(collection[i].parentNode.parentNode.parentNode.id);
   	// var kitTotalID = 
-  	console.log('Kit total ID:---', kitTotal[i])
+  	// console.log('Kit total ID:---', kitTotal[i])
   	var productPrice = Number(collection[i].id);
   	// console.log('Product price: ---', productPrice, '   Kit ID: ---', collectionID);
 
-  	if(collectionID !== colID){
+  	if(collectionID !== titlePrice){
   		price = 0;
-  		colID++
-  		// console.log('kit id change?', colID)
+  		titlePrice++
+  		// console.log('kit id change?', titlePrice)
   	}
 
-  	if(collectionID == colID){
-  		// console.log('Price list per kit id:---', productPrice, 'ID:---', colID, collectionID);
+  	if(collectionID == titlePrice){
+  		console.log('Price list per kit id:---', productPrice, 'ID:---', titlePrice, collectionID);
   		price = price + productPrice
 			document.getElementById(50).innerHTML = 'Total: ' + '$' + (Number(price) / 100).toFixed(2);
 

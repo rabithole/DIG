@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "kit-page-template",
+      "type": "Student-kit",
       "settings": {
         "title": "Student Kits",
         "top-of-page": "",
