@@ -11,10 +11,21 @@
             "product": "propagation-dome-hydrofarm",
             "description": "Adjustable VentsThis is the only dome on the market with adjustable top and side vents to better control humidity and temperature.These domes fit directly onto the standard 10 x 20\" cut kit trays to create a humid and warm environment ideal for cuttings and seed germination. Tall 7.5\" dome gives extra height for your taller cuttings. Adjustable vents allow for perfect humidity and temperature control."
           }
+        },
+        "9371b9a2-5bf0-454d-a43f-e8380acc943e": {
+          "type": "text",
+          "settings": {
+            "title": "Rapid Rooter Tray W\/ Plugs",
+            "product_sku": "100060",
+            "product": "gh-rapid-rooter-plug-tray",
+            "description": "Rapid Rooter® plugs are all natural soilless grow plugs made of composted tree bark and organic materials. These plugs are perfect for seedlings or cuttings. Transplant plugs in soil or soilless hydrogardening applications.",
+            "image": "shopify:\/\/shop_images\/pg20_000008_1.jpg"
+          }
         }
       },
       "block_order": [
-        "71ffd17e-0960-430d-b11a-7fcd89071e06"
+        "71ffd17e-0960-430d-b11a-7fcd89071e06",
+        "9371b9a2-5bf0-454d-a43f-e8380acc943e"
       ],
       "settings": {
         "title": "Student Kits",
