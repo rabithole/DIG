@@ -57,6 +57,15 @@
             "product": "light-timer-titan-controls",
             "description": "The Apollo® 7 - 24 hr digital timer is the perfect timing solution for your hydro systems. With a 15 Amp capacity, it's easy to set to run your pumps, fans, etc. The Apollo® 7 may be set to 1 min intervals and run 8 separate schedules per day. Can be configured in numerous timing schedules to meet the most demanding timing requirements. One (1) outlet with 1 min intervals. Battery backup feature saves settings if power goes out. Enclosure resists dust, rust and moisture. 15 Amps maximum\/120 V\/60 Hz. HINT: If not working properly, plug in for 5 min and press the reset button. Generally this fixes the problem."
           }
+        },
+        "2f67be27-f134-44a7-b319-c7743cbfb1e1": {
+          "type": "text",
+          "settings": {
+            "title": "Small Plastic Pots",
+            "product_sku": "720358",
+            "product": "propagation-t-o-plastics",
+            "description": "2.5 inch Press & Fill pots for T.O. Plastics Press & Fill System"
+          }
         }
       },
       "block_order": [
@@ -65,7 +74,8 @@
         "fd262007-7a62-4bf9-a3b2-96b31232b839",
         "04f30fef-4c09-4830-872b-f10aa3aef929",
         "3cf33559-4312-4799-9e60-aadd036320f9",
-        "9886d287-7c7b-42fc-8f56-9225c064e5de"
+        "9886d287-7c7b-42fc-8f56-9225c064e5de",
+        "2f67be27-f134-44a7-b319-c7743cbfb1e1"
       ],
       "settings": {
         "title": "Student Kits",
