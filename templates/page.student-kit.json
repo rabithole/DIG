@@ -39,13 +39,23 @@
             "product": "super-sprouter-seedling-heat-mat",
             "description": "Warms root area approximately 10–20° F over ambient temperature to improve germination process. Helps gardeners have better success rates with seedlings and cuttings. Perfect for one standard 10 in x 20 in propagation tray. Heavy-duty construction makes this mat very durable. More than 20% larger than competitive mats. This allows even warming of your entire tray. More consistent heating with fewer hot spots than other seedling heat mats. Ed Hume seal of approval. 20 W. Dimensions: 10 in x 21 in."
           }
+        },
+        "3cf33559-4312-4799-9e60-aadd036320f9": {
+          "type": "text",
+          "settings": {
+            "title": "Clonex Gel",
+            "product_sku": "100170",
+            "product": "hd-clonex-gel",
+            "description": "Clonex Gel is a high performance rooting compound that remains in contact with the stem, sealing the cut tissue and supplying the hormones needed to promote root cell development and vitamins to protect the delicate new root tissue. Clonex has a full spectrum of mineral nutrients and trace elements to nourish the young roots."
+          }
         }
       },
       "block_order": [
         "71ffd17e-0960-430d-b11a-7fcd89071e06",
         "9371b9a2-5bf0-454d-a43f-e8380acc943e",
         "fd262007-7a62-4bf9-a3b2-96b31232b839",
-        "04f30fef-4c09-4830-872b-f10aa3aef929"
+        "04f30fef-4c09-4830-872b-f10aa3aef929",
+        "3cf33559-4312-4799-9e60-aadd036320f9"
       ],
       "settings": {
         "title": "Student Kits",
