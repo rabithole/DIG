@@ -57,13 +57,13 @@
 </div>
 
 <script>
-		var kitID = document.getElementsByClassName('kit');
-		var kitTotal = document.getElementsByTagName('h4');
+		var kitID = document.getElementsByClassName('kit'); // used to set dynamic kit id
+		var kitTotal = document.getElementsByTagName('h4'); // where total kit price will display
 		// console.log('Kit Totals:---', kitTotal)
-		var productContainer = document.getElementsByClassName('eachProduct');
-		var collection = document.getElementsByTagName('h3');
-		// console.log('Collection of h3: --- ', collection)
+		var h3Tags = document.getElementsByTagName('h3'); // prices per product
+		// console.log('h3Tags of h3: --- ', h3Tags)
 		var price = 0;	
+		var titlePriceId = 0;
 
 		// Sets a unique id for each kit on the page.
 		for(var i = 0; i < kitID.length; i++){
@@ -77,31 +77,38 @@
 			// console.log('Kit Total in for loop', kitTotal)
 		}
 
+
+
 	// Gathering prices of each product and totalling in the kit headline.
-	  var titlePrice = 0;
 
-  for(var i = 0; i < collection.length; i++) {
-  	// price = price + Number(collection[i].id); // Add total price to totalling section
-  	var collectionID = Number(collection[i].parentNode.parentNode.parentNode.id);
-  	// var kitTotalID = 
-  	// console.log('Kit total ID:---', kitTotal[i])
-  	var productPrice = Number(collection[i].id);
-  	// console.log('Product price: ---', productPrice, '   Kit ID: ---', collectionID);
+  for(var i = 0; i < h3Tags.length; i++) {
+  	// price = price + Number(h3Tags[i].id); // Add total price to totalling section
 
-  	if(collectionID !== titlePrice){
+  	// grabs the 'KIT SECTION ID' from the h3Tags of h3 tags of product prices
+  	// h3 parent nodes to get to section id's
+  	var h3TagsID = Number(h3Tags[i].parentNode.parentNode.parentNode.id); 
+  	
+  	// grabs individual product prices from list of h3 tags containing product prices.
+  	// h3 tags id's contain individual product prices
+  	var productPrice = Number(h3Tags[i].id);
+
+  	if(h3TagsID !== titlePriceId){
+  		console.log('title price id change', titlePriceId)
   		price = 0;
-  		titlePrice++
-  		// console.log('kit id change?', titlePrice)
+  		titlePriceId++
+  		console.log('title price id change', titlePriceId)
   	}
 
-  	if(collectionID == titlePrice){
-  		console.log('Price list per kit id:---', productPrice, 'ID:---', titlePrice, collectionID);
+  	if(h3TagsID == titlePriceId){
+  		console.log('price:---', productPrice, 'ID:---', titlePriceId, ' Kit section id:---', h3TagsID);
   		price = price + productPrice
 			document.getElementById(50).innerHTML = 'Total: ' + '$' + (Number(price) / 100).toFixed(2);
 
-  	}
-  	
+  	}	
   }
+
+
+
 
 	// Adding products to the cart and refreshing the page.
 	var formBuildKit = document.getElementById('kit-form');
