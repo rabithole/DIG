@@ -76,6 +76,29 @@
         "other-kits": ""
       }
     },
+    "1649205500adc91b77": {
+      "type": "kit-page-template",
+      "blocks": {
+        "1abc9410-0a9b-4139-a217-58709e3fb0a9": {
+          "type": "text",
+          "settings": {
+            "title": "Hydro-X Controller",
+            "product_sku": "10000013",
+            "product": "trolmaster-hcs-1",
+            "description": "The HCS-1 is the brain of the Hydro-X system. It comes with a 3-in-1 Temp\/Humid\/Photocell sensor.The Hydro-X system is a professional-grade single zone environmental system. It is fully customizable and modularly designed. Installation is simple and the system is easy to expand upon. The Hydro-X system can control most grow lights brands, HVAC systems, mini-split air conditioners, commercial dehumidifiers and humidifiers, as well as CO2 generators or regulators. With the free TrolMaster App, the user can access all of the settings and alerts on the system from anywhere at anytime.PACKAGE CONTENTS1 x Hydro-X Environment Controller1 x Temp \/ Humid \/ Light 3-in-1 Sensor1 x RJ12 Cable Set for Light Connection"
+          }
+        }
+      },
+      "block_order": [
+        "1abc9410-0a9b-4139-a217-58709e3fb0a9"
+      ],
+      "settings": {
+        "title": "",
+        "top-of-page": "",
+        "bottom-of-page": "",
+        "other-kits": ""
+      }
+    },
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -104,6 +127,7 @@
   "order": [
     "main",
     "1648430691b1069629",
+    "1649205500adc91b77",
     "recommendations",
     "promotion",
     "recentyViewed"
