@@ -21,61 +21,11 @@
             "description": "Rapid Rooter® plugs are all natural soilless grow plugs made of composted tree bark and organic materials. These plugs are perfect for seedlings or cuttings. Transplant plugs in soil or soilless hydrogardening applications. Tray is 10\"x 20\".",
             "image": "shopify:\/\/shop_images\/pg20_000008_1.jpg"
           }
-        },
-        "fd262007-7a62-4bf9-a3b2-96b31232b839": {
-          "type": "text",
-          "settings": {
-            "title": "T5 Grow Light Blister Pack",
-            "product_sku": "720356",
-            "product": "super-sprouter-t5-ho-18-in-grow-light-blister-pack",
-            "description": "Super Sprouter® now offers the 18 in T5 High Output Grow Light fixture with the nano-tech reflector. This fixture includes an integrated electronic ballast, 6400° K lamp, power cord, jumper cord and mounting clips (hanging and flat surface). You can daisy chain up to 8 lights per single power cord. The reflector uses nanotechnology to maximize reflection. The 18 in fixture is designed specifically to fit Super Sprouter® Light Track Domes."
-          }
-        },
-        "04f30fef-4c09-4830-872b-f10aa3aef929": {
-          "type": "text",
-          "settings": {
-            "title": "Heat Mat",
-            "product_sku": "720355",
-            "product": "super-sprouter-seedling-heat-mat",
-            "description": "Warms root area approximately 10–20° F over ambient temperature to improve germination process. Helps gardeners have better success rates with seedlings and cuttings. Perfect for one standard 10 in x 20 in propagation tray. Heavy-duty construction makes this mat very durable. More than 20% larger than competitive mats. This allows even warming of your entire tray. More consistent heating with fewer hot spots than other seedling heat mats. Ed Hume seal of approval. 20 W. Dimensions: 10 in x 21 in."
-          }
-        },
-        "3cf33559-4312-4799-9e60-aadd036320f9": {
-          "type": "text",
-          "settings": {
-            "title": "Clonex Gel",
-            "product_sku": "100170",
-            "product": "hd-clonex-gel",
-            "description": "Clonex Gel is a high performance rooting compound that remains in contact with the stem, sealing the cut tissue and supplying the hormones needed to promote root cell development and vitamins to protect the delicate new root tissue. Clonex has a full spectrum of mineral nutrients and trace elements to nourish the young roots."
-          }
-        },
-        "9886d287-7c7b-42fc-8f56-9225c064e5de": {
-          "type": "text",
-          "settings": {
-            "title": "Digital Timer",
-            "product_sku": "720357",
-            "product": "light-timer-titan-controls",
-            "description": "The Apollo® 7 - 24 hr digital timer is the perfect timing solution for your hydro systems. With a 15 Amp capacity, it's easy to set to run your pumps, fans, etc. The Apollo® 7 may be set to 1 min intervals and run 8 separate schedules per day. Can be configured in numerous timing schedules to meet the most demanding timing requirements. One (1) outlet with 1 min intervals. Battery backup feature saves settings if power goes out. Enclosure resists dust, rust and moisture. 15 Amps maximum\/120 V\/60 Hz. HINT: If not working properly, plug in for 5 min and press the reset button. Generally this fixes the problem."
-          }
-        },
-        "2f67be27-f134-44a7-b319-c7743cbfb1e1": {
-          "type": "text",
-          "settings": {
-            "title": "Small Plastic Pots",
-            "product_sku": "720358",
-            "product": "propagation-t-o-plastics",
-            "description": "2.5 inch Press & Fill pots for T.O. Plastics Press & Fill System"
-          }
         }
       },
       "block_order": [
         "71ffd17e-0960-430d-b11a-7fcd89071e06",
-        "9371b9a2-5bf0-454d-a43f-e8380acc943e",
-        "fd262007-7a62-4bf9-a3b2-96b31232b839",
-        "04f30fef-4c09-4830-872b-f10aa3aef929",
-        "3cf33559-4312-4799-9e60-aadd036320f9",
-        "9886d287-7c7b-42fc-8f56-9225c064e5de",
-        "2f67be27-f134-44a7-b319-c7743cbfb1e1"
+        "9371b9a2-5bf0-454d-a43f-e8380acc943e"
       ],
       "settings": {
         "title": "Student Kits",
@@ -86,6 +36,7 @@
     },
     "recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "show_product_recommendations": true,
         "heading": "You may also like",
@@ -102,6 +53,7 @@
     },
     "recentyViewed": {
       "type": "static-recently-viewed-products",
+      "disabled": true,
       "settings": {
         "show_section": true,
         "title": "Recently viewed",
