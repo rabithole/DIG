@@ -45,6 +45,7 @@
     },
     "promotion": {
       "type": "static-promotion-list",
+      "disabled": true,
       "settings": {
         "expand_items": false,
         "section_size": "medium",
