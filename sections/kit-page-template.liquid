@@ -64,6 +64,7 @@
 		// console.log('h3Tags of h3: --- ', h3Tags)
 		var price = 0;	
 		var titlePriceId = 0;
+		var kitPriceArray = [];
 
 		// Sets a unique id for each kit on the page.
 		for(var i = 0; i < kitID.length; i++){
@@ -73,7 +74,7 @@
 
 		// Sets unique id for each kit total title.
 		for(var i = 0; i < kitTotal.length; i++){
-			kitTotal[i].id = 50 + i;
+			var kitTotalId = kitTotal[i].id = 50 + i;
 			// console.log('Kit Total in for loop', kitTotal)
 		}
 
@@ -87,24 +88,55 @@
   	// grabs the 'KIT SECTION ID' from the h3Tags of h3 tags of product prices
   	// h3 parent nodes to get to section id's
   	var h3TagsID = Number(h3Tags[i].parentNode.parentNode.parentNode.id); 
+
+  	console.log('First in for loop', 'h3TagsID', h3TagsID, 'titlePriceId', titlePriceId)
   	
   	// grabs individual product prices from list of h3 tags containing product prices.
   	// h3 tags id's contain individual product prices
   	var productPrice = Number(h3Tags[i].id);
 
-  	if(h3TagsID !== titlePriceId){
-  		console.log('title price id change', titlePriceId)
-  		price = 0;
+  	if(h3TagsID == titlePriceId){
+  		kitPriceArray.push(productPrice);
+  		// console.log('h3TagsID', h3TagsID, 'titlePriceId', titlePriceId, 'kitPriceArray', kitPriceArray, 'sum', sum)
+  	}else{
   		titlePriceId++
-  		console.log('title price id change', titlePriceId)
+  		kitPriceArray = [];
+  		kitPriceArray.push(productPrice);
+  		console.log('else', 'h3TagsID', h3TagsID, 'titlePriceId', titlePriceId, 'kitPriceArray', kitPriceArray, 'sum', sum)
   	}
 
-  	if(h3TagsID == titlePriceId){
-  		console.log('price:---', productPrice, 'ID:---', titlePriceId, ' Kit section id:---', h3TagsID);
-  		price = price + productPrice
-			document.getElementById(50).innerHTML = 'Total: ' + '$' + (Number(price) / 100).toFixed(2);
+  	var sum = kitPriceArray.reduce(function (x,y){
+  		return x + y;
+  	}, 0)
+  	// console.log('Sum of kit 0:--', sum, 'array to be totalled:--', kitPriceArray, 'h3TagsID', h3TagsID, 'titlePriceId', titlePriceId)
 
-  	}	
+  	
+  	document.getElementById(kitTotalId).innerHTML = 'Total: ' + '$' + (Number(sum) / 100).toFixed(2);
+
+  	
+
+
+
+
+
+  	// sets kit product prices to corresponding section kit id
+  	// if(h3TagsID !== titlePriceId){
+  	//  	// console.log('title price id change', titlePriceId)
+  	//  	price = 0;
+  	//  	titlePriceId++
+  	//  	console.log('title price id change', titlePriceId)
+  	// }else if(h3TagsID == titlePriceId) {
+  	//  	kitPriceArray.push(productPrice);
+  	//  	console.log(kitPriceArray)
+  	//  }
+
+  	// if(h3TagsID == titlePriceId){
+  	// 	console.log('price:---', productPrice, 'Price title ID:---', titlePriceId, ' Kit section id:---', h3TagsID);
+  	//  	kitPriceArray.push(productPrice);
+ 		// 	console.log(kitPriceArray)
+			// document.getElementById(50).innerHTML = 'Total: ' + '$' + (Number(price) / 100).toFixed(2);
+
+  	// }	
   }
 
 
