@@ -110,12 +110,28 @@
         "title": "Recently viewed",
         "show_quick_buy": false
       }
+    },
+    "164935156703b93ab1": {
+      "type": "collection-with-image",
+      "settings": {
+        "collection": "",
+        "products_count": 12,
+        "background": "#0774d7",
+        "text_color": "#ffffff",
+        "title": "Propagation Extras",
+        "content": "Items frequently purchased with propagation kits.",
+        "button_background": "#ffffff",
+        "button_text_color": "#0774d7",
+        "button_text": "Learn more",
+        "button_link": "shopify:\/\/products\/grow1-micro-blade"
+      }
     }
   },
   "order": [
     "main",
     "recommendations",
     "promotion",
-    "recentyViewed"
+    "recentyViewed",
+    "164935156703b93ab1"
   ]
 }
