@@ -20,11 +20,21 @@
             "product": "light-timer-auto-pilot",
             "description": "Dual Outlet Digital Timer120v dual outlet digital timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded1 second on\/offUp to 8 on\/off cycles per day15A\/1725WDual Outlet Analog Timer120v dual outlet analog timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded15 minute on\/off24 hour cycle15A\/1725WSingle Outlet Digital Timer120v single outlet digital timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded1 second on\/offUp to 8 on\/off cycles per day15A\/1725WSingle Outlet Analog Timer120v single outlet analog timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded15 minute on\/off24 hour cycle15A\/1725W"
           }
+        },
+        "b242a2c4-10c8-4f4d-985d-6ecce8eb4eed": {
+          "type": "text",
+          "settings": {
+            "title": "4 Foot Fluorescent Light",
+            "product_sku": "600675",
+            "product": "luxstar-t5",
+            "description": "LuxStar 2 foot 4 bulb and 4 foot 8 bulb T5 Fluorescent light fixtures that are perfect space-saving lights as they have a super low profile! These fixtures also emit significantly less heat than other reflectors so they can be placed closer to the tops of plants, giving them that much more light! The LuxStar T5s use high-efficiency digital ballasts and high-output bulbs to create the most efficient light source. They also features dual power switches so you have the option of dimming the fixture by 50%. "
+          }
         }
       },
       "block_order": [
         "876c7b88-16de-4c80-b9c6-e76ab689299e",
-        "eb428bdf-5718-407b-8134-2f941ab47878"
+        "eb428bdf-5718-407b-8134-2f941ab47878",
+        "b242a2c4-10c8-4f4d-985d-6ecce8eb4eed"
       ],
       "settings": {
         "title": "Lowest Priced Mid Level Kit",
