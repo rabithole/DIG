@@ -63,7 +63,6 @@
         },
         method: 'POST'
     }).then((response) => {
-        debugger;
         console.log('response', response.json());
         response.json();
         window.location.reload();
