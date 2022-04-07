@@ -21,11 +21,21 @@
             "description": "Rapid Rooter® plugs are all natural soilless grow plugs made of composted tree bark and organic materials. These plugs are perfect for seedlings or cuttings. Transplant plugs in soil or soilless hydrogardening applications. Tray is 10\"x 20\".",
             "image": "shopify:\/\/shop_images\/pg20_000008_1.jpg"
           }
+        },
+        "7737c36a-3055-4668-8f42-056d37a9a3d8": {
+          "type": "text",
+          "settings": {
+            "title": "T5 Grow Light",
+            "product_sku": "720356",
+            "product": "super-sprouter-t5-ho-18-in-grow-light-blister-pack",
+            "description": "Super Sprouter® now offers the 18 in T5 High Output Grow Light fixture with the nano-tech reflector. This fixture includes an integrated electronic ballast, 6400° K lamp, power cord, jumper cord and mounting clips (hanging and flat surface). You can daisy chain up to 8 lights per single power cord. The reflector uses nanotechnology to maximize reflection"
+          }
         }
       },
       "block_order": [
         "71ffd17e-0960-430d-b11a-7fcd89071e06",
-        "9371b9a2-5bf0-454d-a43f-e8380acc943e"
+        "9371b9a2-5bf0-454d-a43f-e8380acc943e",
+        "7737c36a-3055-4668-8f42-056d37a9a3d8"
       ],
       "settings": {
         "title": "Student Kits",
