@@ -43,6 +43,39 @@
         "other-kits": ""
       }
     },
+    "16493722588ba898e7": {
+      "type": "kit-page-template",
+      "blocks": {
+        "876c7b88-16de-4c80-b9c6-e76ab689299e": {
+          "type": "text",
+          "settings": {
+            "title": "Mid Level Tent Kit",
+            "product_sku": "",
+            "product": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "876c7b88-16de-4c80-b9c6-e76ab689299e"
+      ],
+      "settings": {
+        "title": "Mid Level Tent Kit",
+        "top-of-page": "",
+        "bottom-of-page": "",
+        "other-kits": ""
+      }
+    },
+    "1649372271cd1b4063": {
+      "type": "student-kit",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "top-of-page": "",
+        "bottom-of-page": "",
+        "other-kits": ""
+      }
+    },
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -53,6 +86,7 @@
     },
     "promotion": {
       "type": "static-promotion-list",
+      "disabled": true,
       "settings": {
         "expand_items": false,
         "section_size": "medium",
@@ -70,6 +104,8 @@
   },
   "order": [
     "main",
+    "16493722588ba898e7",
+    "1649372271cd1b4063",
     "recommendations",
     "promotion",
     "recentyViewed"
