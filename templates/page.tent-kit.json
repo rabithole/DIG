@@ -1,5 +1,28 @@
 {
   "sections": {
+    "16493722588ba898e7": {
+      "type": "kit-page-template",
+      "blocks": {
+        "876c7b88-16de-4c80-b9c6-e76ab689299e": {
+          "type": "text",
+          "settings": {
+            "title": "Mid Level Tent Kit",
+            "product_sku": "",
+            "product": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "876c7b88-16de-4c80-b9c6-e76ab689299e"
+      ],
+      "settings": {
+        "title": "Lowest Priced Mid Level Kit",
+        "top-of-page": "sldkfj klsdfj lksjdf kkjlsfd klkjsdf lklkj sfd`",
+        "bottom-of-page": "lskdfj slkdfj lksdfj kklsjdf kjklsjdf lkj lkjdfs lkj",
+        "other-kits": ""
+      }
+    },
     "main": {
       "type": "kit-page-template",
       "blocks": {
@@ -43,29 +66,6 @@
         "other-kits": ""
       }
     },
-    "16493722588ba898e7": {
-      "type": "kit-page-template",
-      "blocks": {
-        "876c7b88-16de-4c80-b9c6-e76ab689299e": {
-          "type": "text",
-          "settings": {
-            "title": "Mid Level Tent Kit",
-            "product_sku": "",
-            "product": "",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "876c7b88-16de-4c80-b9c6-e76ab689299e"
-      ],
-      "settings": {
-        "title": "Mid Level Tent Kit",
-        "top-of-page": "",
-        "bottom-of-page": "",
-        "other-kits": ""
-      }
-    },
     "1649372271cd1b4063": {
       "type": "student-kit",
       "disabled": true,
@@ -103,8 +103,8 @@
     }
   },
   "order": [
-    "main",
     "16493722588ba898e7",
+    "main",
     "1649372271cd1b4063",
     "recommendations",
     "promotion",
