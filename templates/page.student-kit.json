@@ -48,6 +48,15 @@
             "product": "hd-clonex-gel",
             "description": "Clonex Gel is a high performance rooting compound that remains in contact with the stem, sealing the cut tissue and supplying the hormones needed to promote root cell development and vitamins to protect the delicate new root tissue. Clonex has a full spectrum of mineral nutrients and trace elements to nourish the young roots."
           }
+        },
+        "34205ecd-1c28-4a88-96bf-9123aae1af6c": {
+          "type": "text",
+          "settings": {
+            "title": "Digital Timer",
+            "product_sku": "720357",
+            "product": "light-timer-titan-controls",
+            "description": "The Apollo® 7 - 24 hr digital timer is the perfect timing solution for your hydro systems. With a 15 Amp capacity, it's easy to set to run your pumps, fans, etc. The Apollo® 7 may be set to 1 min intervals and run 8 separate schedules per day. Can be configured in numerous timing schedules to meet the most demanding timing requirements. One (1) outlet with 1 min intervals. Battery backup feature saves settings if power goes out. Enclosure resists dust, rust and moisture. 15 Amps maximum\/120 V\/60 Hz. HINT: If not working properly, plug in for 5 min and press the reset button. Generally this fixes the problem."
+          }
         }
       },
       "block_order": [
@@ -55,7 +64,8 @@
         "9371b9a2-5bf0-454d-a43f-e8380acc943e",
         "7737c36a-3055-4668-8f42-056d37a9a3d8",
         "28c83e63-019d-4592-84a8-97b3fde95f8a",
-        "40301ebd-e80a-496d-9952-a7d000f16669"
+        "40301ebd-e80a-496d-9952-a7d000f16669",
+        "34205ecd-1c28-4a88-96bf-9123aae1af6c"
       ],
       "settings": {
         "title": "Student Kits",
