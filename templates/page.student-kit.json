@@ -30,12 +30,22 @@
             "product": "super-sprouter-t5-ho-18-in-grow-light-blister-pack",
             "description": "Super Sprouter® now offers the 18 in T5 High Output Grow Light fixture with the nano-tech reflector. This fixture includes an integrated electronic ballast, 6400° K lamp, power cord, jumper cord and mounting clips (hanging and flat surface). You can daisy chain up to 8 lights per single power cord. The reflector uses nanotechnology to maximize reflection"
           }
+        },
+        "28c83e63-019d-4592-84a8-97b3fde95f8a": {
+          "type": "text",
+          "settings": {
+            "title": "Heat Mat",
+            "product_sku": "720355",
+            "product": "super-sprouter-seedling-heat-mat",
+            "description": "Warms root area approximately 10–20° F over ambient temperature to improve germination process. Helps gardeners have better success rates with seedlings and cuttings. Perfect for one standard 10 in x 20 in propagation tray. Heavy-duty construction makes this mat very durable. More than 20% larger than competitive mats. This allows even warming of your entire tray. More consistent heating with fewer hot spots than other seedling heat mats. Ed Hume seal of approval. 2"
+          }
         }
       },
       "block_order": [
         "71ffd17e-0960-430d-b11a-7fcd89071e06",
         "9371b9a2-5bf0-454d-a43f-e8380acc943e",
-        "7737c36a-3055-4668-8f42-056d37a9a3d8"
+        "7737c36a-3055-4668-8f42-056d37a9a3d8",
+        "28c83e63-019d-4592-84a8-97b3fde95f8a"
       ],
       "settings": {
         "title": "Student Kits",
