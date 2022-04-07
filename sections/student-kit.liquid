@@ -42,10 +42,7 @@
   <!-- end of outside for loop -->
 
   <div class='cart-button'>
-    <form id='kit-form'>
-      <input type="hidden" name="id" value='1' id='value'/>
-      <button onclick="idSubmit()" class="discount-page-button" >Add To Cart</button>
-    </form> 
+      <button class="discount-page-button" >Add To Cart</button> 
   </div>
 </div>
 <!-- bottom of kit section -->
@@ -56,7 +53,7 @@
   {{ section.settings.bottom-of-page }}
 </div>
 
-<script>
+<!-- <script>
     var kitID = document.getElementsByClassName('kit');
     var kitTotal = document.getElementsByTagName('h4');
     // console.log('Kit Totals:---', kitTotal)
@@ -149,7 +146,7 @@ function idSubmit() {
   });
 }
   
-</script>
+</script> -->
 
 {% schema %}
   {
