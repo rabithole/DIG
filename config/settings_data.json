@@ -1423,7 +1423,7 @@
         ],
         "settings": {
           "title": "Grow Kits of All Kinds...",
-          "expand_items": true,
+          "expand_items": false,
           "show_desktop": true,
           "link_title": "",
           "link": ""
