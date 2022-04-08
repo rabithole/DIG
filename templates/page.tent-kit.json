@@ -100,16 +100,6 @@
         "other-kits": ""
       }
     },
-    "1649372271cd1b4063": {
-      "type": "student-kit",
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "top-of-page": "",
-        "bottom-of-page": "",
-        "other-kits": ""
-      }
-    },
     "recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -142,7 +132,6 @@
     "1649376370de73efeb",
     "16493722588ba898e7",
     "main",
-    "1649372271cd1b4063",
     "recommendations",
     "promotion",
     "recentyViewed"
