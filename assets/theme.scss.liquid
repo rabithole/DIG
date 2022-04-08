@@ -13912,20 +13912,26 @@ to turn off this for now...
   display: flex;
   flex-direction: column;
   padding: 10px;
+  overflow: hidden;
 }
 
 .eachProduct {
   position: relative;
   border-left: 2px solid black;
   padding: 15px;
-  width: 100%;
+}
+
+.product-container .title-description {
+  width: 60%;
+  color: black;
+}
+
+.product-container .eachProduct {
+  width: 40%;
+  color: black;
 }
 
 @media only screen and ( max-width: 420px ) {
-  .eachProduct {
-    width: 250%;
-  }
-
   .title-description {
     overflow: hidden;
   }
