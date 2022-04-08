@@ -718,6 +718,13 @@
               "image": "shopify:\/\/shop_images\/KIND_Stacked_Logo_600x_b376840d-30e4-4ba0-b3c6-46a226115a7e.png",
               "link": "https:\/\/dig.supply\/products\/kind-x-series-targeted-full-spectrum-led-grow-lights?_pos=9&_sid=04a61f402&_ss=r"
             }
+          },
+          "cb0fd71e-e6c2-4c95-8089-5d1859a9b015": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/AthenaLogo.jpg",
+              "link": "https:\/\/dig.supply\/collections\/all\/brand_athena"
+            }
           }
         },
         "block_order": [
@@ -734,7 +741,8 @@
           "ac464cc6-258b-429f-8fd5-018b758e4b98",
           "fbab0664-b8fd-478a-a45a-61b05d38bbc7",
           "52f7a7e0-b036-4cb2-bff5-c03ebdf3bc61",
-          "4eaa0513-9514-425a-9475-adc391fac714"
+          "4eaa0513-9514-425a-9475-adc391fac714",
+          "cb0fd71e-e6c2-4c95-8089-5d1859a9b015"
         ],
         "settings": {
           "title": "Brands",
@@ -1354,10 +1362,73 @@
           "title": "",
           "html": "<div style=\"text-align: center;\"> \n<h1>\nThe Best Hydroponics Store Near You!\n<\/h1>\n<h3>\nCommercial Supply and Consulting Available!\n<\/h3>\n<\/div>"
         }
+      },
+      "1649439690e621183e": {
+        "type": "quick-links",
+        "blocks": {
+          "1649439690e621183e-0": {
+            "type": "link",
+            "settings": {
+              "title": "Your link",
+              "link": ""
+            }
+          },
+          "1649439690e621183e-1": {
+            "type": "link",
+            "settings": {
+              "title": "Your link",
+              "link": ""
+            }
+          },
+          "1649439690e621183e-2": {
+            "type": "link",
+            "settings": {
+              "title": "Your link",
+              "link": ""
+            }
+          },
+          "1649439690e621183e-3": {
+            "type": "link",
+            "settings": {
+              "title": "Your link",
+              "link": ""
+            }
+          },
+          "1649439690e621183e-4": {
+            "type": "link",
+            "settings": {
+              "title": "Your link",
+              "link": ""
+            }
+          },
+          "1649439690e621183e-5": {
+            "type": "link",
+            "settings": {
+              "title": "Your link",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1649439690e621183e-0",
+          "1649439690e621183e-1",
+          "1649439690e621183e-2",
+          "1649439690e621183e-3",
+          "1649439690e621183e-4",
+          "1649439690e621183e-5"
+        ],
+        "settings": {
+          "title": "Quick links",
+          "expand_items": true,
+          "show_desktop": true,
+          "link_title": "",
+          "link": ""
+        }
       }
     },
     "content_for_index": [
       "slideshow",
+      "1649439690e621183e",
       "1644425262118e4602",
       "164046987649a502ea",
       "1640307588540f19f3",
