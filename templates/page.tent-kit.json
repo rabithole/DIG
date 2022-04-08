@@ -14,6 +14,49 @@
         "html": "<p>Here is a list of some problems you may run into:<\/p>\n<div>\n<ul>\n<li>Humidity is problematic especially during the flowering stage. Your dense buds will hold moisture creating a ripe place for mold to grow. Not a good thing for your lungs or health of your buds. An exhaust fan can take care of this problem easily.<\/li> \n<li>Smell is often a complaint, nuisance or possibly even a legal issue in some situations. This can be taken care of by combining an exhaust fan and a carbon filter. The filter will remove any smell that might be exhausted into your room, garage or outdoor environment that could unsettle your neighbors.\n<\/li> \n<li>A simple fan to move the air inside your tent will help you plants breath. Stagnant air will become humid in spots if the air in the tent isn’t moved around. A circulation fan and an exhaust fan work together to keep the environment in your grow tent at the optimum humidity level. \n<\/li>\n<\/ul>\n<\/div>\n<p>Our air and humidity kits are equipped to manage any growing situation inside a grow tent.<\/p>"
       }
     },
+    "16493722588ba898e7": {
+      "type": "kit-page-template",
+      "blocks": {
+        "876c7b88-16de-4c80-b9c6-e76ab689299e": {
+          "type": "text",
+          "settings": {
+            "title": "AC Infinity Tent",
+            "product_sku": "720322",
+            "product": "cloudlab-advance-grow-tents",
+            "description": "A grow tent designed to grow plants indoors by providing complete control over climate conditions. Featuring a quick-view observation window, this grow tent uses a waterproof oxford canvas with a 2000D thickness for higher durability and light-proofing. Cross-patterned diamond mylar lines the surface of the inner walls, which will reflect and maximize output from your grow light. To ensure maximum reflectivity and prevent light leaking, an inner ribbon stitching creates a seal that lines the zippers inside the grow tent. Additionally, the duct ports’ double cinching design closes them on either side to reinforce the light-proof sealing. Accessories include a waterproof floor tray, a built-in tool bag, and a mounting plate to install your controller onto the grow tent.An advanced grow tent designed to create optimal climate conditions for year-round plant cultivation indoors.Features durable frame that uses 50% thicker steel poles and carries 2x more weight than standard grow tents.Higher density 2000D canvas prevents light leaks while diamond mylar amplifies light reflectivity.Future ready design featuring controller mounting plate with passthrough for no light-leak cable management."
+          }
+        },
+        "eb428bdf-5718-407b-8134-2f941ab47878": {
+          "type": "text",
+          "settings": {
+            "title": "Auto Pilot Timer",
+            "product_sku": "310220",
+            "product": "light-timer-auto-pilot",
+            "description": "Dual Outlet Digital Timer120v dual outlet digital timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded1 second on\/offUp to 8 on\/off cycles per day15A\/1725WDual Outlet Analog Timer120v dual outlet analog timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded15 minute on\/off24 hour cycle15A\/1725WSingle Outlet Digital Timer120v single outlet digital timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded1 second on\/offUp to 8 on\/off cycles per day15A\/1725WSingle Outlet Analog Timer120v single outlet analog timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded15 minute on\/off24 hour cycle15A\/1725W"
+          }
+        },
+        "b242a2c4-10c8-4f4d-985d-6ecce8eb4eed": {
+          "type": "text",
+          "settings": {
+            "title": "4 Foot Fluorescent Light",
+            "product_sku": "600675",
+            "product": "luxstar-t5",
+            "description": "LuxStar 2 foot 4 bulb and 4 foot 8 bulb T5 Fluorescent light fixtures that are perfect space-saving lights as they have a super low profile! These fixtures also emit significantly less heat than other reflectors so they can be placed closer to the tops of plants, giving them that much more light! The LuxStar T5s use high-efficiency digital ballasts and high-output bulbs to create the most efficient light source. They also features dual power switches so you have the option of dimming the fixture by 50%. "
+          }
+        }
+      },
+      "block_order": [
+        "876c7b88-16de-4c80-b9c6-e76ab689299e",
+        "eb428bdf-5718-407b-8134-2f941ab47878",
+        "b242a2c4-10c8-4f4d-985d-6ecce8eb4eed"
+      ],
+      "settings": {
+        "title": "Lowest Priced Mid Level Kit",
+        "top-of-page": "",
+        "bottom-of-page": "",
+        "other-kits": ""
+      }
+    },
     "main": {
       "type": "kit-page-template",
       "blocks": {
@@ -59,6 +102,7 @@
     },
     "1649372271cd1b4063": {
       "type": "student-kit",
+      "disabled": true,
       "blocks": {
         "04080964-4c02-4566-b9c0-ffe368d0643c": {
           "type": "text",
@@ -85,50 +129,6 @@
       ],
       "settings": {
         "title": "",
-        "top-of-page": "",
-        "bottom-of-page": "",
-        "other-kits": ""
-      }
-    },
-    "16493722588ba898e7": {
-      "type": "kit-page-template",
-      "disabled": true,
-      "blocks": {
-        "876c7b88-16de-4c80-b9c6-e76ab689299e": {
-          "type": "text",
-          "settings": {
-            "title": "AC Infinity Tent",
-            "product_sku": "720322",
-            "product": "cloudlab-advance-grow-tents",
-            "description": "A grow tent designed to grow plants indoors by providing complete control over climate conditions. Featuring a quick-view observation window, this grow tent uses a waterproof oxford canvas with a 2000D thickness for higher durability and light-proofing. Cross-patterned diamond mylar lines the surface of the inner walls, which will reflect and maximize output from your grow light. To ensure maximum reflectivity and prevent light leaking, an inner ribbon stitching creates a seal that lines the zippers inside the grow tent. Additionally, the duct ports’ double cinching design closes them on either side to reinforce the light-proof sealing. Accessories include a waterproof floor tray, a built-in tool bag, and a mounting plate to install your controller onto the grow tent.An advanced grow tent designed to create optimal climate conditions for year-round plant cultivation indoors.Features durable frame that uses 50% thicker steel poles and carries 2x more weight than standard grow tents.Higher density 2000D canvas prevents light leaks while diamond mylar amplifies light reflectivity.Future ready design featuring controller mounting plate with passthrough for no light-leak cable management."
-          }
-        },
-        "eb428bdf-5718-407b-8134-2f941ab47878": {
-          "type": "text",
-          "settings": {
-            "title": "Auto Pilot Timer",
-            "product_sku": "310220",
-            "product": "light-timer-auto-pilot",
-            "description": "Dual Outlet Digital Timer120v dual outlet digital timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded1 second on\/offUp to 8 on\/off cycles per day15A\/1725WDual Outlet Analog Timer120v dual outlet analog timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded15 minute on\/off24 hour cycle15A\/1725WSingle Outlet Digital Timer120v single outlet digital timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded1 second on\/offUp to 8 on\/off cycles per day15A\/1725WSingle Outlet Analog Timer120v single outlet analog timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded15 minute on\/off24 hour cycle15A\/1725W"
-          }
-        },
-        "b242a2c4-10c8-4f4d-985d-6ecce8eb4eed": {
-          "type": "text",
-          "settings": {
-            "title": "4 Foot Fluorescent Light",
-            "product_sku": "600675",
-            "product": "luxstar-t5",
-            "description": "LuxStar 2 foot 4 bulb and 4 foot 8 bulb T5 Fluorescent light fixtures that are perfect space-saving lights as they have a super low profile! These fixtures also emit significantly less heat than other reflectors so they can be placed closer to the tops of plants, giving them that much more light! The LuxStar T5s use high-efficiency digital ballasts and high-output bulbs to create the most efficient light source. They also features dual power switches so you have the option of dimming the fixture by 50%. "
-          }
-        }
-      },
-      "block_order": [
-        "876c7b88-16de-4c80-b9c6-e76ab689299e",
-        "eb428bdf-5718-407b-8134-2f941ab47878",
-        "b242a2c4-10c8-4f4d-985d-6ecce8eb4eed"
-      ],
-      "settings": {
-        "title": "Lowest Priced Mid Level Kit",
         "top-of-page": "",
         "bottom-of-page": "",
         "other-kits": ""
@@ -164,9 +164,9 @@
   "order": [
     "1649376143d7978c59",
     "1649376370de73efeb",
+    "16493722588ba898e7",
     "main",
     "1649372271cd1b4063",
-    "16493722588ba898e7",
     "recommendations",
     "promotion",
     "recentyViewed"
