@@ -1382,6 +1382,7 @@
           },
           "1649439690e621183e-2": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "title": "Your link",
               "link": ""
@@ -1389,6 +1390,7 @@
           },
           "1649439690e621183e-3": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "title": "Your link",
               "link": ""
@@ -1396,6 +1398,7 @@
           },
           "1649439690e621183e-4": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "title": "Your link",
               "link": ""
@@ -1403,6 +1406,7 @@
           },
           "1649439690e621183e-5": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "title": "Your link",
               "link": ""
