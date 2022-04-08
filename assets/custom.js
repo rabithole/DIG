@@ -36,10 +36,10 @@
 
  
     var addToCart = function(e) {
-    console.dir(this)
-    console.dir(e)
+    // console.dir(this)
+    // console.dir(e)
     var products = this.parentElement.querySelectorAll('H2.product-model')
-    console.dir(products)
+    // console.dir(products)
 
     // console.log('ID Array:--', idArr)
     var productsData = [];
@@ -63,14 +63,14 @@
         },
         method: 'POST'
     }).then((response) => {
-        console.log('response', response.json());
+        // console.log('response', response.json());
         response.json();
         window.location.reload();
     }).then(data => {
         console.log("Success", data)
-        console.log("One more")
+        // console.log("One more")
     }).catch((err) => {
-        console.log('error');
+        // console.log('error');
         console.error(err)
     });
 }
@@ -112,7 +112,7 @@
     // h3 parent nodes to get to section id's
     var h3TagsID = Number(h3Tags[i].parentNode.parentNode.parentNode.id); 
 
-    console.log('First in for loop', 'h3TagsID', h3TagsID, 'titlePriceId', titlePriceId)
+    // console.log('First in for loop', 'h3TagsID', h3TagsID, 'titlePriceId', titlePriceId)
     
     // grabs individual product prices from list of h3 tags containing product prices.
     // h3 tags id's contain individual product prices
@@ -132,14 +132,3 @@
     
     document.getElementById(kitTotalId).innerHTML = 'Total: ' + '$' + (Number(sum) / 100).toFixed(2);
   }
-
-    // // Adding products to the cart and refreshing the page.
-    // var formBuildKit = document.getElementById('kit-form');
-    // var formValue = document.getElementById('value');
-    // var id = document.getElementsByClassName('product-model'); // id of each product placed in the product title h2 element.
-    // var idArr = [];
-
-    //     // Add each product id to the id array. ( idArr )
-    // for(var i = 0; i < id.length; i++) {
-    //     idArr.push(id[i].id );
-    // }
