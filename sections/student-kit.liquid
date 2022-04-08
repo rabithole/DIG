@@ -9,7 +9,7 @@
 
 <!-- Top of kit page -->
 <div class="kit" id=0>
-  <h4 id=50 class="kitTotal"></h4>
+  <h4 id=50 class="kitTotal"> {{ section.settings.studentPrice }}</h4>
 
   <!-- outside for loop -->
   {% for block in section.blocks %}
@@ -150,28 +150,6 @@
   {
     "name": "Multiple Products",
     "tag": "div",
-    "settings": [
-      { 
-        "id": "title",
-        "type": "text",
-        "label": "Page Title"
-      },
-      {
-        "type": "html",
-        "label": "Kit details",
-        "id": "top-of-page"
-      },
-      {
-        "type": "html",
-        "label": "More info",
-        "id": "bottom-of-page"
-      },
-      {
-        "type": "link_list",
-        "id": "other-kits",
-        "label": "Links to other kits"
-      }
-    ],
     "blocks": [
       {
       "type": "text",
