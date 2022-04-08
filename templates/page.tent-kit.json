@@ -14,6 +14,49 @@
         "html": "<p>Here is a list of some problems you may run into:<\/p>\n<div>\n<ul>\n<li>Humidity is problematic especially during the flowering stage. Your dense buds will hold moisture creating a ripe place for mold to grow. Not a good thing for your lungs or health of your buds. An exhaust fan can take care of this problem easily.<\/li> \n<li>Smell is often a complaint, nuisance or possibly even a legal issue in some situations. This can be taken care of by combining an exhaust fan and a carbon filter. The filter will remove any smell that might be exhausted into your room, garage or outdoor environment that could unsettle your neighbors.\n<\/li> \n<li>A simple fan to move the air inside your tent will help you plants breath. Stagnant air will become humid in spots if the air in the tent isn’t moved around. A circulation fan and an exhaust fan work together to keep the environment in your grow tent at the optimum humidity level. \n<\/li>\n<\/ul>\n<\/div>\n<p>Our air and humidity kits are equipped to manage any growing situation inside a grow tent.<\/p>"
       }
     },
+    "main": {
+      "type": "kit-page-template",
+      "blocks": {
+        "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132": {
+          "type": "text",
+          "settings": {
+            "title": "Grow Tent",
+            "product_sku": "720261",
+            "product": "cloudlab-advance-grow-tents",
+            "description": "AC Infinity makes the finest grow tents on the market! With a grow tent you can control every detail of a plants needs. There is no better way to get those dank nugs."
+          }
+        },
+        "8fac9e67-341f-4981-803a-a2115c9404de": {
+          "type": "text",
+          "settings": {
+            "title": "Gro Pros LED",
+            "product_sku": "720231",
+            "product": "grow-pros-solutions-led",
+            "description": "LED lighting with a 7 year warranty and the best price point on the market. Full-spectrum LED solution for commercial indoor grow at home."
+          }
+        },
+        "3bbce69c-997d-4a80-9695-d326dad052f3": {
+          "type": "text",
+          "settings": {
+            "title": "Autopilot Timer",
+            "product_sku": "700027",
+            "product": "light-timer-auto-pilot",
+            "description": "Dual outlet digital timer for controlling watering, lighting and air control. Up to 8 on\/off cycles per day."
+          }
+        }
+      },
+      "block_order": [
+        "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132",
+        "8fac9e67-341f-4981-803a-a2115c9404de",
+        "3bbce69c-997d-4a80-9695-d326dad052f3"
+      ],
+      "settings": {
+        "title": "Mid Level Grow Tent Kit",
+        "top-of-page": "",
+        "bottom-of-page": "",
+        "other-kits": ""
+      }
+    },
     "1649372271cd1b4063": {
       "type": "student-kit",
       "blocks": {
@@ -91,49 +134,6 @@
         "other-kits": ""
       }
     },
-    "main": {
-      "type": "kit-page-template",
-      "blocks": {
-        "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132": {
-          "type": "text",
-          "settings": {
-            "title": "Grow Tent",
-            "product_sku": "720261",
-            "product": "cloudlab-advance-grow-tents",
-            "description": "AC Infinity makes the finest grow tents on the market! With a grow tent you can control every detail of a plants needs. There is no better way to get those dank nugs."
-          }
-        },
-        "8fac9e67-341f-4981-803a-a2115c9404de": {
-          "type": "text",
-          "settings": {
-            "title": "Gro Pros LED",
-            "product_sku": "720231",
-            "product": "grow-pros-solutions-led",
-            "description": "LED lighting with a 7 year warranty and the best price point on the market. Full-spectrum LED solution for commercial indoor grow at home."
-          }
-        },
-        "3bbce69c-997d-4a80-9695-d326dad052f3": {
-          "type": "text",
-          "settings": {
-            "title": "Autopilot Timer",
-            "product_sku": "700027",
-            "product": "light-timer-auto-pilot",
-            "description": "Dual outlet digital timer for controlling watering, lighting and air control. Up to 8 on\/off cycles per day."
-          }
-        }
-      },
-      "block_order": [
-        "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132",
-        "8fac9e67-341f-4981-803a-a2115c9404de",
-        "3bbce69c-997d-4a80-9695-d326dad052f3"
-      ],
-      "settings": {
-        "title": "Mid Level Grow Tent Kit",
-        "top-of-page": "",
-        "bottom-of-page": "",
-        "other-kits": ""
-      }
-    },
     "recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -164,9 +164,9 @@
   "order": [
     "1649376143d7978c59",
     "1649376370de73efeb",
+    "main",
     "1649372271cd1b4063",
     "16493722588ba898e7",
-    "main",
     "recommendations",
     "promotion",
     "recentyViewed"
