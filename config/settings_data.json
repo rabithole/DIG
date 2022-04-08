@@ -1365,19 +1365,18 @@
       },
       "1649439690e621183e": {
         "type": "quick-links",
-        "disabled": true,
         "blocks": {
           "1649439690e621183e-0": {
             "type": "link",
             "settings": {
-              "title": "Your link",
-              "link": ""
+              "title": "Student Kits",
+              "link": "https:\/\/dig.supply\/pages\/seed-starting-kits"
             }
           },
           "1649439690e621183e-1": {
             "type": "link",
             "settings": {
-              "title": "Your link",
+              "title": "Grow Tent Kits",
               "link": ""
             }
           },
