@@ -1385,7 +1385,7 @@
             "type": "link",
             "disabled": true,
             "settings": {
-              "title": "Your link",
+              "title": "Harvest",
               "link": ""
             }
           },
@@ -1449,9 +1449,8 @@
           },
           "16494685530c886071-2": {
             "type": "link",
-            "disabled": true,
             "settings": {
-              "title": "Your link",
+              "title": "Air & Humidity",
               "link": ""
             }
           },
