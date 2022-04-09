@@ -1365,6 +1365,7 @@
       },
       "1649439690e621183e": {
         "type": "quick-links",
+        "disabled": true,
         "blocks": {
           "1649439690e621183e-0": {
             "type": "link",
@@ -1428,11 +1429,78 @@
           "link_title": "",
           "link": ""
         }
+      },
+      "16494685530c886071": {
+        "type": "kit-links",
+        "blocks": {
+          "16494685530c886071-0": {
+            "type": "link",
+            "settings": {
+              "title": "Student Kits",
+              "link": "shopify:\/\/pages\/seed-starting-kits"
+            }
+          },
+          "16494685530c886071-1": {
+            "type": "link",
+            "settings": {
+              "title": "Your link",
+              "link": ""
+            }
+          },
+          "16494685530c886071-2": {
+            "type": "link",
+            "disabled": true,
+            "settings": {
+              "title": "Your link",
+              "link": ""
+            }
+          },
+          "16494685530c886071-3": {
+            "type": "link",
+            "disabled": true,
+            "settings": {
+              "title": "Your link",
+              "link": ""
+            }
+          },
+          "16494685530c886071-4": {
+            "type": "link",
+            "disabled": true,
+            "settings": {
+              "title": "Your link",
+              "link": ""
+            }
+          },
+          "16494685530c886071-5": {
+            "type": "link",
+            "disabled": true,
+            "settings": {
+              "title": "Your link",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "16494685530c886071-0",
+          "16494685530c886071-1",
+          "16494685530c886071-2",
+          "16494685530c886071-3",
+          "16494685530c886071-4",
+          "16494685530c886071-5"
+        ],
+        "settings": {
+          "title": "Quick links",
+          "expand_items": true,
+          "show_desktop": true,
+          "link_title": "",
+          "link": ""
+        }
       }
     },
     "content_for_index": [
       "slideshow",
       "1649439690e621183e",
+      "16494685530c886071",
       "1644425262118e4602",
       "164046987649a502ea",
       "1640307588540f19f3",
