@@ -36,6 +36,13 @@
     				{% endif %}
           {% endif %}
 		  	{% endfor %}
+		  	<form class="dropDown">
+		  		<label for='variants'>Choose a hose</label>
+		  		<select name="variants" id="variants">
+		  			<option value="{{ block.settings.product_sku }}">{{ block.settings.product_sku }}</option>
+		  			<option value="{{ block.settings.product_skuII }}">{{ block.settings.product_skuII }}</option>
+		  		</select>
+		  	</form>
 			</section> 
 		</div>
   {% endfor %}
@@ -196,7 +203,7 @@
 				},
 				{
 					"type": "text",
-					"id": "product_sku2",
+					"id": "product_skuII",
 					"label": "Variant Sku"
 				},
 				{
