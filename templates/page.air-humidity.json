@@ -7,8 +7,8 @@
           "type": "text",
           "settings": {
             "title": "AC Infinity T6 Exahaust Fan",
+            "variant_sku": "",
             "product_sku": "600703",
-            "product_skuII": "",
             "product": "inline-fan",
             "description": "Designed to ventilate hydroponic grow rooms, transfer heating\/cooling, cool AV closets, and exhaust odors. Intelligent controller with temperature and humidity programming, fan speed control, timer, and alarm system. Mixed flow design combined with a PWM-controlled EC-motor for a truly quiet and energy efficient performance."
           }
@@ -17,8 +17,8 @@
           "type": "text",
           "settings": {
             "title": "AC Infinity Carbon Filter",
+            "variant_sku": "",
             "product_sku": "600704",
-            "product_skuII": "",
             "product": "grow-room-garden-filter",
             "description": "The high-airflow duct filter is designed to use activated carbon to eliminate odors and chemicals, popularly used for hydroponics, grow rooms, kitchens, smoking areas, and other ventilation projects."
           }
@@ -27,8 +27,8 @@
           "type": "text",
           "settings": {
             "title": "Hurricane 6 inch clip fan",
+            "variant_sku": "",
             "product_sku": "HGC736520",
-            "product_skuII": "",
             "product": "hurricane-6-in-clip-fan",
             "description": "Small clip fan for tents and other small grow rooms."
           }
@@ -37,8 +37,8 @@
           "type": "text",
           "settings": {
             "title": "4 inch, 8 foot flexible ducting",
+            "variant_sku": "600705",
             "product_sku": "600708",
-            "product_skuII": "600705",
             "product": "ac-infinity-flexible-ducting",
             "description": "This ducting is designed for various ventilation, circulation, and heating\/cooling transfer applications. It features four-layer protection, making it more durable and resistant to leaks than single-layer designs. The internal layer is made of heavy-duty dual aluminum foil that is fire\/flame resistant."
           }
