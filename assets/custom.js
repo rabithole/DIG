@@ -35,44 +35,44 @@
 //  */
 
  
-//     var addToCart = function(e) {
-//     // console.dir(this)
-//     // console.dir(e)
-//     var products = this.parentElement.querySelectorAll('H2.product-model')
-//     // console.dir(products)
+// var addToCart = function(e) {
+// 	// console.dir(this)
+// 	// console.dir(e)
+// 	var products = this.parentElement.querySelectorAll('H2.product-model')
+// 	// console.dir(products)
 
-//     // console.log('ID Array:--', idArr)
-//     var productsData = [];
+// 	// console.log('ID Array:--', idArr)
+// 	var productsData = [];
 
-//     products.forEach( function(product) {
-//         productsData.push({
-//             quantity: 1,
-//             id: product.id
-//         })
-//     })
+// 	products.forEach( function(product) {
+// 	    productsData.push({
+// 	        quantity: 1,
+// 	        id: product.id
+// 	    })
+// 	})
 
-//     var data = {
-//         items: productsData
-//     }
+// 	var data = {
+// 	    items: productsData
+// 	}
 
-//     fetch('/cart/add.js', {
-//         body: JSON.stringify(data),
-//         credentials: 'same-origin',
-//         headers: {
-//             'Content-Type': 'application/json'
-//         },
-//         method: 'POST'
-//     }).then((response) => {
-//         // console.log('response', response.json());
-//         response.json();
-//         window.location.reload();
-//     }).then(data => {
-//         console.log("Success", data)
-//         // console.log("One more")
-//     }).catch((err) => {
-//         // console.log('error');
-//         console.error(err)
-//     });
+// 	fetch('/cart/add.js', {
+// 	    body: JSON.stringify(data),
+// 	    credentials: 'same-origin',
+// 	    headers: {
+// 	        'Content-Type': 'application/json'
+// 	    },
+// 	    method: 'POST'
+// 	}).then((response) => {
+// 	    // console.log('response', response.json());
+// 	    response.json();
+// 	    window.location.reload();
+// 	}).then(data => {
+// 	    console.log("Success", data)
+// 	    // console.log("One more")
+// 	}).catch((err) => {
+// 	    // console.log('error');
+// 	    console.error(err)
+// 	});
 // }
 
 
