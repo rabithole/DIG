@@ -39,9 +39,10 @@
 		  	<form class="dropDown">
 		  		<label for='variants'>Choose a hose</label>
 		  		<select name="variants" id="variants">
-		  			<option value="{{ block.settings.product_sku }}"> {{ block.settings.product_sku }} </option>
-		  			<option value= "{{ block.settings.variant_sku }}"> {{ block.settings.variant_sku }} </option>
+		  			<option value= "{{ block.settings.variant_sku }}">Two {{ block.settings.variant_sku }} </option>
+						<option value="{{ block.settings.product_sku }}"> {{ block.settings.product_sku }} </option>
 		  		</select>
+		  		<p>{{ block.settings.variant_sku }}</p>
 		  	</form>
 			</section> 
 		</div>
@@ -198,13 +199,13 @@
 				},
 				{
 					"type": "text",
-					"id": "product_sku",
-					"label": "Product Sku"
+					"id": "variant_sku",
+					"label": "Variant Sku"
 				},
 				{
 					"type": "text",
-					"id": "variant_sku",
-					"label": "Variant Sku"
+					"id": "product_sku",
+					"label": "Product Sku"
 				},
 				{
 					"type": "product",
