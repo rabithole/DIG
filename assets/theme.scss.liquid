@@ -13987,6 +13987,7 @@ to turn off this for now...
 .quick-links0 {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   background-color: #7FB38E;
   border: 2px solid #23453D;
   width: 80%;
@@ -14004,6 +14005,26 @@ to turn off this for now...
   border-radius: 10px;
 }
 
+@media only screen and ( max-width: 800px ) {
+  .quick-links0 {
+    justify-content: center;
+    width: auto;
+  }
+
+  .quick-links0 a {
+    font-size: 4.5vw;
+  }
+}
+
+@media only screen and ( max-width: 400px ) {
+  .quick-links0 a {
+    font-size: 5vw;
+  }
+}
+
+
+/* Drop down menu product choices on kit pages */
+
 .dropDown {
   background-color: #7FB38E;
   color: black;
@@ -14018,3 +14039,5 @@ to turn off this for now...
 .dropDown select {
   width: 90%;
 }
+
+
