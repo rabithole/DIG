@@ -204,6 +204,23 @@
               "link": ""
             }
           },
+          "361fba15-e38a-4024-b5e5-797f42db26cc": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/gavita-banner.png",
+              "mobile_image": "shopify:\/\/shop_images\/gavita-mobile.png",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "Get Yours Today!",
+              "content": "",
+              "content_position": "middle_center",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "BUY NOW",
+              "link": "https:\/\/dig.supply\/collections\/grow-lighting\/component_lighting-system+brand_gavita"
+            }
+          },
           "a5d6ff45-4b03-4695-9275-e345e37e7191": {
             "type": "image",
             "settings": {
@@ -258,6 +275,7 @@
         },
         "block_order": [
           "009091c1-c32e-44f3-92ac-47733150f0c5",
+          "361fba15-e38a-4024-b5e5-797f42db26cc",
           "a5d6ff45-4b03-4695-9275-e345e37e7191",
           "d269502f-c059-4e64-b990-dd9cca8dc303",
           "272d4801-47a5-43c9-aec5-40194bdaf9fe"
