@@ -187,6 +187,40 @@
       "slideshow": {
         "type": "slideshow",
         "blocks": {
+          "009091c1-c32e-44f3-92ac-47733150f0c5": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/420-sale-banner-2022.png",
+              "mobile_image": "shopify:\/\/shop_images\/420-sale-mobile-2022.png",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "",
+              "content": "",
+              "content_position": "middle_center",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "Button",
+              "link": ""
+            }
+          },
+          "361fba15-e38a-4024-b5e5-797f42db26cc": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/gavita-banner.png",
+              "mobile_image": "shopify:\/\/shop_images\/gavita-mobile.png",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "Get Yours Today!",
+              "content": "",
+              "content_position": "middle_center",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "BUY NOW",
+              "link": "https:\/\/dig.supply\/collections\/grow-lighting\/component_lighting-system+brand_gavita"
+            }
+          },
           "a5d6ff45-4b03-4695-9275-e345e37e7191": {
             "type": "image",
             "settings": {
@@ -201,23 +235,6 @@
               "button_background": "#ffffff",
               "button_text_color": "#000000",
               "button_text": "Discounts Page",
-              "link": "shopify:\/\/pages\/discount"
-            }
-          },
-          "8b09c0b5-327e-4194-a65a-8a902de6eecf": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/site-slider-bud-candy.png",
-              "mobile_image": "shopify:\/\/shop_images\/bud-candy-mobile-web_1b3b3e31-6383-402d-8a0d-aca49ac0202d.png",
-              "show_overlay": false,
-              "overlay_opacity": 30,
-              "text_color": "#ff5091",
-              "title": "47% OFF",
-              "content": "",
-              "content_position": "bottom_center",
-              "button_background": "#ff5092",
-              "button_text_color": "#000000",
-              "button_text": "BUY NOW",
               "link": "shopify:\/\/pages\/discount"
             }
           },
@@ -238,24 +255,6 @@
               "link": "https:\/\/dig.supply\/collections\/grow-lighting\/products\/grow-pros-solutions-led"
             }
           },
-          "5067f146-ee52-4c1c-9088-9e64c4c77b3d": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image": "shopify:\/\/shop_images\/malibu-compost-slider.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/Malbu-Compost-Mobile.jpg",
-              "show_overlay": false,
-              "overlay_opacity": 30,
-              "text_color": "#ffffff",
-              "title": "",
-              "content": "",
-              "content_position": "middle_center",
-              "button_background": "#ffffff",
-              "button_text_color": "#000000",
-              "button_text": "Malibu Compost Here",
-              "link": "https:\/\/dig.supply\/products\/malibu-compost-tea?_pos=1&_sid=b465d75ac&_ss=r"
-            }
-          },
           "272d4801-47a5-43c9-aec5-40194bdaf9fe": {
             "type": "image",
             "settings": {
@@ -272,33 +271,14 @@
               "button_text": "House and Garden Products",
               "link": "shopify:\/\/collections\/house-and-garden"
             }
-          },
-          "slide-1": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Slider1.png",
-              "mobile_image": "shopify:\/\/shop_images\/slider1-cropped.png",
-              "show_overlay": true,
-              "overlay_opacity": 15,
-              "text_color": "#ffffff",
-              "title": "Your Trusted Partner For Indoor Grows & Hydroponics",
-              "content": "",
-              "content_position": "middle_center",
-              "button_background": "#fd8023",
-              "button_text_color": "#ffffff",
-              "button_text": "LEARN MORE",
-              "link": "shopify:\/\/pages\/about-us"
-            }
           }
         },
         "block_order": [
+          "009091c1-c32e-44f3-92ac-47733150f0c5",
+          "361fba15-e38a-4024-b5e5-797f42db26cc",
           "a5d6ff45-4b03-4695-9275-e345e37e7191",
-          "8b09c0b5-327e-4194-a65a-8a902de6eecf",
           "d269502f-c059-4e64-b990-dd9cca8dc303",
-          "5067f146-ee52-4c1c-9088-9e64c4c77b3d",
-          "272d4801-47a5-43c9-aec5-40194bdaf9fe",
-          "slide-1"
+          "272d4801-47a5-43c9-aec5-40194bdaf9fe"
         ],
         "settings": {
           "edge_to_edge": true,
