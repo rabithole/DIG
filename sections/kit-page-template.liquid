@@ -37,13 +37,13 @@
           {% endif %}
 		  	{% endfor %}
 
-		  	<!-- <div class="dropDown">
+		  	<div class="dropDown">
 		  		<label for='variants'>Choose a hose</label>
 		  		<select name="variants" id="variants">
-		  			<option value= "{{ block.settings.variant_sku }}">{{ block.settings.variant_sku }}</option>
-						<option value="{{ block.settings.product_sku }}">{{ block.settings.product_sku }}</option>
+						<option value="{{ block.settings.product_sku }}">{{ block.settings.title }}</option>
+		  			<option value= "{{ block.settings.variant_sku }}">{{ block.settings.title }}</option>
 		  		</select>
-		  	</div> -->
+		  	</div>
 
 			</section> 
 		</div>
@@ -65,9 +65,10 @@
 <script>
 
 var changeProduct = function(e) {
-	var options = this.querySelectorAll('option');
+	var select = document.getElementById('variants');
+	var value = e.target.value;
 
-	console.dir('change happened from option', options)
+	console.log('change happened from option', value)
 }
 
 var addToCart = function(e) {
@@ -107,6 +108,7 @@ window.addEventListener('load', function(e) {
     Array.prototype.forEach.call(
         document.getElementsByClassName('dropDown'), function(element) {
             element.addEventListener('change', changeProduct)
+            console.log(element)
         }
     );
 });
