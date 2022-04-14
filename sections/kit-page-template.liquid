@@ -6,7 +6,6 @@
 	{{ section.settings.top-of-page }}
 </div>
 
-
 <!-- Top of kit page -->
 <div class="kit" id=0>
 	<h4 id=50 class="kitTotal"></h4>
@@ -25,15 +24,19 @@
 	  	<section class="eachProduct">
 		  	{% for option in prod.variants %}
           {% if option.sku == sku %}
+
       			{% if prod.has_only_default_variant %}
       				<img src='{{ block.settings.image | img_url }}' style='width: 200px;'>
 						{% else %}
-							<img src='{{ option.image | img_url }}' class="product-image">                                                                          
-    			{% endif %}
-            	<h3 style="" id='{{ option.price }}' data-price='option.price' class='product-price'>{{ option.price | money }}</h3>
+							<img src='{{ option.image | img_url }}' class="product-image">                                                                
+    				{% endif %}
+
+            	<h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
+
     				{% if option.title != 'Default Title' %}
             		<h2 class='product-model' id='{{ option.id }}'>{{ option.title }}</h2>
     				{% endif %}
+
           {% endif %}
 		  	{% endfor %}
 
@@ -63,11 +66,14 @@
 </div>
 
 <script>
+console.log('sku', {{ sku }})
 
 var changeProduct = function(e) {
 	var select = document.getElementById('variants');
 	var value = e.target.value;
+	var sku = {{ sku }};
 
+	console.log('sku', sku, {{ sku }}) 
 	console.log('change happened from option', value)
 }
 
