@@ -65,9 +65,9 @@
 <script>
 
 var changeProduct = function(e) {
-	var options = this.querySelectorAll('option');
+	var product = this.querySelectorAll('select');
 
-	console.dir('change happened from option', options)
+	console.log('This--- ', this, 'Product--- ', product[0].selectedIndex)
 }
 
 var addToCart = function(e) {
