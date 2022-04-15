@@ -66,8 +66,9 @@
 
 var changeProduct = function(e) {
 	var product = this.querySelectorAll('select');
+	var index = product[0].value;
 
-	console.log('This--- ', this, 'Product--- ', product[0].selectedIndex)
+	console.log('This--- ', this, 'Index--- ', index)
 }
 
 var addToCart = function(e) {
