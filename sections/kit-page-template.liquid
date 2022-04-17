@@ -44,7 +44,7 @@
 		  		<label for='variants'>Choose a hose</label>
 		  		<select name="variants" id="variants">
 						<option value="{{ block.settings.productOne }}">{{ block.settings.title }}</option>
-		  			<option value= "{{ block.settings.variant_sku }}">{{ block.settings.title }}</option>
+		  			<option value= "{{ block.settings.productTwo }}">{{ block.settings.title }}</option>
 		  		</select>
 		  	</div>
 
@@ -226,13 +226,23 @@ window.addEventListener('load', function(e) {
 				},
 				{
 					"type": "text",
-					"id": "variant_sku",
-					"label": "Variant Sku"
+					"id": "productOne",
+					"label": "First Option"
 				},
 				{
 					"type": "text",
-					"id": "productOne",
-					"label": "First Option"
+					"id": "productTwo",
+					"label": "Second Option"
+				},
+				{
+					"type": "text",
+					"id": "productThree",
+					"label": "Third Option"
+				},
+				{
+					"type": "text",
+					"id": "productFour",
+					"label": "Fourth Option"
 				},
 				{
 					"type": "product",
