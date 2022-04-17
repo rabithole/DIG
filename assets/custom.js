@@ -132,3 +132,143 @@
     
 //     document.getElementById(kitTotalId).innerHTML = 'Total: ' + '$' + (Number(sum) / 100).toFixed(2);
 //   }
+
+
+
+// Code from theme for choosing variant of a given product
+{/*<div class="product-form__variants">
+  {%- for option in prod.options_with_values -%}
+    {%- assign downcase_option = option.name | downcase -%}
+    {%- capture option_name -%}{{ section.id }}-{{ prod.id }}-{{ forloop.index }}{%- endcapture -%}
+
+    {%- assign option_selector_type = 'select' -%}
+
+    {%- if section.settings.color_mode != 'block' and section.settings.color_mode != 'dropdown' and color_label contains downcase_option -%}
+      {%- comment -%}NOTE: even if the merchant is using the mode to display variant images, if ALL variant do not have an associated image, we fallback to color{%- endcomment -%}
+
+      {%- assign has_image_attached_to_all_variants = true -%}
+
+      {%- for variant in prod.variants -%}
+        {%- unless variant.image -%}
+          {%- assign has_image_attached_to_all_variants = false -%}
+          {%- break -%}
+        {%- endunless -%}
+      {%- endfor -%}
+
+      {%- if section.settings.color_mode == 'color' or has_image_attached_to_all_variants == false -%}
+        {%- assign option_selector_type = 'color' -%}
+      {%- else -%}
+        {%- assign option_selector_type = 'variant' -%}
+      {%- endif -%}
+    {%- else -%}
+      {%- if color_label contains downcase_option -%}
+        {%- if section.settings.color_mode == 'block' -%}
+          {%- assign option_selector_type = 'block' -%}
+        {%- endif -%}
+      {%- elsif section.settings.selector_mode == 'block' -%}
+        {%- assign option_selector_type = 'block' -%}
+      {%- endif -%}
+    {%- endif -%}
+
+    <div class="product-form__option" data-selector-type="{{ option_selector_type }}">
+      {%- case option_selector_type -%}
+        {%- when 'color' -%}
+          <span class="product-form__option-name text--strong">{{ option.name }}: <span class="product-form__selected-value">{{ option.selected_value }}</span></span>
+
+          <div class="color-swatch-list color-swatch-list--large">
+            {%- for value in option.values -%}
+              {%- assign downcased_value = value | downcase -%}
+              {%- capture color_id -%}{{ option_name }}-{{ forloop.index }}{%- endcapture -%}
+
+              {%- assign color_swatch_name = value | handle | append: '.png' -%}
+              {%- assign color_swatch_image = images[color_swatch_name] -%}
+
+              <div class="color-swatch {% if downcased_value == 'white' or downcased_value == 'blanc' %}color-swatch--white{% endif %}">
+                <input class="color-swatch__radio product-form__single-selector" type="radio" name="{{ option_name }}" id="{{ color_id }}" value="{{ value | escape }}" {% if option.selected_value == value %}checked{% endif %} data-option-position="{{ option.position }}" aria-hidden="true">
+                <label class="color-swatch__item" for="{{ color_id }}" style="{% if color_swatch_image != blank %}background-image: url({{ color_swatch_image | img_url: '64x64' }}){% else %}background-color: {{ value | replace: ' ', '' | downcase }}{% endif %}" title="{{ value | escape }}">{% render 'icon', icon: 'cross-sold-out' %}</label>
+              </div>
+            {%- endfor -%}
+          </div>
+        {%- when 'variant' -%}
+          <span class="product-form__option-name text--strong">{{ option.name }}: <span class="product-form__selected-value">{{ option.selected_value }}</span></span>
+
+          <div class="variant-swatch-list">
+            {%- capture option_name -%}option{{ option.position }}{%- endcapture -%}
+
+            {%- for value in option.values -%}
+              {%- capture variant_swatch_id -%}{{ option_name }}-{{ forloop.index }}{%- endcapture -%}
+
+              {%- for variant in prod.variants -%}
+                {%- if variant[option_name] == value and variant.image -%}
+                  <div class="variant-swatch">
+                    <input class="variant-swatch__radio product-form__single-selector" type="radio" name="{{ option_name }}" id="{{ variant_swatch_id }}" value="{{ value | escape }}" {% if option.selected_value == value %}checked{% endif %} data-option-position="{{ option.position }}">
+
+                    <label class="variant-swatch__item" for="{{ variant_swatch_id }}" title="{{ value | escape }}">
+                      <div class="aspect-ratio" style="padding-bottom: {{ 100.0 | divided_by: variant.image.aspect_ratio }}%">
+                        <img src="{{ variant.image | img_url: '120x' }}" alt="{{ variant.image.alt | escape }}">
+                      </div>
+
+                      {% render 'icon', icon: 'cross-sold-out' %}
+                    </label>
+                  </div>
+
+                  {%- break -%}
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endfor -%}
+          </div>
+        {%- when 'block' -%}
+          <span class="product-form__option-name text--strong">{{ option.name }}: <span class="product-form__selected-value">{{ option.selected_value }}</span></span>
+
+
+
+          <div class="block-swatch-list">
+            {%- for value in option.values -%}
+              {%- capture block_swatch_id -%}{{ option_name }}-{{ forloop.index }}{%- endcapture -%}
+
+              <div class="block-swatch">
+                <input 
+                  class="block-swatch__radio product-form__single-selector" 
+                  type="radio" 
+                  name="{{ option_name }}" 
+                  id="{{ block_swatch_id }}" 
+                  value="{{ value | escape }}" 
+                  {% if option.selected_value == value %}
+                  checked
+                  {% endif %} 
+                  data-option-position="{{ option.position }}" 
+                  aria-hidden="true">
+                <label class="block-swatch__item" for="{{ block_swatch_id }}" title="{{ value | escape }}">
+                  <span class="block-swatch__item-text">{{ value }}</span>
+                </label>
+              </div>
+            {%- endfor -%}
+          </div>
+        {%- when 'select' -%}
+          <label for="{{ option_name }}" class="product-form__option-name text--strong">{{ option.name }}: <span class="product-form__selected-value">{{ option.selected_value }}</span></label>
+
+          <div class="select-wrapper select-wrapper--primary">
+            {%- render 'icon', icon: 'arrow-bottom' -%}
+
+            <select class="product-form__single-selector" name="{{ option_name }}" id="{{ option_name }}" data-option-position="{{ option.position }}">
+              {%- for value in option.values -%}
+                <option value="{{ value | escape }}" {% if value == option.selected_value %}selected="selected"{% endif %}>{{ value }}</option>
+              {%- endfor -%}
+            </select>
+          </div>
+      {%- endcase -%}
+    </div>
+  {%- endfor -%}
+
+  <div class="no-js product-form__option">
+    <label for="product-select-{{ prod.id }}">{{ 'prod.form.variant' | t }}</label>
+
+    <div class="select-wrapper select-wrapper--primary">
+      <select id="product-select-{{ prod.id }}" name="id">
+        {%- for variant in prod.variants -%}
+          <option {% if variant == selected_variant %}selected="selected"{% endif %} {% unless variant.available %}disabled="disabled"{% endunless %} value="{{ variant.id }}" data-sku="{{ variant.sku }}">{{ variant.title }} - {{ variant.price | money }}</option>
+        {%- endfor -%}
+      </select>
+    </div>
+  </div>
+</div>*/}
