@@ -242,6 +242,10 @@
                   <div class="block-swatch-list">
                     {%- for value in option.values -%}
                       {%- capture block_swatch_id -%}{{ option_name }}-{{ forloop.index }}{%- endcapture -%}
+                    <!-- 
+                      <h1>{{ forloop.index }}</h1>
+                      <h2>{{ block_swatch_id }}</h2>
+                    -->
 
                       <div class="block-swatch">
                         <input 

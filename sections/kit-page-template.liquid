@@ -12,6 +12,7 @@
 
 	<!-- outside for loop -->
   {% for block in section.blocks %}
+
   		{% assign sku = block.settings.productOne %}
   		{% assign prod = block.settings.product %}
   
@@ -34,24 +35,23 @@
             	<h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
 
     				{% if option.title != 'Default Title' %}
-            		<h2 class='product-model' id='{{ option.id }}'>{{ option.title }}</h2>
+            	<h2 class='product-model' id='{{ option.id }}'>{{ option.title }}</h2>
     				{% endif %}
+    				<div class="dropDown">
+		  				<label for='variants'>Choose a hose</label>
+		  				<select name="variants" id="variants">
+								<option value="{{ block.settings.productOne }}">{{ option.title }}</option>
+		  					<option value="{{ block.settings.productTwo }}">{{ option.title }}</option>
+		  				</select>
+		  			</div>
 
           {% endif %}
 		  	{% endfor %}
-
-				<div class="dropDown">
-		  		<label for='variants'>Choose a hose</label>
-		  		<select name="variants" id="variants">
-						<option value="{{ block.settings.productOne }}">{{ block.settings.title }}</option>
-		  			<option value= "{{ block.settings.productTwo }}">{{ block.settings.title }}</option>
-		  		</select>
-		  	</div>
-
 			</section> 
 		</div>
   {% endfor %}
   <!-- end of outside for loop -->
+
 
   <div class='cart-button'>
       <button class="discount-page-button" >Add To Cart</button> 
@@ -60,6 +60,11 @@
 <!-- bottom of kit section -->
 
 
+{% for block in section.blocks %}
+	{% for option in prod.variants %}
+		<p>{{ option.title }}</p>
+	{% endfor %}
+{% endfor %} 
 
 <div class='top-bottom'>
 	{{ section.settings.bottom-of-page }}
