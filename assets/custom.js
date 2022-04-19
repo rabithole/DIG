@@ -272,3 +272,16 @@
     </div>
   </div>
 </div>*/}
+
+
+// var changeProduct = function(e) {
+//  var product = this.querySelectorAll('select');
+//  var index = product[0].selectedIndex;
+
+//  console.log('Index', index)
+
+//  var test = document.getElementById('testing');
+//  console.log('Test--- ', test)
+//  test.innerHTML = 'zero';
+//    // test.innerHTML = 'One, one, one';
+//  }
