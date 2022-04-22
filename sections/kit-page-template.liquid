@@ -71,66 +71,98 @@
 </div>	
 
 <script>
+	var graphData = `query {
+	  	product(id: "gid://shopify/Product/4447559876644"){
+	  	  		id
+	    		title
+	    		handle
+	 		}
+		}`	
+	console.log('Graph Data: ', graphData)
 
-var changeProduct = function(e) {
-	var select = document.getElementById('variants');
-	var value = e.target.value;
-	var sku = {{ sku }};
-
-	console.log('sku', sku, {{ sku }}) 
-	console.log('Product Sku', value)
-}
-
-
-var addToCart = function(e) {
-	var products = this.parentElement.querySelectorAll('H2.product-model')
-	var productsData = [];
-
-	products.forEach( function(product) {
-	    productsData.push({
-	        quantity: 1,
-	        id: product.id
-	    })
+	fetch('https://discount-indoor-gardening.myshopify.com/admin/api/2022-04/graphql.json', {
+		'mode': 'no-cors',
+		'crossDomain': true,
+		'headers': {
+			'Content-Type': 'application/json',
+			'X-Shopify-Access-Token': "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"
+		},
+		'method': 'POST',
+		'body': `{
+			shop {
+				name
+			}
+		}`
+	}).then((res) => {
+		// res.json();
+		console.log(res)
+	}).then((graphData) => {
+		console.log(graphData)
+	}).catch((err) => {
+		console.log(err)
 	})
 
-	var data = {
-	    items: productsData
+	
+
+	var changeProduct = function(e) {
+		var select = document.getElementById('variants');
+		var value = e.target.value;
+		var sku = {{ sku }};
+
+		console.log('sku', sku, {{ sku }}) 
+		console.log('Product Sku', value)
 	}
 
-	fetch('/cart/add.js', {
-	    body: JSON.stringify(data),
-	    credentials: 'same-origin',
-	    headers: {
-	        'Content-Type': 'application/json'
-	    },
-	    method: 'POST'
-	}).then((response) => {
-	    response.json();
-	    window.location.reload();
-	}).then(data => {
-	    console.log("Success", data)
-	}).catch((err) => {
-	    console.error(err)
+
+	var addToCart = function(e) {
+		var products = this.parentElement.querySelectorAll('H2.product-model')
+		var productsData = [];
+
+		products.forEach( function(product) {
+		    productsData.push({
+		        quantity: 1,
+		        id: product.id
+		    })
+		})
+
+		var data = {
+		    items: productsData
+		}
+
+		fetch('/cart/add.js', {
+		    body: JSON.stringify(data),
+		    credentials: 'same-origin',
+		    headers: {
+		        'Content-Type': 'application/json'
+		    },
+		    method: 'POST'
+		}).then((response) => {
+		    response.json();
+		    window.location.reload();
+		}).then(data => {
+		    console.log("Success", data)
+		}).catch((err) => {
+		    console.error(err)
+		});
+	}
+
+	window.addEventListener('load', function(e) {
+			console.log('event listener');
+	    Array.prototype.forEach.call(
+	        document.getElementsByClassName('dropDown'), function(element) {
+	            element.addEventListener('change', changeProduct)
+	            console.log(element)
+	        }
+	    );
 	});
-}
 
-window.addEventListener('load', function(e) {
-		console.log('event listener');
-    Array.prototype.forEach.call(
-        document.getElementsByClassName('dropDown'), function(element) {
-            element.addEventListener('change', changeProduct)
-            console.log(element)
-        }
-    );
-});
-
-window.addEventListener('load', function(e) {
-    Array.prototype.forEach.call(
-        document.getElementsByClassName('cart-button'), function(element) {
-            element.addEventListener('click', addToCart)
-        }
-    );
-});
+	window.addEventListener('load', function(e) {
+	    Array.prototype.forEach.call(
+	        document.getElementsByClassName('cart-button'), function(element) {
+	            element.addEventListener('click', addToCart)
+	        }
+	    );
+	});
 
     var kitID = document.getElementsByClassName('kit'); // used to set dynamic kit id
     var kitTotal = document.getElementsByTagName('h4'); // where total kit price will display
