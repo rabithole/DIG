@@ -60,26 +60,24 @@
 </div>	
 
 <script>
-// var changeProduct = function(e) {
-// 	var select = document.getElementById('variants');
-// 	var value = e.target.value;
-// 	var sku = {{ sku }};
-
-// 	console.log('sku', sku, {{ sku }}) 
-// 	console.log('Product Sku', value)
-// }
-
-// var changeProduct = function(e) {
-// 	var product = this.querySelectorAll('select');
-// 	var index = product[0].selectedIndex;
-
-// 	console.log('Index', index)
-
-// 	var test = document.getElementById('testing');
-// 	console.log('Test--- ', test)
-// 	test.innerHTML = 'zero';
-// 		// test.innerHTML = 'One, one, one';
-// 	}
+const graphData = `{shop {name}}`	
+	
+	fetch('https://discount-indoor-gardening.myshopify.com/admin/api/2022-01/graphql.json', {
+		body: graphData,
+		// mode: 'no-cors',
+		headers: {
+			'Content-Type': 'application/graphql',
+			'X-Shopify-Access-Token': "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"
+		},
+		method: 'POST'
+	}).then((res) => {
+		// res.json();
+		// console.log("Response", res.json())
+	}).then((graphData) => {
+		console.log(graphData)
+	}).catch((err) => {
+		console.log(err)
+	})
 
 
 var addToCart = function(e) {
