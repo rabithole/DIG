@@ -60,10 +60,10 @@
 </div>	
 
 <script>
-	const graphData = `{shop {name}}`;
+	const crapData = `{shop {name}}`;
 	
 	fetch('https://discount-indoor-gardening.myshopify.com/admin/api/2022-01/graphql.json', {
-		body: JSON.stringify(graphData),
+		body: JSON.stringify(crapData),
 		mode: 'no-cors',
 		headers: {
 			'Content-Type': 'application/graphql',
@@ -73,8 +73,8 @@
 	}).then((res) => {
 		// res.json();
 		// console.log("Response", res.json())
-	}).then((graphData) => {
-		console.log(graphData)
+	}).then((crapData) => {
+		console.log(crapData)
 	}).catch((err) => {
 		console.log(err)
 	})
