@@ -285,3 +285,33 @@
 //  test.innerHTML = 'zero';
 //    // test.innerHTML = 'One, one, one';
 //  }
+
+// Working but forbidden storefront api call with graphql
+// const graphData = 
+//     `
+//       {
+//         shop 
+//         {
+//           name
+//         }
+//       }
+    
+//     ` 
+
+//   fetch('https://discount-indoor-gardening.myshopify.com/api/2020-07/graphql.json', {
+//     'method': 'POST',
+//     'mode': 'no-cors',
+//     'headers': {
+//       'Content-Type': 'application/JSON',
+//       'X-Shopify-Access-Token': "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"
+//     },
+//     'body': JSON.stringify(graphData)
+//   }).then((res) => {
+//     // res.json();
+//     // console.log("Response", res.json())
+//     console.log("response", res)
+//   }).then((graphData) => {
+//     console.log(graphData)
+//   }).catch((err) => {
+//     console.log(err)
+//   })
