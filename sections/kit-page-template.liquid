@@ -60,11 +60,11 @@
 <!-- bottom of kit section -->
 
 
-{% for block in section.blocks %}
+<!-- {% for block in section.blocks %}
 	{% for option in prod.variants %}
 		<p>{{ option.title }}</p>
 	{% endfor %}
-{% endfor %} 
+{% endfor %}  -->
 
 <div class='top-bottom'>
 	{{ section.settings.bottom-of-page }}
@@ -73,20 +73,24 @@
 <script>
 	var skew = {{ sku }};
 	var changeProduct = function(e) {
-		var select = document.getElementById('variants');
-		var value = Number(e.target.value);
-		// var sku = {{ sku }};
+			var select = document.getElementById('variants');
+			var value = Number(e.target.value);
 
-		// console.log('sku', sku, {{ sku }}) 
-		console.log('Product Sku', value, skew)
-
-		if(value == {{ sku }}){
-			{{ sku }} = value;
-			console.log('Value:--- ', {{ sku }}, value)
-			}
+				// console.log('sku', sku, {{ sku }}) 
+			console.log('Product Sku', value, 'Product One Sku:--- ', skew)
 		}
 
 	console.log('Skew from sku:--- ', skew)
+
+	var productDetails = fetch(window.Shopify.routes.root + 'products/inline-fan.js', {
+
+	}).then((res) => {
+		res.json().then(data => {
+			console.log('Product Data:--- ', data.variants[0].sku)
+		})
+	})
+
+	console.log('Product Details:--- ', productDetails)
 
 
 	var addToCart = function(e) {
