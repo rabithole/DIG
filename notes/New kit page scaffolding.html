@@ -1,0 +1,74 @@
+<div>
+	<h1>Kit Title</h1>
+	<h2>Top Of Page Section. Information about kit.</h2>
+
+	<section id="kit">
+		<p>
+			Title created by staff
+			Through Schema
+		</p>
+		<p>
+			Description created by staff
+			Through Schema
+		</p>
+
+		<img src="Populated dynamically by js">
+
+		<p>
+			Product Price
+		</p>
+
+		<p>
+			Variant select options dropDown
+			Populate with an array built from 
+			sku's entered by staff in the Schema
+		</p>
+	</section>
+</div>
+
+<!-- 
+	Need main product id
+	Variant id's, price, image, title...
+-->
+
+<!-- outside for loop -->
+  {% for block in section.blocks %}
+
+  		{% assign sku = block.settings.productOne %}
+  		{% assign prod = block.settings.product %}
+  
+		<div class="product-container">
+	  	<section class="title-description">
+	  		<h2 class="prod-title">{{ block.settings.title }}</h2>
+	  		<p>{{ block.settings.description | truncate: 352 }}</p>
+	  	</section>
+
+	  	<section class="eachProduct">
+		  	{% for option in prod.variants %}
+          		{% if option.sku == sku %}
+
+      				{% if prod.has_only_default_variant %}
+      					<img src='{{ block.settings.image | img_url }}' style='width: 200px;'>
+					{% else %}
+							<img src='{{ option.image | img_url }}' class="product-image">                                                                
+    				{% endif %}
+
+            	<h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
+
+    				{% if option.title != 'Default Title' %}
+            	<h2 class='product-model' id='{{ option.id }}'>{{ option.title }}</h2>
+    				{% endif %}
+    				<div class="dropDown">
+		  				<label for='variants'>Choose a hose</label>
+		  				<select name="variants" id="variants">
+							<option value="{{ block.settings.productOne }}">{{ option.title }}</option>
+		  					<option value="{{ block.settings.productTwo }}">{{ option.title }}</option>
+		  				</select>
+		  			</div>
+
+          		{% endif %}
+		  	{% endfor %}
+			</section> 
+		</div>
+  {% endfor %}
+  <!-- end of outside for loop -->

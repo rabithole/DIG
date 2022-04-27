@@ -1,5 +1,21 @@
+{% capture variants %}
+	{% for block in section.blocks %}
+		{{ block.settings.productOne }}
+		{{ block.settings.productTwo }}
+		{{ block.settings.productThree }}
+		{{ block.settings.productFour }}
+		{{ block.settings.productFive }}
+		{{ block.settings.productSix }}
+	{% endfor %}
+{% endcapture %}
+
+{% for sku in variants %}
+	<p>{{ sku }}</p>
+{% endfor %}
+
 <div class="main-title">
 	<h1>{{ section.settings.title }}</h1>
+	<p>{{ variants }}</p>
 </div>
 
 <div class='top-bottom'>
@@ -10,47 +26,15 @@
 <div class="kit" id=0>
 	<h4 id=50 class="kitTotal"></h4>
 
-	<!-- outside for loop -->
-  {% for block in section.blocks %}
-
-  		{% assign sku = block.settings.productOne %}
-  		{% assign prod = block.settings.product %}
-  
-		<div class="product-container">
-	  	<section class="title-description">
-	  		<h2 class="prod-title">{{ block.settings.title }}</h2>
-	  		<p>{{ block.settings.description | truncate: 352 }}</p>
-	  	</section>
-
-	  	<section class="eachProduct">
-		  	{% for option in prod.variants %}
-          		{% if option.sku == sku %}
-
-      				{% if prod.has_only_default_variant %}
-      					<img src='{{ block.settings.image | img_url }}' style='width: 200px;'>
-					{% else %}
-							<img src='{{ option.image | img_url }}' class="product-image">                                                                
-    				{% endif %}
-
-            	<h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
-
-    				{% if option.title != 'Default Title' %}
-            	<h2 class='product-model' id='{{ option.id }}'>{{ option.title }}</h2>
-    				{% endif %}
-    				<div class="dropDown">
-		  				<label for='variants'>Choose a hose</label>
-		  				<select name="variants" id="variants">
-							<option value="{{ block.settings.productOne }}">{{ option.title }}</option>
-		  					<option value="{{ block.settings.productTwo }}">{{ option.title }}</option>
-		  				</select>
-		  			</div>
-
-          		{% endif %}
-		  	{% endfor %}
-			</section> 
-		</div>
-  {% endfor %}
-  <!-- end of outside for loop -->
+	<div class="dropDown">
+		<label for='variants'>Choose An Option</label>
+		<select>
+			{% for variant in variants %}
+				<option value="{{ variants }}">{{ variant }}</option>
+			{% endfor %}
+		</select>
+	</div
+	
 
 
   <div class='cart-button'>
@@ -59,34 +43,28 @@
 </div>
 <!-- bottom of kit section -->
 
-
-<!-- {% for block in section.blocks %}
-	{% for option in prod.variants %}
-		<p>{{ option.title }}</p>
-	{% endfor %}
-{% endfor %}  -->
-
 <div class='top-bottom'>
 	{{ section.settings.bottom-of-page }}
 </div>	
 
 <script>
-	var skew = {{ sku }};
+	// var skew = {{ sku }};
 	var changeProduct = function(e) {
 			var select = document.getElementById('variants');
 			var value = Number(e.target.value);
 
 				// console.log('sku', sku, {{ sku }}) 
-			console.log('Product Sku', value, 'Product One Sku:--- ', skew)
+			// console.log('Product Sku', value, 'Product One Sku:--- ', skew)
 		}
 
-	console.log('Skew from sku:--- ', skew)
+	// console.log('Skew from sku:--- ', skew)
 
 	var productDetails = fetch(window.Shopify.routes.root + 'products/inline-fan.js', {
 
 	}).then((res) => {
-		res.json().then(data => {
-			console.log('Product Data:--- ', data.variants[0].sku)
+			res.json().then(data => {
+			console.log('Product Data:--- ', data.variants[0].sku, 'ID:--- ', data.variants[0].id, 'title', data.variants[0].title)
+			console.log('Raw Data:--- ', data)
 		})
 	})
 
