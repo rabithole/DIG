@@ -83,28 +83,7 @@
 </div>	
 
 <script>
-	var option = document.createElement('option')
-	var skuSelect = document.getElementById('variants')
-	var sku = {{ sku }};
 	var prod = '{{ prod }}';
-
-	console.log('Product:---', prod)
-
-	var populateOptions = function(e) {
-		console.log("populate this asshole")
-		skuSelect.innerHTML = optionSelect;
-
-		// for(var i = 0; i < skuArray.length; i++){
-		// 	if(skuArray[i] != ""){
-		// 		console.log('Sku Array:---', skuArray[i])
-		// 		// skuSelect.innerHTML = `<option value=${skuArray[i]}>${skuArray[i]}</option>`;
-		// 	} else if (skuArray[i] == ""){
-		// 		console.log('""')
-		// 	}
-		// }
-	}
-
-
 	var changeProduct = function(e) {
 			var select = document.getElementById('sku');
 			var value = Number(e.target.value);
@@ -159,8 +138,6 @@
 		    console.error(err)
 		});
 	}
-
-	// document.getElementById('variants').addEventListener('load', populateOptions());
 
 	window.addEventListener('load', function(e) {
 			console.log('event listener');
