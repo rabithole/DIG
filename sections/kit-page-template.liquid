@@ -1,21 +1,16 @@
-{% capture variants %}
+<!-- {% capture variants %}
 	{% for block in section.blocks %}
-		{{ block.settings.productOne }}
-		{{ block.settings.productTwo }}
-		{{ block.settings.productThree }}
-		{{ block.settings.productFour }}
-		{{ block.settings.productFive }}
-		{{ block.settings.productSix }}
+		'{{ block.settings.productOne }}',
+		'{{ block.settings.productTwo }}',
+		'{{ block.settings.productThree }}',
+		'{{ block.settings.productFour }}',
+		'{{ block.settings.productFive }}',
+		'{{ block.settings.productSix }}',
 	{% endfor %}
-{% endcapture %}
-
-{% for sku in variants %}
-	<p>{{ sku }}</p>
-{% endfor %}
+{% endcapture %} -->
 
 <div class="main-title">
 	<h1>{{ section.settings.title }}</h1>
-	<p>{{ variants }}</p>
 </div>
 
 <div class='top-bottom'>
@@ -26,20 +21,60 @@
 <div class="kit" id=0>
 	<h4 id=50 class="kitTotal"></h4>
 
-	<div class="dropDown">
-		<label for='variants'>Choose An Option</label>
-		<select>
-			{% for variant in variants %}
-				<option value="{{ variants }}">{{ variant }}</option>
-			{% endfor %}
-		</select>
-	</div
-	
+	<!-- outside for loop -->
+  	{% for block in section.blocks %}
 
+  	{% capture variants %}
+		{{ block.settings.productOne }}
+		{{ block.settings.productTwo }}
+		{{ block.settings.productThree }}
+		{{ block.settings.productFour }}
+		{{ block.settings.productFive }}
+		{{ block.settings.productSix }}
+	{% endcapture %}
+
+	{% assign variantsArray = variants | split: ' ' %}
+
+  		{% assign sku = block.settings.productOne %}
+  		{% assign prod = block.settings.product %}
+  
+		<div class="product-container">
+
+		  	<section class="title-description">
+		  		<h2 class="prod-title">{{ block.settings.title }}</h2>
+		  		<p>{{ block.settings.description | truncate: 352 }}</p>
+		  	</section>
+
+		  	<section class="eachProduct">
+			  	{% for option in prod.variants %}
+	          		{% if option.sku == sku %}
+	      				{% if prod.has_only_default_variant %}
+	      					<img src='{{ block.settings.image | img_url }}' style='width: 200px;'>
+						{% else %}
+							<img src='{{ option.image | img_url }}' class="product-image">                                                               
+	    				{% endif %}
+
+	            		<h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
+	    				
+						<div class="dropDown">
+							<label for='variants'>Choose a hose</label>
+							<select name="variants" id="variants">
+								{% for sku in variantsArray %}
+									<option value={{ sku }}>{{ sku }}</option>
+								{% endfor %}
+							</select>
+						</div>
+					{% endif %}
+			  	{% endfor %}
+			</section> 
+		</div>
+  {% endfor %}
+  <!-- end of outside for loop -->
 
   <div class='cart-button'>
       <button class="discount-page-button" >Add To Cart</button> 
   </div>
+
 </div>
 <!-- bottom of kit section -->
 
@@ -48,18 +83,39 @@
 </div>	
 
 <script>
-	// var skew = {{ sku }};
+	var option = document.createElement('option')
+	var skuSelect = document.getElementById('variants')
+	var sku = {{ sku }};
+	var prod = '{{ prod }}';
+
+	console.log('Product:---', prod)
+
+	var populateOptions = function(e) {
+		console.log("populate this asshole")
+		skuSelect.innerHTML = optionSelect;
+
+		// for(var i = 0; i < skuArray.length; i++){
+		// 	if(skuArray[i] != ""){
+		// 		console.log('Sku Array:---', skuArray[i])
+		// 		// skuSelect.innerHTML = `<option value=${skuArray[i]}>${skuArray[i]}</option>`;
+		// 	} else if (skuArray[i] == ""){
+		// 		console.log('""')
+		// 	}
+		// }
+	}
+
+
 	var changeProduct = function(e) {
-			var select = document.getElementById('variants');
+			var select = document.getElementById('sku');
 			var value = Number(e.target.value);
 
-				// console.log('sku', sku, {{ sku }}) 
+				console.log('sku', value) 
 			// console.log('Product Sku', value, 'Product One Sku:--- ', skew)
 		}
 
-	// console.log('Skew from sku:--- ', skew)
 
-	var productDetails = fetch(window.Shopify.routes.root + 'products/inline-fan.js', {
+	// Accessing store front api
+	var productDetails = fetch(window.Shopify.routes.root + `products/${prod}.js`, {
 
 	}).then((res) => {
 			res.json().then(data => {
@@ -71,6 +127,7 @@
 	console.log('Product Details:--- ', productDetails)
 
 
+	// Add to cart
 	var addToCart = function(e) {
 		var products = this.parentElement.querySelectorAll('H2.product-model')
 		var productsData = [];
@@ -103,6 +160,8 @@
 		});
 	}
 
+	// document.getElementById('variants').addEventListener('load', populateOptions());
+
 	window.addEventListener('load', function(e) {
 			console.log('event listener');
 	    Array.prototype.forEach.call(
@@ -121,6 +180,8 @@
 	    );
 	});
 
+
+	// Setting id for each kit product section
     var kitID = document.getElementsByClassName('kit'); // used to set dynamic kit id
     var kitTotal = document.getElementsByTagName('h4'); // where total kit price will display
     var h3Tags = document.getElementsByTagName('h3'); // prices per product
