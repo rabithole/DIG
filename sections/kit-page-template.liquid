@@ -1,14 +1,3 @@
-<!-- {% capture variants %}
-	{% for block in section.blocks %}
-		'{{ block.settings.productOne }}',
-		'{{ block.settings.productTwo }}',
-		'{{ block.settings.productThree }}',
-		'{{ block.settings.productFour }}',
-		'{{ block.settings.productFive }}',
-		'{{ block.settings.productSix }}',
-	{% endfor %}
-{% endcapture %} -->
-
 <div class="main-title">
 	<h1>{{ section.settings.title }}</h1>
 </div>
@@ -37,8 +26,8 @@
 
   		{% assign sku = block.settings.productOne %}
   		{% assign prod = block.settings.product %}
-  
-		<div class="product-container">
+
+		<div class="product-container" id="{{ prod.handle }}">
 
 		  	<section class="title-description">
 		  		<h2 class="prod-title">{{ block.settings.title }}</h2>
@@ -58,7 +47,7 @@
 	    				
 						<div class="dropDown">
 							<label for='variants'>Choose a hose</label>
-							<select name="variants" id="variants">
+							<select name="variants" class="variants-selector">
 								{% for sku in variantsArray %}
 									<option value={{ sku }}>{{ sku }}</option>
 								{% endfor %}
@@ -67,6 +56,7 @@
 					{% endif %}
 			  	{% endfor %}
 			</section> 
+
 		</div>
   {% endfor %}
   <!-- end of outside for loop -->
@@ -83,28 +73,27 @@
 </div>	
 
 <script>
-	var prod = '{{ prod }}';
+	// Grabs sku from drop down menu for selecting 
 	var changeProduct = function(e) {
-			var select = document.getElementById('sku');
-			var value = Number(e.target.value);
-
-				console.log('sku', value) 
-			// console.log('Product Sku', value, 'Product One Sku:--- ', skew)
-		}
+		var productHandle = e.target.closest('.product-container').id;
+		var sku = Number(e.target.value);
+		productDetails(productHandle, sku);
+		return sku;
+	}
 
 
 	// Accessing store front api
-	var productDetails = fetch(window.Shopify.routes.root + `products/${prod}.js`, {
-
-	}).then((res) => {
-			res.json().then(data => {
-			console.log('Product Data:--- ', data.variants[0].sku, 'ID:--- ', data.variants[0].id, 'title', data.variants[0].title)
-			console.log('Raw Data:--- ', data)
+	var productDetails = function(productHandle, sku) {
+		fetch(window.Shopify.routes.root + `products/${productHandle}.js`, {
+		}).then((res) => {
+				res.json().then(data => {
+					var variant = data.variants.find(obj => {
+						return obj.sku == sku;
+					});
+					console.log('Variant:---', variant)
+			})
 		})
-	})
-
-	console.log('Product Details:--- ', productDetails)
-
+	}
 
 	// Add to cart
 	var addToCart = function(e) {
@@ -140,19 +129,15 @@
 	}
 
 	window.addEventListener('load', function(e) {
-			console.log('event listener');
-	    Array.prototype.forEach.call(
-	        document.getElementsByClassName('dropDown'), function(element) {
-	            element.addEventListener('change', changeProduct)
-	            console.log(element)
-	        }
-	    );
-	});
-
-	window.addEventListener('load', function(e) {
 	    Array.prototype.forEach.call(
 	        document.getElementsByClassName('cart-button'), function(element) {
 	            element.addEventListener('click', addToCart)
+	        }
+	    );
+
+	    Array.prototype.forEach.call(
+	        document.getElementsByClassName('variants-selector'), function(element) {
+	            element.addEventListener('change', changeProduct)
 	        }
 	    );
 	});
@@ -169,13 +154,11 @@
     // Sets a unique id for each kit on the page.
     for(var i = 0; i < kitID.length; i++){
         kitID[i].id = i;
-        // console.log(Number(kitTotal[i].id) + i)
     }
 
     // Sets unique id for each kit total title.
     for(var j = 0; j < kitTotal.length; j++){
         var kitTotalId = kitTotal[j].id = 50 + j;
-        // console.log('Kit Total in for loop', kitTotal)
     }
 
 
@@ -186,8 +169,6 @@
     // grabs the 'KIT SECTION ID' from the h3Tags of h3 tags of product prices
     // h3 parent nodes to get to section id's
     var h3TagsID = Number(h3Tags[k].parentNode.parentNode.parentNode.id); 
-
-    // console.log('First in for loop', 'h3TagsID', h3TagsID, 'titlePriceId', titlePriceId)
     
     // grabs individual product prices from list of h3 tags containing product prices.
     // h3 tags id's contain individual product prices
