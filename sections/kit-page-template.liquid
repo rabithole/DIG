@@ -2,9 +2,9 @@
 	<h1>{{ section.settings.title }}</h1>
 </div>
 {% if block.settings.top-of-page %}
-<div class='top-bottom'>
-	{{ section.settings.top-of-page }}
-</div>
+	<div class='top-bottom'>
+		{{ section.settings.top-of-page }}
+	</div>
 {% endif %}
 
 <!-- Top of kit page -->
@@ -55,11 +55,11 @@
 <!-- bottom of kit section -->
 
 
-
-<div class='top-bottom'>
-	{{ section.settings.bottom-of-page }}
-</div>	
-
+{% if block.settings.bottom-of-page %}
+  <div class='top-bottom'>
+      {{ section.settings.bottom-of-page }}
+  </div>	
+{% endif %}
 <script>
 // var changeProduct = function(e) {
 // 	var select = document.getElementById('variants');
