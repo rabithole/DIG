@@ -98,7 +98,8 @@ var addToCart = function(e) {
 	var data = {
 	    items: productsData
 	}
-
+    console.log('Data', data)
+debugger;
 	fetch('/cart/add.js', {
 	    body: JSON.stringify(data),
 	    credentials: 'same-origin',
