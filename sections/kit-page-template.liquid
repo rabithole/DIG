@@ -38,11 +38,10 @@
 			  	{% for option in prod.variants %}
 	          		{% if option.sku == sku %}
 	      				{% if prod.has_only_default_variant %}
-	      					<img src='{{ block.settings.image | img_url }}' style='width: 200px;'>
+	      					<img src='{{ block.settings.image | img_url }}' style='width: 200px;' class="product-image">
 						{% else %}
-							<img src='{{ option.image | img_url }}' class="product-image">                                                               
-	    				{% endif %}
-
+							<img class="product-image" src='{{ option.image | img_url }}'> 
+						{% endif %}
 	            		<h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
 	    				
 						<div class="dropDown">
@@ -73,24 +72,34 @@
 </div>	
 
 <script>
+	var variantImage = document.getElementsByClassName('product-image');
+	console.log('Each Product:---', document.querySelector('.eachProduct').childNodes[1].src)
+
 	// Grabs sku from drop down menu for selecting 
 	var changeProduct = function(e) {
 		var productHandle = e.target.closest('.product-container').id;
+		var productImg = event.target.parentElement.parentElement.children[0];
+		// productImg.previousElementSibling('.product-image')
+		console.log('Product image:', productImg, productHandle)
 		var sku = Number(e.target.value);
-		productDetails(productHandle, sku);
-		return sku;
+		productDetails(productHandle, sku, productImg);
+		// return sku;
 	}
 
 
 	// Accessing store front api
-	var productDetails = function(productHandle, sku) {
+	var productDetails = function(productHandle, sku, productImg) {
 		fetch(window.Shopify.routes.root + `products/${productHandle}.js`, {
 		}).then((res) => {
 				res.json().then(data => {
-					var variant = data.variants.find(obj => {
-						return obj.sku == sku;
+					console.log('Product variants:---', data.variants)
+					var variant = data.variants.find(objSku => {
+
+						return objSku.sku == sku;
 					});
 					console.log('Variant:---', variant)
+
+					productImg.src = variant.featured_image.src;
 			})
 		})
 	}
