@@ -13,50 +13,54 @@
 	<!-- outside for loop -->
   	{% for block in section.blocks %}
 
-  	{% capture variants %}
-		{{ block.settings.productOne }}
-		{{ block.settings.productTwo }}
-		{{ block.settings.productThree }}
-		{{ block.settings.productFour }}
-		{{ block.settings.productFive }}
-		{{ block.settings.productSix }}
-	{% endcapture %}
+	  	{% capture variants %}
+			{{ block.settings.productOne }}
+			{{ block.settings.productTwo }}
+			{{ block.settings.productThree }}
+			{{ block.settings.productFour }}
+			{{ block.settings.productFive }}
+			{{ block.settings.productSix }}
+		{% endcapture %}
 
-	{% assign variantsArray = variants | split: ' ' %}
+		{% assign variantsArray = variants | split: ' ' %}
 
-  		{% assign sku = block.settings.productOne %}
-  		{% assign prod = block.settings.product %}
+	  		{% assign sku = block.settings.productOne %}
+	  		{% assign prod = block.settings.product %}
 
-		<div class="product-container" id="{{ prod.handle }}">
 
-		  	<section class="title-description">
-		  		<h2 class="prod-title">{{ block.settings.title }}</h2>
-		  		<p>{{ block.settings.description | truncate: 352 }}</p>
-		  	</section>
 
-		  	<section class="eachProduct">
-			  	{% for option in prod.variants %}
-	          		{% if option.sku == sku %}
-	      				{% if prod.has_only_default_variant %}
-	      					<img src='{{ block.settings.image | img_url }}' style='width: 200px;' class="product-image">
-						{% else %}
-							<img class="product-image" src='{{ option.image | img_url }}'> 
+	  		<!-- CANNOT CHANGE HTML OR IT WILL BREAK THE JAVASCRIPT -->
+			<div class="product-container" id="{{ prod.handle }}">
+
+			  	<section class="title-description">
+			  		<h2 class="prod-title">{{ block.settings.title }}</h2>
+			  		<p>{{ block.settings.description | truncate: 352 }}</p>
+			  	</section>
+
+			  	<section class="eachProduct">
+				  	{% for option in prod.variants %}
+		          		{% if option.sku == sku %}
+		      				{% if prod.has_only_default_variant %}
+		      					<img src='{{ block.settings.image | img_url }}' style='width: 200px;' class="product-image">
+							{% else %}
+								<img class="product-image" src='{{ option.image | img_url }}'> 
+							{% endif %}
+
+		            		<h3 class='product-price' id='{{ option.id }}'>{{ option.price | money }}</h3>
+		    				
+							<div class="dropDown">
+								<label for='variants'>Choose a hose</label>
+								<select name="variants" class="variants-selector">
+									{% for sku in variantsArray %}
+										<option value={{ sku }}>{{ sku }}</option>
+									{% endfor %}
+								</select>
+							</div>
 						{% endif %}
-	            		<h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
-	    				
-						<div class="dropDown">
-							<label for='variants'>Choose a hose</label>
-							<select name="variants" class="variants-selector">
-								{% for sku in variantsArray %}
-									<option value={{ sku }}>{{ sku }}</option>
-								{% endfor %}
-							</select>
-						</div>
-					{% endif %}
-			  	{% endfor %}
-			</section> 
+				  	{% endfor %}
+				</section> 
 
-		</div>
+			</div>
   {% endfor %}
   <!-- end of outside for loop -->
 
@@ -72,44 +76,53 @@
 </div>	
 
 <script>
-	var variantImage = document.getElementsByClassName('product-image');
-	console.log('Each Product:---', document.querySelector('.eachProduct').childNodes[1].src)
+	var variantTitle = document.querySelectorAll('.variants-selector');
+	console.log('Each Product:---', variantTitle[0])
+
 
 	// Grabs sku from drop down menu for selecting 
-	var changeProduct = function(e) {
-		var productHandle = e.target.closest('.product-container').id;
+	var changeProduct = function(event) {
+		var productHandle = event.target.closest('.product-container').id;
 		var productImg = event.target.parentElement.parentElement.children[0];
-		// productImg.previousElementSibling('.product-image')
-		console.log('Product image:', productImg, productHandle)
-		var sku = Number(e.target.value);
-		productDetails(productHandle, sku, productImg);
-		// return sku;
+		var productPriceElement = event.target.parentElement.parentElement.children[1];
+		var sku = Number(event.target.value);
+		productDetails(productHandle, sku, productImg, productPriceElement);
 	}
 
 
 	// Accessing store front api
-	var productDetails = function(productHandle, sku, productImg) {
+	var productDetails = function(productHandle, sku, productImg, productPriceElement) {
 		fetch(window.Shopify.routes.root + `products/${productHandle}.js`, {
 		}).then((res) => {
 				res.json().then(data => {
 					console.log('Product variants:---', data.variants)
 					var variant = data.variants.find(objSku => {
-
 						return objSku.sku == sku;
 					});
-					console.log('Variant:---', variant)
+					// console.log('Variant Title:---', variant.title)
 
+					// Product variant image
 					productImg.src = variant.featured_image.src;
+
+					// Product variant price
+					productPriceElement.innerHTML = new Intl.NumberFormat('en-IN', {
+						style: 'currency',
+						currency: 'USD',
+						maxiumumFractionDigits: -2
+					}).format((variant.price /100).toFixed(2))
+
+					// productPriceElement.id =
 			})
 		})
 	}
 
 	// Add to cart
 	var addToCart = function(e) {
-		var products = this.parentElement.querySelectorAll('H2.product-model')
+		var products = this.parentElement.querySelectorAll('H3.product-price')
 		var productsData = [];
 
 		products.forEach( function(product) {
+			// console.log('products:---', product.id)
 		    productsData.push({
 		        quantity: 1,
 		        id: product.id
@@ -119,7 +132,8 @@
 		var data = {
 		    items: productsData
 		}
-
+		// console.log('Data', data)
+	
 		fetch('/cart/add.js', {
 		    body: JSON.stringify(data),
 		    credentials: 'same-origin',
