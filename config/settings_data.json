@@ -486,20 +486,20 @@
               "content": "<p>Order online for delivery or pickup in our Olivette location.<\/p>"
             }
           },
-          "text-with-icons-3": {
-            "type": "item",
-            "settings": {
-              "icon": "bi-secure-payment",
-              "title": "Secure payments",
-              "content": "<p>We support Shopify Payments to ensure checkout is easy &amp; secure.<\/p>"
-            }
-          },
           "f337edc9-7c12-40db-abec-062c869587c4": {
             "type": "item",
             "settings": {
               "icon": "bi-shop",
               "title": "Store Hours",
               "content": "<p>Monday - Saturday:<\/p><p>11am to 6pm<\/p><p>Sunday: <\/p><p>11am to 3pm<\/p>"
+            }
+          },
+          "text-with-icons-3": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-secure-payment",
+              "title": "Secure payments",
+              "content": "<p>We support Shopify Payments to ensure checkout is easy &amp; secure.<\/p>"
             }
           },
           "a80437d4-a5fd-4e7c-a157-14f54e8e4763": {
@@ -514,8 +514,8 @@
         },
         "block_order": [
           "text-with-icons-0",
-          "text-with-icons-3",
           "f337edc9-7c12-40db-abec-062c869587c4",
+          "text-with-icons-3",
           "a80437d4-a5fd-4e7c-a157-14f54e8e4763"
         ],
         "settings": {
