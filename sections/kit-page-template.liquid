@@ -27,8 +27,6 @@
 	  		{% assign sku = block.settings.productOne %}
 	  		{% assign prod = block.settings.product %}
 
-
-
 	  		<!-- CANNOT CHANGE HTML OR IT WILL BREAK THE JAVASCRIPT -->
 			<div class="product-container" id="{{ prod.handle }}">
 
@@ -76,8 +74,13 @@
 </div>	
 
 <script>
-	var variantTitle = document.querySelectorAll('.variants-selector');
-	console.log('Each Product:---', variantTitle[0])
+	var optionTitle = document.querySelectorAll('.product-container');
+	var options = document.querySelectorAll('option');
+	console.log('Option Title:---', optionTitle)
+
+	for(var i = 0; i < optionTitle.length; i++) {
+		console.log('Option Title value:---', optionTitle[i].id)
+	}
 
 
 	// Grabs sku from drop down menu for selecting 
@@ -99,7 +102,7 @@
 					var variant = data.variants.find(objSku => {
 						return objSku.sku == sku;
 					});
-					// console.log('Variant Title:---', variant.title)
+					console.log('Variant ID:---', variant.id)
 
 					// Product variant image
 					productImg.src = variant.featured_image.src;
@@ -111,7 +114,7 @@
 						maxiumumFractionDigits: -2
 					}).format((variant.price /100).toFixed(2))
 
-					// productPriceElement.id =
+					productPriceElement.id = variant.id;
 			})
 		})
 	}
