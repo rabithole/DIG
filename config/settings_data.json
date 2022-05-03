@@ -1482,7 +1482,7 @@
         "type": "custom-html",
         "settings": {
           "title": "",
-          "html": "<div id=\"store-hours\">\n<h4 style=\"margin-bottom: 0;\"><b>HOURS:<\/b><\/h4>      <p>Monday to Saturday: <b>11am - 6pm<\/b>       <\/p> <p>Sunday: <b>11am to 3pm<\/b><\/p>\n<\/div>"
+          "html": "<div id=\"store-hours\">\n<h4><b>HOURS:<\/b><\/h4>      <p>Monday to Saturday: <b>11am - 6pm<\/b>       <\/p> <p>Sunday: <b>11am to 3pm<\/b><\/p>\n<\/div>"
         }
       }
     },
