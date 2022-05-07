@@ -200,8 +200,8 @@
     
     // grabs individual product prices from list of h3 tags containing product prices.
     // h3 tags id's contain individual product prices
-    var productPrice = h3Tags[k].dataset.price;
-    console.log('product price:---', productPrice)
+    var productPrice = Number((h3Tags[k].dataset.price / 100).toFixed(2));
+    console.log('product price:---', Number(productPrice))
 
     if(h3TagsID == titlePriceId){
         kitPriceArray.push(productPrice);
@@ -215,7 +215,7 @@
         return x + y;
     }, 0)
     
-    document.getElementById(kitTotalId).innerHTML = 'Total: ' + '$' + (Number(sum) / 100).toFixed(2);
+    document.getElementById(kitTotalId).innerHTML = 'Total: ' + '$' + sum;
   }
 </script>
 
