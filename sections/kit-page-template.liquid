@@ -44,7 +44,7 @@
 								<img class="product-image" src='{{ option.image | img_url }}'> 
 							{% endif %}
 
-		            		<h3 class='product-price' id='{{ option.id }}'>{{ option.price | money }}</h3>
+		            		<h3 class='product-price' id='{{ option.id }}' data-price={{ option.price }}>{{ option.price | money }}</h3>
 		    				
 							<div class="dropDown">
 								<label for='variants'>Choose a hose</label>
@@ -173,6 +173,7 @@
     var kitID = document.getElementsByClassName('kit'); // used to set dynamic kit id
     var kitTotal = document.getElementsByTagName('h4'); // where total kit price will display
     var h3Tags = document.getElementsByTagName('h3'); // prices per product
+    console.log('h3 price tags:---', h3Tags)
     var price = 0;  
     var titlePriceId = 0; // Sets an arbitrary id for total section to match to each kit section
     var kitPriceArray = [];
@@ -195,10 +196,12 @@
     // grabs the 'KIT SECTION ID' from the h3Tags of h3 tags of product prices
     // h3 parent nodes to get to section id's
     var h3TagsID = Number(h3Tags[k].parentNode.parentNode.parentNode.id); 
+    console.log('h3 tags id:---', h3TagsID)
     
     // grabs individual product prices from list of h3 tags containing product prices.
     // h3 tags id's contain individual product prices
-    var productPrice = Number(h3Tags[k].id);
+    var productPrice = h3Tags[k].dataset.price;
+    console.log('product price:---', productPrice)
 
     if(h3TagsID == titlePriceId){
         kitPriceArray.push(productPrice);
