@@ -1,16 +1,18 @@
 <div class="main-title">
 	<h1>{{ section.settings.title }}</h1>
 </div>
-
-<div class='top-bottom'>
-	{{ section.settings.top-of-page }}
-</div>
+{% if block.settings.top-of-page %}
+	<div class='top-bottom'>
+		{{ section.settings.top-of-page }}
+	</div>
+{% endif %}
 
 <!-- Top of kit page -->
 <div class="kit" id=0>
 	<h4 id=50 class="kitTotal"></h4>
 
 	<!-- outside for loop -->
+<<<<<<< HEAD
   	{% for block in section.blocks %}
 
 	  	{% capture variants %}
@@ -63,6 +65,41 @@
 				</section> 
 
 			</div>
+=======
+  {% for block in section.blocks %}
+  		{% assign sku = block.settings.product_sku %}
+  		{% assign prod = block.settings.product %}
+  
+		<div class="product-container">
+	  	<section class="title-description">
+	  		<h2 class="prod-title">{{ block.settings.title }}</h2>
+	  		<p>{{ block.settings.description | truncate: 352 }}</p>
+	  	</section>
+
+	  	<section class="eachProduct">
+		  	{% for option in prod.variants %}
+          {% if option.sku == sku %}
+
+      			{% if prod.has_only_default_variant %}
+      				<img src='{{ block.settings.image | img_url }}' style='width: 200px;'>
+						{% else %}
+							<img src='{{ option.image | img_url }}' class="product-image">                                                                
+    				{% endif %}
+
+            	<h3 style="" id='{{ option.price }}' class='product-price'>{{ option.price | money }}</h3>
+
+    				{% if option.title != 'Default Title' %}
+            		<h2 class='product-model' id='{{ option.id }}'>{{ option.title }}</h2>
+    				{% endif %}
+
+          {% endif %}
+		  	{% endfor %}
+
+
+
+			</section> 
+		</div>
+>>>>>>> 2b78f7a78cfe57c0f77dd428836087c04b096493
   {% endfor %}
   <!-- end of outside for loop -->
 
@@ -73,6 +110,7 @@
 </div>
 <!-- bottom of kit section -->
 
+<<<<<<< HEAD
 <div class='top-bottom'>
 	{{ section.settings.bottom-of-page }}
 </div>	
@@ -81,12 +119,94 @@
 	var optionTitle = document.querySelectorAll('.product-container');
 	var options = document.querySelectorAll('option');
 	console.log('Option Title:---', optionTitle, 'Options:---', options)
+=======
+
+{% if block.settings.bottom-of-page %}
+  <div class='top-bottom'>
+      {{ section.settings.bottom-of-page }}
+  </div>	
+{% endif %}
+<script>
+// var changeProduct = function(e) {
+// 	var select = document.getElementById('variants');
+// 	var value = e.target.value;
+// 	var sku = {{ sku }};
+
+// 	console.log('sku', sku, {{ sku }}) 
+// 	console.log('Product Sku', value)
+// }
+
+// var changeProduct = function(e) {
+// 	var product = this.querySelectorAll('select');
+// 	var index = product[0].selectedIndex;
+
+// 	console.log('Index', index)
+
+// 	var test = document.getElementById('testing');
+// 	console.log('Test--- ', test)
+// 	test.innerHTML = 'zero';
+// 		// test.innerHTML = 'One, one, one';
+// 	}
+
+
+
+var addToCart = function(e) {
+	var products = this.parentElement.querySelectorAll('H2.product-model')
+	var productsData = [];
+
+	products.forEach( function(product) {
+	    productsData.push({
+	        quantity: 1,
+	        id: product.id
+	    })
+	})
+>>>>>>> 2b78f7a78cfe57c0f77dd428836087c04b096493
 
 	for(var i = 0; i < optionTitle.length; i++) {
 		console.log('Option Title value:---', optionTitle[i].id)
 	}
+<<<<<<< HEAD
 
 	// Setting id for each kit product section
+=======
+    console.log('Data', data)
+debugger;
+	fetch('/cart/add.js', {
+	    body: JSON.stringify(data),
+	    credentials: 'same-origin',
+	    headers: {
+	        'Content-Type': 'application/json'
+	    },
+	    method: 'POST'
+	}).then((response) => {
+	    response.json();
+	    window.location.reload();
+	}).then(data => {
+	    console.log("Success", data)
+	}).catch((err) => {
+	    console.error(err)
+	});
+}
+
+window.addEventListener('load', function(e) {
+		console.log('event listener');
+    Array.prototype.forEach.call(
+        document.getElementsByClassName('dropDown'), function(element) {
+            element.addEventListener('change', changeProduct)
+            console.log(element)
+        }
+    );
+});
+
+window.addEventListener('load', function(e) {
+    Array.prototype.forEach.call(
+        document.getElementsByClassName('cart-button'), function(element) {
+            element.addEventListener('click', addToCart)
+        }
+    );
+});
+
+>>>>>>> 2b78f7a78cfe57c0f77dd428836087c04b096493
     var kitID = document.getElementsByClassName('kit'); // used to set dynamic kit id
     var kitTotal = document.getElementsByTagName('h4'); // where total kit price will display
     var h3Tags = document.getElementsByTagName('h3'); // prices per product
@@ -260,61 +380,36 @@
 		],
 		"blocks": [
 			{
-			"type": "text",
-			"name": "product",
-  			"settings": [
-				{	
-					"id": "title",
-					"type": "text",
-					"label": "Kit Title"
-				},
-				{
-					"type": "text",
-					"id": "productOne",
-					"label": "First Option"
-				},
-				{
-					"type": "text",
-					"id": "productTwo",
-					"label": "Second Option"
-				},
-				{
-					"type": "text",
-					"id": "productThree",
-					"label": "Third Option"
-				},
-				{
-					"type": "text",
-					"id": "productFour",
-					"label": "Fourth Option"
-				},
-				{
-					"type": "text",
-					"id": "productFive",
-					"label": "Fifth Option"
-				},
-				{
-					"type": "text",
-					"id": "productSix",
-					"label": "Sixth Option"
-				},
-				{
-					"type": "product",
-					"id": "product",
-					"label": "Product"
-				},
-				{
-					"id": "description",
-					"type": "text",
-					"label": "Product Description",
-					"info": "Limit 350 charancters"
-				},
-				{
-      				"type": "image_picker",
-      				"id": "image",
-      				"label": "Use when there is only one variant for a product!",
-      				"info": "1200 x 800px .jpg recommended"
-    			}
+      "type": "text",
+      "name": "product",
+        "settings": [
+        { 
+          "id": "title",
+          "type": "text",
+          "label": "title"
+        },
+        {
+          "type": "text",
+          "id": "product_sku",
+          "label": "Product Sku"
+        },
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product"
+        },
+        {
+          "id": "description",
+          "type": "text",
+          "label": "Product Description",
+          "info": "Limit 350 charancters"
+        },
+        {
+              "type": "image_picker",
+              "id": "image",
+              "label": "Use when there is only one variant for a product!",
+              "info": "1200 x 800px .jpg recommended"
+          }
   					]
 				}
 		],

@@ -189,6 +189,7 @@
         "blocks": {
           "009091c1-c32e-44f3-92ac-47733150f0c5": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/420-sale-banner-2022.png",
               "mobile_image": "shopify:\/\/shop_images\/420-sale-mobile-2022.png",
@@ -206,6 +207,7 @@
           },
           "361fba15-e38a-4024-b5e5-797f42db26cc": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/gavita-banner.png",
               "mobile_image": "shopify:\/\/shop_images\/gavita-mobile.png",
@@ -486,20 +488,20 @@
               "content": "<p>Order online for delivery or pickup in our Olivette location.<\/p>"
             }
           },
+          "f337edc9-7c12-40db-abec-062c869587c4": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-shop",
+              "title": "Store Hours",
+              "content": "<p>Monday - Saturday:<\/p><p>11am to 6pm<\/p><p>Sunday: <\/p><p>11am to 3pm<\/p>"
+            }
+          },
           "text-with-icons-3": {
             "type": "item",
             "settings": {
               "icon": "bi-secure-payment",
               "title": "Secure payments",
               "content": "<p>We support Shopify Payments to ensure checkout is easy &amp; secure.<\/p>"
-            }
-          },
-          "f337edc9-7c12-40db-abec-062c869587c4": {
-            "type": "item",
-            "settings": {
-              "icon": "bi-shop",
-              "title": "Store Hours",
-              "content": "<p>Monday - Saturday<br\/>10am to 5pm<\/p>"
             }
           },
           "a80437d4-a5fd-4e7c-a157-14f54e8e4763": {
@@ -514,8 +516,8 @@
         },
         "block_order": [
           "text-with-icons-0",
-          "text-with-icons-3",
           "f337edc9-7c12-40db-abec-062c869587c4",
+          "text-with-icons-3",
           "a80437d4-a5fd-4e7c-a157-14f54e8e4763"
         ],
         "settings": {
@@ -1475,9 +1477,17 @@
           "link_title": "",
           "link": ""
         }
+      },
+      "16516009606e4cbd6c": {
+        "type": "custom-html",
+        "settings": {
+          "title": "",
+          "html": "<div id=\"store-hours\">\n<h4><b>HOURS:<\/b><\/h4>      <p>Monday to Saturday: <b>10am - 6pm<\/b>       <\/p> <p>Sunday: <b>11am - 3pm<\/b><\/p>\n<\/div>"
+        }
       }
     },
     "content_for_index": [
+      "16516009606e4cbd6c",
       "slideshow",
       "1649439690e621183e",
       "16494685530c886071",
