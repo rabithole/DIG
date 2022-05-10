@@ -1345,73 +1345,6 @@
           "html": "<div style=\"text-align: center;\"> \n<h1>\nThe Best Hydroponics Store Near You!\n<\/h1>\n<h3>\nCommercial Supply and Consulting Available!\n<\/h3>\n<\/div>"
         }
       },
-      "1649439690e621183e": {
-        "type": "quick-links",
-        "disabled": true,
-        "blocks": {
-          "1649439690e621183e-0": {
-            "type": "link",
-            "settings": {
-              "title": "Student Kits",
-              "link": "https:\/\/dig.supply\/pages\/seed-starting-kits"
-            }
-          },
-          "1649439690e621183e-1": {
-            "type": "link",
-            "settings": {
-              "title": "Grow Tents",
-              "link": "https:\/\/dig.supply\/pages\/tent-kit"
-            }
-          },
-          "1649439690e621183e-2": {
-            "type": "link",
-            "disabled": true,
-            "settings": {
-              "title": "Harvest",
-              "link": ""
-            }
-          },
-          "1649439690e621183e-3": {
-            "type": "link",
-            "disabled": true,
-            "settings": {
-              "title": "Your link",
-              "link": ""
-            }
-          },
-          "1649439690e621183e-4": {
-            "type": "link",
-            "disabled": true,
-            "settings": {
-              "title": "Your link",
-              "link": ""
-            }
-          },
-          "1649439690e621183e-5": {
-            "type": "link",
-            "disabled": true,
-            "settings": {
-              "title": "Your link",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "1649439690e621183e-0",
-          "1649439690e621183e-1",
-          "1649439690e621183e-2",
-          "1649439690e621183e-3",
-          "1649439690e621183e-4",
-          "1649439690e621183e-5"
-        ],
-        "settings": {
-          "title": "Grow Kits of All Kinds...",
-          "expand_items": false,
-          "show_desktop": true,
-          "link_title": "",
-          "link": ""
-        }
-      },
       "16494685530c886071": {
         "type": "kit-links",
         "blocks": {
@@ -1424,6 +1357,7 @@
           },
           "16494685530c886071-1": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "title": "Grow Kits",
               "link": "shopify:\/\/pages\/tent-kit"
@@ -1489,7 +1423,6 @@
     "content_for_index": [
       "16516009606e4cbd6c",
       "slideshow",
-      "1649439690e621183e",
       "16494685530c886071",
       "1644425262118e4602",
       "164046987649a502ea",
