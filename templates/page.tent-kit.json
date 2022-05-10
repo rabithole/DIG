@@ -21,7 +21,12 @@
           "type": "text",
           "settings": {
             "title": "AC Infinity Tent",
-            "product_sku": "720322",
+            "productOne": "720321",
+            "productTwo": "720322",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
             "product": "cloudlab-advance-grow-tents",
             "description": "A grow tent designed to grow plants indoors by providing complete control over climate conditions. Featuring a quick-view observation window, this grow tent uses a waterproof oxford canvas with a 2000D thickness for higher durability and light-proofing. Cross-patterned diamond mylar lines the surface of the inner walls, which will reflect and maximize output from your grow light. To ensure maximum reflectivity and prevent light leaking, an inner ribbon stitching creates a seal that lines the zippers inside the grow tent. Additionally, the duct ports’ double cinching design closes them on either side to reinforce the light-proof sealing. Accessories include a waterproof floor tray, a built-in tool bag, and a mounting plate to install your controller onto the grow tent.An advanced grow tent designed to create optimal climate conditions for year-round plant cultivation indoors.Features durable frame that uses 50% thicker steel poles and carries 2x more weight than standard grow tents.Higher density 2000D canvas prevents light leaks while diamond mylar amplifies light reflectivity.Future ready design featuring controller mounting plate with passthrough for no light-leak cable management."
           }
@@ -30,7 +35,12 @@
           "type": "text",
           "settings": {
             "title": "Auto Pilot Timer",
-            "product_sku": "310220",
+            "productOne": "",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
             "product": "light-timer-auto-pilot",
             "description": "Dual Outlet Digital Timer120v dual outlet digital timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded1 second on\/offUp to 8 on\/off cycles per day15A\/1725WDual Outlet Analog Timer120v dual outlet analog timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded15 minute on\/off24 hour cycle15A\/1725WSingle Outlet Digital Timer120v single outlet digital timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded1 second on\/offUp to 8 on\/off cycles per day15A\/1725WSingle Outlet Analog Timer120v single outlet analog timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded15 minute on\/off24 hour cycle15A\/1725W"
           }
@@ -39,7 +49,12 @@
           "type": "text",
           "settings": {
             "title": "4 Foot Fluorescent Light",
-            "product_sku": "600675",
+            "productOne": "",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
             "product": "luxstar-t5",
             "description": "LuxStar 2 foot 4 bulb and 4 foot 8 bulb T5 Fluorescent light fixtures that are perfect space-saving lights as they have a super low profile! These fixtures also emit significantly less heat than other reflectors so they can be placed closer to the tops of plants, giving them that much more light! The LuxStar T5s use high-efficiency digital ballasts and high-output bulbs to create the most efficient light source. They also features dual power switches so you have the option of dimming the fixture by 50%. "
           }
@@ -64,7 +79,12 @@
           "type": "text",
           "settings": {
             "title": "Grow Tent",
-            "product_sku": "720261",
+            "productOne": "",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
             "product": "cloudlab-advance-grow-tents",
             "description": "AC Infinity makes the finest grow tents on the market! With a grow tent you can control every detail of a plants needs. There is no better way to get those dank nugs."
           }
@@ -73,7 +93,12 @@
           "type": "text",
           "settings": {
             "title": "Gro Pros LED",
-            "product_sku": "720231",
+            "productOne": "",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
             "product": "grow-pros-solutions-led",
             "description": "LED lighting with a 7 year warranty and the best price point on the market. Full-spectrum LED solution for commercial indoor grow at home."
           }
@@ -82,7 +107,12 @@
           "type": "text",
           "settings": {
             "title": "Autopilot Timer",
-            "product_sku": "700027",
+            "productOne": "",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
             "product": "light-timer-auto-pilot",
             "description": "Dual outlet digital timer for controlling watering, lighting and air control. Up to 8 on\/off cycles per day."
           }
