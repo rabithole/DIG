@@ -94,13 +94,13 @@
           "type": "text",
           "settings": {
             "title": "",
-            "productOne": "",
-            "productTwo": "",
+            "productOne": "600703",
+            "productTwo": "600696",
             "productThree": "",
             "productFour": "",
             "productFive": "",
             "productSix": "",
-            "product": "",
+            "product": "inline-fan",
             "description": ""
           }
         }
