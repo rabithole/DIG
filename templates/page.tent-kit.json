@@ -72,34 +72,9 @@
         "other-kits": ""
       }
     },
-    "recommendations": {
-      "type": "product-recommendations",
-      "disabled": true,
-      "settings": {
-        "show_product_recommendations": true,
-        "heading": "You may also like",
-        "show_quick_buy": false
-      }
-    },
-    "promotion": {
-      "type": "static-promotion-list",
-      "disabled": true,
-      "settings": {
-        "expand_items": false,
-        "section_size": "medium",
-        "stack_mobile": false
-      }
-    },
-    "recentyViewed": {
-      "type": "static-recently-viewed-products",
-      "settings": {
-        "show_section": true,
-        "title": "Recently viewed",
-        "show_quick_buy": false
-      }
-    },
     "1652228192045364d7": {
       "type": "kit-page-template",
+      "disabled": true,
       "blocks": {
         "aa2eda33-6136-4de3-8c99-91808745e01d": {
           "type": "text",
@@ -125,15 +100,41 @@
         "bottom-of-page": "",
         "other-kits": ""
       }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "heading": "You may also like",
+        "show_quick_buy": false
+      }
+    },
+    "promotion": {
+      "type": "static-promotion-list",
+      "disabled": true,
+      "settings": {
+        "expand_items": false,
+        "section_size": "medium",
+        "stack_mobile": false
+      }
+    },
+    "recentyViewed": {
+      "type": "static-recently-viewed-products",
+      "settings": {
+        "show_section": true,
+        "title": "Recently viewed",
+        "show_quick_buy": false
+      }
     }
   },
   "order": [
     "1649376143d7978c59",
     "1649376370de73efeb",
     "16493722588ba898e7",
+    "1652228192045364d7",
     "recommendations",
     "promotion",
-    "recentyViewed",
-    "1652228192045364d7"
+    "recentyViewed"
   ]
 }
