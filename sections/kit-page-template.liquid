@@ -80,17 +80,17 @@
 <script>
 	var optionTitle = document.querySelectorAll('.product-container');
 	var options = document.querySelectorAll('option');
-	console.log('Option Title:---', optionTitle, 'Options:---', options)
+	// console.log('Option Title:---', optionTitle, 'Options:---', options)
 
 	for(var i = 0; i < optionTitle.length; i++) {
-		console.log('Option Title value:---', optionTitle[i].id)
+		// console.log('Option Title value:---', optionTitle[i].id)
 	}
 
 	// Setting id for each kit product section
     var kitID = document.getElementsByClassName('kit'); // used to set dynamic kit id
     var kitTotal = document.getElementsByTagName('h4'); // where total kit price will display
     var h3Tags = document.getElementsByTagName('h3'); // prices per product
-    // console.log('h3 price tags:---', h3Tags)
+    console.log('h3 price tags:---', h3Tags)
     var price = 0;  
     var titlePriceId = 0; // Sets an arbitrary id for total section to match to each kit section
     var kitPriceArray = [];
@@ -113,15 +113,15 @@
 
 		    // grabs the 'KIT SECTION ID' from the h3Tags of h3 tags of product prices
 		    // h3 parent nodes to get to section id's
-		    var h3TagsID = Number(h3Tags[k].parentNode.parentNode.parentNode.id); 
-		    // console.log('h3 tags id:---', h3TagsID)
+		    var h3TagsKitId = Number(h3Tags[k].parentNode.parentNode.parentNode.id); 
+		    console.log('h3 tags kit id:---', h3TagsKitId, 'Kit total id:---', kitTotalId)
 		    
 		    // grabs individual product prices from list of h3 tags containing product prices.
 		    // h3 tags id's contain individual product prices
 		    var productPrice = Number((h3Tags[k].dataset.price / 100).toFixed(2));
 		    // console.log('product price:---', Number(productPrice))
 
-		    if(h3TagsID == titlePriceId){
+		    if(h3TagsKitId == titlePriceId){
 		        kitPriceArray.push(productPrice);
 		    }else{
 		        titlePriceId++
@@ -135,6 +135,13 @@
 		    }, 0)
 		    
 		    document.getElementById(kitTotalId).innerHTML = 'Total: ' + '$' + sum.toFixed(2);
+
+		    if(h3TagsKitId == kitTotalId){
+		    	console.log('Kit Id:---', document.getElementById(kitTotalId))
+		    }else {
+		    	console.log('They do not match')
+		    }
+		    
 		  }
 	}
 
@@ -153,7 +160,7 @@
 	}
 
 
-	// Accessing store front api
+	// Accessing store front api when changing product variant from select option list. 
 	var productDetails = function(productHandle, sku, productImg, productPriceElement) {
 		fetch(window.Shopify.routes.root + `products/${productHandle}.js`, {
 		}).then((res) => {
