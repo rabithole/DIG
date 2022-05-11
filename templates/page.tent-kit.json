@@ -97,6 +97,34 @@
         "title": "Recently viewed",
         "show_quick_buy": false
       }
+    },
+    "1652228192045364d7": {
+      "type": "kit-page-template",
+      "blocks": {
+        "aa2eda33-6136-4de3-8c99-91808745e01d": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "productOne": "720261",
+            "productTwo": "720262",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "cloudlab-advance-grow-tents",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "aa2eda33-6136-4de3-8c99-91808745e01d"
+      ],
+      "settings": {
+        "title": "",
+        "top-of-page": "",
+        "bottom-of-page": "",
+        "other-kits": ""
+      }
     }
   },
   "order": [
@@ -105,6 +133,7 @@
     "16493722588ba898e7",
     "recommendations",
     "promotion",
-    "recentyViewed"
+    "recentyViewed",
+    "1652228192045364d7"
   ]
 }
