@@ -1357,7 +1357,6 @@
           },
           "16494685530c886071-1": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "title": "Grow Kits",
               "link": "shopify:\/\/pages\/tent-kit"
@@ -1365,7 +1364,6 @@
           },
           "16494685530c886071-2": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "title": "Air & Humidity",
               "link": ""
