@@ -48,7 +48,7 @@
         "3e1fce70-32a6-4c82-a13c-c5b9f1b214fc": {
           "type": "text",
           "settings": {
-            "title": "4 inch, 8 foot flexible ducting",
+            "title": "Flexible Ducting for Ventilation",
             "productOne": "600708",
             "productTwo": "600709",
             "productThree": "600710",
@@ -103,11 +103,26 @@
             "product": "inline-fan",
             "description": "Designed to ventilate hydroponic grow rooms, transfer heating\/cooling, cool AV closets, and exhaust odors. Intelligent controller with temperature and humidity programming, fan speed control, timer, and alarm system. Mixed flow design combined with a PWM-controlled EC-motor for a truly quiet and energy efficient performance."
           }
+        },
+        "44440adf-6cee-4032-b956-b3c39b8221a2": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "productOne": "",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "",
+            "description": ""
+          }
         }
       },
       "block_order": [
         "689cbf0c-cfd9-4aba-ac65-9c4bfbf208f1",
-        "a9755c85-d087-4bfe-b49b-1787d9a90b92"
+        "a9755c85-d087-4bfe-b49b-1787d9a90b92",
+        "44440adf-6cee-4032-b956-b3c39b8221a2"
       ],
       "settings": {
         "title": "Mid Level Air and Humidity Control",
