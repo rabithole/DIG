@@ -89,10 +89,25 @@
             "product": "oscillating-fan-for-grow-tent",
             "description": "Monkey Fans are the perfect product to keep air circulating throughout your crops. Whether growing in tents or rooms, you can hook these monkey fans on quickly, and regularly adjust their height. With a fit of 0.63-0.83 inches, this oscillating monkey fan hook allows you to attach it quickly to virtually every type of grow tent pole as well as PVC (commonly used to stretch trellis across canopies). This compact and versatile fan is great for air circulation as well as withstanding the humid environment which grow rooms offer. Put down the zip ties and get your Monkey Fans today. 90 Day Warranty. 6.6'' blades, 8.3'' diameter fan."
           }
+        },
+        "a9755c85-d087-4bfe-b49b-1787d9a90b92": {
+          "type": "text",
+          "settings": {
+            "title": "AC Infinity Exhaust Fan",
+            "productOne": "600703",
+            "productTwo": "600696",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "inline-fan",
+            "description": ""
+          }
         }
       },
       "block_order": [
-        "689cbf0c-cfd9-4aba-ac65-9c4bfbf208f1"
+        "689cbf0c-cfd9-4aba-ac65-9c4bfbf208f1",
+        "a9755c85-d087-4bfe-b49b-1787d9a90b92"
       ],
       "settings": {
         "title": "Mid Level Air and Humidity Control",
