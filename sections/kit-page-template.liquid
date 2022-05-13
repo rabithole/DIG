@@ -78,8 +78,8 @@
 </div>	
 
 <script>
-	var optionTitle = document.querySelectorAll('.product-container');
-	var options = document.querySelectorAll('option');
+	// var optionTitle = document.querySelectorAll('.product-container');
+	// var options = document.querySelectorAll('option');
 
 	// Setting id for each kit product section
     var kitID = document.getElementsByClassName('kit'); // used to set dynamic kit id
@@ -99,11 +99,12 @@
         var kitTotalId = kitTotal[j].id = 50 + j;
     }
 
+    // Updates kit section total on variant change
     var setKitTotal = function(kitIdTarget, kitIdUpdateTotal) {
     	var priceArray = [];
     	kitIdUpdateTotal.forEach(function(price) {
-			priceArray.push(Number(price.dataset.price))	
-		})
+				priceArray.push(Number(price.dataset.price))	
+			})
 
 		var sum = priceArray.reduce(function (x,y){
 			    return x + y;
@@ -138,7 +139,6 @@
 			document.getElementById(kitTotalId).innerHTML = 'Total: ' + '$' + sum.toFixed(2);	
 		}
 	}
-
 	updateKitTotal()
 
 	// Grabs sku from drop down menu for selecting 
@@ -148,7 +148,6 @@
 		var productPriceElement = event.target.parentElement.parentElement.children[1];
 		var sku = Number(event.target.value);
 		var kitIdTarget = event.target.closest('.kit').children[0];
-
 		var kitIdUpdateTotal = event.target.closest('.kit').querySelectorAll('H3')
 
 		productDetails(productHandle, sku, productImg, productPriceElement, kitIdTarget, kitIdUpdateTotal);
