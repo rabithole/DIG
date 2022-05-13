@@ -1,5 +1,33 @@
 {
   "sections": {
+    "1652455439fc4e7e18": {
+      "type": "kit-page-template",
+      "blocks": {
+        "16949ee4-3328-409a-80f7-d50262d1e15e": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "productOne": "310400",
+            "productTwo": "310401",
+            "productThree": "720190",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "grow1-micro-blade",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "16949ee4-3328-409a-80f7-d50262d1e15e"
+      ],
+      "settings": {
+        "title": "Kits for Harvesting",
+        "top-of-page": "",
+        "bottom-of-page": "",
+        "other-kits": ""
+      }
+    },
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -27,6 +55,7 @@
     }
   },
   "order": [
+    "1652455439fc4e7e18",
     "recommendations",
     "promotion",
     "recentyViewed"
