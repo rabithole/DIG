@@ -30,11 +30,26 @@
             "product": "boveda-humidity-packs",
             "description": "Boveda not only knows 2-way humidity control for packages and containers - they invented it. Their patented humidity control packs regulate moisture content, keeping the contents of your containers at the perfect desired level. They don’t need any activation or maintenance. Just place them in an airtight container with your items, and Boveda technology will do the rest."
           }
+        },
+        "d30c8764-bd9f-4171-9e16-775726fc848d": {
+          "type": "text",
+          "settings": {
+            "title": "20 Pack Nitrile Gloves",
+            "productOne": "600613",
+            "productTwo": "600614",
+            "productThree": "600615",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "nitrile-glove-n-dex",
+            "description": "The world’s first 100% nitrile disposable glove, N-DEX 7005 provides unmatched dexterity and performance across a range of tactical applications using revolutionary SHOWA technology."
+          }
         }
       },
       "block_order": [
         "16949ee4-3328-409a-80f7-d50262d1e15e",
-        "72d215d3-5642-40d2-a0b2-eddaf5b0bd52"
+        "72d215d3-5642-40d2-a0b2-eddaf5b0bd52",
+        "d30c8764-bd9f-4171-9e16-775726fc848d"
       ],
       "settings": {
         "title": "Kits for Harvesting",
