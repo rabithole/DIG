@@ -44,12 +44,27 @@
             "product": "nitrile-glove-n-dex",
             "description": "The world’s first 100% nitrile disposable glove, N-DEX 7005 provides unmatched dexterity and performance across a range of tactical applications using revolutionary SHOWA technology."
           }
+        },
+        "aa160543-0c5a-4abe-8384-8f64da931fec": {
+          "type": "text",
+          "settings": {
+            "title": "Trim Bin bottom only",
+            "productOne": "600717",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "harvest-more-trim-bin-bottom-only",
+            "description": "The Trim Bin trim tray by Harvest-More features an ergonomic design that makes trim work more enjoyable. The two part system allows for versatility and efficient use of space. Like all products in the Harvest More line, the HM trim tray is made with quality materials and ingenuity. It’s long lasting, durable and portable. Turn any couch or table into a comfortable work station!"
+          }
         }
       },
       "block_order": [
         "a6f477a9-1d5b-4f25-baf4-f4adf0a1f132",
         "8fac9e67-341f-4981-803a-a2115c9404de",
-        "3bbce69c-997d-4a80-9695-d326dad052f3"
+        "3bbce69c-997d-4a80-9695-d326dad052f3",
+        "aa160543-0c5a-4abe-8384-8f64da931fec"
       ],
       "settings": {
         "title": "Harvest Time Kits",
