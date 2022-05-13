@@ -102,11 +102,26 @@
             "product": "grow-pros-solutions-led",
             "description": "A full-spectrum LED rack lighting solution designed for commercial indoor and greenhouse applications, enabling control over the plant cycle from the vegetative stage to the flowering stage. Indoor plants grow best under full-spectrum lights, which replicate the natural spectrum of the sun. The HM480 Series, with an increased lifespan over traditional grow light sources, cultivates healthier, happier plants. 7 year warranty. • Compatible with TrolMaster system+Adapter LMA-14• Added one extension bar on each side to cover 4’ x 4’ or 4’ x 5’ grow tray• Come with 120-277V AC output quick access outlet on the fixture• Foldable design, easy installation• Up to 30% more energy saving than traditional HID and HPS• Optimized spectrum proven by growers for veg and flowering• Superior delivered PPF and PAR exceeding 1000W HPS• Scientifically engineered to maximize photosynthesis, growth, and yieldWarranty: 7-year limited"
           }
+        },
+        "2e91aee1-7936-4ea1-bc58-43316fc4b711": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "productOne": "700027",
+            "productTwo": "200090",
+            "productThree": "310220",
+            "productFour": "200080",
+            "productFive": "",
+            "productSix": "",
+            "product": "light-timer-auto-pilot",
+            "description": "Dual Outlet Digital Timer120v dual outlet digital timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded1 second on\/offUp to 8 on\/off cycles per day15A\/1725WDual Outlet Analog Timer120v dual outlet analog timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded15 minute on\/off24 hour cycle15A\/1725WSingle Outlet Digital Timer120v single outlet digital timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded1 second on\/offUp to 8 on\/off cycles per day15A\/1725WSingle Outlet Analog Timer120v single outlet analog timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded15 minute on\/off24 hour cycle15A\/1725W"
+          }
         }
       },
       "block_order": [
         "aa2eda33-6136-4de3-8c99-91808745e01d",
-        "c9c4055d-f477-4c99-a8bf-e897899b0287"
+        "c9c4055d-f477-4c99-a8bf-e897899b0287",
+        "2e91aee1-7936-4ea1-bc58-43316fc4b711"
       ],
       "settings": {
         "title": "",
