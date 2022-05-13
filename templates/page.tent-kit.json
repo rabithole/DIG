@@ -20,7 +20,7 @@
         "876c7b88-16de-4c80-b9c6-e76ab689299e": {
           "type": "text",
           "settings": {
-            "title": "AC Infinity Tent",
+            "title": "AC Infinity CloudLab Grow Tent",
             "productOne": "720321",
             "productTwo": "720322",
             "productThree": "",
@@ -74,7 +74,6 @@
     },
     "1652228192045364d7": {
       "type": "kit-page-template",
-      "disabled": true,
       "blocks": {
         "aa2eda33-6136-4de3-8c99-91808745e01d": {
           "type": "text",
@@ -87,12 +86,27 @@
             "productFive": "",
             "productSix": "",
             "product": "cloudlab-advance-grow-tents",
-            "description": ""
+            "description": "A grow tent designed to grow plants indoors by providing complete control over climate conditions. Featuring a quick-view observation window, this grow tent uses a waterproof oxford canvas with a 2000D thickness for higher durability and light-proofing. Cross-patterned diamond mylar lines the surface of the inner walls, which will reflect and maximize output from your grow light. To ensure maximum reflectivity and prevent light leaking, an inner ribbon stitching creates a seal that lines the zippers inside the grow tent. Additionally, the duct ports’ double cinching design closes them on either side to reinforce the light-proof sealing. Accessories include a waterproof floor tray, a built-in tool bag, and a mounting plate to install your controller onto the grow tent.An advanced grow tent designed to create optimal climate conditions for year-round plant cultivation indoors.Features durable frame that uses 50% thicker steel poles and carries 2x more weight than standard grow tents.Higher density 2000D canvas prevents light leaks while diamond mylar amplifies light reflectivity.Future ready design featuring controller mounting plate with passthrough for no light-leak cable management."
+          }
+        },
+        "c9c4055d-f477-4c99-a8bf-e897899b0287": {
+          "type": "text",
+          "settings": {
+            "title": "Grow Pros Solutions LED",
+            "productOne": "720231",
+            "productTwo": "720223",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "grow-pros-solutions-led",
+            "description": "A full-spectrum LED rack lighting solution designed for commercial indoor and greenhouse applications, enabling control over the plant cycle from the vegetative stage to the flowering stage. Indoor plants grow best under full-spectrum lights, which replicate the natural spectrum of the sun. The HM480 Series, with an increased lifespan over traditional grow light sources, cultivates healthier, happier plants. 7 year warranty. • Compatible with TrolMaster system+Adapter LMA-14• Added one extension bar on each side to cover 4’ x 4’ or 4’ x 5’ grow tray• Come with 120-277V AC output quick access outlet on the fixture• Foldable design, easy installation• Up to 30% more energy saving than traditional HID and HPS• Optimized spectrum proven by growers for veg and flowering• Superior delivered PPF and PAR exceeding 1000W HPS• Scientifically engineered to maximize photosynthesis, growth, and yieldWarranty: 7-year limited"
           }
         }
       },
       "block_order": [
-        "aa2eda33-6136-4de3-8c99-91808745e01d"
+        "aa2eda33-6136-4de3-8c99-91808745e01d",
+        "c9c4055d-f477-4c99-a8bf-e897899b0287"
       ],
       "settings": {
         "title": "",
