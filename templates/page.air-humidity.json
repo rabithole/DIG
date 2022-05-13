@@ -6,7 +6,7 @@
         "d6e8e889-99b9-4535-af30-a87ce241ea8f": {
           "type": "text",
           "settings": {
-            "title": "AC Infinity T4Exahaust Fan",
+            "title": "AC Infinity Exahaust Fan",
             "productOne": "600703",
             "productTwo": "600695",
             "productThree": "600696",
@@ -101,7 +101,7 @@
             "productFive": "",
             "productSix": "",
             "product": "inline-fan",
-            "description": ""
+            "description": "Designed to ventilate hydroponic grow rooms, transfer heating\/cooling, cool AV closets, and exhaust odors. Intelligent controller with temperature and humidity programming, fan speed control, timer, and alarm system. Mixed flow design combined with a PWM-controlled EC-motor for a truly quiet and energy efficient performance."
           }
         }
       },
