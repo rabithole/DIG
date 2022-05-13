@@ -2,6 +2,7 @@
   "sections": {
     "1652455439fc4e7e18": {
       "type": "kit-page-template",
+      "disabled": true,
       "blocks": {
         "16949ee4-3328-409a-80f7-d50262d1e15e": {
           "type": "text",
