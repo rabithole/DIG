@@ -80,17 +80,11 @@
 <script>
 	var optionTitle = document.querySelectorAll('.product-container');
 	var options = document.querySelectorAll('option');
-	// console.log('Option Title:---', optionTitle, 'Options:---', options)
-
-	for(var i = 0; i < optionTitle.length; i++) {
-		// console.log('Option Title value:---', optionTitle[i].id)
-	}
 
 	// Setting id for each kit product section
     var kitID = document.getElementsByClassName('kit'); // used to set dynamic kit id
     var kitTotal = document.getElementsByTagName('h4'); // where total kit price will display
     var h3Tags = document.getElementsByTagName('h3'); // prices per product
-    console.log('h3 price tags:---', h3Tags)
     var price = 0;  
     var titlePriceId = 0; // Sets an arbitrary id for total section to match to each kit section
     var kitPriceArray = [];
@@ -105,44 +99,44 @@
         var kitTotalId = kitTotal[j].id = 50 + j;
     }
 
-	var updateKitTotal = function(){
-		// Gathering prices of each product and totalling in the kit headline.
+    var setKitTotal = function(kitIdTarget, kitIdUpdateTotal) {
+    	var priceArray = [];
+    	kitIdUpdateTotal.forEach(function(price) {
+			priceArray.push(Number(price.dataset.price))	
+		})
+
+		var sum = priceArray.reduce(function (x,y){
+			    return x + y;
+			}, 0)
+
+		kitIdTarget.innerHTML = 'Total: ' + '$' + (sum / 100).toFixed(2);
+    }
+
+    		// Gathering prices of each product and totalling in the kit headline.
+	var updateKitTotal = function(kitIdTarget){
 		kitPriceArray = []
 
-		  for(var k = 0; k < h3Tags.length; k++) {
+		for(var k = 0; k < h3Tags.length; k++) {
+			// grabs the 'KIT SECTION ID' from the h3Tags of h3 tags of product prices
+			var h3TagsKitId = Number(h3Tags[k].parentNode.parentNode.parentNode.id); 
 
-		    // grabs the 'KIT SECTION ID' from the h3Tags of h3 tags of product prices
-		    // h3 parent nodes to get to section id's
-		    var h3TagsKitId = Number(h3Tags[k].parentNode.parentNode.parentNode.id); 
-		    console.log('h3 tags kit id:---', h3TagsKitId, 'Kit total id:---', kitTotalId)
-		    
-		    // grabs individual product prices from list of h3 tags containing product prices.
-		    // h3 tags id's contain individual product prices
-		    var productPrice = Number((h3Tags[k].dataset.price / 100).toFixed(2));
-		    // console.log('product price:---', Number(productPrice))
+			// h3 tags id's contain individual product prices
+			var productPrice = Number((h3Tags[k].dataset.price / 100).toFixed(2));
 
-		    if(h3TagsKitId == titlePriceId){
-		        kitPriceArray.push(productPrice);
-		    }else{
-		        titlePriceId++
-		        kitPriceArray = [];
-		        kitPriceArray.push(productPrice);
-		    }
-		    // console.log('kit price array:---', kitPriceArray)
+			if(h3TagsKitId == titlePriceId){
+			    kitPriceArray.push(productPrice);
+			}else{
+			    titlePriceId++
+			    kitPriceArray = [];
+			    kitPriceArray.push(productPrice);
+			}
 
-		    var sum = kitPriceArray.reduce(function (x,y){
-		        return x + y;
-		    }, 0)
-		    
-		    document.getElementById(kitTotalId).innerHTML = 'Total: ' + '$' + sum.toFixed(2);
+			var sum = kitPriceArray.reduce(function (x,y){
+			    return x + y;
+			}, 0)
 
-		    if(h3TagsKitId == kitTotalId){
-		    	console.log('Kit Id:---', document.getElementById(kitTotalId))
-		    }else {
-		    	console.log('They do not match')
-		    }
-		    
-		  }
+			document.getElementById(kitTotalId).innerHTML = 'Total: ' + '$' + sum.toFixed(2);	
+		}
 	}
 
 	updateKitTotal()
@@ -153,23 +147,22 @@
 		var productImg = event.target.parentElement.parentElement.children[0];
 		var productPriceElement = event.target.parentElement.parentElement.children[1];
 		var sku = Number(event.target.value);
-		productDetails(productHandle, sku, productImg, productPriceElement);
-		
-		var h3tags = document.getElementsByTagName('h3')
-		// console.log('h3 tags:---', h3Tags, 'product price change:---', productPriceElement)
+		var kitIdTarget = event.target.closest('.kit').children[0];
+
+		var kitIdUpdateTotal = event.target.closest('.kit').querySelectorAll('H3')
+
+		productDetails(productHandle, sku, productImg, productPriceElement, kitIdTarget, kitIdUpdateTotal);
 	}
 
 
 	// Accessing store front api when changing product variant from select option list. 
-	var productDetails = function(productHandle, sku, productImg, productPriceElement) {
+	var productDetails = function(productHandle, sku, productImg, productPriceElement, kitIdTarget, kitIdUpdateTotal) {
 		fetch(window.Shopify.routes.root + `products/${productHandle}.js`, {
 		}).then((res) => {
 				res.json().then(data => {
-					// console.log('Product variants:---', data.variants)
 					var variant = data.variants.find(objSku => {
 						return objSku.sku == sku;
 					});
-					// console.log('Variant ID:---', variant.id, variant.price)
 
 					// Product variant image
 					productImg.src = variant.featured_image.src;
@@ -182,9 +175,9 @@
 					}).format((variant.price /100).toFixed(2))
 
 					productPriceElement.dataset.price = variant.price;
-
 					productPriceElement.id = variant.id;
-					updateKitTotal()
+
+					setKitTotal(kitIdTarget, kitIdUpdateTotal)
 			})
 		})
 	}
@@ -195,7 +188,6 @@
 		var productsData = [];
 
 		products.forEach( function(product) {
-			// console.log('products:---', product.id)
 		    productsData.push({
 		        quantity: 1,
 		        id: product.id
@@ -205,7 +197,6 @@
 		var data = {
 		    items: productsData
 		}
-		// console.log('Data', data)
 	
 		fetch('/cart/add.js', {
 		    body: JSON.stringify(data),
