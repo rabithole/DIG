@@ -16,10 +16,25 @@
             "product": "grow1-micro-blade",
             "description": "These Titanium micro blade scissors come in 3 styles and feature a spring mechanism in the handle that is fully recessed so it won’t fall out!"
           }
+        },
+        "72d215d3-5642-40d2-a0b2-eddaf5b0bd52": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "productOne": "200220",
+            "productTwo": "200240",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "boveda-humidity-packs",
+            "description": ""
+          }
         }
       },
       "block_order": [
-        "16949ee4-3328-409a-80f7-d50262d1e15e"
+        "16949ee4-3328-409a-80f7-d50262d1e15e",
+        "72d215d3-5642-40d2-a0b2-eddaf5b0bd52"
       ],
       "settings": {
         "title": "Kits for Harvesting",
