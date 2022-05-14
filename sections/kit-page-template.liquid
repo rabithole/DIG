@@ -8,7 +8,7 @@
 
 <!-- Top of kit page -->
 <div class="kit">
-	<h4 id=50 class="kitTotal"></h4>
+	<h4 class="kitTotal"></h4>
 
 	<!-- outside for loop -->
   	{% for block in section.blocks %}
@@ -80,15 +80,12 @@
 <script>
 	// Setting id for each kit product section
     var kitContainers = document.getElementsByClassName('kit'); // used to set dynamic kit id
-   
-    var price = 0;  
-    var titlePriceId = 0; // Sets an arbitrary id for total section to match to each kit section
-    var kitPriceArray = [];
 
 	// Updates kit section total on variant change
     var setKitTotal = function(kitTotalPrice, kitProductTotals) {
-    	console.log('Kit total price', kitTotalPrice, 'kit product totals', kitProductTotals)
     	var priceArray = [];
+
+    	// Array.from converts an HTMLCollection to an array. 
     	Array.from(kitProductTotals).forEach(function(price) {
 				priceArray.push(Number(price.dataset.price))	
 			})
@@ -126,23 +123,24 @@
 		var kitTotalPrice = event.target.closest('.kit').children[0];
 		var kitProductTotals = event.target.closest('.kit').querySelectorAll('H3')
 
-		getProductVariant(productHandle, sku).then(variant => {
-			// Product variant image
-			productImg.src = variant.featured_image.src;
+		getProductVariant(productHandle, sku)
+			.then(variant => {
+				// Product variant image
+				productImg.src = variant.featured_image.src;
 
-			// Product variant price
-			productPriceElement.innerHTML = new Intl.NumberFormat('en-IN', {
-				style: 'currency',
-				currency: 'USD',
-				maxiumumFractionDigits: -2
-			}).format((variant.price /100).toFixed(2))
+				// Product variant price
+				productPriceElement.innerHTML = new Intl.NumberFormat('en-IN', {
+					style: 'currency',
+					currency: 'USD',
+					maxiumumFractionDigits: -2
+				}).format((variant.price /100).toFixed(2))
 
-			productPriceElement.dataset.price = variant.price;
-			productPriceElement.id = variant.id;
+				productPriceElement.dataset.price = variant.price;
+				productPriceElement.id = variant.id;
 
-			setKitTotal(kitTotalPrice, kitProductTotals)
-		})
-	}
+				setKitTotal(kitTotalPrice, kitProductTotals)
+			})
+		}
 
 	// Accessing store front api when changing product variant from select option list. 
 	var getProductVariant = function(productHandle, sku) {
@@ -152,7 +150,6 @@
 				var variant = data.variants.find(objSku => {
 					return objSku.sku == sku;
 				});
-				console.log('variant', variant)
 				return variant;
 			})
 		})
