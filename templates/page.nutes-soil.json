@@ -1,0 +1,169 @@
+{
+  "sections": {
+    "1649376143d7978c59": {
+      "type": "custom-html",
+      "settings": {
+        "title": "Basics of Grow Tents",
+        "html": "<p>A grow tent set up begins with these three components. For best results we recommend adding our ‘Air and Humidity kit’ to maximize the potential of your plants. While you can grow cannabis with just a tent kit, most will find the growing conditions won’t be inducive to the dankest bud you have ever smoked.<\/p>\n\n\t<p>Our mid level and up grow kits are not the cheapest on the market. They do contain quality components that are proven to last and produce those dank buds we all crave. In addition, we provide the support and info you need for a successful grow. Give us a call during business hours for your answers. We have chosen AC Infinity products along side Gro Pros LED lighting because of their superior quality and reasonable price points.<\/p>\n \n<p>Refer below for more information.<\/p>"
+      }
+    },
+    "1649376370de73efeb": {
+      "type": "custom-html",
+      "settings": {
+        "title": "Common Challenges",
+        "html": "<p>Here is a list of some problems you may run into:<\/p>\n<div>\n<ul>\n<li>Humidity is problematic especially during the flowering stage. Your dense buds will hold moisture creating a ripe place for mold to grow. Not a good thing for your lungs or health of your buds. An exhaust fan can take care of this problem easily.<\/li> \n<li>Smell is often a complaint, nuisance or possibly even a legal issue in some situations. This can be taken care of by combining an exhaust fan and a carbon filter. The filter will remove any smell that might be exhausted into your room, garage or outdoor environment that could unsettle your neighbors.\n<\/li> \n<li>A simple fan to move the air inside your tent will help you plants breath. Stagnant air will become humid in spots if the air in the tent isn’t moved around. A circulation fan and an exhaust fan work together to keep the environment in your grow tent at the optimum humidity level. \n<\/li>\n<\/ul>\n<\/div>\n<p>Our air and humidity kits are equipped to manage any growing situation inside a grow tent.<\/p>"
+      }
+    },
+    "16493722588ba898e7": {
+      "type": "kit-page-template",
+      "blocks": {
+        "876c7b88-16de-4c80-b9c6-e76ab689299e": {
+          "type": "text",
+          "settings": {
+            "title": "AC Infinity CloudLab Grow Tent",
+            "productOne": "720321",
+            "productTwo": "720322",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "cloudlab-advance-grow-tents",
+            "description": "A grow tent designed to grow plants indoors by providing complete control over climate conditions. Featuring a quick-view observation window, this grow tent uses a waterproof oxford canvas with a 2000D thickness for higher durability and light-proofing. Cross-patterned diamond mylar lines the surface of the inner walls, which will reflect and maximize output from your grow light. To ensure maximum reflectivity and prevent light leaking, an inner ribbon stitching creates a seal that lines the zippers inside the grow tent. Additionally, the duct ports’ double cinching design closes them on either side to reinforce the light-proof sealing. Accessories include a waterproof floor tray, a built-in tool bag, and a mounting plate to install your controller onto the grow tent.An advanced grow tent designed to create optimal climate conditions for year-round plant cultivation indoors.Features durable frame that uses 50% thicker steel poles and carries 2x more weight than standard grow tents.Higher density 2000D canvas prevents light leaks while diamond mylar amplifies light reflectivity.Future ready design featuring controller mounting plate with passthrough for no light-leak cable management."
+          }
+        },
+        "eb428bdf-5718-407b-8134-2f941ab47878": {
+          "type": "text",
+          "settings": {
+            "title": "Auto Pilot Timer",
+            "productOne": "700027",
+            "productTwo": "310220",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "light-timer-auto-pilot",
+            "description": "Dual Outlet Digital Timer120v dual outlet digital timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded1 second on\/offUp to 8 on\/off cycles per day15A\/1725WDual Outlet Analog Timer120v dual outlet analog timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded15 minute on\/off24 hour cycle15A\/1725WSingle Outlet Digital Timer120v single outlet digital timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded1 second on\/offUp to 8 on\/off cycles per day15A\/1725WSingle Outlet Analog Timer120v single outlet analog timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded15 minute on\/off24 hour cycle15A\/1725W"
+          }
+        },
+        "b242a2c4-10c8-4f4d-985d-6ecce8eb4eed": {
+          "type": "text",
+          "settings": {
+            "title": "4 Foot Fluorescent Light",
+            "productOne": "600674",
+            "productTwo": "600675",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "luxstar-t5",
+            "description": "LuxStar 2 foot 4 bulb and 4 foot 8 bulb T5 Fluorescent light fixtures that are perfect space-saving lights as they have a super low profile! These fixtures also emit significantly less heat than other reflectors so they can be placed closer to the tops of plants, giving them that much more light! The LuxStar T5s use high-efficiency digital ballasts and high-output bulbs to create the most efficient light source. They also features dual power switches so you have the option of dimming the fixture by 50%. "
+          }
+        }
+      },
+      "block_order": [
+        "876c7b88-16de-4c80-b9c6-e76ab689299e",
+        "eb428bdf-5718-407b-8134-2f941ab47878",
+        "b242a2c4-10c8-4f4d-985d-6ecce8eb4eed"
+      ],
+      "settings": {
+        "title": "Lowest Priced Mid Level Kit",
+        "top-of-page": "",
+        "bottom-of-page": "",
+        "other-kits": ""
+      }
+    },
+    "1652228192045364d7": {
+      "type": "kit-page-template",
+      "blocks": {
+        "aa2eda33-6136-4de3-8c99-91808745e01d": {
+          "type": "text",
+          "settings": {
+            "title": "AC Infinity CloudLab Grow Tent",
+            "productOne": "720261",
+            "productTwo": "720262",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "cloudlab-advance-grow-tents",
+            "description": "A grow tent designed to grow plants indoors by providing complete control over climate conditions. Featuring a quick-view observation window, this grow tent uses a waterproof oxford canvas with a 2000D thickness for higher durability and light-proofing. Cross-patterned diamond mylar lines the surface of the inner walls, which will reflect and maximize output from your grow light. To ensure maximum reflectivity and prevent light leaking, an inner ribbon stitching creates a seal that lines the zippers inside the grow tent. Additionally, the duct ports’ double cinching design closes them on either side to reinforce the light-proof sealing. Accessories include a waterproof floor tray, a built-in tool bag, and a mounting plate to install your controller onto the grow tent.An advanced grow tent designed to create optimal climate conditions for year-round plant cultivation indoors.Features durable frame that uses 50% thicker steel poles and carries 2x more weight than standard grow tents.Higher density 2000D canvas prevents light leaks while diamond mylar amplifies light reflectivity.Future ready design featuring controller mounting plate with passthrough for no light-leak cable management."
+          }
+        },
+        "c9c4055d-f477-4c99-a8bf-e897899b0287": {
+          "type": "text",
+          "settings": {
+            "title": "Grow Pros Solutions LED",
+            "productOne": "720231",
+            "productTwo": "720223",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "grow-pros-solutions-led",
+            "description": "A full-spectrum LED rack lighting solution designed for commercial indoor and greenhouse applications, enabling control over the plant cycle from the vegetative stage to the flowering stage. Indoor plants grow best under full-spectrum lights, which replicate the natural spectrum of the sun. The HM480 Series, with an increased lifespan over traditional grow light sources, cultivates healthier, happier plants. 7 year warranty. • Compatible with TrolMaster system+Adapter LMA-14• Added one extension bar on each side to cover 4’ x 4’ or 4’ x 5’ grow tray• Come with 120-277V AC output quick access outlet on the fixture• Foldable design, easy installation• Up to 30% more energy saving than traditional HID and HPS• Optimized spectrum proven by growers for veg and flowering• Superior delivered PPF and PAR exceeding 1000W HPS• Scientifically engineered to maximize photosynthesis, growth, and yieldWarranty: 7-year limited"
+          }
+        },
+        "2e91aee1-7936-4ea1-bc58-43316fc4b711": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "productOne": "700027",
+            "productTwo": "200090",
+            "productThree": "310220",
+            "productFour": "200080",
+            "productFive": "",
+            "productSix": "",
+            "product": "light-timer-auto-pilot",
+            "description": "Dual Outlet Digital Timer120v dual outlet digital timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded1 second on\/offUp to 8 on\/off cycles per day15A\/1725WDual Outlet Analog Timer120v dual outlet analog timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded15 minute on\/off24 hour cycle15A\/1725WSingle Outlet Digital Timer120v single outlet digital timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded1 second on\/offUp to 8 on\/off cycles per day15A\/1725WSingle Outlet Analog Timer120v single outlet analog timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded15 minute on\/off24 hour cycle15A\/1725W"
+          }
+        }
+      },
+      "block_order": [
+        "aa2eda33-6136-4de3-8c99-91808745e01d",
+        "c9c4055d-f477-4c99-a8bf-e897899b0287",
+        "2e91aee1-7936-4ea1-bc58-43316fc4b711"
+      ],
+      "settings": {
+        "title": "Mid Level Kit with LED's",
+        "top-of-page": "",
+        "bottom-of-page": "",
+        "other-kits": ""
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "heading": "You may also like",
+        "show_quick_buy": false
+      }
+    },
+    "promotion": {
+      "type": "static-promotion-list",
+      "disabled": true,
+      "settings": {
+        "expand_items": false,
+        "section_size": "medium",
+        "stack_mobile": false
+      }
+    },
+    "recentyViewed": {
+      "type": "static-recently-viewed-products",
+      "settings": {
+        "show_section": true,
+        "title": "Recently viewed",
+        "show_quick_buy": false
+      }
+    }
+  },
+  "order": [
+    "1649376143d7978c59",
+    "1649376370de73efeb",
+    "16493722588ba898e7",
+    "1652228192045364d7",
+    "recommendations",
+    "promotion",
+    "recentyViewed"
+  ]
+}
