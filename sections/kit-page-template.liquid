@@ -25,10 +25,10 @@
 		{% assign variantsArray = variants | split: ' ' %}
 
 	  		{% assign sku = block.settings.productOne %}
-	  		{% assign prod = block.settings.product %}
+	  		{% assign product = block.settings.product %}
 
 	  		<!-- CANNOT CHANGE HTML OR IT WILL BREAK THE JAVASCRIPT -->
-			<div class="product-container" id="{{ prod.handle }}">
+			<div class="product-container" id="{{ product.handle }}">
 
 
 			  	<section class="title-description">
@@ -37,9 +37,9 @@
 			  	</section>
 
 			  	<section class="eachProduct">
-				  	{% for option in prod.variants %}
+				  	{% for option in product.variants %}
 		          		{% if option.sku == sku %}
-		      				{% if prod.has_only_default_variant %}
+		      				{% if product.has_only_default_variant %}
 		      					<img src='{{ block.settings.image | img_url }}' style='width: 200px;' class="product-image">
 							{% else %}
 								<img class="product-image" src='{{ option.image | img_url }}'> 
@@ -51,7 +51,7 @@
 								<label for='variants'>Choose a hose</label>
 								<select name="variants" class="variants-selector">
 									{% for sku in variantsArray %}
-										{% for title in prod.variants %}
+										{% for title in product.variants %}
 											{% if title.sku == sku %}
 												<option value={{ sku }}>{{ title.title }}</option>
 											{% endif %}
