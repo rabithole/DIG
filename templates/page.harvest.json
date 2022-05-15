@@ -117,12 +117,27 @@
             "product": "proworks-nitrile-blend-gloves",
             "description": "<li>Non sterile<\/li> <li>Not for medical use<\/li> <li>Ambidextrous, beaded cuff, smooth external finish<\/li> <li>Single use, disposable<\/li> <li>Made from Advanced Synthetic Elastomer and Polyvinylchloride (PVC)* <\/li>  <li>PU Coating in interior surface, powder free<\/li> <li>DINP, DOP, DEHP free<\/li>"
           }
+        },
+        "fea33449-60f6-4776-a62f-e51ca7d69e7a": {
+          "type": "text",
+          "settings": {
+            "title": "Humidity Pack",
+            "productOne": "200220",
+            "productTwo": "200240",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "boveda-humidity-packs",
+            "description": "Boveda not only knows 2-way humidity control for packages and containers - they invented it. Their patented humidity control packs regulate moisture content, keeping the contents of your containers at the perfect desired level. They don’t need any activation or maintenance. Just place them in an airtight container with your items, and Boveda technology will do the rest."
+          }
         }
       },
       "block_order": [
         "71f49726-9fc6-4037-ad5a-6af74628e092",
         "8cf02e5f-fbef-4deb-8fa7-a6fc67b08fb6",
-        "87d8f120-4721-434b-a92c-879b9cae521a"
+        "87d8f120-4721-434b-a92c-879b9cae521a",
+        "fea33449-60f6-4776-a62f-e51ca7d69e7a"
       ],
       "settings": {
         "title": "",
