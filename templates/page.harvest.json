@@ -103,11 +103,26 @@
             "product": "harvest-more-trimbin",
             "description": "The TrimBin trim tray by Harvest-More® features an ergonomic design that makes trim work more enjoyable. The two-part system allows for versatility and efficient use of space."
           }
+        },
+        "87d8f120-4721-434b-a92c-879b9cae521a": {
+          "type": "text",
+          "settings": {
+            "title": "Nitrile\/Vinyle Glove",
+            "productOne": "720219",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "proworks-nitrile-blend-gloves",
+            "description": ""
+          }
         }
       },
       "block_order": [
         "71f49726-9fc6-4037-ad5a-6af74628e092",
-        "8cf02e5f-fbef-4deb-8fa7-a6fc67b08fb6"
+        "8cf02e5f-fbef-4deb-8fa7-a6fc67b08fb6",
+        "87d8f120-4721-434b-a92c-879b9cae521a"
       ],
       "settings": {
         "title": "",
