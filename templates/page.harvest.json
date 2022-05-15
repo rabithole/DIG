@@ -131,13 +131,28 @@
             "product": "boveda-humidity-packs",
             "description": "Boveda not only knows 2-way humidity control for packages and containers - they invented it. Their patented humidity control packs regulate moisture content, keeping the contents of your containers at the perfect desired level. They don’t need any activation or maintenance. Just place them in an airtight container with your items, and Boveda technology will do the rest."
           }
+        },
+        "3067712b-3b1d-42e9-9b9f-8259a19ba424": {
+          "type": "text",
+          "settings": {
+            "title": "Drying Rack",
+            "productOne": "700116",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "curing-rack-grow1",
+            "description": "Our Drying Racks are so versatile and customizable you won’t ever use anything else! Made of breathable mesh material there’s no need to worry about rotting or fungus, and the side walls encompass each layer so there’s no danger of dropping or losing any of your yield. Available in multiple sizes, with and without clips, these racks will fit any grow room situation. And when you’re done using them, simply collapse them and store them in the included black carrying case."
+          }
         }
       },
       "block_order": [
         "71f49726-9fc6-4037-ad5a-6af74628e092",
         "8cf02e5f-fbef-4deb-8fa7-a6fc67b08fb6",
         "87d8f120-4721-434b-a92c-879b9cae521a",
-        "fea33449-60f6-4776-a62f-e51ca7d69e7a"
+        "fea33449-60f6-4776-a62f-e51ca7d69e7a",
+        "3067712b-3b1d-42e9-9b9f-8259a19ba424"
       ],
       "settings": {
         "title": "",
