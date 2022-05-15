@@ -94,13 +94,13 @@
           "type": "text",
           "settings": {
             "title": "AC Infinity Exhaust Fan",
-            "productOne": "600703",
-            "productTwo": "600696",
+            "productOne": "600625",
+            "productTwo": "200700",
             "productThree": "",
             "productFour": "",
             "productFive": "",
             "productSix": "",
-            "product": "inline-fan",
+            "product": "can-filters-fan-motors",
             "description": "Designed to ventilate hydroponic grow rooms, transfer heating\/cooling, cool AV closets, and exhaust odors. Intelligent controller with temperature and humidity programming, fan speed control, timer, and alarm system. Mixed flow design combined with a PWM-controlled EC-motor for a truly quiet and energy efficient performance."
           }
         },
@@ -117,12 +117,27 @@
             "product": "ac-infinity-flexible-ducting",
             "description": "This ducting is designed for various ventilation, circulation, and heating\/cooling transfer applications. It features four-layer protection, making it more durable and resistant to leaks than single-layer designs. The internal layer is made of heavy-duty dual aluminum foil that is fire\/flame resistant. Its outer layer utilizes dual PVC thermoplastic that protects the aluminum from cuts and tears while stopping leakage. Each duct tube is held together by an internal steel-wire spiral that is flexible and easy to install in hard to reach places. The ducting can be shortened by cutting the tube to fit various applications. Includes two stainless steel duct clamps.Designed for ventilation applications including HVAC, dryer, grow rooms and tents.Four-layer design makes it more durable and resistant to leaks, tears, and cuts.Steel-wire spiral structure is flexible and easy-to-install in hard to reach places.Constructed of aluminum and thermoplastic; tube can be shortened for various applications."
           }
+        },
+        "c353de83-3b1b-4d37-ac71-c272ec341b60": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "productOne": "",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "",
+            "description": ""
+          }
         }
       },
       "block_order": [
         "689cbf0c-cfd9-4aba-ac65-9c4bfbf208f1",
         "a9755c85-d087-4bfe-b49b-1787d9a90b92",
-        "44440adf-6cee-4032-b956-b3c39b8221a2"
+        "44440adf-6cee-4032-b956-b3c39b8221a2",
+        "c353de83-3b1b-4d37-ac71-c272ec341b60"
       ],
       "settings": {
         "title": "Mid Level Air and Humidity Control",
