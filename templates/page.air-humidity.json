@@ -68,7 +68,7 @@
       ],
       "settings": {
         "title": "Air & Humidity Kit",
-        "top-of-page": "<h3><b>Be sure all components are of the same diameter.<\/b><\/h3>",
+        "top-of-page": "<h2><b>Be sure all components are of the same diameter.<\/b><\/h2>",
         "bottom-of-page": "",
         "other-kits": ""
       }
