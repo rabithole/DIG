@@ -2,24 +2,24 @@
   "sections": {
     "1652455439fc4e7e18": {
       "type": "kit-page-template",
-      "disabled": true,
       "blocks": {
         "16949ee4-3328-409a-80f7-d50262d1e15e": {
           "type": "text",
           "settings": {
-            "title": "Titanium Trimming Shears",
-            "productOne": "310400",
-            "productTwo": "310401",
+            "title": "",
+            "productOne": "",
+            "productTwo": "",
             "productThree": "720190",
             "productFour": "",
             "productFive": "",
             "productSix": "",
-            "product": "grow1-micro-blade",
-            "description": "These Titanium micro blade scissors come in 3 styles and feature a spring mechanism in the handle that is fully recessed so it won’t fall out!"
+            "product": "",
+            "description": ""
           }
         },
         "72d215d3-5642-40d2-a0b2-eddaf5b0bd52": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "Humidity Pack",
             "productOne": "200220",
@@ -34,6 +34,7 @@
         },
         "d30c8764-bd9f-4171-9e16-775726fc848d": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "20 Pack Nitrile Gloves",
             "productOne": "600613",
@@ -54,7 +55,7 @@
       ],
       "settings": {
         "title": "Kits for Harvesting",
-        "top-of-page": "",
+        "top-of-page": "Your plants have three main phases in their life cycle. Each has different nutrient requirements. In order to maximize your plants potential, they need to be fed the right nutes for each phase.",
         "bottom-of-page": "",
         "other-kits": ""
       }
