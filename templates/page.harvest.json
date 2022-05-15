@@ -89,10 +89,25 @@
             "product": "trimming-scissors-piranha",
             "description": "Straight bladed trimming shears by Prianha. A brand from DL Wholesale. Stainless steel blade for a long life."
           }
+        },
+        "8cf02e5f-fbef-4deb-8fa7-a6fc67b08fb6": {
+          "type": "text",
+          "settings": {
+            "title": "Trim Bin",
+            "productOne": "200440",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "harvest-more-trimbin",
+            "description": "The TrimBin trim tray by Harvest-More® features an ergonomic design that makes trim work more enjoyable. The two-part system allows for versatility and efficient use of space."
+          }
         }
       },
       "block_order": [
-        "71f49726-9fc6-4037-ad5a-6af74628e092"
+        "71f49726-9fc6-4037-ad5a-6af74628e092",
+        "8cf02e5f-fbef-4deb-8fa7-a6fc67b08fb6"
       ],
       "settings": {
         "title": "",
