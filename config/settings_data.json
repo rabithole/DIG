@@ -1371,10 +1371,9 @@
           },
           "16494685530c886071-3": {
             "type": "link",
-            "disabled": true,
             "settings": {
-              "title": "Your link",
-              "link": ""
+              "title": "Harvesting Kits",
+              "link": "shopify:\/\/pages\/harvest"
             }
           },
           "16494685530c886071-4": {
