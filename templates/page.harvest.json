@@ -73,6 +73,34 @@
         "other-kits": ""
       }
     },
+    "16526377103094cc19": {
+      "type": "kit-page-template",
+      "blocks": {
+        "71f49726-9fc6-4037-ad5a-6af74628e092": {
+          "type": "text",
+          "settings": {
+            "title": "Piranha Trimming Shears",
+            "productOne": "700108",
+            "productTwo": "700109",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "trimming-scissors-piranha",
+            "description": "Straight bladed trimming shears by Prianha. A brand from DL Wholesale. Stainless steel blade for a long life."
+          }
+        }
+      },
+      "block_order": [
+        "71f49726-9fc6-4037-ad5a-6af74628e092"
+      ],
+      "settings": {
+        "title": "",
+        "top-of-page": "",
+        "bottom-of-page": "",
+        "other-kits": ""
+      }
+    },
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -100,6 +128,7 @@
   },
   "order": [
     "main",
+    "16526377103094cc19",
     "recommendations",
     "promotion",
     "recentyViewed"
