@@ -20,7 +20,7 @@
         "b42a14db-14aa-4c33-9c30-f8aa5656cc6a": {
           "type": "text",
           "settings": {
-            "title": "AC Infinity Carbon Filter",
+            "title": "AC Infinity Odor Filter",
             "productOne": "600704",
             "productTwo": "600700",
             "productThree": "600701",
@@ -121,14 +121,14 @@
         "c353de83-3b1b-4d37-ac71-c272ec341b60": {
           "type": "text",
           "settings": {
-            "title": "",
-            "productOne": "",
-            "productTwo": "",
+            "title": "AC Infinity Odor Filter",
+            "productOne": "600700",
+            "productTwo": "600701",
             "productThree": "",
             "productFour": "",
             "productFive": "",
             "productSix": "",
-            "product": "",
+            "product": "grow-room-garden-filter",
             "description": ""
           }
         }
