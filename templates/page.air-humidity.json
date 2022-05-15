@@ -68,7 +68,7 @@
       ],
       "settings": {
         "title": "Air & Humidity Kit",
-        "top-of-page": "<p style=\"color: black; font-size: 1.8vw\"><b>When choosing products, be sure all components are of the same diameter.<\/b><\/p>",
+        "top-of-page": "<p class=\"ahKitDetails\"><b>When choosing products, be sure all components are of the same diameter.<\/b><\/p>",
         "bottom-of-page": "",
         "other-kits": ""
       }
@@ -141,7 +141,7 @@
       ],
       "settings": {
         "title": "Mid Level Air and Humidity Control",
-        "top-of-page": "",
+        "top-of-page": "<p class=\"ahKitDetails\"><b>When choosing products, be sure all components are of the same diameter.<\/b><\/p>",
         "bottom-of-page": "",
         "other-kits": ""
       }
