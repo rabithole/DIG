@@ -28,22 +28,21 @@
             "productFive": "",
             "productSix": "",
             "product": "advanced-nutrients-bloom",
-            "description": "Boveda not only knows 2-way humidity control for packages and containers - they invented it. Their patented humidity control packs regulate moisture content, keeping the contents of your containers at the perfect desired level. They don’t need any activation or maintenance. Just place them in an airtight container with your items, and Boveda technology will do the rest."
+            "description": "Advanced Nutrients Micro is part of a three part base system. Using a high-quality micronutrient formula is your ticket to a rewarding garden. By combining Advanced Nutrients pH Perfect® Micro with pH Perfect Grow and pH Perfect Bloom, you're providing your plants what they need to give you a happier harvest day. It's guaranteed!"
           }
         },
         "d30c8764-bd9f-4171-9e16-775726fc848d": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "title": "20 Pack Nitrile Gloves",
-            "productOne": "600613",
-            "productTwo": "600614",
-            "productThree": "600615",
+            "title": "pH Perfect Micro",
+            "productOne": "100290",
+            "productTwo": "100291",
+            "productThree": "",
             "productFour": "",
             "productFive": "",
             "productSix": "",
-            "product": "nitrile-glove-n-dex",
-            "description": "The world’s first 100% nitrile disposable glove, N-DEX 7005 provides unmatched dexterity and performance across a range of tactical applications using revolutionary SHOWA technology."
+            "product": "advanced-nutrients-micro",
+            "description": "Advanced Nutrients Micro is part of a three part base system. Using a high-quality micronutrient formula is your ticket to a rewarding garden. By combining Advanced Nutrients pH Perfect® Micro with pH Perfect Grow and pH Perfect Bloom, you're providing your plants what they need to give you a happier harvest day. It's guaranteed!"
           }
         }
       },
@@ -55,6 +54,34 @@
       "settings": {
         "title": "Nutrient Kits",
         "top-of-page": "Your plants have three main phases in their life cycle. Each has different nutrient requirements. In order to maximize your plants potential, they need to be fed the right nutes for each phase. If you are new to growing, we suggest a simplified approach by choosing one of our kits below.",
+        "bottom-of-page": "",
+        "other-kits": ""
+      }
+    },
+    "165271604342e24715": {
+      "type": "kit-page-template",
+      "blocks": {
+        "e1b79ef0-7dea-4a46-86db-854dbd6d47c5": {
+          "type": "text",
+          "settings": {
+            "title": "pH Perfect Sensi Bloom",
+            "productOne": "",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "e1b79ef0-7dea-4a46-86db-854dbd6d47c5"
+      ],
+      "settings": {
+        "title": "Two Part pH  Perfect",
+        "top-of-page": "",
         "bottom-of-page": "",
         "other-kits": ""
       }
@@ -87,6 +114,7 @@
   },
   "order": [
     "1652455439fc4e7e18",
+    "165271604342e24715",
     "recommendations",
     "promotion",
     "recentyViewed"
