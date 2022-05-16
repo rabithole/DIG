@@ -72,64 +72,6 @@
         "other-kits": ""
       }
     },
-    "1652228192045364d7": {
-      "type": "kit-page-template",
-      "blocks": {
-        "aa2eda33-6136-4de3-8c99-91808745e01d": {
-          "type": "text",
-          "settings": {
-            "title": "AC Infinity CloudLab Grow Tent",
-            "productOne": "720261",
-            "productTwo": "720262",
-            "productThree": "",
-            "productFour": "",
-            "productFive": "",
-            "productSix": "",
-            "product": "cloudlab-advance-grow-tents",
-            "description": "A grow tent designed to grow plants indoors by providing complete control over climate conditions. Featuring a quick-view observation window, this grow tent uses a waterproof oxford canvas with a 2000D thickness for higher durability and light-proofing. Cross-patterned diamond mylar lines the surface of the inner walls, which will reflect and maximize output from your grow light. To ensure maximum reflectivity and prevent light leaking, an inner ribbon stitching creates a seal that lines the zippers inside the grow tent. Additionally, the duct ports’ double cinching design closes them on either side to reinforce the light-proof sealing. Accessories include a waterproof floor tray, a built-in tool bag, and a mounting plate to install your controller onto the grow tent.An advanced grow tent designed to create optimal climate conditions for year-round plant cultivation indoors.Features durable frame that uses 50% thicker steel poles and carries 2x more weight than standard grow tents.Higher density 2000D canvas prevents light leaks while diamond mylar amplifies light reflectivity.Future ready design featuring controller mounting plate with passthrough for no light-leak cable management."
-          }
-        },
-        "c9c4055d-f477-4c99-a8bf-e897899b0287": {
-          "type": "text",
-          "settings": {
-            "title": "Grow Pros Solutions LED",
-            "productOne": "720231",
-            "productTwo": "720223",
-            "productThree": "",
-            "productFour": "",
-            "productFive": "",
-            "productSix": "",
-            "product": "grow-pros-solutions-led",
-            "description": "A full-spectrum LED rack lighting solution designed for commercial indoor and greenhouse applications, enabling control over the plant cycle from the vegetative stage to the flowering stage. Indoor plants grow best under full-spectrum lights, which replicate the natural spectrum of the sun. The HM480 Series, with an increased lifespan over traditional grow light sources, cultivates healthier, happier plants. 7 year warranty. • Compatible with TrolMaster system+Adapter LMA-14• Added one extension bar on each side to cover 4’ x 4’ or 4’ x 5’ grow tray• Come with 120-277V AC output quick access outlet on the fixture• Foldable design, easy installation• Up to 30% more energy saving than traditional HID and HPS• Optimized spectrum proven by growers for veg and flowering• Superior delivered PPF and PAR exceeding 1000W HPS• Scientifically engineered to maximize photosynthesis, growth, and yieldWarranty: 7-year limited"
-          }
-        },
-        "2e91aee1-7936-4ea1-bc58-43316fc4b711": {
-          "type": "text",
-          "settings": {
-            "title": "",
-            "productOne": "700027",
-            "productTwo": "200090",
-            "productThree": "310220",
-            "productFour": "200080",
-            "productFive": "",
-            "productSix": "",
-            "product": "light-timer-auto-pilot",
-            "description": "Dual Outlet Digital Timer120v dual outlet digital timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded1 second on\/offUp to 8 on\/off cycles per day15A\/1725WDual Outlet Analog Timer120v dual outlet analog timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded15 minute on\/off24 hour cycle15A\/1725WSingle Outlet Digital Timer120v single outlet digital timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded1 second on\/offUp to 8 on\/off cycles per day15A\/1725WSingle Outlet Analog Timer120v single outlet analog timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded15 minute on\/off24 hour cycle15A\/1725W"
-          }
-        }
-      },
-      "block_order": [
-        "aa2eda33-6136-4de3-8c99-91808745e01d",
-        "c9c4055d-f477-4c99-a8bf-e897899b0287",
-        "2e91aee1-7936-4ea1-bc58-43316fc4b711"
-      ],
-      "settings": {
-        "title": "Mid Level Kit with LED's",
-        "top-of-page": "",
-        "bottom-of-page": "",
-        "other-kits": ""
-      }
-    },
     "promotion": {
       "type": "static-promotion-list",
       "blocks": {
@@ -200,6 +142,64 @@
         "stack_mobile": false
       }
     },
+    "1652228192045364d7": {
+      "type": "kit-page-template",
+      "blocks": {
+        "aa2eda33-6136-4de3-8c99-91808745e01d": {
+          "type": "text",
+          "settings": {
+            "title": "AC Infinity CloudLab Grow Tent",
+            "productOne": "720261",
+            "productTwo": "720262",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "cloudlab-advance-grow-tents",
+            "description": "A grow tent designed to grow plants indoors by providing complete control over climate conditions. Featuring a quick-view observation window, this grow tent uses a waterproof oxford canvas with a 2000D thickness for higher durability and light-proofing. Cross-patterned diamond mylar lines the surface of the inner walls, which will reflect and maximize output from your grow light. To ensure maximum reflectivity and prevent light leaking, an inner ribbon stitching creates a seal that lines the zippers inside the grow tent. Additionally, the duct ports’ double cinching design closes them on either side to reinforce the light-proof sealing. Accessories include a waterproof floor tray, a built-in tool bag, and a mounting plate to install your controller onto the grow tent.An advanced grow tent designed to create optimal climate conditions for year-round plant cultivation indoors.Features durable frame that uses 50% thicker steel poles and carries 2x more weight than standard grow tents.Higher density 2000D canvas prevents light leaks while diamond mylar amplifies light reflectivity.Future ready design featuring controller mounting plate with passthrough for no light-leak cable management."
+          }
+        },
+        "c9c4055d-f477-4c99-a8bf-e897899b0287": {
+          "type": "text",
+          "settings": {
+            "title": "Grow Pros Solutions LED",
+            "productOne": "720231",
+            "productTwo": "720223",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "grow-pros-solutions-led",
+            "description": "A full-spectrum LED rack lighting solution designed for commercial indoor and greenhouse applications, enabling control over the plant cycle from the vegetative stage to the flowering stage. Indoor plants grow best under full-spectrum lights, which replicate the natural spectrum of the sun. The HM480 Series, with an increased lifespan over traditional grow light sources, cultivates healthier, happier plants. 7 year warranty. • Compatible with TrolMaster system+Adapter LMA-14• Added one extension bar on each side to cover 4’ x 4’ or 4’ x 5’ grow tray• Come with 120-277V AC output quick access outlet on the fixture• Foldable design, easy installation• Up to 30% more energy saving than traditional HID and HPS• Optimized spectrum proven by growers for veg and flowering• Superior delivered PPF and PAR exceeding 1000W HPS• Scientifically engineered to maximize photosynthesis, growth, and yieldWarranty: 7-year limited"
+          }
+        },
+        "2e91aee1-7936-4ea1-bc58-43316fc4b711": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "productOne": "700027",
+            "productTwo": "200090",
+            "productThree": "310220",
+            "productFour": "200080",
+            "productFive": "",
+            "productSix": "",
+            "product": "light-timer-auto-pilot",
+            "description": "Dual Outlet Digital Timer120v dual outlet digital timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded1 second on\/offUp to 8 on\/off cycles per day15A\/1725WDual Outlet Analog Timer120v dual outlet analog timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded15 minute on\/off24 hour cycle15A\/1725WSingle Outlet Digital Timer120v single outlet digital timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded1 second on\/offUp to 8 on\/off cycles per day15A\/1725WSingle Outlet Analog Timer120v single outlet analog timer. Good for lighting, watering or air control. Automating your grow environment frees you up from the daily need to personally attend to these three daily plant needs.Grounded15 minute on\/off24 hour cycle15A\/1725W"
+          }
+        }
+      },
+      "block_order": [
+        "aa2eda33-6136-4de3-8c99-91808745e01d",
+        "c9c4055d-f477-4c99-a8bf-e897899b0287",
+        "2e91aee1-7936-4ea1-bc58-43316fc4b711"
+      ],
+      "settings": {
+        "title": "Mid Level Kit with LED's",
+        "top-of-page": "",
+        "bottom-of-page": "",
+        "other-kits": ""
+      }
+    },
     "recentyViewed": {
       "type": "static-recently-viewed-products",
       "settings": {
@@ -222,8 +222,8 @@
     "1649376143d7978c59",
     "1649376370de73efeb",
     "16493722588ba898e7",
-    "1652228192045364d7",
     "promotion",
+    "1652228192045364d7",
     "recentyViewed",
     "recommendations"
   ]
