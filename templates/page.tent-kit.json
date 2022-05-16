@@ -130,18 +130,49 @@
         "other-kits": ""
       }
     },
-    "recommendations": {
-      "type": "product-recommendations",
-      "disabled": true,
-      "settings": {
-        "show_product_recommendations": true,
-        "heading": "You may also like",
-        "show_quick_buy": false
-      }
-    },
     "promotion": {
       "type": "static-promotion-list",
-      "disabled": true,
+      "blocks": {
+        "9cac0e71-2daa-464a-b485-c190d01bc277": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/princess-getting-ready-for-transport.png",
+            "show_overlay": true,
+            "overlay_opacity": 100,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Air and Humidity Kits",
+            "content": "A grow tent kit is a good start. If you want to maximize your grow, we recommend an Air and Humidity Kit.",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Air & Humidity Kits",
+            "button_link": "shopify:\/\/pages\/air-humidity"
+          }
+        },
+        "bf07a3dc-2bcd-4e2b-8902-9ef0786a3c60": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Your heading",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "9cac0e71-2daa-464a-b485-c190d01bc277",
+        "bf07a3dc-2bcd-4e2b-8902-9ef0786a3c60"
+      ],
       "settings": {
         "expand_items": false,
         "section_size": "medium",
@@ -155,6 +186,15 @@
         "title": "Recently viewed",
         "show_quick_buy": false
       }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "heading": "You may also like",
+        "show_quick_buy": false
+      }
     }
   },
   "order": [
@@ -162,8 +202,8 @@
     "1649376370de73efeb",
     "16493722588ba898e7",
     "1652228192045364d7",
-    "recommendations",
     "promotion",
-    "recentyViewed"
+    "recentyViewed",
+    "recommendations"
   ]
 }
