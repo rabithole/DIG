@@ -87,7 +87,7 @@
             "title": "Air and Humidity Kits",
             "content": "A grow tent kit is a good start. If you want to maximize your grow, we recommend an Air and Humidity Kit.",
             "content_position": "top_left",
-            "button_background": "#ffffff",
+            "button_background": "#7fb38e",
             "button_text_color": "#000000",
             "button_text": "Air & Humidity Kits",
             "button_link": "shopify:\/\/pages\/air-humidity"
@@ -105,7 +105,7 @@
             "title": "Harvest Kits",
             "content": "You spent all this time treating your babies right, don't stop at the bud. Our harvest kits will make sure your hard earned work is treated right.",
             "content_position": "top_left",
-            "button_background": "#ffffff",
+            "button_background": "#7fb38e",
             "button_text_color": "#000000",
             "button_text": "Harvest Kits",
             "button_link": "shopify:\/\/pages\/harvest"
@@ -123,7 +123,7 @@
             "title": "Nutrients",
             "content": "Nothing grows and thrives without food. Checkout our nutrient kits. They make the challenge of what to feed your plants easy.",
             "content_position": "top_left",
-            "button_background": "#ffffff",
+            "button_background": "#7fb38e",
             "button_text_color": "#000000",
             "button_text": "Nutrients",
             "button_link": "shopify:\/\/pages\/nutes-and-soil"
