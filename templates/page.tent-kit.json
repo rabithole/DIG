@@ -136,9 +136,9 @@
         "9cac0e71-2daa-464a-b485-c190d01bc277": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/princess-getting-ready-for-transport.png",
+            "image": "shopify:\/\/shop_images\/air-humidity.jpg",
             "show_overlay": true,
-            "overlay_opacity": 100,
+            "overlay_opacity": 46,
             "stretch_image": true,
             "background": "#000000",
             "text_color": "#ffffff",
@@ -173,6 +173,7 @@
           "type": "item",
           "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/air-humidity.jpg",
             "show_overlay": false,
             "overlay_opacity": 50,
             "stretch_image": false,
