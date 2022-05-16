@@ -80,7 +80,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/air-humidity.jpg",
             "show_overlay": true,
-            "overlay_opacity": 46,
+            "overlay_opacity": 71,
             "stretch_image": true,
             "background": "#000000",
             "text_color": "#ffffff",
@@ -113,21 +113,20 @@
         },
         "2fb245a2-dcf4-485b-96cd-c5dd7f52f28d": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/air-humidity.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "stretch_image": false,
+            "image": "shopify:\/\/shop_images\/Gold_Shield_Home_Badge_2020-1.png",
+            "show_overlay": true,
+            "overlay_opacity": 62,
+            "stretch_image": true,
             "background": "#000000",
             "text_color": "#ffffff",
-            "title": "Your heading",
-            "content": "Tell more about your product, collection...",
+            "title": "Nutrients",
+            "content": "Nothing grows and thrives without food. Checkout our nutrient kits. They make the challenge of what to feed your plants easy.",
             "content_position": "top_left",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
-            "button_text": "Learn more",
-            "button_link": ""
+            "button_text": "Nutrients",
+            "button_link": "shopify:\/\/pages\/nutes-and-soil"
           }
         }
       },
