@@ -21,13 +21,13 @@
           "type": "text",
           "settings": {
             "title": "Humidity Pack",
-            "productOne": "200220",
-            "productTwo": "200240",
+            "productOne": "200610",
+            "productTwo": "200611",
             "productThree": "",
             "productFour": "",
             "productFive": "",
             "productSix": "",
-            "product": "boveda-humidity-packs",
+            "product": "integra-boost-humidiccant",
             "description": "Boveda not only knows 2-way humidity control for packages and containers - they invented it. Their patented humidity control packs regulate moisture content, keeping the contents of your containers at the perfect desired level. They don’t need any activation or maintenance. Just place them in an airtight container with your items, and Boveda technology will do the rest."
           }
         },
