@@ -13879,9 +13879,38 @@ to turn off this for now...
   font-size: 2vw;
 }
 
+.product-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  /* background-color: white; */
+  width: 500px;
+  height: 400px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black; 
+}
+
+.eachProduct {
+  position: relative;
+  border-left: 2px solid black;
+  padding: 6px;
+}
+
 @media only screen and ( max-width: 850px ) {
   .kitTotal {
     font-size: 4vw;
+  }
+
+  .product-container {
+    /*height: auto;*/
+  }
+
+  .eachProduct {
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+    
   }
 }
 
@@ -13896,29 +13925,11 @@ to turn off this for now...
   /* background-color: #23453D; */
 }
 
-.product-container {
-  display: flex;
-  justify-content: space-around;
-  margin: 10px;
-  /* background-color: white; */
-  width: 500px;
-  height: auto;
-  border: 1px solid grey;
-  border-radius: 5px;
-  box-shadow: 1px 1px 5px black; 
-}
-
 .title-description {
   display: flex;
   flex-direction: column;
   padding: 10px;
   overflow: hidden;
-}
-
-.eachProduct {
-  position: relative;
-  border-left: 2px solid black;
-  padding: 6px;
 }
 
 .product-container .title-description {
@@ -13962,10 +13973,10 @@ to turn off this for now...
   }
 }
 
-.product-model {
+/*.product-model {
   position: absolute;
   bottom: 20px;   
-}
+}*/
 
 .product-price {
   margin-top: 60px;
@@ -14080,7 +14091,8 @@ to turn off this for now...
 }
 
 .ahKitDetails {
-  color: black;
+  color: red;
+  text-decoration: underline;
   font-size: 1.8vw;
   font-weight: bold;
 }
