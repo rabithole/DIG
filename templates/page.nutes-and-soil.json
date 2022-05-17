@@ -8,8 +8,8 @@
           "settings": {
             "title": "pH Perfect Grow",
             "productOne": "100280",
-            "productTwo": "100281",
-            "productThree": "720190",
+            "productTwo": "",
+            "productThree": "",
             "productFour": "",
             "productFive": "",
             "productSix": "",
@@ -22,7 +22,7 @@
           "settings": {
             "title": "pH Perfect Bloom",
             "productOne": "100300",
-            "productTwo": "100301",
+            "productTwo": "",
             "productThree": "",
             "productFour": "",
             "productFive": "",
@@ -36,7 +36,7 @@
           "settings": {
             "title": "pH Perfect Micro",
             "productOne": "100290",
-            "productTwo": "100291",
+            "productTwo": "",
             "productThree": "",
             "productFour": "",
             "productFive": "",
@@ -61,12 +61,40 @@
     "165271604342e24715": {
       "type": "kit-page-template",
       "blocks": {
+        "ee428664-faac-49d9-a0cd-117ec2add236": {
+          "type": "text",
+          "settings": {
+            "title": "pH Perfect Sensi Grow A",
+            "productOne": "600586",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "ph-perfect-sensi-grow-a-b",
+            "description": "After hundreds of man-hours, our R and D team has perfectly formulated all the primary, secondary and micronutrients your crops need for outstanding growth. Because these ingredients are all supplied fully or partially chelated in pH Perfect Sensi Grow – some even in multiple chelated forms – your plants will absorb them effortlessly. What’s more, they will benefit from a wide range of amino acids to power the construction of cell walls in roots, stems and leaves. You’ll also witness amazing results from the humic acids and powerful non-ionic surfactant, which form a multi-stage delivery matrix to ensure your plants absorb the powerful nutrients you’re feeding them.And if that weren’t enough, you can throw away your pH meters and pens forever. Our proprietary pH Perfect Technology will keep the pH in the ‘sweet spot’ every week of the grow phase, with no measuring or tweaking. And as always, if you’re not thrilled and amazed with your results using pH Perfect Sensi Grow, you get 100% of your money back!"
+          }
+        },
+        "f5a603c8-9a66-4e1c-b9b9-7a44e20d169b": {
+          "type": "text",
+          "settings": {
+            "title": "pH Perfect Sensi Grow B",
+            "productOne": "600589",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "ph-perfect-sensi-grow-a-b",
+            "description": "After hundreds of man-hours, our R and D team has perfectly formulated all the primary, secondary and micronutrients your crops need for outstanding growth. Because these ingredients are all supplied fully or partially chelated in pH Perfect Sensi Grow – some even in multiple chelated forms – your plants will absorb them effortlessly. What’s more, they will benefit from a wide range of amino acids to power the construction of cell walls in roots, stems and leaves. You’ll also witness amazing results from the humic acids and powerful non-ionic surfactant, which form a multi-stage delivery matrix to ensure your plants absorb the powerful nutrients you’re feeding them.And if that weren’t enough, you can throw away your pH meters and pens forever. Our proprietary pH Perfect Technology will keep the pH in the ‘sweet spot’ every week of the grow phase, with no measuring or tweaking. And as always, if you’re not thrilled and amazed with your results using pH Perfect Sensi Grow, you get 100% of your money back!"
+          }
+        },
         "e1b79ef0-7dea-4a46-86db-854dbd6d47c5": {
           "type": "text",
           "settings": {
-            "title": "pH Perfect Sensi Bloom",
+            "title": "pH Perfect Sensi Bloom A",
             "productOne": "600592",
-            "productTwo": "600593",
+            "productTwo": "",
             "productThree": "",
             "productFour": "",
             "productFive": "",
@@ -75,24 +103,26 @@
             "description": "You’ll find everything your high-value crops need to get big, heavy, juicy buds in pH Perfect Sensi Bloom! First, you won’t have to worry about balancing your pH ever again because pH Perfect® Technology keeps the pH in the ‘sweet spot’ all week, every week, all the way to harvest time. Throw away your pH meters and pens! Second, your crops will burst with buds and with teeming, bountiful blossoms from the complete and steady stream of all the primary, secondary and micronutrients they need – and all fully or partially chelated to ensure maximum nutrient uptake and assimilation by your crops. You’ll also witness amazing results from the humic acids and powerful non-ionic surfactant, which form a multi-stage delivery matrix to ensure your plants absorb the powerful nutrients you’re feeding them. Finally, the diverse range of powerful blooming co-factors will give you the biggest buds possible. The bottom line: You’re guaranteed absolute and full satisfaction (with less hassle than ever) or you get all your money back with our world-famous Grower Guarantee!"
           }
         },
-        "ee428664-faac-49d9-a0cd-117ec2add236": {
+        "b3a02982-b4d6-4d2f-9738-dd02be4ce407": {
           "type": "text",
           "settings": {
-            "title": "pH Perfect Sensi",
-            "productOne": "600586",
-            "productTwo": "600587",
+            "title": "pH Perfect Sensi Bloom B",
+            "productOne": "600595",
+            "productTwo": "",
             "productThree": "",
             "productFour": "",
             "productFive": "",
             "productSix": "",
-            "product": "ph-perfect-sensi-grow-a-b",
-            "description": "After hundreds of man-hours, our R and D team has perfectly formulated all the primary, secondary and micronutrients your crops need for outstanding growth. Because these ingredients are all supplied fully or partially chelated in pH Perfect Sensi Grow – some even in multiple chelated forms – your plants will absorb them effortlessly. What’s more, they will benefit from a wide range of amino acids to power the construction of cell walls in roots, stems and leaves. You’ll also witness amazing results from the humic acids and powerful non-ionic surfactant, which form a multi-stage delivery matrix to ensure your plants absorb the powerful nutrients you’re feeding them.And if that weren’t enough, you can throw away your pH meters and pens forever. Our proprietary pH Perfect Technology will keep the pH in the ‘sweet spot’ every week of the grow phase, with no measuring or tweaking. And as always, if you’re not thrilled and amazed with your results using pH Perfect Sensi Grow, you get 100% of your money back!"
+            "product": "ph-perfect-sensi-bloom-a-b",
+            "description": "You’ll find everything your high-value crops need to get big, heavy, juicy buds in pH Perfect Sensi Bloom! First, you won’t have to worry about balancing your pH ever again because pH Perfect® Technology keeps the pH in the ‘sweet spot’ all week, every week, all the way to harvest time. Throw away your pH meters and pens! Second, your crops will burst with buds and with teeming, bountiful blossoms from the complete and steady stream of all the primary, secondary and micronutrients they need – and all fully or partially chelated to ensure maximum nutrient uptake and assimilation by your crops. You’ll also witness amazing results from the humic acids and powerful non-ionic surfactant, which form a multi-stage delivery matrix to ensure your plants absorb the powerful nutrients you’re feeding them. Finally, the diverse range of powerful blooming co-factors will give you the biggest buds possible. The bottom line: You’re guaranteed absolute and full satisfaction (with less hassle than ever) or you get all your money back with our world-famous Grower Guarantee!"
           }
         }
       },
       "block_order": [
+        "ee428664-faac-49d9-a0cd-117ec2add236",
+        "f5a603c8-9a66-4e1c-b9b9-7a44e20d169b",
         "e1b79ef0-7dea-4a46-86db-854dbd6d47c5",
-        "ee428664-faac-49d9-a0cd-117ec2add236"
+        "b3a02982-b4d6-4d2f-9738-dd02be4ce407"
       ],
       "settings": {
         "title": "Two Part pH  Perfect Sensi",
