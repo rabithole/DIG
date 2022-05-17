@@ -2,7 +2,6 @@
   "sections": {
     "1652455439fc4e7e18": {
       "type": "kit-page-template",
-      "disabled": true,
       "blocks": {
         "16949ee4-3328-409a-80f7-d50262d1e15e": {
           "type": "text",
@@ -61,7 +60,6 @@
     },
     "165271604342e24715": {
       "type": "kit-page-template",
-      "disabled": true,
       "blocks": {
         "ee428664-faac-49d9-a0cd-117ec2add236": {
           "type": "text",
@@ -160,6 +158,7 @@
     },
     "1652831719f0da7a37": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "image_position": "left",
         "image_width": 50,
