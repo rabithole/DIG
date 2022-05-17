@@ -8,8 +8,8 @@
           "settings": {
             "title": "pH Perfect Grow",
             "productOne": "100280",
-            "productTwo": "100281",
-            "productThree": "720190",
+            "productTwo": "",
+            "productThree": "",
             "productFour": "",
             "productFive": "",
             "productSix": "",
@@ -22,7 +22,7 @@
           "settings": {
             "title": "pH Perfect Bloom",
             "productOne": "100300",
-            "productTwo": "100301",
+            "productTwo": "",
             "productThree": "",
             "productFour": "",
             "productFive": "",
@@ -36,7 +36,7 @@
           "settings": {
             "title": "pH Perfect Micro",
             "productOne": "100290",
-            "productTwo": "100291",
+            "productTwo": "",
             "productThree": "",
             "productFour": "",
             "productFive": "",
@@ -66,7 +66,7 @@
           "settings": {
             "title": "pH Perfect Sensi Bloom",
             "productOne": "600592",
-            "productTwo": "600593",
+            "productTwo": "",
             "productThree": "",
             "productFour": "",
             "productFive": "",
@@ -80,7 +80,7 @@
           "settings": {
             "title": "pH Perfect Sensi",
             "productOne": "600586",
-            "productTwo": "600587",
+            "productTwo": "",
             "productThree": "",
             "productFour": "",
             "productFive": "",
