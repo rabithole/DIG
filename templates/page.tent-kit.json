@@ -131,7 +131,6 @@
         },
         "58dd101a-1982-45c9-a3a0-7a9a6a2e7328": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "show_overlay": false,
             "overlay_opacity": 50,
