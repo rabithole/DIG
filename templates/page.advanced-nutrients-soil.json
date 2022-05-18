@@ -131,8 +131,34 @@
         "other-kits": ""
       }
     },
+    "1652917517fb7c20fb": {
+      "type": "featured-product",
+      "disabled": true,
+      "settings": {
+        "product": "advaned-nutrients-b-52",
+        "title": "Vegetative stage supplement",
+        "link_title": "View details",
+        "link_url": "",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_share_buttons": false,
+        "show_description": true,
+        "description_below_add_to_cart": false,
+        "selector_mode": "dropdown",
+        "color_mode": "color",
+        "show_quantity_selector": false,
+        "show_reviews_badge": false,
+        "show_payment_button": false,
+        "show_inventory_quantity": false,
+        "low_inventory_threshold": 0,
+        "enable_image_zoom": false,
+        "zoom_effect": "outside",
+        "carousel_effect": "fade"
+      }
+    },
     "16529160614ceb6e3f": {
       "type": "kit-page-template",
+      "disabled": true,
       "blocks": {
         "d127b581-a3c8-4370-952e-79b6a802de5a": {
           "type": "text",
@@ -292,16 +318,27 @@
       "settings": {
         "section_size": "medium"
       }
+    },
+    "165291624609abd46b": {
+      "type": "build-kits",
+      "disabled": true,
+      "settings": {
+        "title": "B-52",
+        "product_sku": "100370",
+        "product": "advaned-nutrients-b-52"
+      }
     }
   },
   "order": [
     "1652455439fc4e7e18",
     "165271604342e24715",
+    "1652917517fb7c20fb",
     "16529160614ceb6e3f",
     "recommendations",
     "promotion",
     "recentyViewed",
     "1652831719f0da7a37",
-    "1652831764eb5b3ac2"
+    "1652831764eb5b3ac2",
+    "165291624609abd46b"
   ]
 }
