@@ -230,7 +230,7 @@
             "image": "shopify:\/\/shop_images\/7882-tomato-seedlings.png",
             "show_overlay": true,
             "overlay_opacity": 77,
-            "background": "#f3f4f4",
+            "background": "#000000",
             "text_color": "#ffffff",
             "title": "Seed Starting Kit",
             "content": "Tell more about your product, collection...",
