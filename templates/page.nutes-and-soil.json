@@ -18,21 +18,43 @@
         "button_link": ""
       }
     },
+    "promotion": {
+      "type": "static-promotion-list",
+      "blocks": {
+        "464de981-d02d-49c0-8517-f541b68e2c05": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nutes-soil.png",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Soil, living soil, loam soil...",
+            "content": "Whatever you choose to call it, soil is the foundation for every plant ever grown. In theory, soil should contain most of what a plant needs for most of it's lifecycle. Although",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "464de981-d02d-49c0-8517-f541b68e2c05"
+      ],
+      "settings": {
+        "expand_items": false,
+        "section_size": "medium",
+        "stack_mobile": false
+      }
+    },
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
         "show_product_recommendations": true,
         "heading": "You may also like",
         "show_quick_buy": false
-      }
-    },
-    "promotion": {
-      "type": "static-promotion-list",
-      "disabled": true,
-      "settings": {
-        "expand_items": false,
-        "section_size": "medium",
-        "stack_mobile": false
       }
     },
     "recentyViewed": {
@@ -59,8 +81,8 @@
   "order": [
     "165288782246107292",
     "1652887959a34ddc88",
-    "recommendations",
     "promotion",
+    "recommendations",
     "recentyViewed",
     "1652831719f0da7a37"
   ]
