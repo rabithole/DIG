@@ -1,0 +1,277 @@
+{
+  "sections": {
+    "1652455439fc4e7e18": {
+      "type": "kit-page-template",
+      "blocks": {
+        "16949ee4-3328-409a-80f7-d50262d1e15e": {
+          "type": "text",
+          "settings": {
+            "title": "pH Perfect Grow",
+            "productOne": "100280",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "advanced-nutrients-grow",
+            "description": "Advanced Nutrients pH Perfect technology has the added benfit of keeping your soils pH in balance. Many don't realize the importance of this. As well as the challenge of testing and maintaining a soils balance."
+          }
+        },
+        "72d215d3-5642-40d2-a0b2-eddaf5b0bd52": {
+          "type": "text",
+          "settings": {
+            "title": "pH Perfect Bloom",
+            "productOne": "100300",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "advanced-nutrients-bloom",
+            "description": "Using a high-quality micronutrient formula is your ticket to a rewarding garden. Ph Perfect Bloom is one part of a three part system. By combining Advanced Nutrients pH Perfect® Micro with pH Perfect Grow and pH Perfect Bloom, you're providing your plants what they need to give you a happier harvest day. It's guaranteed! pH Perfect Bloom, pH Perfect Micro and pH Perfect Grow sold separately. This three part system is designed to support your plants during every phase of their life cycles."
+          }
+        },
+        "d30c8764-bd9f-4171-9e16-775726fc848d": {
+          "type": "text",
+          "settings": {
+            "title": "pH Perfect Micro",
+            "productOne": "100290",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "advanced-nutrients-micro",
+            "description": "Advanced Nutrients Micro is part of a three part base system. Using a high-quality micronutrient formula is your ticket to a rewarding garden. By combining Advanced Nutrients pH Perfect® Micro with pH Perfect Grow and pH Perfect Bloom, you're providing your plants what they need to give you a happier harvest day. It's guaranteed!"
+          }
+        }
+      },
+      "block_order": [
+        "16949ee4-3328-409a-80f7-d50262d1e15e",
+        "72d215d3-5642-40d2-a0b2-eddaf5b0bd52",
+        "d30c8764-bd9f-4171-9e16-775726fc848d"
+      ],
+      "settings": {
+        "title": "Nutrient Kits",
+        "top-of-page": "Your plants have four main phases in their life cycle.  <b>seed germination, seedling, vegetative and flowering<\/b>. Each has different nutrient requirements. In order to maximize your plants potential, they need to be fed the right nutes for each phase. If you are new to growing, we suggest a simplified approach by choosing one of our kits below. <br><br> <b>Advanced Nutrients<\/b> pH Perfect Technology removes the need for expensive nutrient and or soil meters.",
+        "bottom-of-page": "",
+        "other-kits": ""
+      }
+    },
+    "165271604342e24715": {
+      "type": "kit-page-template",
+      "blocks": {
+        "ee428664-faac-49d9-a0cd-117ec2add236": {
+          "type": "text",
+          "settings": {
+            "title": "pH Perfect Sensi Grow A",
+            "productOne": "600586",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "ph-perfect-sensi-grow-a-b",
+            "description": "After hundreds of man-hours, our R and D team has perfectly formulated all the primary, secondary and micronutrients your crops need for outstanding growth. Because these ingredients are all supplied fully or partially chelated in pH Perfect Sensi Grow – some even in multiple chelated forms – your plants will absorb them effortlessly. What’s more, they will benefit from a wide range of amino acids to power the construction of cell walls in roots, stems and leaves. You’ll also witness amazing results from the humic acids and powerful non-ionic surfactant, which form a multi-stage delivery matrix to ensure your plants absorb the powerful nutrients you’re feeding them.And if that weren’t enough, you can throw away your pH meters and pens forever. Our proprietary pH Perfect Technology will keep the pH in the ‘sweet spot’ every week of the grow phase, with no measuring or tweaking. And as always, if you’re not thrilled and amazed with your results using pH Perfect Sensi Grow, you get 100% of your money back!"
+          }
+        },
+        "f5a603c8-9a66-4e1c-b9b9-7a44e20d169b": {
+          "type": "text",
+          "settings": {
+            "title": "pH Perfect Sensi Grow B",
+            "productOne": "600589",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "ph-perfect-sensi-grow-a-b",
+            "description": "After hundreds of man-hours, our R and D team has perfectly formulated all the primary, secondary and micronutrients your crops need for outstanding growth. Because these ingredients are all supplied fully or partially chelated in pH Perfect Sensi Grow – some even in multiple chelated forms – your plants will absorb them effortlessly. What’s more, they will benefit from a wide range of amino acids to power the construction of cell walls in roots, stems and leaves. You’ll also witness amazing results from the humic acids and powerful non-ionic surfactant, which form a multi-stage delivery matrix to ensure your plants absorb the powerful nutrients you’re feeding them.And if that weren’t enough, you can throw away your pH meters and pens forever. Our proprietary pH Perfect Technology will keep the pH in the ‘sweet spot’ every week of the grow phase, with no measuring or tweaking. And as always, if you’re not thrilled and amazed with your results using pH Perfect Sensi Grow, you get 100% of your money back!"
+          }
+        },
+        "e1b79ef0-7dea-4a46-86db-854dbd6d47c5": {
+          "type": "text",
+          "settings": {
+            "title": "pH Perfect Sensi Bloom A",
+            "productOne": "600592",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "ph-perfect-sensi-bloom-a-b",
+            "description": "You’ll find everything your high-value crops need to get big, heavy, juicy buds in pH Perfect Sensi Bloom! First, you won’t have to worry about balancing your pH ever again because pH Perfect® Technology keeps the pH in the ‘sweet spot’ all week, every week, all the way to harvest time. Throw away your pH meters and pens! Second, your crops will burst with buds and with teeming, bountiful blossoms from the complete and steady stream of all the primary, secondary and micronutrients they need – and all fully or partially chelated to ensure maximum nutrient uptake and assimilation by your crops. You’ll also witness amazing results from the humic acids and powerful non-ionic surfactant, which form a multi-stage delivery matrix to ensure your plants absorb the powerful nutrients you’re feeding them. Finally, the diverse range of powerful blooming co-factors will give you the biggest buds possible. The bottom line: You’re guaranteed absolute and full satisfaction (with less hassle than ever) or you get all your money back with our world-famous Grower Guarantee!"
+          }
+        },
+        "b3a02982-b4d6-4d2f-9738-dd02be4ce407": {
+          "type": "text",
+          "settings": {
+            "title": "pH Perfect Sensi Bloom B",
+            "productOne": "600595",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "ph-perfect-sensi-bloom-a-b",
+            "description": "You’ll find everything your high-value crops need to get big, heavy, juicy buds in pH Perfect Sensi Bloom! First, you won’t have to worry about balancing your pH ever again because pH Perfect® Technology keeps the pH in the ‘sweet spot’ all week, every week, all the way to harvest time. Throw away your pH meters and pens! Second, your crops will burst with buds and with teeming, bountiful blossoms from the complete and steady stream of all the primary, secondary and micronutrients they need – and all fully or partially chelated to ensure maximum nutrient uptake and assimilation by your crops. You’ll also witness amazing results from the humic acids and powerful non-ionic surfactant, which form a multi-stage delivery matrix to ensure your plants absorb the powerful nutrients you’re feeding them. Finally, the diverse range of powerful blooming co-factors will give you the biggest buds possible. The bottom line: You’re guaranteed absolute and full satisfaction (with less hassle than ever) or you get all your money back with our world-famous Grower Guarantee!"
+          }
+        }
+      },
+      "block_order": [
+        "ee428664-faac-49d9-a0cd-117ec2add236",
+        "f5a603c8-9a66-4e1c-b9b9-7a44e20d169b",
+        "e1b79ef0-7dea-4a46-86db-854dbd6d47c5",
+        "b3a02982-b4d6-4d2f-9738-dd02be4ce407"
+      ],
+      "settings": {
+        "title": "Two Part pH  Perfect Sensi",
+        "top-of-page": "",
+        "bottom-of-page": "",
+        "other-kits": ""
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "heading": "You may also like",
+        "show_quick_buy": false
+      }
+    },
+    "promotion": {
+      "type": "static-promotion-list",
+      "disabled": true,
+      "settings": {
+        "expand_items": false,
+        "section_size": "medium",
+        "stack_mobile": false
+      }
+    },
+    "recentyViewed": {
+      "type": "static-recently-viewed-products",
+      "settings": {
+        "show_section": true,
+        "title": "Recently viewed",
+        "show_quick_buy": false
+      }
+    },
+    "1652831719f0da7a37": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "image_position": "left",
+        "image_width": 50,
+        "title": "Your title",
+        "content": "<p>Use this text to share information about your brand with your customers.<br\/>Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "button_text": "Our products",
+        "button_link": "shopify:\/\/collections\/all"
+      }
+    },
+    "1652831764eb5b3ac2": {
+      "type": "mosaic",
+      "disabled": true,
+      "blocks": {
+        "16528317649b09e612-0": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "Which Heading",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "Learn more",
+            "link": ""
+          }
+        },
+        "16528317649b09e612-1": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "Your heading",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "Learn more",
+            "link": ""
+          }
+        },
+        "16528317649b09e612-2": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "Your heading",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "Learn more",
+            "link": ""
+          }
+        },
+        "16528317649b09e612-3": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "Your heading",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "Learn more",
+            "link": ""
+          }
+        },
+        "16528317649b09e612-4": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "Your heading",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "Learn more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16528317649b09e612-0",
+        "16528317649b09e612-1",
+        "16528317649b09e612-2",
+        "16528317649b09e612-3",
+        "16528317649b09e612-4"
+      ],
+      "settings": {
+        "section_size": "medium"
+      }
+    }
+  },
+  "order": [
+    "1652455439fc4e7e18",
+    "165271604342e24715",
+    "recommendations",
+    "promotion",
+    "recentyViewed",
+    "1652831719f0da7a37",
+    "1652831764eb5b3ac2"
+  ]
+}
