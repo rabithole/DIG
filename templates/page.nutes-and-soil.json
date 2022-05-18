@@ -1,5 +1,104 @@
 {
   "sections": {
+    "1652831764eb5b3ac2": {
+      "type": "mosaic",
+      "blocks": {
+        "16528317649b09e612-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/air-humidity.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#ffffff",
+            "title": "Air & Humidity Kits",
+            "content": "Controlling the temperature and humidity of the air in your grow tent or room is key the success of your grow.",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "Air & Humidity Kits",
+            "link": "shopify:\/\/pages\/air-humidity"
+          }
+        },
+        "16528317649b09e612-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/princess-getting-ready-for-transport.png",
+            "show_overlay": true,
+            "overlay_opacity": 100,
+            "background": "#f3f4f4",
+            "text_color": "#ffffff",
+            "title": "Harvesting Kits",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "Harvest Kits",
+            "link": "shopify:\/\/pages\/harvest"
+          }
+        },
+        "16528317649b09e612-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/866-tent.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 100,
+            "background": "#f3f4f4",
+            "text_color": "#f3f5f6",
+            "title": "Grow Tent Kits",
+            "content": "For the novice to advanced grower. A grow tent is a good choice for your flowers.",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "Grow Tent Kits",
+            "link": "shopify:\/\/pages\/tent-kit"
+          }
+        },
+        "16528317649b09e612-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7882-tomato-seedlings.png",
+            "show_overlay": true,
+            "overlay_opacity": 77,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Seed Starting Kit",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "Learn more",
+            "link": ""
+          }
+        },
+        "16528317649b09e612-4": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "Your heading",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "Learn more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16528317649b09e612-0",
+        "16528317649b09e612-1",
+        "16528317649b09e612-2",
+        "16528317649b09e612-3",
+        "16528317649b09e612-4"
+      ],
+      "settings": {
+        "section_size": "medium"
+      }
+    },
     "1652455439fc4e7e18": {
       "type": "kit-page-template",
       "disabled": true,
@@ -169,114 +268,15 @@
         "button_text": "Our products",
         "button_link": "shopify:\/\/collections\/all"
       }
-    },
-    "1652831764eb5b3ac2": {
-      "type": "mosaic",
-      "blocks": {
-        "16528317649b09e612-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/air-humidity.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#ffffff",
-            "title": "Air & Humidity Kits",
-            "content": "Controlling the temperature and humidity of the air in your grow tent or room is key the success of your grow.",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Air & Humidity Kits",
-            "link": "shopify:\/\/pages\/air-humidity"
-          }
-        },
-        "16528317649b09e612-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/princess-getting-ready-for-transport.png",
-            "show_overlay": true,
-            "overlay_opacity": 100,
-            "background": "#f3f4f4",
-            "text_color": "#ffffff",
-            "title": "Harvesting Kits",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Harvest Kits",
-            "link": "shopify:\/\/pages\/harvest"
-          }
-        },
-        "16528317649b09e612-2": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/866-tent.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 100,
-            "background": "#f3f4f4",
-            "text_color": "#f3f5f6",
-            "title": "Grow Tent Kits",
-            "content": "For the novice to advanced grower. A grow tent is a good choice for your flowers.",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Grow Tent Kits",
-            "link": "shopify:\/\/pages\/tent-kit"
-          }
-        },
-        "16528317649b09e612-3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/7882-tomato-seedlings.png",
-            "show_overlay": true,
-            "overlay_opacity": 77,
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "title": "Seed Starting Kit",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        },
-        "16528317649b09e612-4": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "Your heading",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16528317649b09e612-0",
-        "16528317649b09e612-1",
-        "16528317649b09e612-2",
-        "16528317649b09e612-3",
-        "16528317649b09e612-4"
-      ],
-      "settings": {
-        "section_size": "medium"
-      }
     }
   },
   "order": [
+    "1652831764eb5b3ac2",
     "1652455439fc4e7e18",
     "165271604342e24715",
     "recommendations",
     "promotion",
     "recentyViewed",
-    "1652831719f0da7a37",
-    "1652831764eb5b3ac2"
+    "1652831719f0da7a37"
   ]
 }
