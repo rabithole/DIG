@@ -118,6 +118,7 @@
         },
         "1652909767fd0d3fd3-4": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "title": "Your link",
             "link": ""
@@ -125,6 +126,7 @@
         },
         "1652909767fd0d3fd3-5": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "title": "Your link",
             "link": ""
