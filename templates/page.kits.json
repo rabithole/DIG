@@ -2,14 +2,14 @@
   "sections": {
     "165288782246107292": {
       "type": "custom-html",
-      "disabled": true,
       "settings": {
-        "title": "Your title",
-        "html": "<p>Write or copy\/paste HTML code<\/p>"
+        "title": "Kits, kits, kits...",
+        "html": "<div style=\"background-color: #23453D; color: white; padding: 10px; border-radius: 5px;\">\n<p>Kits are here to simplify your life. Not sure what combination of nutrients to buy, take a look at our soil and nutrient kits page for more info. One click and you have what you need.<\/p> <p>Unsure of what light will fit in what tent. Our kits have already worked that out for you.<\/p> <p>Not sure what you will need come harvest time. Our harvest kits are ready to go!<\/p>\n<\/div>"
       }
     },
     "1652887959a34ddc88": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "text_width": "wide",
         "title": "Kits, Kits, Kits",
