@@ -1,5 +1,23 @@
 {
   "sections": {
+    "165288782246107292": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "title": "Your title",
+        "html": "<p>Write or copy\/paste HTML code<\/p>"
+      }
+    },
+    "1652887959a34ddc88": {
+      "type": "rich-text",
+      "settings": {
+        "text_width": "narrow",
+        "title": "Kits, Kits, Kits",
+        "content": "<p>Kits are here to simplify your life. Not sure what combination of nutrients to buy, take a look at our nutrient kits. One click and you have what you need. <\/p><p><\/p><p>Unsure of what light will fit in what tent. Our kits have already worked that out for you. <\/p><p><\/p><p>Not sure what you will need come harvest time. Our harvest kits are ready to go!<\/p>",
+        "button_text": "Our products",
+        "button_link": ""
+      }
+    },
     "1652831764eb5b3ac2": {
       "type": "mosaic",
       "blocks": {
@@ -74,17 +92,18 @@
         "16528317649b09e612-4": {
           "type": "item",
           "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "Your heading",
-            "content": "Tell more about your product, collection...",
+            "image": "shopify:\/\/shop_images\/smaller-an-logo.png",
+            "show_overlay": true,
+            "overlay_opacity": 100,
+            "background": "#677279",
+            "text_color": "#ffffff",
+            "title": "Advanced Nutrients",
+            "content": "pH Perfect Technology simplifies your growing experience.",
             "content_position": "top_left",
             "button_background": "#4f5558",
             "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
+            "button_text": "Advanced Nutrients",
+            "link": "shopify:\/\/pages\/advanced-nutrients-kit"
           }
         }
       },
@@ -271,6 +290,8 @@
     }
   },
   "order": [
+    "165288782246107292",
+    "1652887959a34ddc88",
     "1652831764eb5b3ac2",
     "1652455439fc4e7e18",
     "165271604342e24715",
