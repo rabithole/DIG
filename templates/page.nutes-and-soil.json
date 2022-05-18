@@ -25,9 +25,9 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/nutes-soil.png",
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "stretch_image": false,
+            "show_overlay": true,
+            "overlay_opacity": 86,
+            "stretch_image": true,
             "background": "#000000",
             "text_color": "#ffffff",
             "title": "Soil, living soil, loam soil...",
@@ -38,10 +38,29 @@
             "button_text": "Learn more",
             "button_link": ""
           }
+        },
+        "606eff22-c044-49ba-9acb-50f57f328ab5": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coco-coir-close-up-320.png",
+            "show_overlay": true,
+            "overlay_opacity": 84,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Coco Coir",
+            "content": "Coco is literally the husk of a coconut. It has a number of advantages over its close counter part, soil, but does require a more close eye on feeding as the coco itself does not contain any nutrients.",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "464de981-d02d-49c0-8517-f541b68e2c05"
+        "464de981-d02d-49c0-8517-f541b68e2c05",
+        "606eff22-c044-49ba-9acb-50f57f328ab5"
       ],
       "settings": {
         "expand_items": false,
