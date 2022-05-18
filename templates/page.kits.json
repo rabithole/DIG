@@ -32,8 +32,8 @@
             "title": "Air & Humidity Kits",
             "content": "Controlling the temperature and humidity of the air in your grow tent or room is key the success of your grow.",
             "content_position": "top_left",
-            "button_background": "#23453d",
-            "button_text_color": "#f3f4f4",
+            "button_background": "#7fb38e",
+            "button_text_color": "#000000",
             "button_text": "Air & Humidity Kits",
             "link": "shopify:\/\/pages\/air-humidity"
           }
@@ -49,8 +49,8 @@
             "title": "Harvesting Kits",
             "content": "Don't waste all your hard work using tools not meant for the job. Choose a harvest kit.",
             "content_position": "top_left",
-            "button_background": "#23453d",
-            "button_text_color": "#f3f4f4",
+            "button_background": "#7fb38e",
+            "button_text_color": "#000000",
             "button_text": "Harvest Kits",
             "link": "shopify:\/\/pages\/harvest"
           }
@@ -66,8 +66,8 @@
             "title": "Grow Tent Kits",
             "content": "For the novice to advanced grower. A grow tent is a good choice for your flowers.",
             "content_position": "top_left",
-            "button_background": "#23453d",
-            "button_text_color": "#f3f4f4",
+            "button_background": "#7fb38e",
+            "button_text_color": "#000000",
             "button_text": "Grow Tent Kits",
             "link": "shopify:\/\/pages\/tent-kit"
           }
@@ -83,8 +83,8 @@
             "title": "Seed Starting Kit",
             "content": "Delicate seedlings have special needs. Take care of them right with one of our seed start kits.",
             "content_position": "top_left",
-            "button_background": "#23453d",
-            "button_text_color": "#f3f4f4",
+            "button_background": "#7fb38e",
+            "button_text_color": "#000000",
             "button_text": "Seed Starting Kits",
             "link": "shopify:\/\/pages\/seed-starting-kits"
           }
@@ -100,8 +100,8 @@
             "title": "Nutrients and Soil",
             "content": "choosing depends on the type of soil you choose. Click here to get your answers!",
             "content_position": "top_left",
-            "button_background": "#23453d",
-            "button_text_color": "#f3f4f4",
+            "button_background": "#7fb38e",
+            "button_text_color": "#000000",
             "button_text": "Nutrients and Soil",
             "link": "shopify:\/\/pages\/nutes-and-soil"
           }
