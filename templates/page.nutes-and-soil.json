@@ -85,6 +85,35 @@
         "show_quick_buy": false
       }
     },
+    "165290982907ea0ec2": {
+      "type": "offers",
+      "blocks": {
+        "165290982953db6214-0": {
+          "type": "offer",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nutes-soil.png",
+            "title": "Soil",
+            "content": "<p>Soil is a deep subject and is not cost effectice to ship. Not all soils are created equal or meant to grow every type of plant.<\/p><p>For this reason we recommend purchasing a soil from a supplier local to you. Please visit this page to get an idea of what  <\/p>"
+          }
+        },
+        "165290982953db6214-1": {
+          "type": "offer",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coco-coir-close-up-320.png",
+            "title": "Coco Coir",
+            "content": "<p>Coco coir is the by-product of processing coconut husk fibre. <strong>It does not contain any nutrients. <\/strong>Coco requires you to provide all the necessary nutrients when watering.<\/p><p><\/p><p>Coco has several advantages:<\/p><p>Its biodegradable, holds moisture and the nutrients in it, provides aeration in the soil that roots love and retains a constant pH of 5.2 to 6.8.<\/p><p><\/p><p><\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165290982953db6214-0",
+        "165290982953db6214-1"
+      ],
+      "settings": {
+        "items_per_row": 2,
+        "stack_mobile": false
+      }
+    },
     "165290976745e9110f": {
       "type": "quick-links",
       "blocks": {
@@ -148,35 +177,6 @@
         "link_title": "",
         "link": ""
       }
-    },
-    "165290982907ea0ec2": {
-      "type": "offers",
-      "blocks": {
-        "165290982953db6214-0": {
-          "type": "offer",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/nutes-soil.png",
-            "title": "Soil",
-            "content": "<p>Soil is a deep subject and is not cost effectice to ship. Not all soils are created equal or meant to grow every type of plant.<\/p><p>For this reason we recommend purchasing a soil from a supplier local to you. Please visit this page to get an idea of what  <\/p>"
-          }
-        },
-        "165290982953db6214-1": {
-          "type": "offer",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/coco-coir-close-up-320.png",
-            "title": "Coco Coir",
-            "content": "<p>Coco coir is the by-product of processing coconut husk fibre. <strong>It does not contain any nutrients. <\/strong>Coco requires you to provide all the necessary nutrients when watering.<\/p><p><\/p><p>Coco has several advantages:<\/p><p>Its biodegradable, holds moisture and the nutrients in it, provides aeration in the soil that roots love and retains a constant pH of 5.2 to 6.8.<\/p><p><\/p><p><\/p><p><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "165290982953db6214-0",
-        "165290982953db6214-1"
-      ],
-      "settings": {
-        "items_per_row": 2,
-        "stack_mobile": false
-      }
     }
   },
   "order": [
@@ -185,7 +185,7 @@
     "promotion",
     "recommendations",
     "recentyViewed",
-    "165290976745e9110f",
-    "165290982907ea0ec2"
+    "165290982907ea0ec2",
+    "165290976745e9110f"
   ]
 }
