@@ -213,13 +213,13 @@
             "overlay_opacity": 50,
             "background": "#f3f4f4",
             "text_color": "#4f5558",
-            "title": "Your heading",
-            "content": "Tell more about your product, collection...",
+            "title": "Grow Tent Kits",
+            "content": "For the novice to advanced grower. A grow tent is a good choice for your flowers.",
             "content_position": "top_left",
             "button_background": "#4f5558",
             "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
+            "button_text": "Grow Tent Kits",
+            "link": "shopify:\/\/pages\/tent-kit"
           }
         },
         "16528317649b09e612-3": {
@@ -229,7 +229,7 @@
             "overlay_opacity": 50,
             "background": "#f3f4f4",
             "text_color": "#4f5558",
-            "title": "Your heading",
+            "title": "",
             "content": "Tell more about your product, collection...",
             "content_position": "top_left",
             "button_background": "#4f5558",
