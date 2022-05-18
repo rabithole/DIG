@@ -131,10 +131,19 @@
         "other-kits": ""
       }
     },
+    "1652915951f9272bdc": {
+      "type": "build-kits",
+      "settings": {
+        "title": "B-52",
+        "product_sku": "100370",
+        "product": "advaned-nutrients-b-52"
+      }
+    },
     "recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
-        "show_product_recommendations": true,
+        "show_product_recommendations": false,
         "heading": "You may also like",
         "show_quick_buy": false
       }
@@ -268,6 +277,7 @@
   "order": [
     "1652455439fc4e7e18",
     "165271604342e24715",
+    "1652915951f9272bdc",
     "recommendations",
     "promotion",
     "recentyViewed",
