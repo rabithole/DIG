@@ -7,84 +7,6 @@
         "html": "<div style=\"background-color: #7FB38E; color: black; padding: 10px; border-radius: 5px;\">\n<p>You have your grow tent. Hopefully you have chosen an Air and Humidity kit. Now it's time to decide what type of soil you want to grow in.<\/p> \n<p>For growers with less experience, we suggest beginning with soil or coco coir. These offer the least amount of up front cost and set up on all the soil types. Most nutrient companies have nutrient lines specifically formulated for these two soil types. Here at DIG, we only sell the best. Those companies would be Advanced Nutrients and House and Garden. <\/p>\n<\/div>"
       }
     },
-    "1652887959a34ddc88": {
-      "type": "rich-text",
-      "disabled": true,
-      "settings": {
-        "text_width": "wide",
-        "title": "Choosing soil and nutrients made easy!",
-        "content": "<p>You have your grow tent. Hopefully you have chosen an Air and Humidity kit. Now it's time to decide what type of soil you want to grow in.<\/p><p>For growers with less experience, we suggest beginning with soil or coco coir. These offer the least amount of up front cost and set up on all the soil types. Most nutrient companies have nutrient lines specifically formulated for these two soil types. Here at DIG, we only sell the best. Those companies would be Advanced Nutrients and House and Garden. <\/p>",
-        "button_text": "Our products",
-        "button_link": ""
-      }
-    },
-    "promotion": {
-      "type": "static-promotion-list",
-      "disabled": true,
-      "blocks": {
-        "464de981-d02d-49c0-8517-f541b68e2c05": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/nutes-soil.png",
-            "show_overlay": true,
-            "overlay_opacity": 86,
-            "stretch_image": true,
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "title": "Soil, living soil, loam soil...",
-            "content": "Whatever you choose to call it, soil is the foundation for every plant ever grown. In theory, soil should contain most of what a plant needs for most of it's lifecycle. Although supplementing your soil with more nutrients is highly suggested to maximize your plants potential.",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Learn more",
-            "button_link": ""
-          }
-        },
-        "606eff22-c044-49ba-9acb-50f57f328ab5": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/coco-coir-close-up-320.png",
-            "show_overlay": true,
-            "overlay_opacity": 84,
-            "stretch_image": true,
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "title": "Coco Coir",
-            "content": "Coco is literally the husk of a coconut. It has a number of advantages over its close counter part, soil, but does require a more close eye on feeding as the coco itself does not contain any nutrients.",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Learn more",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "464de981-d02d-49c0-8517-f541b68e2c05",
-        "606eff22-c044-49ba-9acb-50f57f328ab5"
-      ],
-      "settings": {
-        "expand_items": true,
-        "section_size": "large",
-        "stack_mobile": true
-      }
-    },
-    "recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "show_product_recommendations": true,
-        "heading": "You may also like",
-        "show_quick_buy": false
-      }
-    },
-    "recentyViewed": {
-      "type": "static-recently-viewed-products",
-      "settings": {
-        "show_section": true,
-        "title": "Recently viewed",
-        "show_quick_buy": false
-      }
-    },
     "165290982907ea0ec2": {
       "type": "offers",
       "blocks": {
@@ -177,15 +99,93 @@
         "link_title": "",
         "link": ""
       }
+    },
+    "1652887959a34ddc88": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "text_width": "wide",
+        "title": "Choosing soil and nutrients made easy!",
+        "content": "<p>You have your grow tent. Hopefully you have chosen an Air and Humidity kit. Now it's time to decide what type of soil you want to grow in.<\/p><p>For growers with less experience, we suggest beginning with soil or coco coir. These offer the least amount of up front cost and set up on all the soil types. Most nutrient companies have nutrient lines specifically formulated for these two soil types. Here at DIG, we only sell the best. Those companies would be Advanced Nutrients and House and Garden. <\/p>",
+        "button_text": "Our products",
+        "button_link": ""
+      }
+    },
+    "promotion": {
+      "type": "static-promotion-list",
+      "disabled": true,
+      "blocks": {
+        "464de981-d02d-49c0-8517-f541b68e2c05": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nutes-soil.png",
+            "show_overlay": true,
+            "overlay_opacity": 86,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Soil, living soil, loam soil...",
+            "content": "Whatever you choose to call it, soil is the foundation for every plant ever grown. In theory, soil should contain most of what a plant needs for most of it's lifecycle. Although supplementing your soil with more nutrients is highly suggested to maximize your plants potential.",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        },
+        "606eff22-c044-49ba-9acb-50f57f328ab5": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coco-coir-close-up-320.png",
+            "show_overlay": true,
+            "overlay_opacity": 84,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Coco Coir",
+            "content": "Coco is literally the husk of a coconut. It has a number of advantages over its close counter part, soil, but does require a more close eye on feeding as the coco itself does not contain any nutrients.",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "464de981-d02d-49c0-8517-f541b68e2c05",
+        "606eff22-c044-49ba-9acb-50f57f328ab5"
+      ],
+      "settings": {
+        "expand_items": true,
+        "section_size": "large",
+        "stack_mobile": true
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "heading": "You may also like",
+        "show_quick_buy": false
+      }
+    },
+    "recentyViewed": {
+      "type": "static-recently-viewed-products",
+      "settings": {
+        "show_section": true,
+        "title": "Recently viewed",
+        "show_quick_buy": false
+      }
     }
   },
   "order": [
     "165288782246107292",
+    "165290982907ea0ec2",
+    "165290976745e9110f",
     "1652887959a34ddc88",
     "promotion",
     "recommendations",
-    "recentyViewed",
-    "165290982907ea0ec2",
-    "165290976745e9110f"
+    "recentyViewed"
   ]
 }
