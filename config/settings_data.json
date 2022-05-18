@@ -1378,10 +1378,9 @@
           },
           "16494685530c886071-4": {
             "type": "link",
-            "disabled": true,
             "settings": {
-              "title": "Your link",
-              "link": ""
+              "title": "All Kits",
+              "link": "shopify:\/\/pages\/kits"
             }
           },
           "16494685530c886071-5": {
