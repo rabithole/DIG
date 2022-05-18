@@ -321,7 +321,6 @@
     },
     "165291624609abd46b": {
       "type": "build-kits",
-      "disabled": true,
       "settings": {
         "title": "B-52",
         "product_sku": "100370",
