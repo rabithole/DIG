@@ -3,6 +3,20 @@
     "1652455439fc4e7e18": {
       "type": "kit-page-template",
       "blocks": {
+        "804e50ae-acbf-4aa5-8bc3-8e274197eebe": {
+          "type": "text",
+          "settings": {
+            "title": "Sensi Coco Grow Part A",
+            "productOne": "700210",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "advanced-nutrients-coco-coir-grow",
+            "description": "For growing in Coco CoirFinally! A pH Perfect 2-Part Base Nutrient Designed Specifically For Coco Coir! pH Perfect® Sensi Coco Grow A&B is a revolutionary two-part base nutrient that can be enjoyed by coco coir growers with absolutely any level of experience. This proprietary formula delivers humic acids, derived from natural leonardite, among other vital nutrients to your precious plants during the grow phase to ensure they grow to their full potential as quickly as possible."
+          }
+        },
         "16949ee4-3328-409a-80f7-d50262d1e15e": {
           "type": "text",
           "settings": {
@@ -33,6 +47,7 @@
         }
       },
       "block_order": [
+        "804e50ae-acbf-4aa5-8bc3-8e274197eebe",
         "16949ee4-3328-409a-80f7-d50262d1e15e",
         "72d215d3-5642-40d2-a0b2-eddaf5b0bd52"
       ],
@@ -45,6 +60,7 @@
     },
     "165271604342e24715": {
       "type": "kit-page-template",
+      "disabled": true,
       "blocks": {
         "ee428664-faac-49d9-a0cd-117ec2add236": {
           "type": "text",
