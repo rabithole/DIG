@@ -63,7 +63,7 @@
         "606eff22-c044-49ba-9acb-50f57f328ab5"
       ],
       "settings": {
-        "expand_items": false,
+        "expand_items": true,
         "section_size": "large",
         "stack_mobile": true
       }
