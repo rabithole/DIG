@@ -193,17 +193,18 @@
         "16528317649b09e612-1": {
           "type": "item",
           "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
+            "image": "shopify:\/\/shop_images\/princess-getting-ready-for-transport.png",
+            "show_overlay": true,
+            "overlay_opacity": 100,
             "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "Your heading",
+            "text_color": "#ffffff",
+            "title": "Harvesting Kits",
             "content": "Tell more about your product, collection...",
             "content_position": "top_left",
             "button_background": "#4f5558",
             "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
+            "button_text": "Harvest Kits",
+            "link": "shopify:\/\/pages\/harvest"
           }
         },
         "16528317649b09e612-2": {
