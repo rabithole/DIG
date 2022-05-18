@@ -92,18 +92,18 @@
         "16528317649b09e612-4": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/smaller-an-logo.png",
+            "image": "shopify:\/\/shop_images\/7882-tomato-seedlings.png",
             "show_overlay": true,
             "overlay_opacity": 100,
             "background": "#677279",
             "text_color": "#ffffff",
-            "title": "Advanced Nutrients",
-            "content": "pH Perfect Technology simplifies your growing experience.",
+            "title": "Nutrients and Soil",
+            "content": "choosing depends on the type of soil you choose. Click here to get your answers!",
             "content_position": "top_left",
             "button_background": "#4f5558",
             "button_text_color": "#f3f4f4",
-            "button_text": "Advanced Nutrients",
-            "link": "shopify:\/\/pages\/advanced-nutrients-kit"
+            "button_text": "Nutrients and Soil",
+            "link": "shopify:\/\/pages\/nutes-and-soil"
           }
         }
       },
