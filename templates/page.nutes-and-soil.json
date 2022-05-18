@@ -64,8 +64,8 @@
       ],
       "settings": {
         "expand_items": false,
-        "section_size": "medium",
-        "stack_mobile": false
+        "section_size": "large",
+        "stack_mobile": true
       }
     },
     "recommendations": {
