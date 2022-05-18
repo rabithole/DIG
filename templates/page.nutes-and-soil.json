@@ -2,14 +2,14 @@
   "sections": {
     "165288782246107292": {
       "type": "custom-html",
-      "disabled": true,
       "settings": {
-        "title": "Your title",
-        "html": "<p>Write or copy\/paste HTML code<\/p>"
+        "title": "Your titleChoosing soil and nutrients made easy!",
+        "html": "<p>You have your grow tent. Hopefully you have chosen an Air and Humidity kit. Now it's time to decide what type of soil you want to grow in.<\/p> \n<p>For growers with less experience, we suggest beginning with soil or coco coir. These offer the least amount of up front cost and set up on all the soil types. Most nutrient companies have nutrient lines specifically formulated for these two soil types. Here at DIG, we only sell the best. Those companies would be Advanced Nutrients and House and Garden. <\/p>"
       }
     },
     "1652887959a34ddc88": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "text_width": "wide",
         "title": "Choosing soil and nutrients made easy!",
