@@ -106,6 +106,70 @@
         "stack_mobile": true
       }
     },
+    "1653000070dd010e29": {
+      "type": "kit-links",
+      "blocks": {
+        "16530000700e755bbb-0": {
+          "type": "link",
+          "settings": {
+            "title": "Advanced Nutrients Soil",
+            "link": "shopify:\/\/pages\/advanced-nutrients-soil"
+          }
+        },
+        "16530000700e755bbb-1": {
+          "type": "link",
+          "settings": {
+            "title": "Advanced Nutrients for Coco",
+            "link": "shopify:\/\/pages\/advanced-nutrients-coco"
+          }
+        },
+        "16530000700e755bbb-2": {
+          "type": "link",
+          "settings": {
+            "title": "Your link",
+            "link": ""
+          }
+        },
+        "16530000700e755bbb-3": {
+          "type": "link",
+          "settings": {
+            "title": "Your link",
+            "link": ""
+          }
+        },
+        "16530000700e755bbb-4": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "title": "Your link",
+            "link": ""
+          }
+        },
+        "16530000700e755bbb-5": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "title": "Your link",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16530000700e755bbb-0",
+        "16530000700e755bbb-1",
+        "16530000700e755bbb-2",
+        "16530000700e755bbb-3",
+        "16530000700e755bbb-4",
+        "16530000700e755bbb-5"
+      ],
+      "settings": {
+        "title": "Nutrient links according to soil type.",
+        "expand_items": true,
+        "show_desktop": true,
+        "link_title": "",
+        "link": ""
+      }
+    },
     "165290976745e9110f": {
       "type": "quick-links",
       "blocks": {
@@ -253,6 +317,7 @@
     "165288782246107292",
     "1652999656bfb9144b",
     "165290982907ea0ec2",
+    "1653000070dd010e29",
     "165290976745e9110f",
     "1652887959a34ddc88",
     "promotion",
