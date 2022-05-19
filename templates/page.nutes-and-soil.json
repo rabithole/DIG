@@ -33,7 +33,7 @@
       ],
       "settings": {
         "items_per_row": 2,
-        "stack_mobile": false
+        "stack_mobile": true
       }
     },
     "165290976745e9110f": {
