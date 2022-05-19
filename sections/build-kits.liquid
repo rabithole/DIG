@@ -5,13 +5,63 @@
       <h1 style="font-size: 3vw; font-weight: bold; color: black;">{{ section.settings.title }}</h1>
       {% for option in prod.variants %}
           {% if option.sku == sku %}
-              <img src='{{ option.image | img_url }}' style='width: 200px;'>
+              <img src='{{ option.image | img_url: '150x' }}'>
               <h3 style="" id='{{ option.price }}'>Price: {{ option.price | money }}</h3>
               <h1>{{ option.title }}</h1>
           {% endif %}
       {% endfor %}
+
+      <div class='cart-button'>
+  			<button class="discount-page-button" >Add To Cart</button> 
+			</div>
   </div>
 </section>
+
+<script>
+	// Add to cart
+	var addToCart = function(e) {
+		var products = this.parentElement.querySelectorAll('H3.product-price')
+		var productsData = [];
+
+		products.forEach( function(product) {
+		    productsData.push({
+		        quantity: 1,
+		        id: product.id
+		    })
+		})
+
+		var data = {
+		    items: productsData
+		}
+	
+		fetch('/cart/add.js', {
+		    body: JSON.stringify(data),
+		    credentials: 'same-origin',
+		    headers: {
+		        'Content-Type': 'application/json'
+		    },
+		    method: 'POST'
+		}).then((response) => {
+		    response.json();
+		    window.location.reload();
+		    // document.documentElement.dispatchEvent(
+		    // 	new CustomEvent('cart:refresh', { bubbles: true })
+		    // );
+		}).then(data => {
+		    console.log("Success", data)
+		}).catch((err) => {
+		    console.error(err)
+		});
+	}
+
+	window.addEventListener('load', function(e) {
+	    Array.prototype.forEach.call(
+	        document.getElementsByClassName('cart-button'), function(element) {
+	            element.addEventListener('click', addToCart)
+	        }
+	    );
+	});
+</script>
 
 {% schema %}
 	{
@@ -43,4 +93,6 @@
 		]
 	}
 {% endschema %}
+
+
 	
