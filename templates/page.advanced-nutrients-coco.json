@@ -177,6 +177,26 @@
         "title": "Add ons for vegetative and flowering"
       }
     },
+    "165299702964389c57": {
+      "type": "build-kits",
+      "blocks": {
+        "44ba3503-11d3-4956-be7a-97a42ddeb921": {
+          "type": "text",
+          "settings": {
+            "title": "Big Bud",
+            "product_sku": "100320",
+            "product": "advanced-nutrients-big-bud",
+            "description": "Big Bud provides the essential elements, potassium and phosphorous, that not only aid in the development of buds but are known to increase both their size and quality – for heavier yields that taste great!"
+          }
+        }
+      },
+      "block_order": [
+        "44ba3503-11d3-4956-be7a-97a42ddeb921"
+      ],
+      "settings": {
+        "title": "Add ons for flowering"
+      }
+    },
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -207,6 +227,7 @@
     "1652455439fc4e7e18",
     "165271604342e24715",
     "165299688075a532e8",
+    "165299702964389c57",
     "recommendations",
     "promotion",
     "recentyViewed"
