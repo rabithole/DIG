@@ -142,10 +142,20 @@
             "product": "advaned-nutrients-b-52",
             "description": "This ever-popular formula contains Vitamin B1, humic acid, kelp and other ingredients so plants grow well and produce more – even in the demanding conditions of your high-intensity garden. This proprietary blend provides unique, powerful 100% guaranteed nutritional and vitamin support so your plants are always winners."
           }
+        },
+        "9742663a-838f-4017-8630-e19614eb17f8": {
+          "type": "text",
+          "settings": {
+            "title": "Voodoo Juice",
+            "product_sku": "100340",
+            "product": "advanced-nutrients-voodoo-juice",
+            "description": "n so many gardens, the roots are forgotten, hidden away underground, neglected, uncared for workhorses. And yet, your plants' roots are responsible for intaking almost everything your plants need. Ask not what your roots can do for you, but what can you do for your roots. Because when you give respect to your roots, you see the results at harvest time. You take care of your roots by utilizing their ability to form symbiotic relationships with beneficial fungi and bacteria.These relationships help your roots intake nutrients. Beneficial microbes break down old root material, and provide nutrition. On top of that, microbes provide aeration so oxygen can reach further to penetrate more into roots. They also capture nitrogen and help make phosphorus more available, which you are aware of as essential, major nutrients for your plants.. "
+          }
         }
       },
       "block_order": [
-        "0fc1777d-f040-45cf-92d3-9a9d24f5676f"
+        "0fc1777d-f040-45cf-92d3-9a9d24f5676f",
+        "9742663a-838f-4017-8630-e19614eb17f8"
       ],
       "settings": {
         "title": "B-52"
