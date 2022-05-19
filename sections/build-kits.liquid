@@ -1,7 +1,10 @@
+<p class="add-ons-title">{{ section.settings.title }}</p>
+
 <div class="add-ons">
 {% for block in section.blocks %}
 	{% assign singleSku = block.settings.product_sku %}
 	{% assign singleProduct = block.settings.product %}
+
 	<section>
 	  <div class='build-kit'>
 	  	<div>
