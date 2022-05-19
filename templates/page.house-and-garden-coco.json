@@ -6,15 +6,15 @@
         "804e50ae-acbf-4aa5-8bc3-8e274197eebe": {
           "type": "text",
           "settings": {
-            "title": "Soil Part A",
-            "productOne": "600260",
+            "title": "Coco Part A",
+            "productOne": "600240",
             "productTwo": "",
             "productThree": "",
             "productFour": "",
             "productFive": "",
             "productSix": "",
-            "product": "house-garden-soil-a-b",
-            "description": "Intended use: Provides balanced nutrition for enriched soils and contains every essential nutrient, including abundant calcium. House & Garden Soil A&B nutrient is a powerful A\/B set that has been precisely designed to compliment and enhance the existing mineral content within the soil, or any soil mixes. We engineered specifically calculated ratios of all required plant nutriment to encourage incredible vegetative and generative growth. A&B Soil is used for soil \/ peat substrates. A&B Soil nutrient does not contain any bulking agents or cause any unnecessary acidification. Thus ensuring that the soil structure is retained and even improved.Great for the outdoor garden seasons and soil\/peat substratesDosage: 2-5ml\/L"
+            "product": "house-garden-cocos-a-b",
+            "description": "Intended use: Coco Coir. Provides the perfect ration of nutrients taking into account the cation-exchange capacity of coir.Growing in coco coir has a multitude of benefits and is one of the most popular forms of growing media for good reason. That being said, it takes a precise ratio of nutrients to take full advantage of those benefits: one of those being the right balance of calcium and magnesium. This balance is perfected in Cocos A&B.  Cocos A&B was formulated to provide those who grow in pure coco coir or blends that contain 30% or more coco coir with the perfect ratio of essential nutrients they'll need for healthy growth, with consideration to the unique cation-exchange capacity of the medium."
           }
         },
         "a84187ba-5a42-4c8e-a19c-16f004df7c57": {
@@ -37,7 +37,7 @@
         "a84187ba-5a42-4c8e-a19c-16f004df7c57"
       ],
       "settings": {
-        "title": "House and Garden Base Nutrients",
+        "title": "House and Garden Coco Base Nutrients",
         "top-of-page": "",
         "bottom-of-page": "",
         "other-kits": ""
