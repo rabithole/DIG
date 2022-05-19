@@ -163,10 +163,10 @@
         "1652909767fd0d3fd3-5"
       ],
       "settings": {
-        "title": "Quick links",
+        "title": "Nutrient links according to soil type.",
         "expand_items": true,
         "show_desktop": true,
-        "link_title": "Nutrients links according to soil type.",
+        "link_title": "",
         "link": ""
       }
     },
