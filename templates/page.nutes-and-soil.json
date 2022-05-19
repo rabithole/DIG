@@ -133,8 +133,8 @@
         "16530000700e755bbb-3": {
           "type": "link",
           "settings": {
-            "title": "Your link",
-            "link": ""
+            "title": "House and Garden for Coco",
+            "link": "shopify:\/\/pages\/house-and-garden-coco"
           }
         },
         "16530000700e755bbb-4": {
@@ -172,6 +172,7 @@
     },
     "165290976745e9110f": {
       "type": "quick-links",
+      "disabled": true,
       "blocks": {
         "1652909767fd0d3fd3-0": {
           "type": "link",
