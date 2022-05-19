@@ -1,24 +1,26 @@
-<!-- {% assign sku = section.settings.product_sku %}
-{% assign prod = section.settings.product %} -->
 
-{% assign sku = block.settings.product_sku %}
-{% assign prod = block.settings.product %}
-<section>
-  <div class='build-kit'>
-      <h1 style="font-size: 3vw; font-weight: bold; color: black;">{{ section.settings.title }}</h1>
-      {% for option in prod.variants %}
-          {% if option.sku == sku %}
-              <img src='{{ option.image | img_url: '150x' }}'>
-              <h3 class='product-price' id='{{ option.id }}' data-price={{ option.price }}>{{ option.price | money }}</h3>
-              <h1>{{ option.title }}</h1>
-          {% endif %}
-      {% endfor %}
+ 
+{% for block in section.blocks %}
+	{% assign singleSku = block.settings.product_sku %}
+	{% assign singleProduct = block.settings.product %}
+	<section>
+	  <div class='build-kit'>
+	      <h1 style="font-size: 3vw; font-weight: bold; color: black;">{{ section.settings.title }}</h1>
+	      <p>Skew: {{ singleSku }}</p>
+	      {% for option in singleProduct.variants %}
+	          {% if option.singleSku == singleSku %}
+	              <img src='{{ option.image | img_url: '150x' }}'>
+	              <h3 class='product-price' id='{{ option.id }}' data-price={{ option.price }}>{{ option.price | money }}</h3>
+	              <h1>{{ option.title }}</h1>
+	          {% endif %}
+	      {% endfor %}
 
-      <div class='cart-button'>
-  			<button class="discount-page-button" >Add To Cart</button> 
-			</div>
-  </div>
-</section>
+	      <div class='cart-button'>
+	  			<button class="discount-page-button" >Add To Cart</button> 
+				</div>
+	  </div>
+	</section>
+{% endfor %}
 
 <script>
 	// Add to cart
@@ -75,16 +77,6 @@
 				"id": "title",
 				"type": "text",
 				"label": "title"
-			},
-			{
-				"type": "text",
-				"id": "product_sku",
-				"label": "Product Sku"
-			},
-			{
-				"type": "product",
-				"id": "product",
-				"label": "Product"
 			}
 		],
 		"blocks": [
@@ -93,20 +85,20 @@
 				"name": "add on",
 				"settings": [
 					{	
-				"id": "title",
-				"type": "text",
-				"label": "title"
-			},
-			{
-				"type": "text",
-				"id": "product_sku",
-				"label": "Product Sku"
-			},
-			{
-				"type": "product",
-				"id": "product",
-				"label": "Product"
-			}
+						"id": "title",
+						"type": "text",
+						"label": "title"
+					},
+					{
+						"type": "text",
+						"id": "product_sku",
+						"label": "Product Sku"
+					},
+					{
+						"type": "product",
+						"id": "product",
+						"label": "Product"
+					}
 				]
 			}
 		],
