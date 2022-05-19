@@ -38,14 +38,13 @@
       ],
       "settings": {
         "title": "House and Garden Base Nutrients",
-        "top-of-page": "These nutrients are specific to growing in coco coir.",
+        "top-of-page": "",
         "bottom-of-page": "",
         "other-kits": ""
       }
     },
     "165271604342e24715": {
       "type": "kit-page-template",
-      "disabled": true,
       "blocks": {
         "ee428664-faac-49d9-a0cd-117ec2add236": {
           "type": "text",
