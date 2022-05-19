@@ -15,7 +15,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/nutes-soil.png",
             "show_overlay": true,
-            "overlay_opacity": 82,
+            "overlay_opacity": 100,
             "stretch_image": true,
             "background": "#6f42ef",
             "text_color": "#ffffff",
