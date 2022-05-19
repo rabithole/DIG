@@ -241,112 +241,24 @@
         "show_quick_buy": false
       }
     },
-    "1652831719f0da7a37": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "image_position": "left",
-        "image_width": 50,
-        "title": "Your title",
-        "content": "<p>Use this text to share information about your brand with your customers.<br\/>Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "button_text": "Our products",
-        "button_link": "shopify:\/\/collections\/all"
-      }
-    },
-    "1652831764eb5b3ac2": {
-      "type": "mosaic",
-      "disabled": true,
+    "1652996206eaa88b6d": {
+      "type": "build-kits",
       "blocks": {
-        "16528317649b09e612-0": {
-          "type": "item",
+        "dcda10e0-c3c1-4d7c-9701-e70aca957e92": {
+          "type": "text",
           "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "Which Heading",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        },
-        "16528317649b09e612-1": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "Your heading",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        },
-        "16528317649b09e612-2": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "Your heading",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        },
-        "16528317649b09e612-3": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "Your heading",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        },
-        "16528317649b09e612-4": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "Your heading",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
+            "title": "Big Bud",
+            "product_sku": "100320",
+            "product": "advanced-nutrients-big-bud",
+            "description": "Big Bud provides the essential elements, potassium and phosphorous, that not only aid in the development of buds but are known to increase both their size and quality – for heavier yields that taste great!"
           }
         }
       },
       "block_order": [
-        "16528317649b09e612-0",
-        "16528317649b09e612-1",
-        "16528317649b09e612-2",
-        "16528317649b09e612-3",
-        "16528317649b09e612-4"
+        "dcda10e0-c3c1-4d7c-9701-e70aca957e92"
       ],
       "settings": {
-        "section_size": "medium"
+        "title": ""
       }
     }
   },
@@ -359,7 +271,6 @@
     "recommendations",
     "promotion",
     "recentyViewed",
-    "1652831719f0da7a37",
-    "1652831764eb5b3ac2"
+    "1652996206eaa88b6d"
   ]
 }
