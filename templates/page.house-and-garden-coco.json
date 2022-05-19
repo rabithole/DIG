@@ -6,15 +6,15 @@
         "804e50ae-acbf-4aa5-8bc3-8e274197eebe": {
           "type": "text",
           "settings": {
-            "title": "Sensi Coco Grow Part A",
-            "productOne": "700210",
+            "title": "Soil Part A",
+            "productOne": "600260",
             "productTwo": "",
             "productThree": "",
             "productFour": "",
             "productFive": "",
             "productSix": "",
-            "product": "advanced-nutrients-coco-coir-grow",
-            "description": "For growing in Coco CoirFinally! A pH Perfect 2-Part Base Nutrient Designed Specifically For Coco Coir! pH Perfect® Sensi Coco Grow A&B is a revolutionary two-part base nutrient that can be enjoyed by coco coir growers with absolutely any level of experience. This proprietary formula delivers humic acids, derived from natural leonardite, among other vital nutrients to your precious plants during the grow phase to ensure they grow to their full potential as quickly as possible."
+            "product": "house-garden-soil-a-b",
+            "description": "Intended use: Provides balanced nutrition for enriched soils and contains every essential nutrient, including abundant calcium.House & Garden Soil A&B nutrient is a powerful A\/B set that has been precisely designed to compliment and enhance the existing mineral content within the soil, or any soil mixes. We engineered specifically calculated ratios of all required plant nutriment to encourage incredible vegetative and generative growth. A&B Soil is used for soil \/ peat substrates. A&B Soil nutrient does not contain any bulking agents or cause any unnecessary acidification. Thus ensuring that the soil structure is retained and even improved.Great for the outdoor garden seasons and soil\/peat substratesDosage: 2-5ml\/L"
           }
         },
         "a84187ba-5a42-4c8e-a19c-16f004df7c57": {
@@ -67,7 +67,7 @@
         "72d215d3-5642-40d2-a0b2-eddaf5b0bd52"
       ],
       "settings": {
-        "title": "Advanced Nutrients Base Nutrients",
+        "title": "House and Garden Base Nutrients",
         "top-of-page": "These nutrients are specific to growing in coco coir.",
         "bottom-of-page": "",
         "other-kits": ""
