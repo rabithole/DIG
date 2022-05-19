@@ -147,6 +147,26 @@
         "other-kits": ""
       }
     },
+    "165299688075a532e8": {
+      "type": "build-kits",
+      "blocks": {
+        "38cc85f8-6934-4ada-bc87-133ce50f2235": {
+          "type": "text",
+          "settings": {
+            "title": "B-52",
+            "product_sku": "100370",
+            "product": "advaned-nutrients-b-52",
+            "description": "This ever-popular formula contains Vitamin B1, humic acid, kelp and other ingredients so plants grow well and produce more – even in the demanding conditions of your high-intensity garden. This proprietary blend provides unique, powerful 100% guaranteed nutritional and vitamin support so your plants are always winners."
+          }
+        }
+      },
+      "block_order": [
+        "38cc85f8-6934-4ada-bc87-133ce50f2235"
+      ],
+      "settings": {
+        "title": "Add ons for vegetative and flowering"
+      }
+    },
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -171,123 +191,14 @@
         "title": "Recently viewed",
         "show_quick_buy": false
       }
-    },
-    "1652831719f0da7a37": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "image_position": "left",
-        "image_width": 50,
-        "title": "Your title",
-        "content": "<p>Use this text to share information about your brand with your customers.<br\/>Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "button_text": "Our products",
-        "button_link": "shopify:\/\/collections\/all"
-      }
-    },
-    "1652831764eb5b3ac2": {
-      "type": "mosaic",
-      "disabled": true,
-      "blocks": {
-        "16528317649b09e612-0": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "Which Heading",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        },
-        "16528317649b09e612-1": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "Your heading",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        },
-        "16528317649b09e612-2": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "Your heading",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        },
-        "16528317649b09e612-3": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "Your heading",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        },
-        "16528317649b09e612-4": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "Your heading",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16528317649b09e612-0",
-        "16528317649b09e612-1",
-        "16528317649b09e612-2",
-        "16528317649b09e612-3",
-        "16528317649b09e612-4"
-      ],
-      "settings": {
-        "section_size": "medium"
-      }
     }
   },
   "order": [
     "1652455439fc4e7e18",
     "165271604342e24715",
+    "165299688075a532e8",
     "recommendations",
     "promotion",
-    "recentyViewed",
-    "1652831719f0da7a37",
-    "1652831764eb5b3ac2"
+    "recentyViewed"
   ]
 }
