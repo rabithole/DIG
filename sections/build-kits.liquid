@@ -1,5 +1,8 @@
-{% assign sku = section.settings.product_sku %}
-{% assign prod = section.settings.product %}
+<!-- {% assign sku = section.settings.product_sku %}
+{% assign prod = section.settings.product %} -->
+
+{% assign sku = block.settings.product_sku %}
+{% assign prod = block.settings.product %}
 <section>
   <div class='build-kit'>
       <h1 style="font-size: 3vw; font-weight: bold; color: black;">{{ section.settings.title }}</h1>
