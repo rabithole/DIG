@@ -43,6 +43,36 @@
         "other-kits": ""
       }
     },
+    "16530034857f1a8ed6": {
+      "type": "build-kits",
+      "blocks": {
+        "8a1a6284-e62e-4d22-840d-f5752298022d": {
+          "type": "text",
+          "settings": {
+            "title": "Amino Treatment",
+            "product_sku": "600350",
+            "product": "house-garden-amino-treatment",
+            "description": "House & Garden Amino Treatment is our unsung hero within the H&G family. It contains a patented seed extract to provide your plants with the vigour and energy of a young seed growth. Containing essential amino acids and enzymes, this stimulating additive is used throughout the vegetative period and into the first stages of floral growth. This aids in the plants transitional period to provide you with bigger and healthier flowers! Amino Treatment also includes cold-pressed Norwegian Sea kelp to aid in plant development and provide organic fundamental macro and trace elements to your plant. We also incorporated a unique complex small particle silica component. Silica has been proven to help with plant stress relief, stem and leaf development and encourages additional heat\/cold resistance.A better foliage distribution.A higher photosynthesis ratio.Solid stems.Enhanced root activity.A better and increased fruit production.A higher sugar level of the fruit.Aids nutrient distribution.Dosage: 20-100ml\/100L"
+          }
+        },
+        "12d79e2c-282e-44e3-96f3-f3168d379c1b": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "product_sku": "",
+            "product": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "8a1a6284-e62e-4d22-840d-f5752298022d",
+        "12d79e2c-282e-44e3-96f3-f3168d379c1b"
+      ],
+      "settings": {
+        "title": "Additives for Vegetation"
+      }
+    },
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -79,110 +109,14 @@
         "button_text": "Our products",
         "button_link": "shopify:\/\/collections\/all"
       }
-    },
-    "1652831764eb5b3ac2": {
-      "type": "mosaic",
-      "disabled": true,
-      "blocks": {
-        "16528317649b09e612-0": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "Which Heading",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        },
-        "16528317649b09e612-1": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "Your heading",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        },
-        "16528317649b09e612-2": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "Your heading",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        },
-        "16528317649b09e612-3": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "Your heading",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        },
-        "16528317649b09e612-4": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "Your heading",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16528317649b09e612-0",
-        "16528317649b09e612-1",
-        "16528317649b09e612-2",
-        "16528317649b09e612-3",
-        "16528317649b09e612-4"
-      ],
-      "settings": {
-        "section_size": "medium"
-      }
     }
   },
   "order": [
     "1652455439fc4e7e18",
+    "16530034857f1a8ed6",
     "recommendations",
     "promotion",
     "recentyViewed",
-    "1652831719f0da7a37",
-    "1652831764eb5b3ac2"
+    "1652831719f0da7a37"
   ]
 }
