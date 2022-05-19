@@ -252,10 +252,20 @@
             "product": "advanced-nutrients-big-bud",
             "description": "Big Bud provides the essential elements, potassium and phosphorous, that not only aid in the development of buds but are known to increase both their size and quality – for heavier yields that taste great!"
           }
+        },
+        "78789142-8ac1-4efb-ae5f-458ea02053e2": {
+          "type": "text",
+          "settings": {
+            "title": "Overdrive",
+            "product_sku": "100330",
+            "product": "advanced-nutrients-overdrive",
+            "description": "During the final weeks of bloom phase your plants need the ingredients in Overdrive to maintain flower maturation, flower growth, and overall vigor. Many growers neglect the last weeks of bloom phase, but now you can kick it into Overdrive for a strong finish and get bigger smiles at harvest time."
+          }
         }
       },
       "block_order": [
-        "dcda10e0-c3c1-4d7c-9701-e70aca957e92"
+        "dcda10e0-c3c1-4d7c-9701-e70aca957e92",
+        "78789142-8ac1-4efb-ae5f-458ea02053e2"
       ],
       "settings": {
         "title": ""
