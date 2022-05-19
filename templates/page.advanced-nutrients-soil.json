@@ -139,7 +139,8 @@
           "settings": {
             "title": "B-52",
             "product_sku": "100370",
-            "product": "advaned-nutrients-b-52"
+            "product": "advaned-nutrients-b-52",
+            "description": "This ever-popular formula contains Vitamin B1, humic acid, kelp and other ingredients so plants grow well and produce more – even in the demanding conditions of your high-intensity garden. This proprietary blend provides unique, powerful 100% guaranteed nutritional and vitamin support so your plants are always winners."
           }
         }
       },
@@ -147,9 +148,7 @@
         "0fc1777d-f040-45cf-92d3-9a9d24f5676f"
       ],
       "settings": {
-        "title": "B-52",
-        "product_sku": "100370",
-        "product": "advaned-nutrients-b-52"
+        "title": "B-52"
       }
     },
     "1652917517fb7c20fb": {
