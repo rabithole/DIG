@@ -71,9 +71,9 @@
         "16529996567c2c2c68-2"
       ],
       "settings": {
-        "expand_items": false,
+        "expand_items": true,
         "section_size": "medium",
-        "stack_mobile": false
+        "stack_mobile": true
       }
     },
     "165290982907ea0ec2": {
