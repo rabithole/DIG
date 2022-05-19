@@ -6,7 +6,7 @@
       {% for option in prod.variants %}
           {% if option.sku == sku %}
               <img src='{{ option.image | img_url: '150x' }}'>
-              <h3 style="" id='{{ option.price }}'>Price: {{ option.price | money }}</h3>
+              <h3 class='product-price' id='{{ option.id }}' data-price={{ option.price }}>{{ option.price | money }}</h3>
               <h1>{{ option.title }}</h1>
           {% endif %}
       {% endfor %}
@@ -82,6 +82,29 @@
 				"type": "product",
 				"id": "product",
 				"label": "Product"
+			}
+		],
+		"blocks": [
+			{
+				"type": "text",
+				"name": "add on",
+				"settings": [
+					{	
+				"id": "title",
+				"type": "text",
+				"label": "title"
+			},
+			{
+				"type": "text",
+				"id": "product_sku",
+				"label": "Product Sku"
+			},
+			{
+				"type": "product",
+				"id": "product",
+				"label": "Product"
+			}
+				]
 			}
 		],
 		"presets": [
