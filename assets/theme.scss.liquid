@@ -13858,19 +13858,30 @@ to turn off this for now...
   }
 }
 
+.add-ons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .build-kit {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   border: 2px solid black;
   box-shadow: 2px 2px 5px black;
-  margin: 2%;
   padding: 10px;
-  width: 40%;
+  width: 500px;
+  height: auto;
+  overflow: hidden;
+}
+
+.add-ons section {
+  margin: 2%;
 }
 
 .build-kit img {
-  float: left;
+  width: 250px;
+  height: 250px;
 }
 
 .kitTotal {
@@ -13911,11 +13922,14 @@ to turn off this for now...
     /*height: auto;*/
   }
 
-  .eachProduct {
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*justify-content: space-between;*/
-    
+  .build-kit {
+    width:  90%;
+    margin: auto;
+  }
+
+  .build-kit img {
+    width: 100px;
+    height: 100px;
   }
 }
 
