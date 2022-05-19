@@ -7,8 +7,78 @@
         "html": "<div style=\"background-color: #7FB38E; color: black; padding: 10px; border-radius: 5px;\">\n<p>You have your grow tent. Hopefully you have chosen an Air and Humidity kit. Now it's time to decide what type of soil you want to grow in.<\/p> \n<p>For growers with less experience, we suggest beginning with soil or coco coir. These offer the least amount of up front cost and set up on all the soil types. Most nutrient companies have nutrient lines specifically formulated for these two soil types. Here at DIG, we only sell the best. Those companies would be Advanced Nutrients and House and Garden. <\/p>\n<\/div>"
       }
     },
+    "1652999656bfb9144b": {
+      "type": "promotion-list",
+      "blocks": {
+        "16529996567c2c2c68-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nutes-soil.png",
+            "show_overlay": true,
+            "overlay_opacity": 82,
+            "stretch_image": true,
+            "background": "#6f42ef",
+            "text_color": "#ffffff",
+            "title": "Soil",
+            "content": "Soil is a deep subject and is not cost effectice to ship. Not all soils are created equal or meant to grow every type of plant.For this reason we recommend purchasing a soil from a supplier local to you. Please visit this page to get an idea of what.",
+            "content_position": "top_left",
+            "button_background": "#7fb38e",
+            "button_text_color": "#ffffff",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "16529996567c2c2c68-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coco-coir-close-up-320.png",
+            "show_overlay": true,
+            "overlay_opacity": 85,
+            "stretch_image": true,
+            "background": "#7fb38e",
+            "text_color": "#ffffff",
+            "title": "Coco Coir",
+            "content": "Coco coir is the by-product of processing coconut husk fibre. It does not contain any nutrients. Coco requires you to provide all the necessary nutrients when watering.Coco has several advantages:Its biodegradable, holds moisture and the nutrients in it, provides aeration in the soil that roots love and retains a constant pH of 5.2 to 6.8.",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#fc2a68",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "16529996567c2c2c68-2": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#26c1ce",
+            "text_color": "#ffffff",
+            "title": "Your heading",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#26c1ce",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16529996567c2c2c68-0",
+        "16529996567c2c2c68-1",
+        "16529996567c2c2c68-2"
+      ],
+      "settings": {
+        "expand_items": false,
+        "section_size": "medium",
+        "stack_mobile": false
+      }
+    },
     "165290982907ea0ec2": {
       "type": "offers",
+      "disabled": true,
       "blocks": {
         "165290982953db6214-0": {
           "type": "offer",
@@ -177,84 +247,16 @@
         "title": "Recently viewed",
         "show_quick_buy": false
       }
-    },
-    "1652999656bfb9144b": {
-      "type": "promotion-list",
-      "blocks": {
-        "16529996567c2c2c68-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/nutes-soil.png",
-            "show_overlay": true,
-            "overlay_opacity": 82,
-            "stretch_image": true,
-            "background": "#6f42ef",
-            "text_color": "#ffffff",
-            "title": "Soil",
-            "content": "Soil is a deep subject and is not cost effectice to ship. Not all soils are created equal or meant to grow every type of plant.For this reason we recommend purchasing a soil from a supplier local to you. Please visit this page to get an idea of what.",
-            "content_position": "top_left",
-            "button_background": "#7fb38e",
-            "button_text_color": "#ffffff",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "16529996567c2c2c68-1": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "stretch_image": false,
-            "background": "#fc2a68",
-            "text_color": "#ffffff",
-            "title": "Your heading",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#fc2a68",
-            "button_text": "Learn more",
-            "button_link": ""
-          }
-        },
-        "16529996567c2c2c68-2": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "stretch_image": false,
-            "background": "#26c1ce",
-            "text_color": "#ffffff",
-            "title": "Your heading",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#26c1ce",
-            "button_text": "Learn more",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16529996567c2c2c68-0",
-        "16529996567c2c2c68-1",
-        "16529996567c2c2c68-2"
-      ],
-      "settings": {
-        "expand_items": false,
-        "section_size": "medium",
-        "stack_mobile": false
-      }
     }
   },
   "order": [
     "165288782246107292",
+    "1652999656bfb9144b",
     "165290982907ea0ec2",
     "165290976745e9110f",
     "1652887959a34ddc88",
     "promotion",
     "recommendations",
-    "recentyViewed",
-    "1652999656bfb9144b"
+    "recentyViewed"
   ]
 }
