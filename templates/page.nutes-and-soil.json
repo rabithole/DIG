@@ -177,6 +177,74 @@
         "title": "Recently viewed",
         "show_quick_buy": false
       }
+    },
+    "1652999656bfb9144b": {
+      "type": "promotion-list",
+      "blocks": {
+        "16529996567c2c2c68-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nutes-soil.png",
+            "show_overlay": true,
+            "overlay_opacity": 82,
+            "stretch_image": true,
+            "background": "#6f42ef",
+            "text_color": "#ffffff",
+            "title": "Soil",
+            "content": "Soil is a deep subject and is not cost effectice to ship. Not all soils are created equal or meant to grow every type of plant.For this reason we recommend purchasing a soil from a supplier local to you. Please visit this page to get an idea of what.",
+            "content_position": "top_left",
+            "button_background": "#7fb38e",
+            "button_text_color": "#ffffff",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "16529996567c2c2c68-1": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#fc2a68",
+            "text_color": "#ffffff",
+            "title": "Your heading",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#fc2a68",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        },
+        "16529996567c2c2c68-2": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#26c1ce",
+            "text_color": "#ffffff",
+            "title": "Your heading",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#26c1ce",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16529996567c2c2c68-0",
+        "16529996567c2c2c68-1",
+        "16529996567c2c2c68-2"
+      ],
+      "settings": {
+        "expand_items": false,
+        "section_size": "medium",
+        "stack_mobile": false
+      }
     }
   },
   "order": [
@@ -186,6 +254,7 @@
     "1652887959a34ddc88",
     "promotion",
     "recommendations",
-    "recentyViewed"
+    "recentyViewed",
+    "1652999656bfb9144b"
   ]
 }
