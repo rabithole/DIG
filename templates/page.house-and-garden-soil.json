@@ -113,11 +113,21 @@
             "product": "house-garden-top-booster",
             "description": "House & Garden Top Booster has been precisely designed to alter the nutritional ratio of your feed according to plant demands. This encourages a more enthusiastic reproductive cycle (floral growth) from the plant. The PK aids in fruit set development, fruit bulking, stem and root expansion and uptake of other minerals.Top Booster also incorporates a specific form of EddhaFe (Iron) as this reduces chlorosis in leaves and triggers the production of autumn hormones, namely ethylene, to promote additional floral development and to regulating the ripening of fruit.Initiates flowering.Stimulates flowering.Improves plant respiration.Better than straight pk13\/14. with additional EDDHA-Fe Iron.Larger fruits.Dosage:1.5ml\/L"
           }
+        },
+        "3d09b54d-f256-43ad-ba1b-575cc69e5200": {
+          "type": "text",
+          "settings": {
+            "title": "Shooting Powder",
+            "product_sku": "600400",
+            "product": "house-garden-shooting-powder",
+            "description": "House & Garden Shooting Powder is the secret behind every successful cup winning grower. This sparkling bud expander is the absolute best in the field of flowering stimulators. It gives visible results and works brilliantly with all base nutrients. It is packed in handy sachets, is simple to use and has been extensively tested by our research team. It has already gained great respect in the horticultural industry and, moreover, has earned our customers’ complete satisfaction. It is the powdered form of top shooter, in easy to use sachets."
+          }
         }
       },
       "block_order": [
         "fb4d682f-e365-47c0-abb7-aa27c73e5a60",
-        "ba353572-1262-4a23-bbc1-a9c720fff834"
+        "ba353572-1262-4a23-bbc1-a9c720fff834",
+        "3d09b54d-f256-43ad-ba1b-575cc69e5200"
       ],
       "settings": {
         "title": "Additives for Flowering"
