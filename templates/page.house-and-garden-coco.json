@@ -45,8 +45,22 @@
     },
     "1653057764e2f77ce0": {
       "type": "build-kits",
+      "blocks": {
+        "1d8a22b7-fc6f-43a6-8510-ab171788b544": {
+          "type": "text",
+          "settings": {
+            "title": "Amino Treatment",
+            "product_sku": "600350",
+            "product": "house-garden-amino-treatment",
+            "description": "House & Garden Amino Treatment is our unsung hero within the H&G family. It contains a patented seed extract to provide your plants with the vigour and energy of a young seed growth. Containing essential amino acids and enzymes, this stimulating additive is used throughout the vegetative period and into the first stages of floral growth. This aids in the plants transitional period to provide you with bigger and healthier flowers! Amino Treatment also includes cold-pressed Norwegian Sea kelp to aid in plant development and provide organic fundamental macro and trace elements to your plant. We also incorporated a unique complex small particle silica component. Silica has been proven to help with plant stress relief, stem and leaf development and encourages additional heat\/cold resistance.A better foliage distribution.A higher photosynthesis ratio.Solid stems.Enhanced root activity.A better and increased fruit production.A higher sugar level of the fruit.Aids nutrient distribution.Dosage: 20-100ml\/100L"
+          }
+        }
+      },
+      "block_order": [
+        "1d8a22b7-fc6f-43a6-8510-ab171788b544"
+      ],
       "settings": {
-        "title": ""
+        "title": "Additives for Vegetation"
       }
     },
     "recommendations": {
