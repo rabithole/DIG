@@ -122,12 +122,22 @@
             "product": "house-garden-top-shooter",
             "description": "House & Garden Top Shooter is a liquid version of Shooting Powder. Top Shooter is a ulta potent PK flowering booster and is able to increase yields up to 20%! This amazing bud expander is the absolute best in the field of flowering stimulators (but contains NO PGRs). It gives visible results and works brilliantly with all base nutrients. The liquid form provides an easy and precise application for all small and large growers.House & Garden Top Shooter forces your plants into starting a new flowering cycle after the regular cycle has stopped, significantly increasing the fruit’s total weight. The extra yield after applying this agent will surprise even the most seasoned grower. Top Shooter creates a new layer on top of the existing fruit! Output increases of up to 20% can be reached this way and are very common.Top Shooter contains a proprietary carbonate form of phosphorus and potassium, that makes it both far more pH stable and bio-available than other yield enhancers. Top Shooter is the market leader in enhancing yields.Triggers your plants into initiating a second cycle of new flower development.Continuous cell division.Foaming bloom expander.Visible results in 2 days.Builds flowers on flowers on flowers.Outweighs the competition.Top Shooter Dosage: 0.5-2ml\/L"
           }
+        },
+        "2392158a-7b32-4ada-ab98-b3318f34f7b2": {
+          "type": "text",
+          "settings": {
+            "title": "Drip Clean",
+            "product_sku": "600320",
+            "product": "house-garden-drip-clean",
+            "description": "House & Garden Drip Clean is safe for all varieties of plants and is effective in tap or filtered water. Drip Clean uses a form of ‘magnetised’ potassium molecule to isolate select compounds and prevent salt build-ups in your pipes and growing medium.Salt accumulations can cause nutrient toxicities and negatively affect plant growth. Drip clean works to effectively clean your plumbing and growing substrate. House & Garden’s secret formula also helps to reduce flush times at the end of a harvest!Drip Clean is compatible with all mediums and existing nutrient solutions. Using an ultra efficient dosage of 0.1ml\/L, we recommend administering Drip Clean at every feeding.House & Garden Drip Clean can be used effectively in a range of substrates including Coco Fibre, Rockwool, Perlite and Clayballs. It is effective in both recirculating and run-to-waste systems.Dosage: 1ml\/10L"
+          }
         }
       },
       "block_order": [
         "b897b449-462e-45ab-b1c9-65047232e491",
         "e6784f21-9582-4cf4-816d-0c0effc79bd0",
-        "d421c2f9-f4f3-4ad9-8fd0-4391ac8a836b"
+        "d421c2f9-f4f3-4ad9-8fd0-4391ac8a836b",
+        "2392158a-7b32-4ada-ab98-b3318f34f7b2"
       ],
       "settings": {
         "title": "Additives for Flowering"
