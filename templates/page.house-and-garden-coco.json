@@ -63,11 +63,21 @@
             "product": "house-garden-multi-zen",
             "description": "Multi Zen is an extremely beneficial additive to incorporate into your arsenal. One of the most concentrated enzyme products on the market, Multi Zen boosts overall plant immunity by breaking down dead root material and converting it into nutrients the plant can absorb -- but that's just one aspect of its benefits. Breaking down this dead root material prevents bacterial and fungal diseases, keeping your root zone happy and healthy. Other enzymes included in each bottle convert nutrients into more readily available \"chunks\", boosting the rate of nutrient uptake and ensuring you're getting every benefit from the other nutrients you're feeding your plants."
           }
+        },
+        "adc0066a-b0ce-4b65-b726-69a7f10791de": {
+          "type": "text",
+          "settings": {
+            "title": "Drip Clean",
+            "product_sku": "600320",
+            "product": "house-garden-drip-clean",
+            "description": "House & Garden Drip Clean is safe for all varieties of plants and is effective in tap or filtered water. Drip Clean uses a form of ‘magnetised’ potassium molecule to isolate select compounds and prevent salt build-ups in your pipes and growing medium.Salt accumulations can cause nutrient toxicities and negatively affect plant growth. Drip clean works to effectively clean your plumbing and growing substrate. House & Garden’s secret formula also helps to reduce flush times at the end of a harvest!Drip Clean is compatible with all mediums and existing nutrient solutions. Using an ultra efficient dosage of 0.1ml\/L, we recommend administering Drip Clean at every feeding.House & Garden Drip Clean can be used effectively in a range of substrates including Coco Fibre, Rockwool, Perlite and Clayballs. It is effective in both recirculating and run-to-waste systems.Dosage: 1ml\/10L"
+          }
         }
       },
       "block_order": [
         "1d8a22b7-fc6f-43a6-8510-ab171788b544",
-        "599cdc0f-03b5-4832-86bd-0b4a75f9f848"
+        "599cdc0f-03b5-4832-86bd-0b4a75f9f848",
+        "adc0066a-b0ce-4b65-b726-69a7f10791de"
       ],
       "settings": {
         "title": "Additives for Vegetation"
