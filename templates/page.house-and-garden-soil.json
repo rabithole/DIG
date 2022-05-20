@@ -122,12 +122,22 @@
             "product": "house-garden-shooting-powder",
             "description": "House & Garden Shooting Powder is the secret behind every successful cup winning grower. This sparkling bud expander is the absolute best in the field of flowering stimulators. It gives visible results and works brilliantly with all base nutrients. It is packed in handy sachets, is simple to use and has been extensively tested by our research team. It has already gained great respect in the horticultural industry and, moreover, has earned our customers’ complete satisfaction. It is the powdered form of top shooter, in easy to use sachets."
           }
+        },
+        "b8bc1f8c-3946-4263-b6b1-70fe54e974d3": {
+          "type": "text",
+          "settings": {
+            "title": "Drip Clean",
+            "product_sku": "600320",
+            "product": "house-garden-drip-clean",
+            "description": "House & Garden Drip Clean is safe for all varieties of plants and is effective in tap or filtered water. Drip Clean uses a form of ‘magnetised’ potassium molecule to isolate select compounds and prevent salt build-ups in your pipes and growing medium.Salt accumulations can cause nutrient toxicities and negatively affect plant growth. Drip clean works to effectively clean your plumbing and growing substrate. House & Garden’s secret formula also helps to reduce flush times at the end of a harvest!Drip Clean is compatible with all mediums and existing nutrient solutions. Using an ultra efficient dosage of 0.1ml\/L, we recommend administering Drip Clean at every feeding.House & Garden Drip Clean can be used effectively in a range of substrates including Coco Fibre, Rockwool, Perlite and Clayballs. It is effective in both recirculating and run-to-waste systems.Dosage: 1ml\/10L"
+          }
         }
       },
       "block_order": [
         "fb4d682f-e365-47c0-abb7-aa27c73e5a60",
         "ba353572-1262-4a23-bbc1-a9c720fff834",
-        "3d09b54d-f256-43ad-ba1b-575cc69e5200"
+        "3d09b54d-f256-43ad-ba1b-575cc69e5200",
+        "b8bc1f8c-3946-4263-b6b1-70fe54e974d3"
       ],
       "settings": {
         "title": "Additives for Flowering"
