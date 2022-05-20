@@ -72,12 +72,22 @@
             "product": "house-garden-drip-clean",
             "description": "House & Garden Drip Clean is safe for all varieties of plants and is effective in tap or filtered water. Drip Clean uses a form of ‘magnetised’ potassium molecule to isolate select compounds and prevent salt build-ups in your pipes and growing medium.Salt accumulations can cause nutrient toxicities and negatively affect plant growth. Drip clean works to effectively clean your plumbing and growing substrate. House & Garden’s secret formula also helps to reduce flush times at the end of a harvest!Drip Clean is compatible with all mediums and existing nutrient solutions. Using an ultra efficient dosage of 0.1ml\/L, we recommend administering Drip Clean at every feeding.House & Garden Drip Clean can be used effectively in a range of substrates including Coco Fibre, Rockwool, Perlite and Clayballs. It is effective in both recirculating and run-to-waste systems.Dosage: 1ml\/10L"
           }
+        },
+        "91d402f1-a049-4d89-a42d-70e63206f40f": {
+          "type": "text",
+          "settings": {
+            "title": "Algen Extract",
+            "product_sku": "600340",
+            "product": "house-garden-algen-extract",
+            "description": "House & Garden Algen Extract is a concentrated solution of Norwegian Sea Kelp, (Ascophyllum nodosum). Plants in all phases of growth love kelp for the many benefits it provides. Micro nutrients, beneficial vitamins, and macro-nutrients are all present in Algen Extract. This helps ensure a better leaf colour and Algen Extract also stimulates the formation of fine root hairs, leading to increased uptake of various trace elements.House & Garden Algen Extract is a premium blend of Norwegian Sea Kelp, containing high levels of active enzymes and cytokinin, as well as amino acids. Our Algen extract is extracted in cold water, which ensures the biological life remains intact and un-denatured. The extract is therefore rich in both macro nutrients (such as N, P, K, Ca, Mg & S) and micro nutrients (Mn, Cu, Fe & Zn). Algen Extract also contains very high levels of natural hormones, polysaccharides and proteins.These substances stimulate healthy root growth, which makes Algen Extract an important supplement to the base nutrients of the plant. Algen Extract plays a significant role in the health of your plant’s immune system, providing superior resistance to disease and pests. The Norwegian Kelp is very unique and its benefits will be evident within a couple of days. Spoil your plants with Algen Extract and reap the rewards through faster, healthier growth.Perfect for soil and coco substrates!"
+          }
         }
       },
       "block_order": [
         "1d8a22b7-fc6f-43a6-8510-ab171788b544",
         "599cdc0f-03b5-4832-86bd-0b4a75f9f848",
-        "adc0066a-b0ce-4b65-b726-69a7f10791de"
+        "adc0066a-b0ce-4b65-b726-69a7f10791de",
+        "91d402f1-a049-4d89-a42d-70e63206f40f"
       ],
       "settings": {
         "title": "Additives for Vegetation"
