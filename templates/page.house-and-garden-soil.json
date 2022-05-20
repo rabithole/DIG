@@ -93,6 +93,26 @@
         "title": "Additives for Vegetation"
       }
     },
+    "1653058441706fcf04": {
+      "type": "build-kits",
+      "blocks": {
+        "fb4d682f-e365-47c0-abb7-aa27c73e5a60": {
+          "type": "text",
+          "settings": {
+            "title": "Bud XL",
+            "product_sku": "600370",
+            "product": "house-garden-bud-xl",
+            "description": "House & Garden Bud XL has the unique ability to extract sugars from the leaves of the plant and transfer them to the fruit. The fruit is made sweeter and its taste is improved.Bud XL will also increase the size and robustness of the plant’s fruits, which in turn will result in an increase in the final yield. It has been known for a century that enzymes act as a transporter and distributor of sugars in the plant. Bud XL uses these enzymes to extract the sugars and give you the grower heavier and denser flowering sitesStart adding Bud-XL to the nutrient after the first flowers are formed. This is the period that the big bract loses its function. By adding Bud-XL you ensure that the plant’s energy is no longer used for keeping the bract, but is directed to forming flowers and fruits.Enzyme based booster.Redirects stored sugars and carbs to the fruits\/flowers.Uses the plants own resources.Enhances essential oil production.Dosage: 1ml\/L"
+          }
+        }
+      },
+      "block_order": [
+        "fb4d682f-e365-47c0-abb7-aa27c73e5a60"
+      ],
+      "settings": {
+        "title": "Additives for Flowering"
+      }
+    },
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -134,6 +154,7 @@
   "order": [
     "1652455439fc4e7e18",
     "16530034857f1a8ed6",
+    "1653058441706fcf04",
     "recommendations",
     "promotion",
     "recentyViewed",
