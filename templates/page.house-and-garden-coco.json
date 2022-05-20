@@ -54,10 +54,20 @@
             "product": "house-garden-amino-treatment",
             "description": "House & Garden Amino Treatment is our unsung hero within the H&G family. It contains a patented seed extract to provide your plants with the vigour and energy of a young seed growth. Containing essential amino acids and enzymes, this stimulating additive is used throughout the vegetative period and into the first stages of floral growth. This aids in the plants transitional period to provide you with bigger and healthier flowers! Amino Treatment also includes cold-pressed Norwegian Sea kelp to aid in plant development and provide organic fundamental macro and trace elements to your plant. We also incorporated a unique complex small particle silica component. Silica has been proven to help with plant stress relief, stem and leaf development and encourages additional heat\/cold resistance.A better foliage distribution.A higher photosynthesis ratio.Solid stems.Enhanced root activity.A better and increased fruit production.A higher sugar level of the fruit.Aids nutrient distribution.Dosage: 20-100ml\/100L"
           }
+        },
+        "599cdc0f-03b5-4832-86bd-0b4a75f9f848": {
+          "type": "text",
+          "settings": {
+            "title": "Multi Zen",
+            "product_sku": "600330",
+            "product": "house-garden-multi-zen",
+            "description": "Multi Zen is an extremely beneficial additive to incorporate into your arsenal. One of the most concentrated enzyme products on the market, Multi Zen boosts overall plant immunity by breaking down dead root material and converting it into nutrients the plant can absorb -- but that's just one aspect of its benefits. Breaking down this dead root material prevents bacterial and fungal diseases, keeping your root zone happy and healthy. Other enzymes included in each bottle convert nutrients into more readily available \"chunks\", boosting the rate of nutrient uptake and ensuring you're getting every benefit from the other nutrients you're feeding your plants."
+          }
         }
       },
       "block_order": [
-        "1d8a22b7-fc6f-43a6-8510-ab171788b544"
+        "1d8a22b7-fc6f-43a6-8510-ab171788b544",
+        "599cdc0f-03b5-4832-86bd-0b4a75f9f848"
       ],
       "settings": {
         "title": "Additives for Vegetation"
