@@ -1390,8 +1390,8 @@
             "type": "link",
             "disabled": true,
             "settings": {
-              "title": "Your link",
-              "link": ""
+              "title": "Seedling Kits",
+              "link": "shopify:\/\/pages\/seed-starting-kits"
             }
           }
         },
