@@ -1414,7 +1414,7 @@
         "type": "custom-html",
         "settings": {
           "title": "",
-          "html": "<div id=\"store-hours\">\n<h4><b>HOURS:<\/b><\/h4>      <p>Monday to Saturday: <b>10am - 6pm<\/b>       <\/p> <p>Sunday: <b>11am - 3pm<\/b><\/p>\n<\/div>"
+          "html": "<div id=\"store-hours\">\n<h4><b>HOURS:<\/b><\/h4>      <p>Monday to Saturday: <b>10am - 5pm<\/b>       <\/p> <p>Sunday: <b>Closed<\/b><\/p>\n<\/div>"
         }
       }
     },
