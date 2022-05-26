@@ -197,11 +197,21 @@
             "product": "advanced-nutrients-overdrive",
             "description": "<b>Bigger Buds<\/b><br>During the final weeks of bloom phase your plants need the ingredients in Overdrive to maintain flower maturation, flower growth, and overall vigor. Many growers neglect the last weeks of bloom phase, but now you can kick it into Overdrive for a strong finish and get bigger smiles at harvest time."
           }
+        },
+        "e70be45b-7c1d-4ae7-9bcd-a05591cc5ff2": {
+          "type": "text",
+          "settings": {
+            "title": "Bud Candy",
+            "product_sku": "100390",
+            "product": "advanced-nutrients-bud-candy",
+            "description": "Bud Candy provides your plants with an essential secondary plant nutrient which serves to activate many plant enzymes required in the growth process. It is designed to increase the aroma and flavor of your favorite bud strain. After years of research and development, our team identified the optimal blend of carbohydrates fertilizer for growers seeking their most flavorful yields yet.When you add this premium product to your nutrient lineup, you’re getting . . .Five different sources of carbohydrates, a starting point to terpene production for unlocking fragrant, flavorful yieldsA combination of simple and complex carbohydrates for nourishing beneficial microbes, expanding your root zone and providing critical nutrition for huge, aromatic yields.The essential secondary nutrient magnesium, so you can support optimal chlorophyll production and stabilize plant productivityAnd the results speak for themselves…More cannabis growers rely on Bud Candy® than any other carbohydrate additive on the planet.It’s a must-have staple in hundreds of thousands of grow rooms across the globe."
+          }
         }
       },
       "block_order": [
         "44ba3503-11d3-4956-be7a-97a42ddeb921",
-        "ec564f5f-acc5-43b6-abc1-a46c0a77b6bf"
+        "ec564f5f-acc5-43b6-abc1-a46c0a77b6bf",
+        "e70be45b-7c1d-4ae7-9bcd-a05591cc5ff2"
       ],
       "settings": {
         "title": "Add ons for flowering"
