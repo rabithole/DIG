@@ -1365,7 +1365,6 @@
           },
           "16494685530c886071-2": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "title": "Air & Humidity",
               "link": "shopify:\/\/pages\/air-humidity"
@@ -1373,9 +1372,8 @@
           },
           "16494685530c886071-3": {
             "type": "link",
-            "disabled": true,
             "settings": {
-              "title": "Harvesting Kits",
+              "title": "Harvest Kits",
               "link": "shopify:\/\/pages\/harvest"
             }
           },
