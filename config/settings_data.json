@@ -1351,6 +1351,7 @@
         "blocks": {
           "16494685530c886071-0": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "title": "Nutrients & Soil",
               "link": "shopify:\/\/pages\/nutes-and-soil"
@@ -1365,6 +1366,7 @@
           },
           "16494685530c886071-2": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "title": "Air & Humidity",
               "link": "shopify:\/\/pages\/air-humidity"
@@ -1372,6 +1374,7 @@
           },
           "16494685530c886071-3": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "title": "Harvest Kits",
               "link": "shopify:\/\/pages\/harvest"
