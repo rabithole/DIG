@@ -39,12 +39,13 @@
 			  	<section class="eachProduct">
 				  	{% for option in product.variants %}
 		          		{% if option.sku == sku %}
-		      				{% if product.has_only_default_variant %}
-		      					<img src='{{ block.settings.image | img_url }}' style='width: 200px;' class="product-image">
-							{% else %}
-								<img class="product-image" src='{{ option.image | img_url }}'> 
-							{% endif %}
-
+		          			<a href="{{ option.url }}">
+			      				{% if product.has_only_default_variant %}
+			      					<img src='{{ block.settings.image | img_url }}' style='width: 200px;' class="product-image">
+								{% else %}
+									<img class="product-image" src='{{ option.image | img_url }}'> 
+								{% endif %}
+							</a>	
 		            		<h3 class='product-price' id='{{ option.id }}' data-price={{ option.price }}>{{ option.price | money }}</h3>
 		    				
 							<div class="dropDown">

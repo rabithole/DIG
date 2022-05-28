@@ -8,7 +8,7 @@
 	<section>
 	  <div class='build-kit'>
 	  	<div>
-	      			<h1 style="font-size: 3vw; font-weight: bold; color: black;">{{ block.settings.title }}</h1>
+	      	<h1 style="font-size: 3vw; font-weight: bold; color: black;">{{ block.settings.title }}</h1>
 	      {% for option in singleProduct.variants %}
 	          {% if option.sku == singleSku %}
 	          	
@@ -19,13 +19,12 @@
 	            <div class='cart-button'>
 	  						<button class="discount-page-button" >Add To Cart</button> 
 							</div>
-			</div>				
+			</div>		
+						<a href="{{ option.url }}">
 	            <img src='{{ option.image | img_url }}'>
+	          </a>
 	          {% endif %}
-	      {% endfor %}
-	      			
-
-	      
+	      {% endfor %}	      
 	  </div>
 	</section>
 {% endfor %}
