@@ -1,3 +1,5 @@
+{% assign pageUrl = request.host | append: request.path %}
+
 <div class="main-title">
 	<h1>{{ section.settings.title }}</h1>
 </div>
@@ -36,10 +38,10 @@
 			  		<p>{{ block.settings.description | truncate: 352 }}</p>
 			  	</section>
 
-			  	<section class="eachProduct">
+			  	<section class="each-product">
 				  	{% for option in product.variants %}
 		          		{% if option.sku == sku %}
-		          			<a href="{{ option.url }}">
+		          			<a href="{{ option.url }}"> 
 			      				{% if product.has_only_default_variant %}
 			      					<img src='{{ block.settings.image | img_url }}' style='width: 200px;' class="product-image">
 								{% else %}
@@ -48,7 +50,7 @@
 							</a>	
 		            		<h3 class='product-price' id='{{ option.id }}' data-price={{ option.price }}>{{ option.price | money }}</h3>
 		    				
-							<div class="dropDown">
+							<div class="drop-down">
 								{% if variantsArray.size == 1 %}
 									<label>Product Description</label>
 									<p value={{ sku }}>{{ option.title }}</p>
@@ -84,6 +86,13 @@
 </div>	
 
 <script>
+	// var pageUrl = '{{ pageUrl }}';
+
+	// if(pageUrl == 'discount-indoor-gardening.myshopify.com/pages/air-humidity'){
+	// 	console.log('Page Url:---', pageUrl)
+	// 	console.log('Select:---', document.querySelectorAll('select'))
+	// }
+
 	// Setting id for each kit product section
     var kitContainers = document.getElementsByClassName('kit'); // used to set dynamic kit id
 
@@ -123,7 +132,7 @@
 	// Grabs sku from drop down menu for selecting 
 	var changeProduct = function(event) {
 		var productHandle = event.target.closest('.product-container').id;
-		var productImg = event.target.parentElement.parentElement.children[0];
+		var productImg = event.target.parentElement.parentElement.children[0].children[0];
 		var productPriceElement = event.target.parentElement.parentElement.children[1];
 		var sku = Number(event.target.value);
 		var kitTotalPrice = event.target.closest('.kit').children[0];
