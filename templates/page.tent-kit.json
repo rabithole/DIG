@@ -218,23 +218,6 @@
         "other-kits": ""
       }
     },
-    "recentyViewed": {
-      "type": "static-recently-viewed-products",
-      "settings": {
-        "show_section": true,
-        "title": "Recently viewed",
-        "show_quick_buy": false
-      }
-    },
-    "recommendations": {
-      "type": "product-recommendations",
-      "disabled": true,
-      "settings": {
-        "show_product_recommendations": true,
-        "heading": "You may also like",
-        "show_quick_buy": false
-      }
-    },
     "1653705043f48db417": {
       "type": "build-kits",
       "blocks": {
@@ -254,6 +237,23 @@
       "settings": {
         "title": "AC Infinity Grow Tent Kit"
       }
+    },
+    "recentyViewed": {
+      "type": "static-recently-viewed-products",
+      "settings": {
+        "show_section": true,
+        "title": "Recently viewed",
+        "show_quick_buy": false
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "heading": "You may also like",
+        "show_quick_buy": false
+      }
     }
   },
   "order": [
@@ -262,8 +262,8 @@
     "16493722588ba898e7",
     "promotion",
     "1652228192045364d7",
+    "1653705043f48db417",
     "recentyViewed",
-    "recommendations",
-    "1653705043f48db417"
+    "recommendations"
   ]
 }
