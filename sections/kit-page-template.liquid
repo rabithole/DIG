@@ -10,7 +10,7 @@
 
 <!-- Top of kit page -->
 <div class="kit">
-	<h4 class="kitTotal"></h4>
+	<h4 class="kit-total"></h4>
 
 	<!-- outside for loop -->
   	{% for block in section.blocks %}
@@ -86,12 +86,7 @@
 </div>	
 
 <script>
-	// var pageUrl = '{{ pageUrl }}';
-
-	// if(pageUrl == 'discount-indoor-gardening.myshopify.com/pages/air-humidity'){
-	// 	console.log('Page Url:---', pageUrl)
-	// 	console.log('Select:---', document.querySelectorAll('select'))
-	// }
+	var pageUrl = '{{ pageUrl }}';
 
 	// Setting id for each kit product section
     var kitContainers = document.getElementsByClassName('kit'); // used to set dynamic kit id
@@ -137,6 +132,10 @@
 		var sku = Number(event.target.value);
 		var kitTotalPrice = event.target.closest('.kit').children[0];
 		var kitProductTotals = event.target.closest('.kit').querySelectorAll('H3')
+
+		if(pageUrl == 'discount-indoor-gardening.myshopify.com/pages/air-humidity'){
+			alert('Make sure all products are of the same diameter!\nBe sure to select lengths on products with lengths!')
+		}
 
 		getProductVariant(productHandle, sku)
 			.then(variant => {
