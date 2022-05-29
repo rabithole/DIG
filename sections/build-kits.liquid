@@ -9,20 +9,20 @@
 	  <div class='build-kit'>
 	  	<div>
 	      	<h1 style="font-size: 3vw; font-weight: bold; color: black;">{{ block.settings.title }}</h1>
+	    
 	      {% for option in singleProduct.variants %}
 	          {% if option.sku == singleSku %}
-	          	
+        	<a href="{{ option.url }}">
+            	<img src='{{ option.image | img_url }}' id='add-on'>
+          	</a>
+	    </div>
 	            <h3 class='product-price' id='{{ option.id }}' data-price={{ option.price }}>{{ option.price | money }}</h3>
 	            <h1>{{ option.title }}</h1>
-	            <p>{{ block.settings.description }}</p>
+	            <p id='addon-description'>{{ block.settings.description }}</p>
 
 	            <div class='cart-button'>
-	  						<button class="discount-page-button" >Add To Cart</button> 
-							</div>
-			</div>		
-						<a href="{{ option.url }}">
-	            <img src='{{ option.image | img_url }}'>
-	          </a>
+					<button class="discount-page-button" >Add To Cart</button> 
+				</div>
 	          {% endif %}
 	      {% endfor %}	      
 	  </div>

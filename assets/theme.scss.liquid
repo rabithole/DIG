@@ -13873,8 +13873,8 @@ to turn off this for now...
 }
 
 .build-kit {
-  display: flex;
-  flex-direction: row;
+  /*display: flex;*/
+  /*flex-direction: row;*/
   border: 2px solid black;
   box-shadow: 2px 2px 5px black;
   padding: 10px;
@@ -13883,20 +13883,28 @@ to turn off this for now...
   overflow: hidden;
   color: black;
   background-color: #7FB38E;
+  position: relative;
 }
 
 .build-kit div p {
-  width: 125%;
+  width: 90%;
+  /*position: absolute;*/
+  bottom: 5;
 }
 
 .add-ons section {
   margin: 2%;
 }
 
-.build-kit img {
-  width: 150px;
-  height: 150px;
-  
+#add-on {
+  /*width: 150px;*/
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+#addon-description {
+  margin-top: 80px;
 }
 
 .kit-total {
@@ -13916,7 +13924,7 @@ to turn off this for now...
   margin: 10px;
   background-color: white;
   width: 500px;
-  height: 400px;
+  height: auto;
   border: 1px solid grey;
   border-radius: 5px;
   box-shadow: 1px 1px 5px black; 
@@ -13944,7 +13952,7 @@ to turn off this for now...
 
   .build-kit img {
     width: 100px;
-    height: 100px;
+    /*height: 100px;*/
   }
 }
 
