@@ -106,6 +106,56 @@
         "stack_mobile": true
       }
     },
+    "1653934072c3710f61": {
+      "type": "kit-page-template",
+      "blocks": {
+        "f2e05b1c-975a-4ee5-8498-643a171e1e60": {
+          "type": "text",
+          "settings": {
+            "title": "Fabric Pot by Grow1",
+            "productOne": "600556",
+            "productTwo": "600557",
+            "productThree": "200030",
+            "productFour": "600558",
+            "productFive": "600559",
+            "productSix": "",
+            "product": "grow-1-fabric-pot",
+            "description": "Grow1 fabric pots are a durable, portable growing solution. Made of heavy-duty fabric! these fabric pots provide excellent drainage and do not trap heat."
+          }
+        }
+      },
+      "block_order": [
+        "f2e05b1c-975a-4ee5-8498-643a171e1e60"
+      ],
+      "settings": {
+        "title": "Fabric Pot",
+        "top-of-page": "",
+        "bottom-of-page": "",
+        "other-kits": ""
+      }
+    },
+    "1653933524add5ba89": {
+      "type": "build-kits",
+      "disabled": true,
+      "blocks": {
+        "0d01f457-5b71-4088-a7e2-478bc4c5f58c": {
+          "type": "text",
+          "settings": {
+            "title": "Fabric Pot",
+            "product_sku": "600556",
+            "product": "grow-1-fabric-pot",
+            "description": "Grow1 fabric pots are a durable, portable growing solution. Made of heavy-duty fabric! these fabric pots provide excellent drainage and do not trap heat."
+          }
+        }
+      },
+      "block_order": [
+        "0d01f457-5b71-4088-a7e2-478bc4c5f58c"
+      ],
+      "settings": {
+        "title": "Fabric Pots",
+        "kit-details": "Fabric pots have properties ideal for growing cannabis. Cannabis thrives when the soil it roots in has wet and dry periods, coinciding with your watering schedule. The porous nature of fabric pots allow the soil to dry much more uniformly and faster."
+      }
+    },
     "1653000070dd010e29": {
       "type": "kit-links",
       "blocks": {
@@ -318,6 +368,8 @@
     "165288782246107292",
     "1652999656bfb9144b",
     "165290982907ea0ec2",
+    "1653934072c3710f61",
+    "1653933524add5ba89",
     "1653000070dd010e29",
     "165290976745e9110f",
     "1652887959a34ddc88",
