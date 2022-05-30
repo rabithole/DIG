@@ -187,12 +187,29 @@
       "slideshow": {
         "type": "slideshow",
         "blocks": {
+          "45264cd8-d4f2-4d00-b4ed-12194fb0a11b": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Kit-banner.png",
+              "show_overlay": false,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "",
+              "content": "",
+              "content_position": "bottom_right",
+              "button_background": "#23453d",
+              "button_text_color": "#ffffff",
+              "button_text": "Grow Tent Kits",
+              "link": "shopify:\/\/pages\/grow-tent"
+            }
+          },
           "a5d6ff45-4b03-4695-9275-e345e37e7191": {
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/Overstock-banner.png",
               "mobile_image": "shopify:\/\/shop_images\/mobile-front-page.png",
-              "show_overlay": false,
+              "show_overlay": true,
               "overlay_opacity": 30,
               "text_color": "#ffffff",
               "title": "",
@@ -237,36 +254,20 @@
               "button_text": "House and Garden Products",
               "link": "shopify:\/\/collections\/house-and-garden"
             }
-          },
-          "45264cd8-d4f2-4d00-b4ed-12194fb0a11b": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "show_overlay": false,
-              "overlay_opacity": 30,
-              "text_color": "#ffffff",
-              "title": "",
-              "content": "",
-              "content_position": "bottom_right",
-              "button_background": "#7fb38e",
-              "button_text_color": "#000000",
-              "button_text": "Grow Tent Kits",
-              "link": "shopify:\/\/pages\/grow-tent"
-            }
           }
         },
         "block_order": [
+          "45264cd8-d4f2-4d00-b4ed-12194fb0a11b",
           "a5d6ff45-4b03-4695-9275-e345e37e7191",
           "d269502f-c059-4e64-b990-dd9cca8dc303",
-          "272d4801-47a5-43c9-aec5-40194bdaf9fe",
-          "45264cd8-d4f2-4d00-b4ed-12194fb0a11b"
+          "272d4801-47a5-43c9-aec5-40194bdaf9fe"
         ],
         "settings": {
           "edge_to_edge": true,
           "section_size": "preserve_ratio",
-          "carousel_effect": "slide",
+          "carousel_effect": "fade",
           "autoplay": true,
-          "cycle_speed": 5
+          "cycle_speed": 4
         }
       },
       "collection-list": {
