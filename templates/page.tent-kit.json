@@ -1,19 +1,5 @@
 {
   "sections": {
-    "1649376143d7978c59": {
-      "type": "custom-html",
-      "settings": {
-        "title": "Basics of Grow Tents",
-        "html": "<p>A grow tent set up begins with these three components. For best results we recommend adding our <a href=\"https:\/\/dig.supply\/pages\/air-humidity\"><b style=\"color: red\">‘Air and Humidity kit’<\/b><\/a> to maximize the potential of your plants. While you can grow cannabis with just a tent kit, most will find the growing conditions won’t maximize your end result.<\/p>\n\n\t<p>Our mid level and up grow kits are not the cheapest on the market. They do contain quality components that are proven to last and produce the results you expect. <b>In addition, we provide the support and info you need for a successful grow<\/b>. Give us a call during business hours for your answers. We have chosen AC Infinity products along side Gro Pros LED lighting because of their superior quality and reasonable price points.<\/p>\n \n<p>Refer below for more information.<\/p>"
-      }
-    },
-    "1649376370de73efeb": {
-      "type": "custom-html",
-      "settings": {
-        "title": "Common Challenges",
-        "html": "<p>Here is a list of some problems you may run into:<\/p>\n<div>\n<ul>\n<li>\n<b>Humidity<\/b> is problematic especially during the flowering stage. Your dense buds will hold moisture creating a ripe place for mold to grow. Not a good thing for your lungs or health of your buds. An <b>exhaust fan<\/b> can take care of this problem easily.<\/li> \n<li>Smell is often a complaint, nuisance or possibly even a legal issue in some situations. This can be taken care of by combining an exhaust fan and a carbon filter. The filter will remove any smell that might be exhausted into your room, garage or outdoor environment that could unsettle your neighbors.\n<\/li> \n<li>A <b>simple fan to move the air inside your tent<\/b> will help your plants breath. Stagnant air will become humid in spots if the air in the tent isn’t moved around. A circulation fan and an exhaust fan work together to keep the environment in your grow tent at the optimum temperature and humidity level. \n<\/li>\n<\/ul>\n<\/div>\n<p><b style=\"color: red\">Our air and humidity kits<\/b> are equipped to manage any growing situation inside a grow tent.<\/p>\n<a href=\"https:\/\/dig.supply\/pages\/air-humidity\">\n<h1 style=\"color: red\"><b>VENTILATION IS IMPORTANT<\/b><\/h1><\/a>"
-      }
-    },
     "16493722588ba898e7": {
       "type": "kit-page-template",
       "blocks": {
@@ -70,6 +56,20 @@
         "top-of-page": "Our entry level kit is priced to get you started on a budget. Please read the notes above referencing common challenges when purchasing this kit.<br>\nThis kit utilizes fluorescent lights. Not the end of the world, just be aware and do some research for your next grow, but you can further maximize your end product with the addition of the right light set up.<br>\nBe sure to take note of the timer and light drop down options.",
         "bottom-of-page": "",
         "other-kits": ""
+      }
+    },
+    "1649376143d7978c59": {
+      "type": "custom-html",
+      "settings": {
+        "title": "Basics of Grow Tents",
+        "html": "<p>A grow tent set up begins with these three components. For best results we recommend adding our <a href=\"https:\/\/dig.supply\/pages\/air-humidity\"><b style=\"color: red\">‘Air and Humidity kit’<\/b><\/a> to maximize the potential of your plants. While you can grow cannabis with just a tent kit, most will find the growing conditions won’t maximize your end result.<\/p>\n\n\t<p>Our mid level and up grow kits are not the cheapest on the market. They do contain quality components that are proven to last and produce the results you expect. <b>In addition, we provide the support and info you need for a successful grow<\/b>. Give us a call during business hours for your answers. We have chosen AC Infinity products along side Gro Pros LED lighting because of their superior quality and reasonable price points.<\/p>\n \n<p>Refer below for more information.<\/p>"
+      }
+    },
+    "1649376370de73efeb": {
+      "type": "custom-html",
+      "settings": {
+        "title": "Common Challenges",
+        "html": "<p>Here is a list of some problems you may run into:<\/p>\n<div>\n<ul>\n<li>\n<b>Humidity<\/b> is problematic especially during the flowering stage. Your dense buds will hold moisture creating a ripe place for mold to grow. Not a good thing for your lungs or health of your buds. An <b>exhaust fan<\/b> can take care of this problem easily.<\/li> \n<li>Smell is often a complaint, nuisance or possibly even a legal issue in some situations. This can be taken care of by combining an exhaust fan and a carbon filter. The filter will remove any smell that might be exhausted into your room, garage or outdoor environment that could unsettle your neighbors.\n<\/li> \n<li>A <b>simple fan to move the air inside your tent<\/b> will help your plants breath. Stagnant air will become humid in spots if the air in the tent isn’t moved around. A circulation fan and an exhaust fan work together to keep the environment in your grow tent at the optimum temperature and humidity level. \n<\/li>\n<\/ul>\n<\/div>\n<p><b style=\"color: red\">Our air and humidity kits<\/b> are equipped to manage any growing situation inside a grow tent.<\/p>\n<a href=\"https:\/\/dig.supply\/pages\/air-humidity\">\n<h1 style=\"color: red\"><b>VENTILATION IS IMPORTANT<\/b><\/h1><\/a>"
       }
     },
     "promotion": {
@@ -310,9 +310,9 @@
     }
   },
   "order": [
+    "16493722588ba898e7",
     "1649376143d7978c59",
     "1649376370de73efeb",
-    "16493722588ba898e7",
     "promotion",
     "1652228192045364d7",
     "1653705043f48db417",
