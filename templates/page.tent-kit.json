@@ -95,6 +95,7 @@
         },
         "bf07a3dc-2bcd-4e2b-8902-9ef0786a3c60": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/princess-with-overlay.png",
             "show_overlay": true,
@@ -131,6 +132,7 @@
         },
         "58dd101a-1982-45c9-a3a0-7a9a6a2e7328": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/7882-tomato-seedlings.png",
             "show_overlay": true,
@@ -146,13 +148,31 @@
             "button_text": "Seed Starting",
             "button_link": "shopify:\/\/pages\/seed-starting-kits"
           }
+        },
+        "019e7c99-ca0f-479f-bcbc-33c47f05e08d": {
+          "type": "item",
+          "settings": {
+            "show_overlay": true,
+            "overlay_opacity": 100,
+            "stretch_image": true,
+            "background": "#7fb38e",
+            "text_color": "#ffffff",
+            "title": "All Kits",
+            "content": "These are just two of our kits. Check out the rest with the button below.",
+            "content_position": "top_left",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "button_text": "All Kits",
+            "button_link": "shopify:\/\/pages\/kits"
+          }
         }
       },
       "block_order": [
         "9cac0e71-2daa-464a-b485-c190d01bc277",
         "bf07a3dc-2bcd-4e2b-8902-9ef0786a3c60",
         "2fb245a2-dcf4-485b-96cd-c5dd7f52f28d",
-        "58dd101a-1982-45c9-a3a0-7a9a6a2e7328"
+        "58dd101a-1982-45c9-a3a0-7a9a6a2e7328",
+        "019e7c99-ca0f-479f-bcbc-33c47f05e08d"
       ],
       "settings": {
         "expand_items": false,
