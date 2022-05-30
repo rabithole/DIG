@@ -1,4 +1,5 @@
 <p class="add-ons-title">{{ section.settings.title }}</p>
+<p>{{ section.settings.kit-details }}</p>
 
 <div class="add-ons">
 {% for block in section.blocks %}
@@ -9,7 +10,6 @@
 	  <div class='build-kit'>
 	  	<div>
 	      	<h1 style="font-size: 3vw; font-weight: bold; color: black;">{{ block.settings.title }}</h1>
-	      	<p>{{ block.settings.kit-details }}</p>
 	    
 	      {% for option in singleProduct.variants %}
 	          {% if option.sku == singleSku %}
