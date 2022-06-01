@@ -191,6 +191,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/Kit-banner.png",
+              "mobile_image": "shopify:\/\/shop_images\/Kit-social.png",
               "show_overlay": false,
               "overlay_opacity": 100,
               "text_color": "#ffffff",
