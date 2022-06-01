@@ -189,7 +189,6 @@
         "blocks": {
           "45264cd8-d4f2-4d00-b4ed-12194fb0a11b": {
             "type": "image",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Kit-banner.png",
               "show_overlay": false,
