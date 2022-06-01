@@ -241,15 +241,6 @@
     "1653705043f48db417": {
       "type": "build-kits",
       "blocks": {
-        "5df6b551-b6ca-484e-971f-8de564fd487c": {
-          "type": "text",
-          "settings": {
-            "title": "AC Infinity",
-            "product_sku": "600101",
-            "product": "grow-tent-kit",
-            "description": "<b>Kit Includes:<\/b><br>CLOUDLAB 733 – Advance Grow Tent 36”x36”x72” (x1)<br>CONTROLLER 69 – Grow Tent Controller (x1)<br>CLOUDLINE LITE 4 – Inline Fan 4\" (x1)<br>IONBOARD S33 – LED Grow Light Board 240W (x1)<br>CLOUDRAY A6 – Circulation Clip Fan 6\" Manual Swivel (x1)<br>Australian Carbon Filter 4” (x1)<br>4” Flexible Ducting, 8’ Long (x1)<br>5-gallon Fabric Pots (x6)<br>Elastic Trellis Netting 3x3’ (x1)<br>Micro-tip Pruning Shears (x1)<br>Other Hanging and Installation Accessories"
-          }
-        },
         "21c2ff7c-a40b-4666-b7ee-4130f3206a77": {
           "type": "text",
           "settings": {
@@ -258,11 +249,20 @@
             "product": "2ft-x-2ft-grow-tent-kit",
             "description": "<b>Kit Includes:<\/b><br>CLOUDLAB 722 – Advance Grow Tent 24”x24”x72” (x1)<br>\nCONTROLLER 69 – Grow Tent Controller (x1)<br>\nCLOUDLINE LITE 4 - Inline Fan 4\" (x1)<br>\nIONBOARD S22 – LED Grow Light Board 100W (x1)<br>\nCLOUDRAY A6 – Circulation Clip Fan 6\" Manual Swivel (x1)<br>\nAustralian Carbon Filter 4” (x1)<br>\n4” Flexible Ducting, 8’ Long (x1)<br>\n5-gallon Fabric Pots (x2)\nElastic Trellis Netting 2x2’ (x1)<br>\nMicro-tip Pruning Shears (x1)<br>\nOther Hanging and Installation Accessories"
           }
+        },
+        "5df6b551-b6ca-484e-971f-8de564fd487c": {
+          "type": "text",
+          "settings": {
+            "title": "AC Infinity",
+            "product_sku": "600101",
+            "product": "grow-tent-kit",
+            "description": "<b>Kit Includes:<\/b><br>CLOUDLAB 733 – Advance Grow Tent 36”x36”x72” (x1)<br>CONTROLLER 69 – Grow Tent Controller (x1)<br>CLOUDLINE LITE 4 – Inline Fan 4\" (x1)<br>IONBOARD S33 – LED Grow Light Board 240W (x1)<br>CLOUDRAY A6 – Circulation Clip Fan 6\" Manual Swivel (x1)<br>Australian Carbon Filter 4” (x1)<br>4” Flexible Ducting, 8’ Long (x1)<br>5-gallon Fabric Pots (x6)<br>Elastic Trellis Netting 3x3’ (x1)<br>Micro-tip Pruning Shears (x1)<br>Other Hanging and Installation Accessories"
+          }
         }
       },
       "block_order": [
-        "5df6b551-b6ca-484e-971f-8de564fd487c",
-        "21c2ff7c-a40b-4666-b7ee-4130f3206a77"
+        "21c2ff7c-a40b-4666-b7ee-4130f3206a77",
+        "5df6b551-b6ca-484e-971f-8de564fd487c"
       ],
       "settings": {
         "title": "AC Infinity Grow Tent Kits",
