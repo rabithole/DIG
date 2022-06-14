@@ -473,7 +473,7 @@
             "settings": {
               "icon": "bi-shop",
               "title": "Store Hours",
-              "content": "<p>Monday - Saturday:<\/p><p>11am to 6pm<\/p><p>Sunday: <\/p><p>11am to 3pm<\/p>"
+              "content": "<p>Monday - Saturday:<\/p><p>10am to 5pm<\/p>"
             }
           },
           "text-with-icons-3": {
