@@ -1393,14 +1393,42 @@
       },
       "16516009606e4cbd6c": {
         "type": "custom-html",
+        "disabled": true,
         "settings": {
           "title": "",
           "html": "<div id=\"store-hours\">\n<h4><b>HOURS:<\/b><\/h4>      <p>Monday to Saturday: <b>10am - 5pm<\/b>       <\/p> <p>Sunday: <b>Closed<\/b><\/p>\n<\/div>"
+        }
+      },
+      "16566060348ddcca81": {
+        "type": "blog-posts",
+        "disabled": true,
+        "settings": {
+          "blog": "news",
+          "title": "Blog posts",
+          "link_title": "View all",
+          "show_category": true,
+          "show_author": true,
+          "show_date": true,
+          "show_excerpt": false,
+          "stack_mobile": false
+        }
+      },
+      "1656606081c1eca4c7": {
+        "type": "image-with-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/green-letters-transparent-background.png",
+          "image_position": "left",
+          "image_width": 20,
+          "title": "Store Hours",
+          "content": "<p><strong>Monday through Saturday 10am to 5pm<\/strong><\/p><p><strong>Closed Sunday<\/strong><\/p>",
+          "button_text": "Our products",
+          "button_link": ""
         }
       }
     },
     "content_for_index": [
       "16516009606e4cbd6c",
+      "1656606081c1eca4c7",
       "slideshow",
       "16494685530c886071",
       "1644425262118e4602",
@@ -1422,7 +1450,8 @@
       "16173097035353b244",
       "16166284262b08e6ef",
       "1542984842027",
-      "1542984882560"
+      "1542984882560",
+      "16566060348ddcca81"
     ]
   },
   "presets": {
