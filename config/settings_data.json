@@ -1393,7 +1393,6 @@
       },
       "16516009606e4cbd6c": {
         "type": "custom-html",
-        "disabled": true,
         "settings": {
           "title": "",
           "html": "<div id=\"store-hours\">\n<h4><b>HOURS:<\/b><\/h4>      <p>Monday to Saturday: <b>10am - 5pm<\/b>       <\/p> <p>Sunday: <b>Closed<\/b><\/p>\n<\/div>"
@@ -1415,6 +1414,7 @@
       },
       "1656606081c1eca4c7": {
         "type": "image-with-text",
+        "disabled": true,
         "settings": {
           "image": "shopify:\/\/shop_images\/green-letters-transparent-background.png",
           "image_position": "left",
