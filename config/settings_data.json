@@ -1411,6 +1411,7 @@
       },
       "16516009606e4cbd6c": {
         "type": "custom-html",
+        "disabled": true,
         "settings": {
           "title": "",
           "html": "<div id=\"store-hours\">\n<h4><b>HOURS:<\/b><\/h4>      <p>Monday to Saturday: <b>10am - 5pm<\/b>       <\/p> <p>Sunday: <b>Closed<\/b><\/p>\n<\/div>"
