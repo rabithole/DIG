@@ -144,10 +144,40 @@
             "product": "mondi-vented-humidity-dome",
             "description": "A professional propagation dome for starting seeds or cuttings. Temperature and humidity controlled by two adjustable vents for better growing results. Designed to provide more cubic volume for your growing plants. Constructed from heavy duty, high grade plastic to maximize light penetration and stand up to repeated use. Perfectly fitted for standard 10 x 20 trays, to create a tight seal and reduce moisture loss."
           }
+        },
+        "8720c5e0-dffc-4d72-a053-c12d09548ce8": {
+          "type": "text",
+          "settings": {
+            "title": "Square Pot",
+            "productOne": "720358",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "propagation-t-o-plastics",
+            "description": "2.5 inch Press & Fill pots for T.O. Plastics Press & Fill SystemYou can find the trays these pots fit in here."
+          }
+        },
+        "3b988ccc-dc32-401b-b906-219ead1aaef1": {
+          "type": "text",
+          "settings": {
+            "title": "Rapid Rooter Tray w\/ Plugs",
+            "productOne": "100060",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "gh-rapid-rooter-plug-tray",
+            "description": "Rapid Rooter® plugs are all natural soilless grow plugs made of composted tree bark and organic materials. These plugs are perfect for seedlings or cuttings. Transplant plugs in soil or soilless hydrogardening applications. Tray is 10\"x 20\"."
+          }
         }
       },
       "block_order": [
-        "a76ed895-8d26-4dfa-9868-1335372d379c"
+        "a76ed895-8d26-4dfa-9868-1335372d379c",
+        "8720c5e0-dffc-4d72-a053-c12d09548ce8",
+        "3b988ccc-dc32-401b-b906-219ead1aaef1"
       ],
       "settings": {
         "title": "",
@@ -173,8 +203,8 @@
           "type": "text",
           "settings": {
             "title": "",
-            "product_sku": "",
-            "product": "",
+            "product_sku": "720358",
+            "product": "propagation-t-o-plastics",
             "description": ""
           }
         }
