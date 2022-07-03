@@ -1449,10 +1449,10 @@
             "type": "newsletter",
             "settings": {
               "title": "Join Us",
-              "content": "<p>Come here for growing help and advice. If you have questions that we haven't covered here yet, feel free to give us a call.<br\/>314-755-1020<\/p>",
-              "subtext": "",
-              "background": "#23453d",
-              "text": "#7fb38e"
+              "content": "<p>Come here for growing help and advice. If you have questions that we haven't covered here yet, feel free to give us a call.<\/p>",
+              "subtext": "314-755-1020",
+              "background": "#7fb38e",
+              "text": "#000000"
             }
           },
           "blog-sidebar-1": {
