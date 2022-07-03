@@ -1430,6 +1430,46 @@
           "show_excerpt": false,
           "stack_mobile": false
         }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "show_category": true,
+          "show_author": true,
+          "show_date": true,
+          "show_share_buttons": true,
+          "show_tags": true,
+          "show_gravatar": true
+        }
+      },
+      "blog-sidebar": {
+        "type": "blog-sidebar",
+        "blocks": {
+          "blog-sidebar-0": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Join Us",
+              "content": "<p>Come here for growing help and advice. If you have questions that we haven't covered here yet, feel free to give us a call.<br\/>314-755-1020<\/p>",
+              "subtext": "",
+              "background": "#23453d",
+              "text": "#7fb38e"
+            }
+          },
+          "blog-sidebar-1": {
+            "type": "social_media",
+            "settings": {
+              "title": "Follow us",
+              "show_rss": true
+            }
+          }
+        },
+        "block_order": [
+          "blog-sidebar-0",
+          "blog-sidebar-1"
+        ],
+        "settings": {
+          "show_on_mobile": true
+        }
       }
     },
     "content_for_index": [
