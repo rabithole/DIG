@@ -126,6 +126,67 @@
         "button_text": "Add-Ons",
         "button_link": "shopify:\/\/collections\/student-kit-add-ons"
       }
+    },
+    "16568560803b0f9e07": {
+      "type": "kit-page-template",
+      "disabled": true,
+      "blocks": {
+        "a76ed895-8d26-4dfa-9868-1335372d379c": {
+          "type": "text",
+          "settings": {
+            "title": "Ventilation Dome",
+            "productOne": "600745",
+            "productTwo": "",
+            "productThree": "",
+            "productFour": "",
+            "productFive": "",
+            "productSix": "",
+            "product": "mondi-vented-humidity-dome",
+            "description": "A professional propagation dome for starting seeds or cuttings. Temperature and humidity controlled by two adjustable vents for better growing results. Designed to provide more cubic volume for your growing plants. Constructed from heavy duty, high grade plastic to maximize light penetration and stand up to repeated use. Perfectly fitted for standard 10 x 20 trays, to create a tight seal and reduce moisture loss."
+          }
+        }
+      },
+      "block_order": [
+        "a76ed895-8d26-4dfa-9868-1335372d379c"
+      ],
+      "settings": {
+        "title": "",
+        "top-of-page": "",
+        "bottom-of-page": "",
+        "other-kits": ""
+      }
+    },
+    "16568561326203e4c5": {
+      "type": "build-kits",
+      "disabled": true,
+      "blocks": {
+        "8153cf2f-ea10-45b0-a528-4dd07fafebaa": {
+          "type": "text",
+          "settings": {
+            "title": "Ventilatin Dome",
+            "product_sku": "600745",
+            "product": "mondi-vented-humidity-dome",
+            "description": "A professional propagation dome for starting seeds or cuttings. Temperature and humidity controlled by two adjustable vents for better growing results. Designed to provide more cubic volume for your growing plants. Constructed from heavy duty, high grade plastic to maximize light penetration and stand up to repeated use. Perfectly fitted for standard 10 x 20 trays, to create a tight seal and reduce moisture loss."
+          }
+        },
+        "0f8b8176-36c9-4700-b43e-3d4400e478da": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "product_sku": "",
+            "product": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "8153cf2f-ea10-45b0-a528-4dd07fafebaa",
+        "0f8b8176-36c9-4700-b43e-3d4400e478da"
+      ],
+      "settings": {
+        "title": "",
+        "kit-details": ""
+      }
     }
   },
   "order": [
@@ -133,6 +194,8 @@
     "recommendations",
     "promotion",
     "recentyViewed",
-    "164935156703b93ab1"
+    "164935156703b93ab1",
+    "16568560803b0f9e07",
+    "16568561326203e4c5"
   ]
 }
