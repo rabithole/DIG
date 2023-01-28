@@ -133,6 +133,7 @@
     // grabs individual product prices from list of h3 tags containing product prices.
     // h3 tags id's contain individual product prices
     var productPrice = Number(h3Tags[i].id);
+    console.log('Product Price', productPrice);
 
     if(h3TagsID == titlePriceId){
         kitPriceArray.push(productPrice);
