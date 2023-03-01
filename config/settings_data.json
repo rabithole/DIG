@@ -186,6 +186,7 @@
       },
       "slideshow": {
         "type": "slideshow",
+        "disabled": true,
         "blocks": {
           "8c4fe21a-e585-4712-938f-d7efde3ad148": {
             "type": "image",
