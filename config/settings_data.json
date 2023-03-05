@@ -242,7 +242,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/Grow-Pros-Lighting.png",
-              "mobile_image": "shopify:\/\/shop_images\/Grow-Pros-mobile_295a5c88-6533-438f-bcfd-79e74de272c7.png",
+              "mobile_image": "shopify:\/\/shop_images\/Grow-Pros-mobile-resized.webp",
               "show_overlay": false,
               "overlay_opacity": 30,
               "text_color": "#ffffff",
