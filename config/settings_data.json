@@ -259,7 +259,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/House-and-Garden-Slider-no-sale.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/Gold_Shield_Home_Badge_2020-1_50c4694f-b650-4b7b-9b7b-db475813b066.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/Gold_Shield_Home_Badge_2020-1.webp",
               "show_overlay": false,
               "overlay_opacity": 30,
               "text_color": "#ffffff",
