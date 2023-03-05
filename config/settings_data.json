@@ -208,7 +208,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/Kit-banner.png",
-              "mobile_image": "shopify:\/\/shop_images\/banner-info-mobile.webp",
+              "mobile_image": "shopify:\/\/shop_images\/tent-kit-newl.webp",
               "show_overlay": false,
               "overlay_opacity": 100,
               "text_color": "#ffffff",
