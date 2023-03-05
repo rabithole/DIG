@@ -191,7 +191,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/store-banner-info_ca2876ce-cf24-4946-be0d-f90b76571ecb.png",
-              "mobile_image": "shopify:\/\/shop_images\/banner-info-mobile_e8a2f604-15f1-4f88-aad1-e74b9902fba6.png",
+              "mobile_image": "shopify:\/\/shop_images\/banner-info-mobile.webp",
               "show_overlay": false,
               "overlay_opacity": 30,
               "text_color": "#ffffff",
