@@ -225,7 +225,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/Overstock-banner.png",
-              "mobile_image": "shopify:\/\/shop_images\/mobile-front-page.png",
+              "mobile_image": "shopify:\/\/shop_images\/mobile-front-page-reshaped.webp",
               "show_overlay": true,
               "overlay_opacity": 30,
               "text_color": "#ffffff",
