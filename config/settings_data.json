@@ -214,11 +214,11 @@
               "text_color": "#ffffff",
               "title": "",
               "content": "",
-              "content_position": "middle_center",
-              "button_background": "#ffffff",
-              "button_text_color": "#000000",
-              "button_text": "Button",
-              "link": ""
+              "content_position": "top_left",
+              "button_background": "#000000",
+              "button_text_color": "#ffffff",
+              "button_text": "Athena Products",
+              "link": "https:\/\/dig.supply\/collections\/all\/brand_athena"
             }
           },
           "45264cd8-d4f2-4d00-b4ed-12194fb0a11b": {
@@ -1425,7 +1425,7 @@
           "expand_items": true,
           "show_desktop": true,
           "link_title": "",
-          "link": ""
+          "link": "https:\/\/dig.supply\/collections\/all\/brand_athena"
         }
       },
       "16516009606e4cbd6c": {
