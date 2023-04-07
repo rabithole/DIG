@@ -257,6 +257,7 @@
           },
           "272d4801-47a5-43c9-aec5-40194bdaf9fe": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/House-and-Garden-Slider-no-sale.jpg",
               "mobile_image": "shopify:\/\/shop_images\/Gold_Shield_Home_Badge_2020-1.webp",
@@ -271,6 +272,23 @@
               "button_text": "House and Garden Products",
               "link": "shopify:\/\/collections\/house-and-garden"
             }
+          },
+          "8e91e763-b732-43a3-8b71-587acdee6bde": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Athena-Banner.png",
+              "mobile_image": "shopify:\/\/shop_images\/Athena-Mobile.png",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "",
+              "content": "",
+              "content_position": "middle_center",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "Button",
+              "link": ""
+            }
           }
         },
         "block_order": [
@@ -278,7 +296,8 @@
           "45264cd8-d4f2-4d00-b4ed-12194fb0a11b",
           "a5d6ff45-4b03-4695-9275-e345e37e7191",
           "d269502f-c059-4e64-b990-dd9cca8dc303",
-          "272d4801-47a5-43c9-aec5-40194bdaf9fe"
+          "272d4801-47a5-43c9-aec5-40194bdaf9fe",
+          "8e91e763-b732-43a3-8b71-587acdee6bde"
         ],
         "settings": {
           "edge_to_edge": true,
