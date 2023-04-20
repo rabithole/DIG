@@ -240,6 +240,7 @@
           },
           "a5d6ff45-4b03-4695-9275-e345e37e7191": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Overstock-banner.png",
               "mobile_image": "shopify:\/\/shop_images\/mobile-front-page-reshaped.webp",
