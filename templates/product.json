@@ -130,6 +130,7 @@
     },
     "69eea1ae-705e-4336-80ef-119b2a02fc0a": {
       "type": "discount-image-with-text",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/trimmed-ces.png",
         "image_position": "left",
