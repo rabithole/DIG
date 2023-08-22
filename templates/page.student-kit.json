@@ -8,7 +8,7 @@
           "settings": {
             "title": "Vented Humidity Dome",
             "product_sku": "600745",
-            "product": "mondi-vented-humidity-dome",
+            "product": "propagation-dome-hydrofarm",
             "description": "A professional propagation dome for starting seeds or cuttings. Temperature and humidity controlled by two adjustable vents for better growing results. Designed to provide more cubic volume for your growing plants. Constructed from heavy duty, high grade plastic to maximize light penetration and stand up to repeated use. Perfectly fitted for standard 10 x 20 trays, to create a tight seal and reduce moisture loss."
           }
         },
@@ -129,7 +129,6 @@
     },
     "16568560803b0f9e07": {
       "type": "kit-page-template",
-      "disabled": true,
       "blocks": {
         "a76ed895-8d26-4dfa-9868-1335372d379c": {
           "type": "text",
@@ -179,6 +178,7 @@
         "8720c5e0-dffc-4d72-a053-c12d09548ce8",
         "3b988ccc-dc32-401b-b906-219ead1aaef1"
       ],
+      "disabled": true,
       "settings": {
         "title": "Basic Seed Starter Kit",
         "top-of-page": "",
@@ -188,7 +188,6 @@
     },
     "16568561326203e4c5": {
       "type": "build-kits",
-      "disabled": true,
       "blocks": {
         "8153cf2f-ea10-45b0-a528-4dd07fafebaa": {
           "type": "text",
@@ -213,6 +212,7 @@
         "8153cf2f-ea10-45b0-a528-4dd07fafebaa",
         "0f8b8176-36c9-4700-b43e-3d4400e478da"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "kit-details": ""

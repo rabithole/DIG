@@ -852,7 +852,6 @@
       },
       "16167149269b351df8": {
         "type": "collection-list",
-        "disabled": true,
         "blocks": {
           "16167149269b351df8-2": {
             "type": "collection",
@@ -885,6 +884,7 @@
           "e8513338-b1a8-44ad-9965-6b362893607b",
           "adbe374b-9787-4c06-9106-2c64faf440c0"
         ],
+        "disabled": true,
         "settings": {
           "title": "Harvest, Propagation, Drying & Curing...",
           "link_title": "View all",
@@ -895,7 +895,6 @@
       },
       "16173097035353b244": {
         "type": "collection-list",
-        "disabled": true,
         "blocks": {
           "16173097035353b244-1": {
             "type": "collection",
@@ -928,6 +927,7 @@
           "28cfc444-f3f7-4929-af69-2a64925270c8",
           "99c2241a-060c-40cd-9768-1d579804975b"
         ],
+        "disabled": true,
         "settings": {
           "title": "Garden Supplies and Gardening Tools...",
           "link_title": "View all",
@@ -992,7 +992,6 @@
       },
       "1634937950c6738234": {
         "type": "promotion-list",
-        "disabled": true,
         "blocks": {
           "1634937950c6738234-0": {
             "type": "item",
@@ -1054,6 +1053,7 @@
           "1634937950c6738234-1",
           "1634937950c6738234-2"
         ],
+        "disabled": true,
         "settings": {
           "expand_items": false,
           "section_size": "medium",
@@ -1079,7 +1079,6 @@
       },
       "164046488313831878": {
         "type": "promotion-list",
-        "disabled": true,
         "blocks": {
           "164046488313831878-0": {
             "type": "item",
@@ -1141,6 +1140,7 @@
           "164046488313831878-1",
           "164046488313831878-2"
         ],
+        "disabled": true,
         "settings": {
           "expand_items": false,
           "section_size": "medium",
@@ -1258,7 +1258,6 @@
       },
       "164279266253df0d9f": {
         "type": "mosaic",
-        "disabled": true,
         "blocks": {
           "164279266253df0d9f-1": {
             "type": "item",
@@ -1353,6 +1352,7 @@
           "164279266253df0d9f-3",
           "164279266253df0d9f-4"
         ],
+        "disabled": true,
         "settings": {
           "section_size": "medium"
         }
@@ -1407,6 +1407,7 @@
           },
           "16494685530c886071-5": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "title": "Seed Starting Kits",
               "link": "shopify:\/\/pages\/seed-starting-kits"
