@@ -65,6 +65,15 @@
             "product": "daplug-starter-cubes",
             "description": " Sponge Cubes are an all-natural, eco-friendly, seed starting solution perfect for use in both soil and hydroponic applications. Their extremely spongy texture provides a superior ability to retain moisture and results in an optimal air-to-water ratio. The cubes also provide even dry downs for further root development making these sponge cubes great for both seeds and clones. The Sponge Cubes make transitioning your grows easy by allowing you to plant them directly into soil or any hydroponic system either indoors or outdoors. DaPlug Sponge Cubes are proven to stimulate more root growth and can provide year round reliable germination and healthy root development for your plants!"
           }
+        },
+        "f9af9418-a0dc-4317-b907-e6b439716ab1": {
+          "type": "text",
+          "settings": {
+            "title": "50 Cell Seedling Tray",
+            "product_sku": "720207",
+            "product": "50-cell-seedling-tray",
+            "description": "50 Cell Seedling Tray insert, fits into 10\"X20\" tray."
+          }
         }
       },
       "block_order": [
@@ -74,7 +83,8 @@
         "40301ebd-e80a-496d-9952-a7d000f16669",
         "34205ecd-1c28-4a88-96bf-9123aae1af6c",
         "ef3551d0-7c16-4a6c-a667-20d02017a44f",
-        "4fdd7515-f600-4b6b-8f7b-95fc248eec2e"
+        "4fdd7515-f600-4b6b-8f7b-95fc248eec2e",
+        "f9af9418-a0dc-4317-b907-e6b439716ab1"
       ],
       "settings": {
         "title": "Everything you need seed starting kit",
