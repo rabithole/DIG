@@ -12,16 +12,6 @@
             "description": "A professional propagation dome for starting seeds or cuttings. Temperature and humidity controlled by two adjustable vents for better growing results. Designed to provide more cubic volume for your growing plants. Constructed from heavy duty, high grade plastic to maximize light penetration and stand up to repeated use. Perfectly fitted for standard 10 x 20 trays, to create a tight seal and reduce moisture loss."
           }
         },
-        "9371b9a2-5bf0-454d-a43f-e8380acc943e": {
-          "type": "text",
-          "settings": {
-            "title": "HDI Root Riot™ Tray",
-            "product_sku": "720551",
-            "product": "hdi-root-riot™-tray",
-            "description": "The HDI Root Riot™ Tray contains plant starter cubes for cuttings and seeds for soil or hydroponics. Derived from naturally composted fine milled sphagnum peat moss and are fully biodegradable. Root Riot™ will give you faster, more vigorous rooting. Perfect air\/water capacity for healthy roots. New plants transfer easily into soil or any other media.",
-            "image": "shopify:\/\/shop_images\/pg20_000008_1.jpg"
-          }
-        },
         "7737c36a-3055-4668-8f42-056d37a9a3d8": {
           "type": "text",
           "settings": {
@@ -79,7 +69,6 @@
       },
       "block_order": [
         "71ffd17e-0960-430d-b11a-7fcd89071e06",
-        "9371b9a2-5bf0-454d-a43f-e8380acc943e",
         "7737c36a-3055-4668-8f42-056d37a9a3d8",
         "28c83e63-019d-4592-84a8-97b3fde95f8a",
         "40301ebd-e80a-496d-9952-a7d000f16669",
