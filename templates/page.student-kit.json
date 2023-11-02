@@ -66,6 +66,15 @@
             "product": "propagation-t-o-plastics",
             "description": "2.5 inch Press & Fill pots for T.O. Plastics Press & Fill SystemYou can find the trays these pots fit in here."
           }
+        },
+        "4fdd7515-f600-4b6b-8f7b-95fc248eec2e": {
+          "type": "text",
+          "settings": {
+            "title": "Plant Starter Cubes",
+            "product_sku": "720907",
+            "product": "daplug-starter-cubes",
+            "description": " Sponge Cubes are an all-natural, eco-friendly, seed starting solution perfect for use in both soil and hydroponic applications. Their extremely spongy texture provides a superior ability to retain moisture and results in an optimal air-to-water ratio. The cubes also provide even dry downs for further root development making these sponge cubes great for both seeds and clones. The Sponge Cubes make transitioning your grows easy by allowing you to plant them directly into soil or any hydroponic system either indoors or outdoors. DaPlug Sponge Cubes are proven to stimulate more root growth and can provide year round reliable germination and healthy root development for your plants!"
+          }
         }
       },
       "block_order": [
@@ -75,7 +84,8 @@
         "28c83e63-019d-4592-84a8-97b3fde95f8a",
         "40301ebd-e80a-496d-9952-a7d000f16669",
         "34205ecd-1c28-4a88-96bf-9123aae1af6c",
-        "ef3551d0-7c16-4a6c-a667-20d02017a44f"
+        "ef3551d0-7c16-4a6c-a667-20d02017a44f",
+        "4fdd7515-f600-4b6b-8f7b-95fc248eec2e"
       ],
       "settings": {
         "title": "Everything you need seed starting kit",
