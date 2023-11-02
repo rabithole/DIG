@@ -75,6 +75,15 @@
             "description": "50 Cell Seedling Tray insert, fits into 10\"X20\" tray.",
             "image": "shopify:\/\/shop_images\/912750_n_1.jpg"
           }
+        },
+        "22b65b41-2501-4b14-8eea-2d78baad2820": {
+          "type": "text",
+          "settings": {
+            "title": "Propagation Tray 10\"x20\"",
+            "product_sku": "720890",
+            "product": "grow1-propagation-tray-no-holes",
+            "description": "Standard 10 x 20 Propagation Trays are the perfect solution for propagating your clones and seedlings with rock wool, seedling mix, or starter plugs. Grow1 Propagation Trays are available without holes to catch excess water and help to keep starts or plants moist and also with holes, to drain off excess water from the base of the cutting or seed. Raised channels are incorporated in the base of the trays to help air circulate under your pot or insert tray."
+          }
         }
       },
       "block_order": [
@@ -85,7 +94,8 @@
         "34205ecd-1c28-4a88-96bf-9123aae1af6c",
         "ef3551d0-7c16-4a6c-a667-20d02017a44f",
         "4fdd7515-f600-4b6b-8f7b-95fc248eec2e",
-        "f9af9418-a0dc-4317-b907-e6b439716ab1"
+        "f9af9418-a0dc-4317-b907-e6b439716ab1",
+        "22b65b41-2501-4b14-8eea-2d78baad2820"
       ],
       "settings": {
         "title": "Everything you need seed starting kit",
