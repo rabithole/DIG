@@ -1230,6 +1230,7 @@
           },
           "89049682-4ed0-4f3c-aa51-8c072a646e5f": {
             "type": "member",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/robert-final.png",
               "title": "Robert Kulp",
