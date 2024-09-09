@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "heading_color": "#000000",
@@ -187,23 +196,6 @@
       "slideshow": {
         "type": "slideshow",
         "blocks": {
-          "8c4fe21a-e585-4712-938f-d7efde3ad148": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/store-banner-info_ca2876ce-cf24-4946-be0d-f90b76571ecb.png",
-              "mobile_image": "shopify:\/\/shop_images\/banner-info-mobile.webp",
-              "show_overlay": false,
-              "overlay_opacity": 30,
-              "text_color": "#ffffff",
-              "title": "",
-              "content": "",
-              "content_position": "middle_center",
-              "button_background": "#ffffff",
-              "button_text_color": "#000000",
-              "button_text": "Button",
-              "link": ""
-            }
-          },
           "8e91e763-b732-43a3-8b71-587acdee6bde": {
             "type": "image",
             "settings": {
@@ -293,7 +285,6 @@
           }
         },
         "block_order": [
-          "8c4fe21a-e585-4712-938f-d7efde3ad148",
           "8e91e763-b732-43a3-8b71-587acdee6bde",
           "45264cd8-d4f2-4d00-b4ed-12194fb0a11b",
           "a5d6ff45-4b03-4695-9275-e345e37e7191",
@@ -1068,7 +1059,7 @@
       "1640307588540f19f3": {
         "type": "image-with-text",
         "settings": {
-          "image": "shopify:\/\/shop_images\/commercial-grow-room-setup-1080x675.jpg",
+          "image": "shopify:\/\/shop_images\/several-plants-in-a-greenhouse.jpg",
           "image_position": "left",
           "image_width": 50,
           "title": "Have a large grow? Let us help!",
